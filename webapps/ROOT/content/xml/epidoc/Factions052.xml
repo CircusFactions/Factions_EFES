@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions052" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> for a <rs type="textType">Blue</rs> supporter</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions052</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>stele</objectType>, with a roughly traced gable above, rectangular panel below: 
+                                        <dimensions><width>0.34</width> <height>0.53</height></dimensions></p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> within the panel.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02-0.03</height>; traces of red in letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace> 
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609388">Germia</placeName>: 
+                                built into a house wall.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (2009; the stone was no longer visible in 2010)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/296569">Gümüskonak</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-01-28" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>Recorded in 2009, published <bibl><ptr target="walser2013"/> <citedRange unit="entry">27</citedRange> and plate 27</bibl>, whence 
+                    <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/2352">2352</ref></citedRange></bibl>; 
+                    revised, <bibl><ptr target="feisselBE"/> <citedRange>2014.581</citedRange></bibl>,  
+                    <bibl><ptr target="SEG"/> <citedRange unit="entry">63.1199</citedRange></bibl>, 
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab><lb n="1"/><g ref="symbols.xml#crux"/>  <w lemma="ἐνθάδε">Ἐνθάδε</w> 
+                    <lb n="2"/><w lemma="κατάκειμαι">κατάκει
+                    <lb n="3" break="no"/>ται</w> <name nymRef="Φιλουμενός">Φιλου 
+                    <lb n="4" break="no"/>μενὸϲ</name> <orgName ref="#blue" nymRef="καλλάινος"><w lemma="καλλάινος">κ<unclear>α</unclear> 
+                    <lb n="5" break="no"/>λλάι<supplied reason="lost">ν</supplied>οϲ</w></orgName>
+               </ab>
+             </div> 
+            
+            <div type="apparatus">
+                <listApp><app loc="4/5"><rdg source="#walser2013">κ<unclear>ε</unclear>/ΜΑ . . ΟϹ</rdg>
+                    <rdg source="#feisselBE">κ<unclear>α</unclear>/λλαι[ν]οϲ</rdg><rdg source="#walser2013">κ<unclear>ε</unclear>/ΜΑ . . ΟϹ</rdg></app></listApp>
+            
+            </div>
+            <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>Here lies Philoumenos, a Blue.</p>
+           </div>
+                <div type="translation" xml:lang="de" source="#walser2013"><p>Hier liegt Philoumenos und . . .!</p> </div>
+                    <div type="translation" xml:lang="de" source="#IChrGr"><p>Hier liegt begraben Philoumenos und . . . !</p>
+           </div>
+         </div>
+            <div type="commentary">
+                <p></p>
+                <p>Feissel identified, from the photograph the reference to the Blue faction, for which compare text 62; the term is also found in curse tablets (so SEG 34.1437, 44.1317). See 
+                Feissel (2006) 590.</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

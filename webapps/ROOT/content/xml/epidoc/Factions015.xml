@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions015" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Monogram</rs> <rs type="textType">acclamation</rs> for the <rs type="textType">Green</rs>s and the  <rs type="textType">emperor</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions015</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Large simple ionic <objectType>column capital</objectType>; <dimensions><height>0.44</height> <width>1.13</width> <depth>1.02</depth></dimensions>; 
+                              one of a pair with <ref type="inscription" n="Factions016">16</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> monogram in each volute, and a simple line of writing on the face between the two.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Monograms: <height unit="metre">0.22</height> and <height unit="metre">0.23</height>; text: <height>0.025-0.03</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Embolos, on the ‘Kuretes list’ columns</origPlace>
+                     <origDate notBefore="0500" notAfter="0640"  precision="low" evidence="material-context">Sixth-early seventh century C.E.</origDate>
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              standing at the bottom of the Embolos <rs type="monument">street</rs>, facing the Gate of Hadrian.</p><!-- check -->
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2020-01-15" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="FactionEphesos15.jpg"><desc>Factions 15, Ephesos (Roueché)</desc></graphic>
+      </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Transcribed by Heberdey, Skizzenbuch 1026, whence  <bibl><ptr target="igc"/> <citedRange unit="entry">114bis</citedRange></bibl>, whence 
+               <bibl><ptr target="christoph1966"/> <citedRange unit="entry">9</citedRange></bibl>, and listed, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>. 
+               Republished <bibl><ptr target="inseph"/> <citedRange unit="entry">1192.1</citedRange></bibl>; <bibl><ptr target="roueche1999"/> <citedRange unit="entry">12</citedRange></bibl></p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+          <ab>
+  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="ὀρθόδοξος"><w><abbr>ὀρθοδόξων</abbr></w></addName> <g ref="symbols.xml#crux"/> <addName nymRef="Χριστιανός"><w>Χριστιανῶν</w></addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>σιλέων</w></persName> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος"><abbr>Πρασίνων</abbr></w></orgName>
+
+</ab></div>
+         
+         
+         <div type="translation" xml:space="preserve">
+           <p>(For) orthodox Christian emperors (and) Greens <note>or</note> (For) Christian emperors ?(and) orthodox Greens</p></div>
+         <div type="commentary">
+            <p>For the epithet Orthodox apparently used of the Greens see also Text 11; Greegoure also restored a reference to the Greens as orthodox in another text at Ephesos, 
+               <title>I.Eph.</title> 1192.2, 
+               followed by Roueché, 1999, item 9, but in fact the monumental style makes it more likely that the epithet ther refers to the emperors.</p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

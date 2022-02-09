@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions035" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs>s for the <rs type="textType">Green</rs>s, the City and the <rs type="textType">Blue</rs>s, 
+               with <rs type="textType">monogram</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions035</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Three <material>marble</material> <objectType>column-base</objectType>s</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the southern faces of the three bases.
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lightly but carefully <rs type="execution" key="scalpro">cut</rs>, with some decorative flourishes; thus in iii the central upright of the
+                        omega is used as the upright of a cross. They are tall: i,<height>0.12</height>;
+                        ii,<height>0.125</height>; iii, <height>0.13</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804148">Aphrodisias</placeName>: 
+                              South <rs type="monument">Agora</rs>: north portico, on the south face of three adjacent column bases. There is a gap in the columns of the north portico, 
+                              but the westernmost of these texts (i) appears to be on the twentieth column base from the west.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+         <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From transcription (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile>
+      <graphic url="FactionAphrod35i.jpg"><desc>i, Face (Roueché, 1985: 85.G.36)</desc></graphic>
+      <graphic url="FactionAphrod35ii.jpg"><desc>ii, Face (Roueché, 1985: 85.G.35)</desc></graphic>
+      <graphic url="FactionAphrod35iia.jpg"><desc>ii, Face (Roueché, 1988: 88.A.33A)</desc></graphic>
+      <graphic url="FactionAphrod35iiib.jpg"><desc>iii, Face (Roueché, 1988: 88.A.34A)</desc></graphic>
+      <graphic url="FactionAphrod35iii.jpg"><desc>iii, Face (Roueché, 1985: 85.G.34)</desc></graphic>
+      <graphic url="FactionAphrod35iiia.jpg"><desc>iii, Face (Roueché, 1988: 88.A.31A)</desc></graphic>
+      <graphic url="FactionAphrod35iiib.jpg"><desc>iii, Face (Roueché, 1988: 88.A.32A)</desc></graphic>
+      </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="roueche1989"/> <citedRange>186</citedRange></bibl>,
+               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla186.html">186</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257723">257723</ref></citedRange>, 
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/257724">257724</ref></citedRange>, 
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/257725">257725</ref></citedRange></bibl>;
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph040013.html">4.13</ref></citedRange></bibl>
+               </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" n="i"><ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος"><abbr>Πραϲίνων</abbr></w></orgName>
+</ab>   </div>
+         <div type="textpart" n="ii"><ab>
+                <lb n="1"/><w lemma="αὐξάνω">Αὔξι</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆς</w> <w lemma="πόλις"><expan><abbr>πό</abbr><ex>λεωϲ</ex></expan></w>
+</ab>   </div>
+            <div type="textpart" n="iii"><ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <w lemma="Βένετος"><abbr>Βενέτων</abbr></w></orgName>
+</ab>   </div>
+         </div>
+         
+         <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note> The fortune of the Greens triumphs!</p> 
+   <p><note>ii</note> Up with the fortune of the city!</p> 
+   <p><note>iii</note> The fortune of the Blues triumphs!</p>
+           </div>
+         </div>
+         <div type="commentary">
+            <p>
+            </p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

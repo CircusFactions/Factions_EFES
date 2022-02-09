@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions064" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions064</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Stone</material> <objectType>lintel</objectType> block with upper left corner missing: 
+                                        <dimensions><width>1.91</width> <height>0.20-0.29</height></dimensions>. 
+                                        </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout> <rs key="scalpro">Inscribed </rs> on the face</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.06-0.11</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/12809">Taff</placeName>: 
+                                over a door on the west side of a courtyard at the eastern end of the ruins.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="waddington1870"/> <citedRange>2425</citedRange>, with plate 12.1</bibl>, 
+                    discussed <bibl><ptr target="paes"/> <citedRange>804</citedRange> (copied by David Magie)</bibl>, whence 
+                    <!-- check <bibl><ptr target="christoph1966"/> <citedRange unit="entry">26</citedRange></bibl>, and --> listed, 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
+                    <bibl><ptr target="igls2014"/> <citedRange>51</citedRange>, with photograph</bibl>, whence 
+          <!-- check SEG 64, 2014 ?? -->  .
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               
+            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w>
+              <lb n="2"/> <w lemma="Βένετος">Βενήτων</w></orgName> 
+     </ab>
+     </div>
+         
+           
+           <div type="translation" resp="#cmr" xml:lang="en">
+           <p>The fortune of the Blues triumphs!</p>
+                
+         </div>
+            <div type="commentary">
+                
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

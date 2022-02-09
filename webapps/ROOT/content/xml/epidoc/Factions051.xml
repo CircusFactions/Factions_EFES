@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions051" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Prayer</rs> for <rs type="textType">Green</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions051</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>No description</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Perhaps <rs type="execution" key="scalpro">inscribed</rs>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>No description; lunate sigma, epsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>unknown</origPlace> 
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="http://www.geonames.org/320100">Büyükyaka</placeName>: 
+                                in front of the mosque.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (1886)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/315253">Eskihisar</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-01-28" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile>
+        <graphic url="FactionBuyuk51.jpg"><desc>Drawing (Ramsay)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>Copied by Ramsay in 1886, published <bibl><ptr target="ramsay1897"/> <citedRange unit="entry"><ref target="https://hdl.handle.net/2027/ien.35556032371965?urlappend=%3Bseq=235">434</ref></citedRange></bibl>, whence 
+                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/281236">281236</ref></citedRange></bibl>,  
+                    <bibl><ptr target="igc"/> <citedRange unit="entry">311</citedRange></bibl>, 
+                    on which <bibl><ptr type="robert1955"/> <citedRange unit="page">228-392</citedRange></bibl>;
+                    from these <bibl><ptr target="christoph1966"/> <citedRange>11</citedRange></bibl>, 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">148</citedRange> and listed <citedRange unit="page">315</citedRange></bibl>, 
+                    <bibl><ptr target="IChrGr"/> <citedRange unit="entry"><ref target="http://repository.edition-topoi.org/collection/ICG/object/1015">1015</ref></citedRange></bibl>
+                </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab><lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="ὁ">ὁ</w> <w lemma="θεός">θεὸϲ</w> <w lemma="ὁ">το͂ν</w> <w lemma="ἀρχάγγελος">ἀρχαγέλον</w> 
+                    <lb n="2"/><w lemma="συμπράσσω">ϲύνπ<unclear>ρ</unclear>αξον</w> <w lemma="ὁ">τοὺϲ</w> <w lemma="ὁ">τῆ<supplied reason="lost">ϲ</supplied></w>
+                    <lb n="3"/><w lemma="κώμη">κούμηϲ</w> <w lemma="ἐγώ">μου</w> <w lemma="πᾶς">πᾶϲην</w> 
+                    <lb n="4"/> <w lemma="καί">καὶ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲίνον</w> <w lemma="ὁ">το͂ν</w> <addName nymRef="ὀρθόδοξος"><supplied reason="lost">ὀρ</supplied> 
+                    <lb n="5" break="no"/>θωδόξον</addName></orgName> <g ref="symbols.xml#crux"/>
+
+               </ab>
+               
+             </div> 
+            
+            
+            <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" source="#cameronCF"><p>God of the archangels, help all the inhabitants of my village, and the orthodox Greens.</p>
+           </div>
+                <div type="translation" xml:lang="de" source="#IChrGr"><p>Gott der Erzengel, hilf allen in meinem Dorf und von den Grünen, den Orthodoxen!</p>
+           </div>
+         </div>
+            <div type="commentary">
+                <p>Ramsay pointed out that the right side was broken, and that further letters might be missing. 
+                </p>
+                <p>It was Robert who identified the location.</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

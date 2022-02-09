@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions046" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Place</rs>s for <rs type="textType">Blue</rs>s and elder <rs type="textType">Jew</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions046</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Marble</material> theatre <objectType>seat</objectType>s.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="litteris scariphatis">Graffito</rs>. The alignment here, and a slight difference in the design of the two betas, 
+                                    may suggest that the word Βενέτων was cut by a different hand - whether earlier or later is uncertain; but this cannot be regarded as proven, 
+                                    given the roughness of the whole. 
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>square letters; line 1, <height>0.002-0.045</height>, line 2, <height>0.02-0.035</height> </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/463141627">Aphrodisias</placeName>: 
+                                <rs type="monument">Odeon</rs>: Block D, Row 6.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From transcription (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile>
+        <graphic url="FactionAphrod46.jpg"><desc>Face (Roueché, 1972: 72.A.25A)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>Cited <bibl><ptr type="cameron1976"/><citedRange>315</citedRange></bibl>, whence <bibl><ptr target="robertBE"/> <citedRange>1977.82</citedRange></bibl>; 
+                    published <bibl><ptr target="jmrrft1987"/>Appendix, 1a</bibl>, whence  
+                    <bibl> <ptr target="SEG"/> <citedRange>1987, 846</citedRange></bibl>, <bibl><ptr target="BE"/> <citedRange>1988.888</citedRange></bibl>;
+                    <bibl><ptr target="roueche1989"/> <citedRange>180.iii</citedRange></bibl>, whence 
+                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257653">257653</ref></citedRange></bibl>;
+                    <bibl><ptr type="roueche1993"/> <citedRange unit="entry">47.2.D</citedRange></bibl>, whence 
+                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265136">265136</ref></citedRange></bibl>;
+                    <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020018.html">2.18</ref></citedRange></bibl>
+                </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab><lb n="1"/><w lemma="τόπος">τόπος</w> <orgName  ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτων</w>
+<lb n="2"/><placeName type="ethnic" nymRef="#Ἑβραῖος">Ἑβρ<unclear>έ</unclear>ων</placeName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear>πα</unclear>λεῶν</w></orgName></ab>
+               
+             </div> 
+            
+            <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>Place of Blues, of the elder Jews</p>
+           </div>
+         </div>
+            <div type="commentary">
+                <p>
+                </p> 
+            </div>
+            
+        </body>
+    </text>
+</TEI>

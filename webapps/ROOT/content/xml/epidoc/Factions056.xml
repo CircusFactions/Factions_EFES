@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions056" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Building</rs> inscription and <rs type="textType">acclamation</rs> for ?<rs type="textType">Green</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions056</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Mosaic</material> <objectType>floor</objectType>; the condition has deteriorated badly since discovery.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout>Red <rs key="tessellis">mosaic</rs> lettering in two medallions: i is complete, <dim>1.15</dim>; 
+                                    ii is from the lower left corner of a separate medallion <dim>0.96</dim>, with a decoration below of trailing ribbons. 
+                                    </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>i: <height>0.08</height>; ii: <height>0.10</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0504" notAfter="0504"  evidence="internal date">i: March 18-April 17 504 C.E.</origDate>
+                            <origDate notBefore="0500" notAfter="0599"  precision="low" evidence="context">ii: March 18-April 17 504 C.E.</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/610184253">Tyre: hippodrome</placeName>: 
+                                In the mosaic floor of a building on the west side of the <rs type="monument">hippodrome</rs>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (<date type="observed">2000</date>)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/267008">Tyre</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-01-31" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>i: <bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">2</citedRange></bibl>, whence 
+                    <bibl><ptr target="SEG"/> <citedRange>52.1602</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.579</bibl>, 
+                    also <bibl><ptr type="feissel2006"/> <citedRange>682</citedRange></bibl>;
+                    <bibl><ptr target="ityr2006"/> <citedRange>128</citedRange></bibl>. 
+                    ii: <bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">3</citedRange></bibl>, whence 
+                    <bibl><ptr target="SEG"/> <citedRange>52.1603</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.579</bibl>, 
+                    also <bibl><ptr type="feissel2006"/> <citedRange>682</citedRange></bibl>;
+                    <bibl><ptr target="ityr2006"/> <citedRange>129</citedRange></bibl>.
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <div type="textpart" n="i"><ab>
+                   <lb n="1"/> <w lemma="ἐπί">Ἐπὶ</w> <persName type="attested"><name nymRef="Φλαβιος"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></name> <name nymRef="Ἀντίγονος">Ἀντιγόνω</name></persName> 
+                   <lb n="2"/> <w lemma="ὁ">τοῦ</w> <w lemma="μεγαλοπρεπής"><expan><abbr>μ<supplied reason="lost">εγ</supplied><unclear>α</unclear>λοπρ</abbr><ex>επεϲτάτου</ex></expan></w> <w lemma="κόμης"><expan><abbr>κόμ</abbr><ex>ητοϲ</ex></expan> </w> 
+                   <lb n="3"/>  <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w lemma="ἄρχων"><expan><abbr>ἄρχον</abbr><ex>τοϲ</ex></expan></w> <w lemma="τελειόω"><supplied reason="lost">ἐ</supplied>τελιώθη</w> <w>οἱ</w> <w lemma="ψήφωσις"><expan><abbr>ψέφ</abbr><ex>ωϲιϲ</ex></expan></w>
+                   <lb n="4"/> <w lemma="ἐν">ἐν</w> <w lemma="χρόνος"><expan><abbr>χρ</abbr><ex>όνοιϲ</ex></expan></w> <w lemma="ὁ">τοῦ</w> <w lemma="λαμπρός"><expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan></w> <persName type="attested"><name nymRef="Ἰωάννης">Ἰωάννου</name></persName>
+                   <lb n="5"/> <w lemma="κόμης"><expan><abbr>κόμ</abbr><ex>ητοϲ</ex></expan> </w> <w lemma="καί"><expan><ex>καὶ</ex></expan></w> <w lemma="πατήρ">πατρὸϲ</w> <w lemma="ἐν">ἐν</w> <w lemma="μείς"><expan><abbr>μη</abbr><ex>νὶ</ex></expan></w> <w lemma="Δύστρος"><expan><abbr>Δύϲτρ</abbr><ex>ῳ</ex></expan></w>
+                     <lb n="6"/> <w lemma="ὁ">τοῦ</w> <num value="629">κθγ</num> <w lemma="ἔτος">ἔτουϲ</w>, <w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνοϲ</ex></expan></w> <num value="12">ιβ</num>
+                    <lb n="7"/><w lemma="σπουδή">ϲπουδῇ</w> <persName type="attested"><name nymRef="Ἴλλος"> Ἴλλου</name></persName> <w lemma="λαμπρός"><expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan></w> 
+                    <lb n="8"/> <space/> <w lemma="σχολαστικός"><expan><abbr>ϲχολ</abbr><ex>αστικοῦ</ex></expan></w> <space/></ab></div>
+                <div type="textpart" n="ii"><ab>
+                    <lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><orig><unclear>πο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="2"/><space quantity="1" unit="character"/> <orig>ϲω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/> <space quantity="2" unit="character"/> <w lemma="πολύς">πολ<supplied reason="lost" cert="low">λα</supplied></w> <supplied reason="lost" cert="low"><w lemma="ὁ">τὰ</w></supplied> <supplied reason="lost" cert="low"></supplied>
+                    <lb n="4"/> <space quantity="3" unit="character"/> <w lemma="ἔτος">ἔ<supplied reason="lost" cert="low">τη</supplied></w> <supplied reason="lost" cert="low"><space quantity="3" unit="character"/></supplied>
+                    <lb n="5"/>  <g type="palm"/><gap reason="lost" extent="unknown" unit="character"/> 
+                </ab></div>
+             </div> 
+           
+           
+           
+            <div type="translation" xml:space="preserve">
+                <div type="translation" xml:lang="fr" source="#ityr2006"><p><note>i</note>: Sous Flavius Antigonos, le très-magnifique comte et gouverneur, fut achevée la mosaique aux temps 
+                du clarissime Jean, comte et 'père', au mois de Dystros de l'an 629, indiction 12, par le zèle d'Illos, le clarissime scholastique. 
+                <note>ii</note>: No translation</p>
+           </div>
+           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note>: Under Flavius Antigonos, the most magnificent count and archon, the mosaic was completed, in the time of the 
+           splendid John, count and father, in the month Dystros of year 629, 12th indiction, through the efforts of Illos, splendid scholasticus. 
+           <note>ii</note>:  . . .] many years! </p>
+           </div>
+                
+         </div>
+            <div type="commentary">
+                <p>It is the location of this building, balancing that contained Text 55, which leads to the assumption that it was allocated to the Green faction. The first text 
+                indicated that the decoration of the building was an official undertaking by the city. In the second appears to be an acclamation - perhaps of the city - line 1 - 
+                and the Greens? But line 2 is difficult to integrate. <!-- check for reds? --></p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

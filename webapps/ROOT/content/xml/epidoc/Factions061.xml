@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions061" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions061</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Ceramic</material> <objectType>pithos</objectType>, A.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout> <rs key="litteris scariphatis">Incised</rs> on the shoulder, in an area <dimensions><width>0.24</width> <height>0.09</height></dimensions></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.035-0.04</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678185">Hippos</placeName>: 
+                               North-West church compound, in a room.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (<date type="observed">2008</date>)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/267008">Tyre</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="lajtar2017"/> <citedRange></citedRange></bibl> with photographs and a drawing, whence 
+                    <bibl><ptr target="SEG"/> <citedRange>60.1717</citedRange></bibl>.
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                   <lb n="1"/> <w lemma="νικάω"><supplied reason="lost">Ν</supplied>ικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+  <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"> <w lemma="Βένετος"><unclear>Βε</unclear>νέτων</w></orgName>
+                     
+                   </ab>
+             </div> 
+           
+           
+           
+           
+                <div type="translation" xml:lang="en" source="#lajtar2017"><p>The fortune of the Blues triumphs</p>
+           </div>
+           <div type="translation" resp="#cmr" xml:lang="en">
+           <p>The fortune of Blues triumphs!</p>
+                
+         </div>
+            <div type="commentary">
+                <p></p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

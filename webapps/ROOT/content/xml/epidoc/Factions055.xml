@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions055" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Acclamation</rs> for the city and the <rs type="textType">Blue</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions055</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Mosaic</material> <objectType>floor</objectType></p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout>Red <rs key="tessellis">mosaic</rs> lettering in a medallion <dim>1.23</dim></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.12</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/https://pleiades.stoa.org/places/610184253">Tyre: <rs type="monument">hippodrome</rs></placeName>: 
+                                In the mosaic floor of a building on the east side of the hippodrome.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (<date type="observed">2000</date>)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/267008">Tyre</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-01-31" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><graphic url="FactionTyre55.jpg"><desc>Face (J.Lendering, Livius, 2001, https://www.livius.org/site/assets/files/19090/tyre_al-bass_hippodrome_e_clubhouse_07.jpg)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">1</citedRange></bibl>, whence 
+                    <bibl><ptr target="SEG"/> <citedRange>52.1601</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.579</bibl>, 
+                    also <bibl><ptr type="feissel2006"/> <citedRange>682</citedRange></bibl>;
+                    <bibl><ptr target="ityr2006"/> <citedRange>127</citedRange></bibl> 
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> 
+                   <lb n="2"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆϲ</w> 
+                   <lb n="3"/> <placeName type="ethnic" ref="#tyre" nymRef="Τύριος"><expan><abbr>Τ</abbr><ex>υ</ex><abbr>ρ</abbr><ex>ίων</ex></expan></placeName> <w lemma="μμτρόπολις">μητροπόλε
+                   <lb n="4" break="no"/> οϲ</w> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w>
+                   <lb n="5"/><w lemma="Βένετος">Βενέτων</w></orgName>
+               </ab>
+             </div> 
+           
+           <div type="apparatus">
+               <listApp>
+                   <app loc="3"><lem>ΤΜ</lem><note>the tesserae have now been disturbed, but the two letters appeared to be in ligature, with a Ρ above. They might form ΤΡΜ or ΠΡΜ</note>
+                       <rdg source="#ityr2006">Π(ρωτο)μητροπόλεος</rdg> <rdg source="#feisselBE">Τ(υ)ρ(ίων) μητροπόλεος</rdg></app>
+               </listApp>
+           </div>
+           
+            <div type="translation" xml:space="preserve">
+                <div type="translation" xml:lang="fr" source="#ityr2006"><p>Victoire à la Fortune de la Protométropole et des Bleus!</p>
+           </div>
+           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the Metropolis and the Blues triumphs!</p>
+           </div>
+                
+         </div>
+            <div type="commentary">
+                <p></p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

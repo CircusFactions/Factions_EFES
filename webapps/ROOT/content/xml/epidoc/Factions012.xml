@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions012" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions012</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>On a <objectType>column</objectType> at <height>1.65</height> from the stylobate 
+                              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Flat broad-trenched <rs type="execution" key="litteris scariphatis">graffito</rs> on the face, which has been cut away to the left</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular, c.<height unit="metre">0.035-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0401" notAfter="0650" precision="low" >Fifth-seventh century</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              in the East colonnade of the lower <rs type="monument">Agora</rs>, fifth standing column from the south.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription  (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2019-02-16" who="cmr">hand-copied from notes</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="FactionEphesos12.jpg"> <desc>Face (2004; Roueché, DSCN0075)</desc></graphic>
+      <graphic url="FactionEphesos12a.jpg"> <desc>Face (2004; Roueché, DSCN0074)</desc></graphic>
+      <graphic url="FactionEphesos12b.jpg"> <desc>Face (1998; Roueché, 98_B_07)</desc></graphic>
+      <graphic url="FactionEphesos12c.jpg"> <desc>Face (1998; Roueché, 98_B_11)</desc></graphic>
+      <graphic url="FactionEphesos12d.jpg"> <desc>Face (1998; Roueché, 98_B_12)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography"> 
+            <p>Unpublished</p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+          <ab>
+  <lb n="1"/> <supplied reason="lost"><w lemma="νικάω">Νικᾷ</w></supplied> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+  <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><supplied reason="lost"><w lemma="ὁ">τῶν</w></supplied> <w lemma="Βένετος"><unclear>Βε</unclear>νέτων</w></orgName> <g ref="symbols.xml#crux"/>
+
+</ab>
+         </div>
+         
+         <div type="translation" resp="#cmr" xml:lang="en">
+           <p>The fortune of [the] Blues [triumphs]!
+</p></div>
+         <div type="commentary">
+             
+         </div>
+         
+      </body>
+   </text>
+</TEI>

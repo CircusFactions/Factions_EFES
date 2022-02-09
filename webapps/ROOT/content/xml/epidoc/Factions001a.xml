@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions001a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Acclamation</rs> for the <rs type="textType">Green</rs>s
+            </title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions001a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><material>Ceramic</material> <objectType>amphora</objectType> fragment
+                              (no measurements).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution">Painted</rs> on one side.
+                           .</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth-fifth century C.E.: no measurements</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301" notAfter="0500"  precision="low" evidence="lettering, context">Fourth to fifth centuries C.E.</origDate>
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/570106">Argos</placeName>: 
+                              excavated in a house of the 5th-6th century</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Argos Museum</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="inslib">
+               <term>
+                  <geogName type="ancientRegion" key="Pthiotis">Pthiotis</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="G">Greece</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="http://www.geonames.org/257006">Mikrothives</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From previous publications</creation></profileDesc>
+      <revisionDesc>
+          <change when="2022-01-30" who="cmr">hand-copied from publication article</change>
+      </revisionDesc>
+   </teiHeader><facsimile><surface/></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl> <ptr target="oikonomou2003"/> <citedRange>51, 69</citedRange></bibl>,
+               whence <bibl><ptr target="SEG"/> <citedRange>53.343</citedRange></bibl>, 
+               <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/3420">3420</ref></citedRange></bibl>
+            </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                    <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+                   <orgName ref="#green" nymRef="Πράσινος"><expan><abbr>Πρα</abbr><ex>ϲίνων</ex></expan></orgName> </ab>
+         </div>
+         
+         
+         <div type="translation" xml:space="preserve">
+            <div type="translation" xml:lang="en" source="IChrGr"><p>The fortune of the Greens triumphs!</p></div>
+         </div>
+         <div type="commentary">
+            <p></p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

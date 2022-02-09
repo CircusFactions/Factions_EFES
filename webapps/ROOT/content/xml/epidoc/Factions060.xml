@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions060" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Place</rs> inscription for ?<rs type="textType">Green</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions060</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>column</objectType>, <dimensions><height>0.785</height><dim>0.41</dim></dimensions> at the base.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout> <rs key="scalpro">Inscribed</rs> on the shaft</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.045</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/610184253">Tyre: Hippodrome</placeName>: 
+                                found on the east side of the <rs type="monument">hippodrome</rs>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (<date type="observed">2003</date>)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/267008">Tyre</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">8</citedRange>, with a plate</bibl>, whence 
+                    <bibl><ptr target="SEG"/> <citedRange>52.1608</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.580</bibl>, 
+                    also <bibl><ptr type="feissel2006"/> <citedRange>683</citedRange></bibl>;
+                    <bibl><ptr target="ityr2006"/> <citedRange>134</citedRange></bibl>.
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                   <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="τόπος"><expan><abbr>Τόπ<hi rend="superscript">ο</hi></abbr><ex>ϲ</ex></expan></w>  
+                   <orgName ref="#green" nymRef="Πράσινος"><w lemma="παγανός"><expan><abbr>παγ<hi rend="superscript">α</hi></abbr><ex>νῶν</ex></expan></w>
+                   <lb n="2"/>    <del rend="erasure"> <supplied reason="lost" cert="low"><w lemma="Πράσινος">Πραϲίνων</w></supplied></del></orgName> 
+                   </ab>
+             </div> 
+           
+            <div type="apparatus"><listApp><app loc="2"><rdg resp="#reycoquais2002">παγά(ρχου)</rdg> 
+                <rdg resp="#feisselBE">παγα(νῶν)</rdg></app></listApp></div>
+           
+            <div type="translation" xml:space="preserve">
+                <div type="translation" xml:lang="fr" source="#ityr2006"><p>Emplacement du 'pagarque' [des Verts]</p>
+           </div>
+           <div type="translation" xml:lang="en" resp="#cmr"><p>Place of [?Green] pagani?</p>
+           </div>
+                
+         </div>
+            <div type="commentary">
+                <p>Feissel points to the use of paganus for 'ordinary members", citing  <ref target="https://papyri.info/ddbdp/p.oxy;54;3758">P.Oxy 54.3758</ref>, where one group of those liable for payment are called 
+                    παγανοί; less clear is what it means in a list by professions <ref target="https://papyri.info/ddbdp/bgu;1;344">BGU 1,344</ref>. Perhaps more relevant is that Paganus 
+                    is also used to describe gladiators in at least two funerary texts: 
+                    Robert, Gladiateurs 20, at Edessa (available at <ref target="https://epigraphy.packhum.org/text/150969">PHI</ref><!-- check new edition 2015 -->) and at Salona, 
+                    the funerary urn of a gladiator, <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD027274">https://edh.ub.uni-heidelberg.de/edh/inschrift/HD027274</ref>.
+                    The term is found at Rome in the catalogue of a familia of gladiators (CIL VI, 631, Dessau 5084, whence EDCS 17300774), 
+                    under Commodus, where the third decurion lists 2 members as pagani. 
+                 
+               A couple of funerary inscriptions for pagani with no further explanation, are probably for local ?non-urban people
+                https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012630
+                https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043121
+                Epitaph of Aurelius Hermes paganus - probably a local. 
+                 
+                </p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

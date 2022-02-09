@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions007" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs>s  for the <rs type="textType">Green</rs>s, and the <rs type="textType">emperor</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions007</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Door</objectType>-posts, of a gateway. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> i on the western post, on the 
+                           inner face, at <height unit="metre">0.59</height> from the top; ii.a on the eastern post, 
+                           on the inner face, at <height unit="metre">0.63</height> from the top; 
+                           ii.b on the eastern post, on the outer, south side, at top, with the final letter cut on moulding.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>i, <height unit="metre">0.03-0.04</height>; ii.a, <height unit="metre">0.025 - 0.035</height>, 
+                        cross <height unit="metre">0.05</height>; ii.b, cut within a traced circle,<height unit="metre">0.08</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0600" notAfter="0640"  precision="low" evidence="context">Early seventh century C.E.</origDate>
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              <rs type="monument">gateway</rs> at the entrance to the Marble <rs type="monument">street</rs> just west of the Theatre.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="FactionEphesos7a.jpg"><desc>Gateway to Marble Street, from south</desc></graphic>
+      <graphic url="FactionEphesos7b.jpg"><desc>Gateway to Marble Street, from north</desc></graphic>
+      <graphic url="FactionEphesos7i.jpg"><desc>i: Face</desc></graphic>
+      <graphic url="FactionEphesos7ii.jpg"><desc>ii: Face</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="curtius1873"/> <citedRange unit="entry">8 and 9</citedRange></bibl>; <bibl> <ptr target="wood1877"/> <citedRange unit="entry">6</citedRange></bibl>, 
+               <bibl> <ptr target="wood1878"/> <citedRange unit="page">333</citedRange></bibl>; <bibl> <ptr target="heberdey1912"/><citedRange unit="page">187</citedRange>, 
+                  <citedRange unit="entry">90</citedRange></bibl>, <bibl><ptr target="igc"/> <citedRange unit="entry">114ter</citedRange></bibl>, whence 
+               <bibl><ptr target="christoph1966"/> <citedRange unit="entry">7</citedRange></bibl>, and listed, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>. 
+               Republished <bibl><ptr target="inseph"/> <citedRange unit="entry">2090</citedRange></bibl>; <bibl><ptr target="roueche1999"/> <citedRange unit="entry">1</citedRange></bibl></p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+          <div type="textpart" n="i" ><ab>
+  <lb n="1"/><persName type="emperor" key="anonymi"><addName nymRef="χριστιανός"><w>Χριϲτια
+<lb n="2" break="no"/>νῶν</w></addName> <w lemma="βασιλεύς">βαϲιλέ
+<lb n="3" break="no"/>ων</w></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <orgName ref="#green" nymRef="Πράσινος"><w>Πραϲίνων</w></orgName>
+	<lb n="4"/>	<w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
+
+</ab></div>
+            <div type="textpart" n="ii.a" ><ab>
+  <lb n="1"/> <persName type="emperor" key="anonymi"><w lemma="εὐσεβής">εὐϲεβῶν</w></persName>
+		<lb n="2"/><w lemma="βασιλεύς">βαϲιλέων</w>
+		<lb n="3"/><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> <g ref="symbols.xml#crux"/>
+</ab></div>
+            <div type="textpart" n="ii.b" ><ab>
+  <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+	<lb n="1"/><w lemma="πολύς"><supplied reason="lost">πο</supplied>λλὰ</w> <w lemma="ὁ"><unclear>τ</unclear>ὰ</w> <w  lemma="ἔτος">ἔτη</w>
+</ab></div>
+         </div>
+         <div type="apparatus"><!-- check -->
+            
+         </div>
+         <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>i:		Many years for Christian emperors and Greens!
+ii.a:		Many years for pious emperors!
+ii.b:		. . . ]many years!
+</p></div></div>
+         <div type="commentary">
+            <p>Of the Christian Emperors of the Greek faction, may the years be many. Of the pious Emperors, may the years be many.</p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

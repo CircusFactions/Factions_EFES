@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions053" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Green</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions053</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>block</objectType>: 
+                                        <dimensions><width>0.49</width> <height>0.45</height> <depth>o.35</depth></dimensions></p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout>Roughly <rs type="execution" key="scalpro">inscribed</rs>, but carefully laid out to fill the space.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.016-0.062</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Probably from the north wall</origPlace> 
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/639078">Rhodiapolis</placeName>: 
+                                Agora, found in 2008 next to the north gate.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (2008)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/305681">Kumluca</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-01-28" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="iplik2010"/> <citedRange></citedRange></bibl>, whence 
+                    <bibl><ptr target="feisselBE"/> <citedRange>2013.517</citedRange></bibl>,  
+                    <bibl><ptr target="SEG"/> <citedRange unit="entry">60.1557</citedRange></bibl>, 
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab><lb n="1"/><w lemma="αὐξάνω">Αὔξη</w> <w lemma="ὁ">τὸ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="μέρος">μέροϲ</w>
+                    <lb n="2"/><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος">Πραϲί
+                    <lb n="3" break="no"/>νων</w></orgName> <w lemma="ὅπου">ὅπου</w>
+                   <lb n="4"/> <w lemma="φθόνος">φθόνοϲ</w>
+                    <lb n="5"/><w lemma="οὐκ">οὐχ</w> <w lemma="ἅπτω">ἅπτε-
+                    <lb n="6" break="no"/><space quantity="2" unit="character"></space> τε</w> <space quantity="2" unit="character"></space>
+               </ab>
+             </div> 
+           
+            <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>Up with the party of the Greens, where Envy does not have a hold!</p>
+           </div>
+                <div type="translation" xml:lang="fr" source="#feisselBE"><p>Vive le parti des Verts, où l’Envie n’a pas de prise!</p>
+           </div>
+                <div type="translation" xml:lang="de" source="#iplik2010"><p>Wachse, Partei der Grünen, wo sich kein Neid anheftet!</p> </div>
+                    <div type="translation" xml:lang="tr" source="#iplik2010"><p>Kıskançlığa yer olmayan Yeşiller'in Partisi, güçlen!</p>
+           </div>
+         </div>
+            <div type="commentary">
+                <p></p>
+                <p>The idea of Phthonos, envy, as grasping at that which is good is very well-established - so e.g. Plutarch De invidia 537 F.3: 
+                    ὁ φθόνος ἅπτεται μάλιστα τῶν χρηστῶν (available at <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0007.tlg105.perseus-grc1:537f">Perseus</ref>)</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

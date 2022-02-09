@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions006" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment from an <rs type="textType" cert="low">acclamation</rs>  for the <rs type="textType">Blue</rs>s </title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions006</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <objectType>block</objectType>: no description</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>No description</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301" notAfter="0600"  precision="low" evidence="content, lettering">Fourth -sixth century C.E.</origDate><!-- check -->
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/550893">Smyrna</placeName>: reused in a fountain: sur une pierre servant de montant à une fontaine.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot.</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/311046">Izmir</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From previous publications</creation></profileDesc>
+      <revisionDesc>
+          <change when="2019-02-03" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile><surface/></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Copied by M. Trézel, and published by Le Bas in <bibl><ptr target="blouet1838"/>, Smyrne 1, <citedRange unit="page">54</citedRange>,
+               available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/blouet1838/0130/image">Heidelberg Digital Library</ref></bibl>, 
+               whence <bibl> <ptr target="boeckh1843"/><citedRange>3171b</citedRange></bibl>, <!-- check Petzl -->
+               <bibl> <ptr target="petzl1987"/><citedRange>886</citedRange></bibl>; mentioned 
+               <bibl><ptr target="feisselBE"/> <citedRange>1989.916</citedRange></bibl>, <bibl><ptr target="feissel2006"/> <citedRange>257</citedRange></bibl>.</p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+          <ab>
+  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος"><supplied reason="lost">Β</supplied>ενέ <space quantity="2" unit="character"></space>των</w></orgName> <gap reason="lost" extent="unknown" unit="character"/>
+</ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1"><rdg source="#blouet1838">ΕΝΕ   ΤΩΝ</rdg></app>
+            </listApp><!-- check -->
+            
+         </div>
+         <div type="translation" xml:space="preserve" resp="#cmr">
+           <p> . . . of the Blues . . .</p></div>
+         <div type="commentary">
+            <p>Le Bas interpreted the surviving letters as a reference to the Heneti/Veneti, translating as "Offrande des Hénètes"; 
+               this reading follows Feissel.</p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

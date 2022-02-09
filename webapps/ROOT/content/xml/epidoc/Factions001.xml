@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions001" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Acclamation</rs> for the <rs type="textType">Green</rs>s
+            </title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions001</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two joining fragments of a <objectType>brick</objectType>  
+                              (<dimensions><width>0.275</width><height>0.15</height> <depth>0.03</depth></dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout> Sprawling <rs type="execution" key="litteris scariphatis">graffito</rs> on one face.
+                           .</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth-fifth century C.E.: 
+                        line 1: <height>0.033-0.035</height>; 
+                        line 2: <height>0.023-0.025</height>; 
+                        line 3: <height>0.017-0.023</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301" notAfter="0500"  precision="low" evidence="lettering, context">Fourth to fifth centuries C.E.</origDate>
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/541137">Thebes (Pthiotis)</placeName>: Basilica C, in the arcade</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Nea Anchialos Museum</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="inslib">
+               <term>
+                  <geogName type="ancientRegion" key="Pthiotis">Pthiotis</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="G">Greece</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="http://www.geonames.org/257006">Mikrothives</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From previous publications</creation></profileDesc>
+      <revisionDesc>
+          <change when="2018-06-30" who="cmr">hand-copied from publication article</change>
+      </revisionDesc>
+   </teiHeader><facsimile><surface/></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>First published <bibl><ptr target="lazarides1969"/> <citedRange unit="page">20-21</citedRange></bibl>; 
+               <bibl> <ptr target="orlandos1970"/> <citedRange unit="page">12</citedRange></bibl> whence 
+               <bibl> <ptr target="robertBE"/> <citedRange>1970.336</citedRange></bibl>,  
+               <bibl><ptr target="pallas1977"/> <citedRange unit="entry">50</citedRange> </bibl>, 
+          listed, <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>; 
+               republished <bibl> <ptr target="kiourtzian2005"/> <citedRange></citedRange></bibl>,
+               whence <bibl><ptr target="SEG"/> <citedRange>55.615</citedRange></bibl>, whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/333526">333526</ref></citedRange></bibl>; 
+               <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/3826">3826</ref></citedRange></bibl>
+               Mentioned, <bibl> <ptr target="feisselBE"/> <citedRange>2006.531</citedRange>, available at <ref target="https://www.persee.fr/doc/reg_0035-2039_2006_num_119_2_4678#reg_0035-2039_2006_num_119_2_T2_0748_0000">Persée</ref></bibl>
+            </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                    <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+                    <lb n="2"/><orgName ref="#green" nymRef="Πράσινος">Πραϲίνων <w lemma="ὁ">τῶν</w> <addName nymRef="ὀρθόδοξος">ὀρ 
+                    <lb n="3" break="no"/>θοδόξων</addName></orgName> <g ref="symbols.xml#crux"/> <space extent="unknown"/>
+                </ab>
+         </div>
+         
+         <div type="apparatus">
+            <listApp><app loc="1"><rdg source="#pallas1977">τύχη τῶν</rdg>
+               </app></listApp>
+            
+         </div> 
+         <div type="translation" xml:space="preserve">
+            <div type="translation" xml:lang="en" source="IChrGr"><p>The fortune of the orthodox Greens triumphs!</p></div>
+         </div>
+         <div type="commentary">
+            <p>For the epithet Orthodox apparently used of the Greens see also Text 15; Grégoire also restored a reference to the Greens as orthodox in another text at Ephesos, <title>I.Eph.</title> 1192.2, 
+            but that is far from certain.</p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

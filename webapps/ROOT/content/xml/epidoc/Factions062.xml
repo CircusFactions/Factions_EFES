@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions062" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Building</rs> inscription for <rs type="textType">Blue</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions062</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Mosaic</material> <objectType>floor</objectType> (<dimensions><width>3.30</width> <height>4.80</height></dimensions></p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout> <rs key="tessellis">mosaic</rs> within a medallion</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.035-0.04</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678158">Gerasa</placeName>: 
+                                in one room of a large civil building complex on a street which runs parallel to the Cardo.</p>
+                            <!-- check: is this the Hippodrome, https://pleiades.stoa.org/places/312305084 -->
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/248875">Jarash</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>Mentioned <bibl><ptr target="piccirillo1982"/> <citedRange>509-510</citedRange>, with plate 12.1</bibl>; 
+                    <bibl><ptr target="zayadine1986"/> <citedRange>17-18</citedRange>, with plate VII</bibl> , whence 
+                    <bibl><ptr target="SEG"/> <citedRange>37.1548</citedRange></bibl>, <bibl><ptr target="feisselBE"/>1989.993</bibl>, 
+                    also <bibl><ptr type="feissel2006"/> <citedRange>872</citedRange></bibl>.
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                   <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="κοσμέω">Ἐκοϲμέθη</w>
+    <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ψηφόω">ἐψηφώθε</w>
+    <lb n="3"/> <w lemma="ὁ">ὁ</w> <w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>οϲ</ex></expan></w> <w lemma="οὗτος">οὗτοϲ</w> <orgName ref="#blue" nymRef="#καλλάινος"><w lemma="ὁ">τῶν</w> <w lemma="ἐπίτιμος"><expan><abbr>ἐπι
+   <lb n="4" break="no"/>τίμ</abbr><ex>ων</ex></expan></w> <w lemma="καλλάινος"><expan><abbr>Καλλαίν</abbr><ex>ων</ex></expan></w></orgName> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῆϲ</w>
+  <lb n="5"/><num value="1">α</num> <w lemma="ἐξαρχία"><expan><abbr>ἐξαρχ</abbr><ex>ίας</ex></expan></w> <persName type="attested"><name>Κωνϲταντί-
+   <lb n="6" break="no"/>νου</name></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <persName type="attested"><name>Ϲτεφάνου</name></persName> <w lemma="λογευτής">λο-
+      <lb n="7" break="no"/> γευτῆ</w> <w lemma="ὁ">τῷ</w> <num value="640">μχ</num> 
+      <lb n="8"/>   <w lemma="ἔτος">ἔτι</w> <w lemma="Αὐδναιος">Αὐδναίου</w> 
+        <lb n="9"/>   <w lemma="χρόνος"><expan><abbr>χρ</abbr><ex>όνων</ex></expan></w> <num value="11">ια</num> <w lemma="ἰνδικτίων"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w>
+
+                     
+                   </ab>
+             </div> 
+         <div type="apparatus"><listApp>
+             <app loc="6-7"><rdg resp="#zayadine1986">λογευτητῶ(ν)</rdg></app></listApp></div>
+           
+           
+           
+            <div type="translation" xml:lang="en" source="#zayadine1986"><p>Was beautified and paved with mosaics this hall of the venerable 
+                Blues in the time of the first year of the office of Constantine and Stephan the logoteutes in the year 640, 
+                in the month of Audnaios, in the 11th indiction. (January 578)</p>
+           </div>
+           <div type="translation" resp="#cmr" xml:lang="en">
+           <p>This place of the most honourable Blues was adorned and given mosaic decoration when Konstantinos was exarch for the first time and 
+               Stephanos was logeutes, in the year 640, month Audnaios, year 11 of the indiction.</p>
+                
+         </div>
+            <div type="commentary">
+                <p><!-- check See now Ostrasz, Antoni A. The Hippodrome of Gerasa: A Provincial Roman Circus. ed. 
+                    Ina Kehrberg-Ostrasz (Archaeopress, 2020). --></p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions031" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs>s for <rs type="textType">Green</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions031</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <material>marble</material> <objectType>cornice</objectType> block</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> i on the front, ii on the left face.
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>i: <height>0.03</height>, ii: <height>0.015</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599832">Nysa</placeName>: 
+                              <rs type="monument">Theatre</rs>: cornice block (Catalogue p.192, no. 72) of the first podium on the eastern side of the façade.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+         <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/11962589">Nysa</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From publications and transcription (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="FactionNysa31.jpg"><desc>Text i (Roueché, HUMS004043) </desc></graphic></facsimile><!-- 88.E.33-37 -->
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="kadıoğlu2006"/> <citedRange unit="entry">17</citedRange></bibl>, whence 
+               <bibl><ptr target="SEG"/> <citedRange>59.1241</citedRange></bibl>
+               </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+             <div type="textpart" n="i"><ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲίνον</w></orgName> <g ref="symbols.xml#crux"/>
+</ab>  </div> 
+         <div type="textpart" n="ii"><ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τοῦ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲ<supplied reason="lost">ίνου</supplied></w></orgName>
+</ab>  </div>
+         </div>
+         
+         
+         
+         
+         
+         <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note>: The fortune of Greens triumphs!</p>
+           <p><note>ii</note>: The fortune of the Green triumphs!</p></div>
+         </div>
+         <div type="commentary">
+            <p>
+            </p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

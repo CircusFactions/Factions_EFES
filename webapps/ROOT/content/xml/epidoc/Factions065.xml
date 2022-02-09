@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions065" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions065</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Stone</material> <objectType>lintel</objectType> block: 
+                                        <dimensions><width>1.42</width> <height>0.285</height> <depth>0.37</depth></dimensions>. 
+                                        </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout> <rs key="scalpro">Inscribed </rs> on the face</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.055-0.065</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678439">Umm al-Jimal</placeName>: 
+                                Southwest church: over a door at the far east end of the church, south of the apse.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="paes"/> <citedRange>256</citedRange> (copied by Littman)</bibl>, whence 
+                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">15</citedRange></bibl>, and listed, 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
+                    <bibl><ptr target="igls2009"/> <citedRange>147</citedRange>, with photograph</bibl>, whence 
+                    <bibl><ptr target="seg"/> <citedRange>59.1721</citedRange></bibl>, 
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341673">341673</ref></citedRange></bibl>, 
+                    <bibl><ptr target="feisselBE"/> <citedRange>612</citedRange></bibl>
+          .
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               
+            <ab><lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
+                
+              <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενέτον</w></orgName> 
+     </ab>
+     </div>
+            <div type="apparatus"><listApp>
+                <app loc="1"><rdg resp="#paes, igls2009">Νίκα</rdg></app></listApp></div>
+            
+            <div type="translation" resp="#paes" xml:lang="en">
+                <p>Conquer, Fortune of the Blues</p>
+            </div>
+            <div type="translation" resp="#igls2009" xml:lang="fr">
+                <p>Vaincs, la fortune des Bleus</p>
+            </div> 
+           <div type="translation" resp="#cmr" xml:lang="en">
+           <p>The fortune of the Blues triumphs!</p>
+                
+         </div>
+            <div type="commentary">
+                
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions037" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <rs type="textType">Acclamation</rs>s for the <rs type="textType">Green</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions037</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>White <material>marble</material> <objectType>step</objectType>s</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Deeply cut <rs type="execution" key="litteris scariphatis">graffito</rs>.
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Angular, <height>0.03</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804149">Aphrodisias</placeName>: 
+                              <rs type="monument">Theatre</rs> stage: on the shallow step from the stage level up to that of the north parodos, close to the north analemma. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+         <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From transcription (Reynolds, Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile>
+      <graphic url="FactionAphrod37.jpg"><desc>Face (Roueché, 1990: 90.F.29)</desc></graphic>
+      <graphic url="FactionAphrod37a.jpg"><desc>Face (Roueché, 1990: 90.F.30)</desc></graphic>
+      </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr type="roueche1993"/> <citedRange unit="entry">8</citedRange></bibl>,  whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/264912">264912</ref></citedRange></bibl>;  
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080105.html">8.105</ref></citedRange></bibl>
+               </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w>
+               <lb n="2"/><orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος">Πρα<unclear>ϲ</unclear>ί<supplied reason="lost">νων</supplied></w></orgName>
+               
+</ab>   
+         
+         </div>
+         
+         <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the Greens triumphs!</p>
+           </div>
+         </div>
+         <div type="commentary">
+            <p>
+            </p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

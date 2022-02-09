@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions063" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Red</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions063</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Stone</material> <objectType>lintel</objectType> block: no measurements. 
+                                        </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout> <rs key="scalpro">Inscribed </rs> around an inscribed cross: a above, left; b below the cross bar, across the centre bar</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>No measurements</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678361">Reimea</placeName>: 
+                                above the door of an outhouse in the courtyard of a house.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><graphic url="wadd554.jpg"><desc>Drawing (Waddington)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="waddington1870"/> <citedRange>2425</citedRange>, with plate 12.1</bibl>, 
+                    discussed <bibl><ptr target="paes"/> <citedRange>149</citedRange></bibl>, whence 
+                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">26</citedRange></bibl>, and listed, 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
+                    <bibl><ptr target="igls2014"/> <citedRange>381</citedRange>, with photograph</bibl><!-- check IGLS for measurements --> , whence 
+          <!-- check SEG 64, 2014 -->  .
+                    </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               
+                  <div type="textpart" n="a"> <ab><lb n="1"/>Ἠλίαν</ab>
+             </div>
+            <div type="textpart" n="b"><ab><lb n="1"/><g ref="symbols.xml#crux"/> 
+    <lb n="2"/><g ref="symbols.xml#crux"/>  <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<milestone unit="block"/>χη</w> 
+                   <orgName ref="#red" nymRef="Κόκκινος"><w lemma="ὁ">το͂ν</w> <w lemma="Κόχχινος"><expan><abbr>Κοχ</abbr><ex>χίνων</ex></expan></w></orgName> <g ref="symbols.xml#crux"/> 
+     </ab></div>
+     </div>
+         <div type="apparatus"><listApp>
+             <app loc="b.2"><rdg resp="#waddington1870">ΚΟΧ: κό[σμον</rdg></app></listApp></div>
+           
+            <!-- reference to  Dussaud et Maccler, voyage 1901 -p.155-->  
+           
+            
+           <div type="translation" resp="#cmr" xml:lang="en">
+           <p>The fortune of the Reds triumphs!</p>
+                
+         </div>
+            <div type="commentary">
+                <p>Discussed Dussaud et Maccler, voyage 1901 -p.165: https://archive.org/details/voyagearchologi00maclgoog/page/n181/mode/2up
+                Trombley. </p>
+                <p>IGLS: la dernière lettre de la ligne a la forme d'un noeud papillon</p>
+                <p>Waddington: De ces deux exemples résulte très nettement un essai de christianiser l'agathe tyche païenne dont la valeur religieuse 
+                    en Syrie n'a pas encore été bien définieSee also the dicussion of fortuna, 165-6</p>
+                <!-- A. Fauriat and M. Sartre, Le plateau du Trachôn et ses bordures, IGLS XV (2014) 381, with photograph.  -->
+            </div>
+            
+        </body>
+    </text>
+</TEI>

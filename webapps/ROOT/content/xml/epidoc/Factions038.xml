@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions038" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <rs type="textType">Acclamation</rs>s for the city and the <rs type="textType">Green</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions038</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>White <material>marble</material> <objectType>door-post</objectType>s</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="litteris scariphatis">Graffito</rs> at 0.26 from the lower edge on the inner face. 
+                           There seems to have been an attempt to erase the second line
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Angular, <height>0.02-0.035</height>, o <height>0.015</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Theatre: Ionic register of the stage front decoration.</origPlace> <!-- check NdeC --> 
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804149">Aphrodisias</placeName>: 
+                              <rs type="monument">Theatre</rs> V; recorded by the NYU expedition in 1967 (excavation inventory no.
+                              <rs type="invNo">67.539</rs>  </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>East of the theatre</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+         <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From transcription (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile>
+      <graphic url="FactionAphrod38.jpg"><desc>Complete block (Roueché, 1989: 89.B.31)</desc></graphic>
+      <graphic url="FactionAphrod38a.jpg"><desc>Text (Roueché, 1989: 89.B.30)</desc></graphic>
+      </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="roueche1989"/> <citedRange>183</citedRange></bibl>,  whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257718">257718</ref></citedRange></bibl>
+               <bibl><ptr type="roueche1993"/> <citedRange unit="entry">10</citedRange></bibl>,  whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/264918">264918</ref></citedRange></bibl>; 
+               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla183.html">183</ref></citedRange></bibl>
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080106.html">8.106</ref></citedRange></bibl>
+               </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <w lemma="ὁ">τῆϲ</w> <w lemma="πόλις">πόλεοϲ</w>
+               <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τoν</w> <w lemma="Πράσινος">Πρ<unclear>α</unclear>ϲίνων</w></orgName>
+               
+</ab>   
+         
+         </div>
+         
+         <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the city and of the Greens triumphs!</p>
+           </div>
+         </div>
+         <div type="commentary">
+            <p>
+            </p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

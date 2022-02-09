@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions014" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs> for the <rs type="textType">Blue</rs>s, and the <rs type="textType">emperor</rs></title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions014</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Upper part of a <objectType>column</objectType>, broken below; <dimensions><height>0.60</height> <dim>0.43</dim></dimensions>.  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face; all the text has been erased.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height unit="metre">0.045</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unknown</origPlace>
+                     <origDate notBefore="0600" notAfter="0640"  precision="low" evidence="context">Early seventh century C.E. XXX</origDate>
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              ‘bei der Biegung der ostlich. der Agora führenden Strasse, bei der ersten der Säule die die Kuretenlisten tragen’.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (<date type="observed">1907</date>)</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription from Skizzenbuch (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2020-01-15" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface>
+      </surface></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl> <ptr target="heberdey1907"/> <citedRange unit="page">73</citedRange></bibl>, 
+               whence  <bibl><ptr target="igc"/> <citedRange unit="entry">113ter</citedRange></bibl>, whence 
+               <bibl><ptr target="christoph1966"/> <citedRange unit="entry">19</citedRange></bibl>, 
+               cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">75</citedRange></bibl>, and listed, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>. 
+               Republished from Skizzenbuch 1394 <bibl><ptr target="inseph"/> <citedRange unit="entry">1191.b</citedRange></bibl>, 
+               <bibl><ptr target="roueche1999"/> <citedRange unit="entry">11</citedRange></bibl></p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+          <ab>
+  <lb n="1"/><g ref="symbols.xml#crux"/> <del><persName type="emperor" key="phocas"><name nymRef="Φωκᾶς">Φωκᾷ</name></persName> <w lemma="ὁ">τῷ</w>
+		<lb n="1"/><addName nymRef="θεοστεφής"><w>θεωϲτεφῇ</w></addName><!-- check -->
+		<lb n="1"/><w lemma="ἡμεῖς">ἡμῶν</w> <w lemma="δεσπότης"><expan><abbr>δεϲπό</abbr><ex>τῇ</ex></expan></w> <!-- check -->
+		<lb n="1"/><w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτοιϲ</w></orgName> 
+		<lb n="1"/><supplied reason="lost"><persName type="divine"><w lemma="Κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName></supplied> <w lemma="βοηθέω"><supplied reason="lost">βο</supplied><unclear>ή</unclear>θησον</w></del>
+
+</ab></div>
+         
+         <div type="apparatus">
+          <listApp>
+             <app loc="2"><rdg resp="#heberdey1907">θεοστεφῆ</rdg></app>
+          </listApp>  
+         </div>
+         <div type="translation" xml:space="preserve">
+           <p>[Lord] help Phokas, crowned by God, and the Blues.</p></div>
+         <div type="commentary">
+            <p></p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

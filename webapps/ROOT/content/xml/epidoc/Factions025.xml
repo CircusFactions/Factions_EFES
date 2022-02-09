@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions025" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Place</rs> for <rs type="textType">Blue</rs> ?Jews</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions025</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Theatre seat</objectType></p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the upper face of two seats; the letters on the first seat have been deliberately chipped.
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Aligned, <height>0.05-0.07</height>; Ε and Τ are almost in ligature</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/265498964">Miletus, <rs type="monument">Theatre</rs></placeName>: 
+                              across two seats in Sector I 2.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/9534929">Miletos</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From publications (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="FactionMiletos24.jpg"><desc>Face (1994)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Recorded by Peter Herrman, whence
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; 
+               published <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.III.h</citedRange>
+               </bibl>, whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/351669">351676</ref></citedRange></bibl>
+               </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+             <ab>
+                <lb n="1"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτων</w> <addName nymRef="Εἰουδέος"><w lemma="Εἰουδέος">Εἰο<unclear>δ</unclear>έ<milestone unit="block"/>ων</w></addName></orgName>
+</ab>     </div>
+         
+         
+         
+         <div type="translation" xml:space="preserve">
+           <p><supplied reason="subaudible">Place</supplied> of Blue ?Jews</p></div>
+         <div type="commentary">
+            <p>The text has been deliberately damaged, and the second word is uncertain; but Herrman suggested either Εἰο<unclear>δ</unclear>έων or Εἰο<unclear>υ</unclear>[δ]έων. For another place inscripion in the Theatre for Jews 
+               see <title>I. Milet</title> 940.III.f, available at <title>PHI</title> <ref target="https://epigraphy.packhum.org/text/351674">351674</ref>
+            </p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

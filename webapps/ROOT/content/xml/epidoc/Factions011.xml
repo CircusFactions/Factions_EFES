@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions011" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs> for the <rs type="textType">Green</rs>s, and the  <rs type="textType">emperor</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions011</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Marble corner block (<dimensions><width>1.04</width> <height>1.26</height></dimensions>)
+                              from a <objectType>gate</objectType></p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face, within an inscribed circle</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Carefully cut and ornate, <height unit="metre">0.07-0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>The colonnade to the east of the Marble street</origPlace>
+                     <origDate notBefore="0602" notAfter="0610"  precision="low" evidence="reign">602-610 C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              lying loose beside the Marble <rs type="monument">street</rs>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From transcription</creation></profileDesc>
+      <revisionDesc>
+          <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="FactionEphesos11.jpg"><desc>Gate of Hadrian: reconstructed design</desc></graphic>
+      <graphic url="FactionEphesos11a.jpg"><desc>Gate of Hadrian: reconstruction</desc></graphic>
+      <graphic url="FactionEphesos11b.jpg"><desc>Gate of Hadrian: reconstruction</desc></graphic>
+      <graphic url="FactionEphesos11c.jpg"><desc>Face (2004)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="igc"/> <citedRange unit="entry">114(5)</citedRange></bibl>, whence listed, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; <bibl><ptr target="inseph"/> <citedRange unit="entry">1192.3</citedRange></bibl> from Skizzenbuch 1028 
+               Republished by <bibl> <ptr target="thuer1989"/> <citedRange unit="page">74-5</citedRange> <citedRange unit="entry">4</citedRange></bibl>, whence <bibl><ptr target="SEG"/> <citedRange>39.1187</citedRange></bibl>;   
+               <bibl><ptr target="roueche1999"/> <citedRange unit="entry">7</citedRange></bibl></p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+          <ab>
+  <lb n="1"/><persName type="emperor" key="anonymi"><addName nymRef="χριστιανός"><w><supplied reason="lost">Χριϲ</supplied>τια<supplied reason="lost">νῶν</supplied></w></addName>
+	<lb n="2"/><w lemma="βασιλεύς">βαϲιλέων</w></persName>
+	<lb n="3"/><w lemma="καί">καὶ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲίνων</w></orgName>
+	<lb n="4"/><w lemma="πολύς"><unclear>π</unclear>όλ<unclear>λ</unclear>α</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
+             <lb n="5"/> <g type="crux"></g>
+
+</ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1"><note>Traces of three letters seen by Heberdey, none by me</note></app> 
+           <app loc="3"><note>ΠΡΑϹΙΝ written in a rasura; the letters below are not apparent. Heberdey Β under Π, Τ under Ν</note></app>
+           <app loc="4"><note>Π: Heberdey saw an upright</note></app>
+            <app loc="4"><note>Λ is written Α, suggesting that errors are possible in this text</note></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:space="preserve">
+           <p>Many years for Christian emperors and Greens!
+</p></div>
+         <div type="commentary">
+            <p>In line 3 Πραϲίνων, Greens, appears to have been written over Βενέτων, Blues. This might reflect internal tensions, but is perhaps more likely to indicate a simple error. 
+               This stone is clearly a partner one now lost in the opposite corner; it is likely that they were intended to name each of the two colours.</p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>

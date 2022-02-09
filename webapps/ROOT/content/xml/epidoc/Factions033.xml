@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions033" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Acclamation</rs> for <rs type="textType">Green</rs>s</title>
+            <editor xml:id="cmr">Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">Factions033</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><material>Marble</material> <objectType>column</objectType></p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the flat face of the column, at
+                           <height>1.46</height> from the lower edge.
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Clear, angular, irregular, <height>0.025-0.03</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804150">Aphrodisias, Tetrapylon</placeName>: 
+                     <rs type="monument">street</rs>: in the eastern colonnade.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+         <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>From transcription (Roueché)</creation></profileDesc>
+      <revisionDesc>
+          <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="FactionAphrod33.jpg"><desc>Face (1985; Roueché 85_F_12)</desc></graphic>
+      <graphic url="FactionAphrod33a.jpg"><desc>Detail (1985; Roueché 85_F_10)</desc></graphic>
+      <graphic url="FactionAphrod33b.jpg"><desc>View, showing the Tetrapylon, with the base for Text 33 in the foreground (2004; Roueché DSCN0149)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="roueche1989"/> <citedRange>184</citedRange></bibl>,
+               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla184.html">184</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257719">257719</ref></citedRange></bibl>;
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph010403.html">1.403</ref></citedRange></bibl>
+               </p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+               <lb n="2"/><w lemma="ὁ">τῶν</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲί
+                 <lb n="3" break="no"/>νων</w></orgName>
+</ab>   
+         
+         </div>
+         
+         <div type="translation" xml:space="preserve">
+           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the Greens triumphs!</p>
+           </div>
+         </div>
+         <div type="commentary">
+            <p>See <ref target="http://insaph.kcl.ac.uk/ala2004/narrative/sec-X.html#X.7">ala2004 X.7</ref>
+            </p> 
+         </div>
+         
+      </body>
+   </text>
+</TEI>
