@@ -17,10 +17,8 @@
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <span class="round label">
-              <i18n:text i18n:key="home-title">Welcome to EFES!</i18n:text>
-            </span>
-          </h1>
+            <i18n:text i18n:key="home-title">Circus Factions in the Eastern Empire</i18n:text>
+            </h1>
         </div>
       </div>
     </kiln:block>
@@ -28,13 +26,23 @@
     <kiln:block name="content-section">
       <main>
         <div class="row">
-          <div class="small-6 large-centered columns">
-            <p>Now that you have EFES up and running, it's time to
-            start building your project. Start with one of the options
-            listed below and go from there.</p>
-          </div>
-        </div>
-        <div class="row">
+          <div class="small-8 large-centered columns">
+            <p>A corpus of the epigraphic evidence</p>
+          <p>Charlotte Roueché</p>
+
+              <p>The aim of this publication is to present all currently known inscribed references to the circus factions in the eastern empire in the fullest possible form. 
+              A collection of this kind was first made in 1966 by Α. Christophilopoulou, in  'οἱ ἐκτὸς τῆς Κωνσταντινοπόλεως Βυζαντινοὶ Δῆμοι', in 
+              <hi rend="italic"> Charisterion Orlandou</hi>; Alan Cameron then developed this in an Appendix to his 1976 study, 
+              <hi rend="italic">Circus Factions</hi> (see further Bibliography/Concordance). More material has been discovered since then, 
+              but there has been no opportunity to see all the texts in context. The material gathered here was collected for a publication in 2020, 
+              'Celebrity and Power: Circus Factions forty years on', in <hi rend="italic">Late Antique Studies in Memory of Alan Cameron</hi>, edited by W. Harris, and A. Hunnel Chen, where see further discussion.
+              
+            </p>
+            <p class="homepage"><a href="inscriptions/"><img id="home_image" alt="FactionEphesos16.jpg" title="FactionEphesos16.jpg" src="{$kiln:assets-path}/images/FactionEphesos16_.jpg"/></a></p>
+
+              </div>
+            </div>
+          <!-- <div class="row">
           <div class="large-4 columns">
             <div class="panel radius">
               <p><strong>Add your files</strong></p>
@@ -69,7 +77,7 @@
               about your project.</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </main>
     </kiln:block>
   </kiln:child>

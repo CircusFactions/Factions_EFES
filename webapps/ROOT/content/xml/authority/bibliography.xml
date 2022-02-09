@@ -16,197 +16,310 @@
         <encodingDesc>
             <p>Encoding according to the TEI P4 Guidelines</p>
         </encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-10" resp="CMR">copied from IRCyr</change>
+            
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <head>Inscriptions of Roman Cyrenaica Bibliography</head>
-                <listBibl type="collections">
-                    <bibl xml:id="AE"><bibl type="abbrev">AE</bibl> <title>Année Epigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date></bibl>
+            <head>Circus Factions in the eastern empire: Bibliography</head>
+               
+                <listBibl type="editions">
                     
-                    <bibl xml:id="BE"><bibl type="abbrev">BE</bibl> <title>Bulletin Epigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date>; available at <ref target="https://www.persee.fr/collection/reg">Persée</ref></bibl>
+                    <bibl xml:id="ae"><bibl type="abbrev">AE</bibl>: <title>Année Epigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date></bibl>
                     
-                    <bibl xml:id="DGE"><bibl type="abbrev">DGE</bibl> <editor>E. <name type="surname">Schwyzer</name></editor>, <title level="m">Dialectorum Graecarum exempla epigraphica
-                        potiora</title>, <pubPlace>Leipzig</pubPlace>, <date>1923</date>; available at <ref target="https://archive.org/details/dialectorumgraec0000schw_h7o4">Archive.org</ref></bibl>
+                    <bibl xml:id="asdracha1998"> <bibl type="abbrev">Asdracha, 1998</bibl> <author ref="http://viaf.org/viaf/21472093">C. <name>Asdracha</name></author>, <date>1998</date>,
+                        <title level="a" source="https://zenon.dainst.org/Record/000633159">Inscriptions chrétiennes et protobyzantines de la Thrace orientale et de l'île d'Imbros, 
+                            IIIe - VIIe siècles</title>, <title level="j" source="https://zenon.dainst.org/Record/000630432">Aρχαιoλoγικóν Δελτίoν</title> 
+                        <biblScope unit="issue">49,1/50,1, 1994-1995</biblScope>, <biblScope unit="page">279-356</biblScope></bibl> 
                     
-                    <bibl xml:id="EDH"><bibl type="abbrev">EDH</bibl> <title>Epigraphische Datenbank Heidelberg</title>
-                        available at <ref target="http://www.epigraphische-datenbank-heidelberg.de/">EDH</ref></bibl>
+                    <bibl xml:id="BE">  <bibl type="abbrev">BE</bibl> <title>Bulletin Épigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date></bibl>
+                  
+                    <bibl xml:id="blouet1838">  <bibl type="abbrev">Blouet, 1838</bibl> <author ref="http://viaf.org/viaf/66615396">G.-A. <name>Blouet</name></author>, <date>1838</date>,
+                        <title level="m"><ref target="https://zenon.dainst.org/Record/000802957">Expédition scientifique de Morée, 
+                            ordonnée par le gouvernement français</ref></title>, <biblScope unit="issue">III</biblScope>, <pubPlace>Paris</pubPlace>, available 
+                        <ref target="http://digi.ub.uni-heidelberg.de/diglit/blouet1838">Heidelberg Digital Library</ref></bibl>
+                  
+                    <bibl xml:id="boeckh1843">  <bibl type="abbrev">CIG II, 1843</bibl><author ref="http://viaf.org/viaf/37048283">Augustus <name>Boeckh</name></author>, <date>1843</date>, <title level="m">Corpus Inscriptionum Graecarum</title> 
+                        <biblScope unit="volume">II</biblScope>, <pubPlace>Berlin</pubPlace></bibl>
                     
-                    <bibl xml:id="IBM"><bibl type="abbrev">IBM</bibl> <author>F.H. <name type="surname">Marshall</name></author>, <date>1916</date>, 
-                        <title>The collection of Ancient Greek Inscriptions in the British Museum</title>,
-                        <pubPlace>Oxford</pubPlace> <biblScope unit="volume">IV.ii</biblScope>; available at <ref target="https://archive.org/details/GIBMIIVGreekInscriptionsInTheBritishMuseum4VolumesIn1File">Archive.org</ref>.</bibl>
+                    <bibl xml:id="cameron1973">  <bibl type="abbrev">Cameron, 1973</bibl> <author ref="http://viaf.org/viaf/91284763">Alan <name>Cameron</name></author>, 
+                        <date>1976</date>, <title level="m">Porphyrius the Charioteer</title>, <pubPlace>Oxford</pubPlace></bibl>
                     
-                    <bibl xml:id="IGRR"><bibl type="abbrev">IGRR</bibl> <title>Inscriptiones Graecae ad res romanas pertinentes</title>,
-                        <pubPlace>Paris</pubPlace>, <date>1906-28</date>; volume I available at <ref target="https://archive.org/details/inscriptionesgra01cagnuoft">Archive.org</ref></bibl>
+                    <bibl xml:id="cameronCF">  <bibl type="abbrev">Cameron, 1976</bibl> <author ref="http://viaf.org/viaf/91284763">Alan <name>Cameron</name></author>,
+                        <date>1976</date>, <title level="m">Circus Factions</title>, <pubPlace>Oxford</pubPlace></bibl>
                     
-                    <bibl xml:id="OGIS"><bibl type="abbrev">OGIS</bibl> <title>Orientis Graecai inscriptiones selectae</title>,
-                        <pubPlace>Leipzig</pubPlace>, <date>1903-05</date>; available at Archive.org, <ref target="https://archive.org/details/orientisgraeciin01dittuoft">Volume 1</ref>, 
-                        <ref target="https://archive.org/details/OrientisGraeciInscriptionesSelectaeV2">Volume 2</ref></bibl>
+                    <bibl xml:id="chaniotis2011">  <bibl type="abbrev">Chaniotis, 2011</bibl> <author ref="http://viaf.org/viaf/69054999">Α. <name>Chaniotis</name></author><date>2011</date>, 
+                        <title level="a">οἱ ἐκτὸς τῆς Κωνσταντινοπόλεως Βυζαντινοὶ Δῆμοι</title>, 
+                        <title level="m"><ref target="https://zenon.dainst.org/Record/001377877">Ancient Graffiti in Context</ref></title>, 
+                    <pubPlace>London</pubPlace>  <biblScope unit="page">191-205</biblScope></bibl>
                     
-                    <bibl xml:id="PHI"><bibl type="abbrev">PHI</bibl> <title>Searchable Greek Inscriptions</title>, <publisher>Packard
-                        Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/">PHI</ref></bibl>                    
+                    <bibl xml:id="christoph1966">  <bibl type="abbrev">Christophilopoulou, 1966</bibl> <author ref="http://viaf.org/viaf/4961231">Α. <name>Christophilopoulou</name></author>, <date>1966</date>, 
+                        <title level="a">οἱ ἐκτὸς τῆς Κωνσταντινοπόλεως Βυζαντινοὶ Δῆμοι</title>, 
+                        <title level="m"><ref target="https://zenon.dainst.org/Record/000935560">Charisterion Orlandou</ref></title>, 
+                        <biblScope unit="part">2</biblScope>, <pubPlace>Athens</pubPlace>  <biblScope unit="page">327-360</biblScope></bibl>
                     
-                    <bibl xml:id="Sammelbuch"><bibl type="abbrev">Sammelbuch</bibl> <author>F. <name type="surname">Preisigke</name></author>
-                        et al, <date>1913-</date>, <title level="m">Sammelbuch griechischer Urkunden
-                            aus Ägypten</title>,
-                        <pubPlace>Strassburg</pubPlace>/<pubPlace>Wiesbaden</pubPlace></bibl>
+                    <bibl xml:id="curtius1873">  <bibl type="abbrev">Curtius, 1873</bibl>  <author ref="http://viaf.org/viaf/23660287">Carl <name>Curtius</name></author>, <date>1873</date>, 
+                        <title level="a">Inschriften aus Kleinasien</title>, <title level="j">Hermes</title>, <biblScope unit="issue">7</biblScope>
+                        <biblScope unit="page">28-46</biblScope>, available at <ref target="https://www.jstor.org/stable/4471235">Jstor</ref> </bibl>
                     
-                    <bibl xml:id="SGDI"><bibl type="abbrev">SGDI</bibl> <title>Sammlung der griechische Dialekt-Inschriften</title>,
-                        <biblScope unit="volume">III.2</biblScope>, <pubPlace>Göttingen</pubPlace>, <date>1884-1915</date>; available at <ref target="https://archive.org/details/sammlungdergrie00meyegoog">Archive.org</ref></bibl>
+                    <bibl xml:id="daux1973">  <bibl type="abbrev">Daux, 1973</bibl>  <author ref="http://viaf.org/viaf/7463501">G.<name>Daux</name></author>, <date>1973</date>, 
+                        <title level="a">Compléments et corrections aux Inscriptiones Thessalonicae</title>, <title level="j"> Bulletin de Correspondance Hellenique</title>,
+                        <biblScope unit="page">585-599</biblScope>, available at <ref target="https://www.persee.fr/doc/bch_0007-4217_1973_num_97_2_4844">Persée</ref> </bibl>
                     
-                    <bibl xml:id="SEG"><bibl type="abbrev">SEG</bibl> <title>Supplementum Epigraphicum Graecum</title>,
+                    <bibl xml:id="EDH"><bibl type="abbrev">EDH</bibl>: <title>Epigraphische Datenbank Heidelberg</title>
+                        available at <ref target="http://www.epigraphische-datenbank-heidelberg.de/"/>EDH</bibl>
+                    
+                    <bibl xml:id="edson1972">  <bibl type="abbrev">IG X,2,1, 1972</bibl> <author ref="http://viaf.org/viaf/72543898">C. <name>Edson</name></author>, <date>1972</date> 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000272610">Inscriptiones Macedoniae</title>, 
+                        <title level="s">Inscriptiones Graecae</title>, <biblScope unit="part">10,2,1</biblScope>, <pubPlace>Berlin</pubPlace>, </bibl>
+                    
+                    <bibl xml:id="feissel2006">  <bibl type="abbrev">Feissel, 2006</bibl> <author ref="http://viaf.org/viaf/36918084">Denis <name type="surname">Feissel</name></author> 
+                        <title>Chroniques d'épigraphie byzantine: 1987-2004</title>, <date>2006</date>, <pubPlace>Paris</pubPlace></bibl>
+                    
+                    <bibl xml:id="feisselBE">  <bibl type="abbrev">Feissel, Bulletin Épigraphique</bibl> <author ref="http://viaf.org/viaf/36918084">Denis <name type="surname">Feissel</name></author>
+                        <title level="a">Bulletin Épigraphique</title> in <title level="j">Revue des Études Grecques</title>
+                        <biblScope unit="issue">1987-</biblScope>, available at <ref target="http://www.persee.fr/collection/reg"/>Persée</bibl>
+                    
+                    <bibl xml:id="inscret">  <bibl type="abbrev">I.Cret.</bibl> <author ref="http://viaf.org/viaf/102334118">M. <name>Guarducci</name></author>, <date>1935-1950</date> 
+                        <title level="m"><ref target="https://zenon.dainst.org/Record/000762208">Inscriptiones Creticae</ref></title>, 
+                        <pubPlace>Roma</pubPlace></bibl>
+                    
+                    <bibl xml:id="gedeon1913">  <bibl type="abbrev">Gedeon, 1913</bibl> <author ref="http://viaf.org/viaf/64758841">M. <name>Gédéon</name></author>, <date>1913</date>, 
+                        <title level="m">Mnêmê Ganochôrôn</title>, 
+                        <pubPlace>Constantinople</pubPlace></bibl>
+                    
+                    <bibl xml:id="heberdey1907">  <bibl type="abbrev">Heberdey, 1907</bibl> <author ref="http://viaf.org/viaf/767087">R. <name>Heberdey</name></author>, <date>1907</date>, 
+                        <title level="a">Vorläufiger Bericht über die Ausgrabungen in Ephesus 1905/06</title>,
+                        <title>Jahreshefte des Österreichischen Archäologischen Institutes in Wien (Beiblatt)</title>, <biblScope unit="issue">10</biblScope>,
+                        <biblScope unit="page">61-78</biblScope>available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/oejh1907/0389">Heidelberg</ref>
+                        </bibl>
+                    
+                    <bibl xml:id="heberdey1912">  <bibl type="abbrev">Heberdey, 1912</bibl> <author ref="http://viaf.org/viaf/767087">R. <name>Heberdey</name></author>, <date>1912</date>, 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000173855">Das Theater in Ephesos</title> 
+                        <title level="s">Forschungen in Ephesos</title>, <biblScope unit="issue">2</biblScope>, <pubPlace>Wien</pubPlace></bibl>
+                    
+                    <bibl xml:id="herrmann2006">  <bibl type="abbrev">I.Milet III, 2006</bibl> <author ref="http://viaf.org/viaf/54162199">Peter <name>Herrmann</name></author>, <date>1906</date>, 
+                        <title level="m">Inschriften von Priene</title>, <pubPlace>Berlin</pubPlace></bibl>
+                    
+                    <bibl xml:id="hiller1906">  <bibl type="abbrev">I.Priene, 1906</bibl> <author ref="http://viaf.org/viaf/59132563">Friedrich <name>Hiller von Gaertringen</name></author>, <date>1997-2006</date>, 
+                        <title level="m">Inschriften von Milet</title>, <pubPlace>Berlin</pubPlace>, available at <ref target="https://archive.org/details/inschriftenvonpr00hill">Archive.org</ref></bibl>
+                    
+                    
+                   <bibl xml:id="hula1898">  <bibl type="abbrev">Hula, 1898</bibl> <author>E. <name>Hula</name></author>, <date>1898</date>, <title level="a">Nikeinschriften</title>
+                        <title level="m">Festschrift für Otto Benndorf zu seinem 60 Geburtstage gewidmet von Schülern, Freunden unnd Fachgenossen</title> 
+                        <biblScope unit="page">237-242</biblScope>, available at <ref target="https://archive.org/details/bub_gb_1dPlAAAAMAAJ/page/n269/mode/2up">Archive.org</ref>
+                    </bibl>
+                    
+                    <bibl xml:id="iaph2007">  <bibl type="abbrev">IAph2007</bibl>
+                        <author ref="http://viaf.org/viaf/25924">J. M. <name type="surname">Reynolds</name></author>,
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>,
+                        <author ref="http://viaf.org/viaf/106795353">Gabriel <name type="surname">Bodard</name></author><date>2007</date> 
+                        <title level="m">Inscriptions of Aphrodisias (2007)</title>
+                        available at <ref target="http://insaph.kcl.ac.uk/iaph2007">http://insaph.kcl.ac.uk/iaph2007</ref></bibl>
+                    
+                    
+                    <bibl xml:id="igc">  <bibl type="abbrev">I.Chr. Asie Mineure, 1922</bibl><author ref=" http://viaf.org/viaf/36919220">H. <name>Grégoire</name></author>, <date>1922</date>, 
+                        <title level="m">Recueil des inscriptions grecques-chrétiennes d’Asie Mineure</title>,
+                        <pubPlace>Paris</pubPlace></bibl>
+                    
+                    <bibl xml:id="bandy1970">  <bibl type="abbrev">I.Chr. Crete, 1970</bibl> <author ref="http://viaf.org/viaf/2479081">A. C. <name>Bandy</name></author>, <date>1970</date>, <title level="m" source="https://zenon.dainst.org/Record/000311490">The Greek Christian inscriptions of Crete</title>, <pubPlace>Athens</pubPlace></bibl>
+                    
+                    <bibl xml:id="rehm1958">  <bibl type="abbrev">I.Didyma, 1958</bibl> <author ref="http://viaf.org/viaf/222236969">Albert <name>Rehm</name></author>, <date>1958</date>,
+                        <title level="m">Didyma 2: Die Inschriften</title>, <pubPlace>Berlin</pubPlace></bibl>
+                    
+                    <bibl xml:id="inseph"><bibl type="abbrev">I.Ephesos</bibl><title level="m">Die inschriften von Ephesos</title>, <date>1979-1984</date><editor>R. Merkelbach et al.</editor>, 
+                        <pubPlace>Bonn</pubPlace></bibl>
+                    
+                    <bibl xml:id="IChrGr">  <bibl type="abbrev">ICG, 2019</bibl> <author ref="http://viaf.org/viaf/61582626">C. <name>Breytenbach</name> et al.</author>, 
+                    <title level="m">Inscriptiones Christianae Graecae</title>, <date>2019</date>, <publisher>Edition Topoi</publisher>; available at 
+                        <ref target="http://repository.edition-topoi.org/collection/ICG">Topoi</ref></bibl> 
+                    
+                    <bibl xml:id="igls2009">  <bibl type="abbrev">IGLS 21</bibl>, <author ref="http://viaf.org/viaf/107050985">Nabil <name>Bader</name></author> 
+                        <title level="m">Inscriptions de la Jordanie</title>
+                        <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
+                        <biblScope unit="volume">XXI, 5, 1</biblScope> <date>2009</date></bibl>
+                    
+                    <bibl xml:id="igls2014">  <bibl type="abbrev">IGLS 15</bibl>, <author ref="http://viaf.org/viaf/49400831">A. <name>Fauriat</name></author> and 
+                        <author ref=" http://viaf.org/viaf/36924349">M. <name>Sartre</name></author> <title level="m">Le plateau du Trachôn et ses bordures</title>
+                        <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
+                         <biblScope unit="volume">XV</biblScope> <date>2014</date></bibl>
+                    
+                    <bibl xml:id="inspriene">  <bibl type="abbrev">I.Priene B-M, 2014</bibl> <author ref="http://viaf.org/viaf/91752189">Wolfgang <name>Blümel</name></author> and <author ref="http://viaf.org/viaf/59096691">Reinhold <name>Merkelbach</name></author> 
+                        <date>1914</date>, <title level="m">Die Inschriften von Priene</title>, <pubPlace>Bonn</pubPlace></bibl>
+                    
+                    <bibl xml:id="lajtar2017">  <bibl type="abbrev">Łajtar, 2017</bibl> <author ref="http://viaf.org/viaf/10031210">Adam <name>Łajtar</name></author> and 
+                        <author ref="http://viaf.org/viaf/14903708">Jolanta <name>Mlynarczyk</name></author> 
+                        <date>2017</date>, <title level="a">A faction acclamation incised on a pithos found near the North-West Church at Hippos (Susita)</title>, 
+                        <title level="j">Études et Travaux</title>, 
+                        <biblScope>30</biblScope>, <biblScope>289-302</biblScope>, available at 
+                        <ref target="http://etudesettravaux.iksiopan.pl/images/etudtrav/EtudTrav_otwarte/EtudTrav_30/EtudTrav_30_Lajtar_Mlynarczyk.pdf">Études et Travaux</ref></bibl>
+                    
+                    <bibl xml:id="petzl1987">  <bibl type="abbrev">I.Smyrna, 1982</bibl><author ref="http://viaf.org/viaf/19697531">G. <name>Petzl</name></author>  <date>1987</date>
+                        <title level="m" ref="https://zenon.dainst.org/Record/000948646">Die inschriften von Smyrna </title>, <biblScope unit="volume">2,1</biblScope>, <pubPlace>Bonn</pubPlace></bibl>
+                    
+                    <bibl xml:id="sahin1982">  <bibl type="abbrev">I.Stratonikeia, 1982</bibl> <author ref="http://viaf.org/viaf/76331383">M.Ç. <name>Şahin</name></author>, 
+                        <title level="m">Die Inschriften von Stratonikeia,</title>, <date>1982</date>, <pubPlace>Bonn</pubPlace></bibl>
+                    
+                    <bibl xml:id="asdracha2003"><bibl type="abbrev">I.Thrace orientale byz, 2003</bibl> <author ref="http://viaf.org/viaf/21472093">C. <name>Asdracha</name></author>, 
+                        <date>2003</date> 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000227483">Inscriptions chrétiennes et protobyzantines de la Thrace orientale et de l'île d'Imbros, 
+                            IIIe - VIIe siècles</title>, <pubPlace>Athens</pubPlace></bibl>
+                    
+                    
+                    <bibl xml:id="ityr2006"><bibl type="abbrev">I.Tyr, 2006</bibl> <author ref="http://viaf.org/viaf/24607213">J-P.<name>Rey-Coquais</name></author>, <date>2006</date>, 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000720806">Inscriptions grecques et latines de Tyr</title>, <title level="s">BAAL</title> 
+                        <biblScope unit="issue">3</biblScope>, <pubPlace>Beirut</pubPlace></bibl>
+                   
+                   
+                    <bibl xml:id="iplik2010">  <bibl type="abbrev">Iplikçioğlu, 2010</bibl> <author ref="http://viaf.org/viaf/29528426">B. <name>Iplikçioğlu</name></author>, <date>2010</date>, 
+                        <title level="a" ref="https://zenon.dainst.org/Record/000872313">Eine spätantike Akklamation auf die Πράσινοι (die "Grünen"): Ein neugefundener Inschriftstein aus Rhodiapolis</title>,
+                        <title>Anzeiger der philosophisch-historischen Klasse der Österreichischen Akademie der Wissenschaften</title>, <biblScope unit="issue">145,1</biblScope>,
+                        <biblScope unit="page">161-168</biblScope></bibl>
+                    
+                    <bibl xml:id="kadıoğlu2006">  <bibl type="abbrev">Kadıoğlu, 2006</bibl> <author ref="http://viaf.org/viaf/5861217">M. <name>Kadıoğlu</name></author> 
+                        <date>2006</date>, <title level="m">Die Scaenae Frons des Theaters von Nysa am Mäander</title>, <pubPlace>Mainz</pubPlace></bibl>
+                    
+                    <bibl xml:id="kiourtzian2005">  <bibl type="abbrev">Kiourtzian, 2005</bibl><author ref="http://viaf.org/viaf/42014020">G. <name>Kiourtzian</name></author>, 
+                        <date>2005</date>, <title level="a">Enépigraphos plinthos</title> 
+                        <title level="m">Mélanges Jean-Pierre Sodini</title>, <biblScope>381-391</biblScope></bibl><!-- check 398 no.5 -->
+                   
+                    <bibl xml:id="lazarides1969">  <bibl type="abbrev">Lazarides, 1969</bibl> <author>P.E. <name>Lazarides</name></author>, <date>1969</date>, 
+                        <title level="a">Aνασκαφαί Nέας Aγχιάλoυ</title>, <title level="j">Πρακτικά της εν Aθήναις Aρχαιoλoγικής Eταιρείας</title>, 
+                        <biblScope unit="issue">125</biblScope>, <biblScope unit="page">21-25</biblScope></bibl>
+                    
+                    <bibl xml:id="nigdelis2011">  <bibl type="abbrev">Nigdelis, 2011</bibl> <author ref="http://viaf.org/viaf/298566809">Π. Μ. <name>Νίγδελης</name></author>, <date>2011</date>, <title level="a">Μακεδονικά Επιγραφικά ΙΙΙ (Θεσσαλονίκη)</title>, <title level="j">Τεκμήρια</title>, 
+                        <biblScope unit="issue">10</biblScope>, <biblScope unit="page">121-184</biblScope> available at <ptr target="http://epublishing.ekt.gr/el/5131/Τεκμήρια/7082"/>Tekmeria</bibl>
+                    
+                    <bibl xml:id="oikonomou2003">  <bibl type="abbrev">Oikonomou-Laniado, 2003</bibl> <author ref="http://viaf.org/viaf/54431896">A. <name>Oikonomou-Laniado</name></author>, <date>2003</date> 
+                        <title level="m">Argos paléochrétienne: Contribution à l'étude du Péloponnèse Byzantin</title> 
+                        <pubPlace>Oxford</pubPlace></bibl>
+                    
+                    <bibl xml:id="orlandos1970">  <bibl type="abbrev">Orlandos, 1970</bibl> <author>A. <name>Orlandos</name></author>, <date>1969</date> 
+                        <title level="j">To έργoν της Aρχαιoλoγικής Eταιρείας</title>, 
+                        <biblScope unit="page">16</biblScope>  <!-- check --></bibl>
+                    
+                    <bibl xml:id="pallas1977">  <bibl type="abbrev">Pallas, 1977</bibl> <author ref="http://viaf.org/viaf/73878223">D. <name>Pallas</name></author>, <date>1977</date> 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000167250">Les monuments paléochrétiens de Grèce decouverts de 1959 à 1973</title> 
+                        <pubPlace>Vatican City</pubPlace></bibl>
+                    
+                    <bibl xml:id="PHI"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
+                        Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/"/>PHI</bibl>
+                    
+                    <bibl xml:id="piccirillo1982">  <bibl type="abbrev">Piccirillo,1982</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
+                        <date>1982</date>, 
+                        <title level="a">Ricerca in Giordania</title>, <title level="j">Liber Annuus</title>, 
+                        <biblScope unit="issue">32</biblScope>, <biblScope unit="page">xxx</biblScope></bibl>
+                    
+                    <bibl xml:id="paes">  <bibl type="abbrev">I.Syria, PAES</bibl> <editor ref="http://viaf.org/viaf/49101390">H. C. <name>Butler</name></editor>, 
+                        <date>1904-1922</date>, 
+                        <title level="m">Publications of the Princeton University Archaeological Expeditions to Syria. III Greek and Latin Inscriptions</title>, 
+                        <pubPlace>Leiden</pubPlace>; available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/syria_div3_sectA_3">Heidelberg</ref></bibl>
+                    
+                    <bibl xml:id="ramsay1897">  <bibl type="abbrev">Ramsay, 1897</bibl> <author ref="http://viaf.org/viaf/41830462">W. M. <name>Ramsay</name></author>, <date>1897</date> 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000180532">The Cities and Bishoprics of Phrygia</title> 
+                        <pubPlace>Oxford</pubPlace>; available at <ref target="https://hdl.handle.net/2027/ien.35556032371965">Hathi Trust</ref></bibl>
+                    
+                    <bibl xml:id="reycoquais2002">  <bibl type="abbrev">Rey-Coquais, 2002</bibl> <author ref="http://viaf.org/viaf/24607213">J-P.<name>Rey-Coquais</name></author>, <date>2006</date>  
+                        <title level="a"><ref target="https://zenon.dainst.org/Record/000650748">Inscriptions de l'hippodrome de Tyr</ref></title>, <title level="j">Journal of Roman Archaeology</title>
+                        <biblScope unit="page">325-335</biblScope>, </bibl>
+                    
+                    <bibl xml:id="jmrrft1987">  <bibl type="abbrev">Reynolds-Tannenbaum, 1987</bibl> <author ref="http://viaf.org/viaf/25924">J. M. <name>Reynolds</name></author> 
+                        and <author ref="http://viaf.org/viaf/8915317">R. F. <name>Tannenbaum</name></author>, <date>1987</date> 
+                        <title level="m">Jews and God-fearers at Aphrodisias</title>,  <pubPlace>Cambridge</pubPlace>, </bibl>
+                    
+                    <bibl xml:id="robert1955">  <bibl type="abbrev">Robert, Hellenica X</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author> 
+                        <date>1955</date>, <title level="m">Hellenica</title>, 
+                        <biblScope unit="issue">X</biblScope>, <pubPlace>Paris</pubPlace>, </bibl>
+                    
+                    <bibl xml:id="robert1960">  <bibl type="abbrev">Robert, Hellenica XI-XII</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author> 
+                        <date>1960</date>, <title level="m">Hellenica</title>, 
+                        <biblScope unit="issue">XI-XII</biblScope>, <pubPlace>Paris</pubPlace>, </bibl>
+                  
+                    <bibl xml:id="robert1974">  <bibl type="abbrev">Robert, 1974</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author>, <date>1974</date> 
+                        <title level="a">Les inscriptions de Thessalonique</title>, <title level="j">Revue de Philologie</title>
+                        <biblScope unit="page">180-240</biblScope> (<bibl><title>OMS</title>, <biblScope unit="volume">V</biblScope>, <biblScope unit="page">267-334</biblScope></bibl>) </bibl>
+                    
+                    <bibl xml:id="robertBE">  <bibl type="abbrev">J and L Robert, Bulletin Épigraphique</bibl><author ref="http://viaf.org/viaf/41845785">J and L <name type="surname">Robert</name></author>
+                        <title level="a">Bulletin Épigraphique</title> in <title level="j">Revue des Études Grecques</title>
+                        <biblScope unit="issue">1938-84</biblScope>, available at <ref target="http://www.persee.fr/collection/reg">Persée</ref></bibl>
+                    
+                    <bibl xml:id="roueche1989"> <bibl type="abbrev">Roueché, 1989</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>1989</date> 
+                        <title level="m">Aphrodisias in Late Antiquity</title>, <pubPlace>London</pubPlace>, 
+                        available at <ref target="https://archaeologydataservice.ac.uk/library/browse/issue.xhtml?recordId=1161459">ADS</ref></bibl>
+                    
+                    <bibl xml:id="roueche1993"> <bibl type="abbrev">Roueché, 1993</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>1993</date> 
+                        <title level="m">Performers and Partisans at Aphrodisias</title>, <pubPlace>London</pubPlace>, 
+                        available at <ref target="https://archaeologydataservice.ac.uk/library/browse/issue.xhtml?recordId=1161460">ADS</ref></bibl>
+                    
+                    <bibl xml:id="roueche1995"> <bibl type="abbrev">Roueché, 1993</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>1995</date> 
+                        <title level="a">Aurarii in the Auditoria</title>, <title level="j">ZPE</title>, <biblScope unit="issue">105</biblScope>, <biblScope unit="page">37-50</biblScope>,
+                        available at <ref target="http://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1995/105pdf/105037.pdf">ZPE</ref></bibl>
+                    
+                    
+                    <bibl xml:id="roueche1999"> <bibl type="abbrev">Roueché, 1999</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>1999</date>, 
+                        <title level="a">Looking for Late Antique Ceremonial: Ephesos and Aphrodisias</title>, 
+                        <editor>H.<name type="surname">Friesinger</name></editor>, <editor>F.<name type="surname">Krinziger</name></editor>, 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000359927">100 Jahre Österreichische Forschungen in Ephesos</title>, <pubPlace>Vienna</pubPlace>, 
+                        <biblScope unit="pp">161-170</biblScope></bibl>
+                    
+                    <bibl xml:id="roueche2004"> <bibl type="abbrev">ala2004</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>2004</date>, 
+                        <title level="m">Aphrodisias in Late Antiquity, revised second edition</title>, <pubPlace>London</pubPlace>, 
+                        available at <ref target="http://insaph.kcl.ac.uk/ala2004/">http://insaph.kcl.ac.uk/ala2004/</ref></bibl>
+                
+                    <bibl xml:id="roueche2007">  <bibl type="abbrev">Roueché, 2007</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>2007</date> 
+                    <title level="a"> Interpreting the Signs: Anonymity and Concealment in Late Antique Inscriptions</title>, 
+                    <editor>H.<name type="surname">Amirav</name></editor>, <editor>Bas<name type="surname">ter Haar Romeny</name></editor>,
+                    <title level="m">From Rome to Constantinople: Studies in Honour of Averil Cameron</title>  <pubPlace>Leuven</pubPlace>, 
+                    <biblScope unit="pp">221-234</biblScope></bibl>
+                    
+                    <bibl xml:id="seyrig1950">  <bibl type="abbrev">Seyrig, 1950</bibl>
+                        <author ref="http://viaf.org/viaf/381705">Henri <name type="surname">Seyrig</name></author>, <date>1950</date>, 
+                        <title level="a">Antiquités syriennes</title>, <title level="j">Syria</title>, <biblScope unit="issue">27, 3-4</biblScope>, 
+                        <biblScope unit="pp">229-25</biblScope>, available at <ref target="https://www.persee.fr/doc/syria_0039-7946_1950_num_27_3_4591">Persée</ref></bibl>
+                    
+                    <bibl xml:id="SEG"><bibl type="abbrev">SEG</bibl>: <title>Supplementum Epigraphicum Graecum</title>,
                         <pubPlace>Leiden</pubPlace>, <publisher>Brill Publishing</publisher>,
                         <date>1923-</date></bibl>
-                   
-                    <bibl xml:id="Syll.3"><bibl type="abbrev">Sylloge</bibl> <author>W. <name type="surname">Dittenberg</name></author>,
-                        <title>Sylloge inscriptionum graecarum</title>, <edition>3</edition>,
-                        <pubPlace>Leipzig</pubPlace>
-                        <date>1915-24</date>; available at <ref target="https://archive.org/details/syllogeinscript03dittgoog">Archive.org</ref></bibl>
-                </listBibl>
-            
-            <listBibl type="editions">
-                    <bibl xml:id="applebaum1950"><bibl type="abbrev">Applebaum, 1950</bibl> <author key="http://viaf.org/viaf/51702541">Shimon 
-                        <name type="surname">Applebaum</name></author>, <date>1950</date>, <title level="a">A Note
-                            on the Work of Hadrian at Cyrene</title>, <title level="j">Journal of
-                                Roman Studies</title>
-                        <biblScope unit="issue">40</biblScope>, <biblScope unit="page"
-                            >87-90</biblScope> available at <ref target="http://www.jstor.org/stable/298506">JSTOR</ref></bibl>
                     
-                    <bibl xml:id="applebaum1951"><bibl type="abbrev">Applebaum, 1951</bibl> <author key="http://viaf.org/viaf/51702541">Shimon 
-                        <name type="surname">Applebaum</name></author>, <date>1951</date>, 
-                        <title level="a">The Jewish Revolt in Cyrene in 115-119, and the subsequent
-                            recolonisation</title>, <title level="j">Journal of Jewish Studies</title>
-                        <biblScope unit="issue">2.4</biblScope>, <biblScope unit="page">177-186</biblScope></bibl>
+                    <bibl xml:id="stephanidou2014">  <bibl type="abbrev">Stephanidou, 2014</bibl> <author ref="http://viaf.org/viaf/1390042">T. <name>Stephanidou-Tiveriou</name></author>, <date>2014</date>, <title level="m" ref="https://zenon.dainst.org/Record/001406807">Die lokalen Sarkophage aus Thessaloniki</title>,
+                       <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>
+                  
+                    <bibl xml:id="thuer1989">  <bibl type="abbrev">Thür, 1989</bibl> <author ref=" http://viaf.org/viaf/56672699">H. <name>Thür</name></author>, <date>1989</date>, 
+                        <title level="m">Das Hadrianstor in Ephesos</title>  <pubPlace>Vienna</pubPlace></bibl>
                     
-                    <bibl xml:id="boatwright2000"><bibl type="abbrev">Boatwright, 2000</bibl> <author key="http://viaf.org/viaf/32169827">Mary T. <name type="surname">Boatwright</name></author>
-                        <date>2000</date>, <title level="m">Hadrian and the Cities of the Roman Empire</title>,
-                        <pubPlace>Princeton</pubPlace></bibl>
+                    <bibl xml:id="waddington1870">  <bibl type="abbrev">Waddington, 1870</bibl> <author ref=" http://viaf.org/viaf/64130319">W.H. <name>Waddington</name></author>,
+                        <date>1870</date>, 
+                        <title level="m">Inscriptions grecques et latines de la Syrie</title>  <pubPlace>Paris</pubPlace>: 
+                        avialable at <ref target="https://mdz-nbn-resolving.de/details:bsb10934351">MDZ</ref></bibl>
                     
-                    <bibl xml:id="ferri1923"><bibl type="abbrev">Ferri, 1923</bibl> <author>Silvio <name type="surname">Ferri</name></author>,
-                        <date>1923</date>, <title level="m">Contributi di Cirene alla storia della religione greca</title>
-                        <pubPlace>Rome</pubPlace></bibl>
+                    <bibl xml:id="walser2013">  <bibl type="abbrev">Walser, 2013</bibl> <author ref="http://viaf.org/viaf/309562730"> A.V. <name>Walser</name></author>, 
+                        <title level="a" ref="https://zenon.dainst.org/Record/001368677">Kaiserzeitliche und frühbyzantinische Inscriften aus der Region von Germia in Nordwestgalatien</title> 
+                        <title level="j">Chiron</title>, <biblScope unit="issue">43</biblScope>, <date>2013</date>, <biblScope unit="page">527-619</biblScope>; 
+                        available at <ref target="https://publications.dainst.org/journals/index.php/chiron/article/view/490">Chiron</ref> </bibl>
                     
-                    <bibl xml:id="gasperini1971"><bibl type="abbrev">Gasperini, 1971</bibl> <author key="http://viaf.org/viaf/44313918">Lidio 
-                        <name type="surname">Gasperini</name></author>, <date>1971</date>, <title level="a">Le
-                            iscrizioni del Cesareo e della Basilica di Cirene</title>, <title level="j">Quaderni di Archeologia della Libia</title>, 
-                        <biblScope unit="issue">VI</biblScope>, <biblScope unit="page">3-22</biblScope></bibl>
+                    <bibl xml:id="wiegand1904">  <bibl type="abbrev">Wiegand, 1904</bibl> ><author ref="http://viaf.org/viaf/12347811">Theodor <name>Wiegand</name></author>, <date>1904</date> 
+                        <title level="m">Priene: Ergebnisse der Ausgrabungen und Untersuchungen in den Jahren 1895-1898</title>  <pubPlace>Berlin</pubPlace>, 
+                        available at <ref target="https://archive.org/details/prieneergebnisse00wieg">Archive.org</ref></bibl>
                     
-                    <bibl xml:id="gl-jmr1983"><bibl type="abbrev">Lüderitz-Reynolds, 1983</bibl> <author>Gert <name type="surname">Lüderitz</name></author>,
-                        with readings from <author key="http://viaf.org/viaf/25924">J. M. <name type="surname">Reynolds</name></author>,
-                        <date>1983</date>, <title level="m">Corpus jüdischer Zeugnisse aus der
-                            Cyrenaika</title>, <publisher>L. Reichert</publisher>,
-                        <pubPlace>Wiesbaden</pubPlace></bibl>
+                    <bibl xml:id="wood1877">  <bibl type="abbrev">Wood, 1877</bibl><author ref="http://viaf.org/viaf/74629615">J. T. <name type="surname">Wood</name></author>, <date>1877</date>
+                        <title level="a">Inscriptions from the city and suburbs</title>  <title level="m">Discoveries at Ephesus</title>
+                        <biblScope unit="page">327-333</biblScope>, available at <ref target="https://hdl.handle.net/2027/umn.31951002404487v"/>Hathi Trust</bibl>
                     
-                    <bibl xml:id="mohamed-jmr1992"><bibl type="abbrev">Mohamed-Reynolds, 1992</bibl> 
-                        <author key="http://viaf.org/viaf/311229706">Fadel Ali <name type="surname">Mohamed</name></author> and 
-                        <author key="http://viaf.org/viaf/25924">Joyce M. <name type="surname">Reynolds</name></author>, <date>1992</date>, 
-                        <title level="a">Some new inscriptions from Cyrenaica</title>, <title level="j">Africa Romana</title>
-                        <biblScope unit="issue">9</biblScope>, <biblScope unit="page">115-122</biblScope>: available at 
-                        <ref target="http://eprints.uniss.it/3239/1/Mastino_A_AttiCongresso_1992_Africa.pdf">University of Sassari</ref></bibl>
+                    <bibl xml:id="wood1878">  <bibl type="abbrev">Wood, 1878</bibl><author ref="http://viaf.org/viaf/74629615">J. T. <name type="surname">Wood</name></author>, <date>1878</date>
+                        <title level="a">On the Antiquities of Ephesus having relation to Christianity</title>  <title level="j">Transactions of the Society of Biblical Archaeology</title>
+                        <biblScope unit="page">327-333</biblScope>, available at <ref target="https://archive.org/details/transactionssoc05nashgoog"/>Archive.org</bibl>
+                    <bibl xml:id="zayadine1986">  <bibl type="abbrev">Zayadine, 1986</bibl> <author ref=" http://viaf.org/viaf/38450705">F. <name>Zayadine</name></author>, 
+                        <date>1986</date>, <title level="a">The Jerash Project for excavation and restoration: a synopsis</title>, in
+                        <title level="m">Jerash Archaeological Project, 1981-1983</title> <biblScope>7-28</biblScope>  <pubPlace>Amman</pubPlace></bibl>
                     
-                <bibl xml:id="oliverioDAI2"><bibl type="abbrev">Oliverio, DAI, 1933-1936</bibl> 
-                    <author key="http://viaf.org/viaf/89264199">G. <name type="surname">Oliverio</name></author>,
-                    <date>1933-36</date>, <title level="m">Documenti antichi dell'Africa
-                        Italiana, II</title>, <pubPlace>Bergamo</pubPlace></bibl>
-                
-                <bibl xml:id="smith-porcher1864"><bibl type="abbrev">Smith-Porcher, 1864</bibl> <author>R. Murdoch 
-                        <name type="surname">Smith</name></author> and <author>E.A. <name type="surname">Porcher</name></author>, <date>1864</date>, <title level="m">History of the recent
-                            discoveries at Cyrene, made during an expedition to the Cyrenaica in
-                            1860-61</title>, 
-                        <publisher>London</publisher> <biblScope unit="page">109-117</biblScope>; available at   
-                        <ref target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10211931-2">Bavarian State Library</ref></bibl>
-                
-                <!-- the following bibliographic entries from IGCyr and IOSPE are necessary 
-                    in order to make the concordances work also for IGCyr and IOSPE sample files -->
-                <!-- from IGCyr: -->
-                <bibl xml:id="beschi1970"><bibl type="abbrev">Beschi, 1970</bibl> <author><name type="surname">Beschi</name>,
-                    L.</author>, <date>1970</date>, <title level="a">Divinità funerarie
-                        cirenaiche</title>, <title level="j">Annuario della Scuola Archeologica
-                            di Atene e delle Missioni Italiane in Oriente (ASAA)</title>
-                    <biblScope unit="issue">47-48</biblScope>, <biblScope unit="page">133-341</biblScope></bibl>
-                
-                <bibl xml:id="boardman-hayes1973"><bibl type="abbrev">Boardman-Hayes, 1973</bibl> <author><name type="surname">Boardman</name>,
-                    J.</author>, <author><name type="surname">Hayes</name>, J.</author>,
-                    <date>1973</date>, <title level="m">Excavations at Tocra 1963-1965. The
-                        archaic deposits II and later deposits</title>, <title level="s">British
-                            School of Archaeology at Athens</title>
-                    <biblScope unit="vol">Suppl. 10</biblScope>,
-                    <pubPlace>London</pubPlace></bibl>
-                
-                <bibl xml:id="cdlBE"><bibl type="abbrev">Dobias-Lalou, BE</bibl> <author><name type="surname">Dobias-Lalou</name>, C.</author>
-                    <title level="a">Bulletin Épigraphique</title> in <title level="j">Études Grecques (REG)</title>
-                    <biblScope unit="issue">1987-</biblScope> <ptr target="http://www.persee.fr/collection/reg"/></bibl>
-                
-                <bibl xml:id="cdl1998b"><bibl type="abbrev">Dobias-Lalou, 1998b</bibl> <author><name type="surname">Dobias-Lalou</name>,
-                    C.</author>, <date>1998</date>, <title level="a">Ἄμναμμος nom cyrénéen
-                        du «petit-fils»</title>, <title level="j">Revue des Études Grecques (REG)</title>
-                    <biblScope unit="issue">111</biblScope>, <biblScope unit="page">403-417</biblScope>
-                    <ptr target="http://www.persee.fr/collection/reg"/></bibl>
-                
-                <bibl xml:id="cdl2015a"><bibl type="abbrev">Dobias-Lalou, 2015a</bibl> <author><name type="surname">Dobias-Lalou</name>,
-                    C.</author>, <date>2015</date>, <title level="a">Les débuts de l'écriture en Cyrénaïque</title>,
-                    in <editor>A. <name type="surname">Inglese</name></editor>, <title level="m">Epigrammata 3. Saper scrivere 
-                        nel Mediterraneo antico. Esiti di scrittura fra VI e IV sec. a.C., in ricordo di Mario Luni. Atti 
-                        del convegno di Roma, 7-8 Novembre 2014</title>, <pubPlace>Tivoli</pubPlace>, <biblScope unit="page">59-80, 315-321</biblScope></bibl>
-                
-                <bibl xml:id="mohamed-jmr-cdl2007"><bibl type="abbrev">Mohamed-Reynolds-Dobias-Lalou, 2007</bibl> <author><name type="surname">Mohamed</name>,
-                    F.A.</author>, <author><name type="surname">Reynolds</name>,
-                        J.</author>, <author><name type="surname">Dobias-Lalou</name>, C.</author>,
-                    <date>2007</date>, <title level="a">Recently discovered inscriptions at
-                        Cyrene</title>, in <editor>L. <name type="surname">Gasperini</name></editor>, 
-                    <editor>S. <name type="surname">Marengo</name></editor> (eds.), 
-                    <title level="m">Cirene e la
-                        Cirenaica nell'antichità: atti del convegno internazionale di studi,
-                        Roma-Frascati, 18-21 dicembre 1996</title>, <title level="s">Ichnia</title>
-                    <biblScope unit="vol">9</biblScope>, <pubPlace>Tivoli</pubPlace>, <biblScope
-                        unit="page">17-48</biblScope></bibl>
-                
-                <bibl xml:id="montanari-rosamilia2016"><bibl type="abbrev">Montanari-Rosamilia, 2016</bibl>
-                    <author><name type="surname">Montanari</name>, M.</author>, <date>2016</date>, 
-                    <title level="a">Libi e Greci a Cirene:
-                        Zeus Ammon</title>, in <editor>V. <name type="surname">Purcaro</name></editor>, 
-                    <editor>O. <name type="surname">Mei</name></editor>,
-                    <title level="m">Cirene greca e romana II</title>, <title level="s">Monografie di
-                        archeologia libica</title> <biblScope unit="vol">44</biblScope>, <title level="s">Cirene Atene
-                            d'Africa</title> <biblScope unit="vol">9</biblScope>, <biblScope unit="page">15-26</biblScope> <note>with a note by E. Rosamilia</note></bibl>
-                
-                <bibl xml:id="dthorn-thorn2009"><bibl type="abbrev">Thorn, 2009</bibl> <author><name type="surname">Thorn</name>,
-                    D.M.</author>, <author><name type="surname">Thorn</name>, J.C.</author>
-                    (eds.), <date>2009</date>, <title level="m">A Gazetteer of the Cyrene
-                        Necropolis from the original notebooks of John Cassels, Richard
-                        Tomlinson and James and Dorothy Thorn</title>, <title level="s">Studia
-                            Archaeologica</title>
-                    <biblScope unit="vol">161</biblScope>, <pubPlace>Roma</pubPlace></bibl>
-                
-                <bibl xml:id="wilson2003"><bibl type="abbrev">Wilson, 2003</bibl> <author><name type="surname">Wilson</name>,
-                    A.</author>, et al., <date>2003</date>, <title level="a">Euesperides
-                        (Benghazi): preliminary report on the spring 2003 season</title>, <title
-                            level="j">Libyan Studies (LibStud)</title>
-                    <biblScope unit="issue">34</biblScope>, <biblScope unit="page">191-228</biblScope></bibl>
-                
-                <bibl xml:id="wilson2003a"><bibl type="abbrev">Wilson, 2003a</bibl> <author><name type="surname">Wilson</name>,
-                    A.I.</author>, <date>2003</date>, <title level="a">Une cité grecque de
-                        Libye: fouilles d'Euhésperides (Benghazi)</title>, <title level="j">Comptes rendus des séances. Académie des Inscriptions et Belles Lettres
-                            (CRAI)</title>
-                    <biblScope unit="issue">2003</biblScope>, <biblScope unit="page">1647-1675</biblScope> 
-                    <ptr target="http://www.persee.fr/collection/crai"/></bibl>
-                
-                <!-- from IOSPE: -->
-                <bibl xml:id="b0176"><bibl type="abbrev">Murzakevich 1850</bibl> Murzakevich, N.N. (1850) "Аккерманские греческие надписи." ЗООИД 22-3:480-483. Odessa</bibl>
-                <bibl xml:id="b0132"><bibl type="abbrev">Latyshev 1896</bibl> Latyshev, V.V. (1896) Дополнения и поправки к собранию древних надписей северного побережья Черного моря. St. Petersburg</bibl>
-                <bibl xml:id="b0397"><bibl type="abbrev">Millet 1900</bibl> Millet, G. (1900) Review of: Latyshev, V.V. 1896. Bulletin critique de littérature, d'histoire et de théologie 28. </bibl>
-                <bibl xml:id="b0273"><bibl type="abbrev">Bogdan 1908</bibl> Bogdan, I. (1908) "Inscripţiile dela Cetatea Albă şi stăpânirea Moldovei asupra ei." Analele Academiei Române. Memoriile Secţiunii Istorice. (Series 2) 30:311-360. </bibl>
-                <bibl xml:id="b0347"><bibl type="abbrev">Pippidi 1998</bibl> Pippidi, A. (1998) "Din nou despre piatra de mormânt de la Cetatea Albă din 1440." In Barbu, V., ed., In honorem Paul Cernovodeanu. Bucharest, 75-85</bibl>
-                <bibl xml:id="b0426"><bibl type="abbrev">Rhoby 2014</bibl> Rhoby, A. (2014) Byzantinische Epigramme auf Stein (Veröffentlichungen zur Byzanzforschung). Vienna</bibl>
-                <bibl xml:id="b0130"><bibl type="abbrev">Latyshev 1895</bibl> Latyshev, V.V. (1895) Греческие и латинские надписи, найденные в Южной России в 1892-1894 гг. (МАР 17). </bibl>
-                <bibl xml:id="b0131"><bibl type="abbrev">Latyshev 1895a</bibl> Latyshev, V.V. (1895a) "Этюды по византийской эпиграфике." Византийский временник 2:184–188. </bibl>
-                <bibl xml:id="b0117"><bibl type="abbrev">Kulakovsky 1895a</bibl> Kulakovsky, Yu.A. (1895a) Review of: Latyshev, V.V. 1895. Филологическое обозрение 9/2:25-31.</bibl>
-                <bibl xml:id="b0098"><bibl type="abbrev">Kostsyushko-Valyuzhinich 1901a</bibl> Kostsyushko-Valyuzhinich, K.K. (1901a) "Извлечение о раскопках в Херсонесе Таврическом в 1899 году." ИАК 1:1‒55.</bibl>
-                <bibl xml:id="b0386"><bibl type="abbrev">Vinogradov 2011</bibl> Vinogradov, A.Yu. (2011) "Строительные надписи византийского Крыма. Addenda et corrigenda." Вопросы эпиграфики 4:217-253.</bibl>
-                <bibl xml:id="b0012"><bibl type="abbrev">Bayer 2002</bibl> Bayer, Ch.-F. (2002) История крымских готов как интерпретация Сказания Матфея о городе Феодоро. Yekaterinburg</bibl>
-                <bibl xml:id="b0056"><bibl type="abbrev">Vinogradov, Myts 2005</bibl> Vinogradov, A.Yu., V.L. Myts (2005) "Фунская надпись 1459 г." Античная древность и средние века. Yekaterinburg 36:273-281</bibl>
-                <bibl xml:id="b0184"><bibl type="abbrev">Myts 2009</bibl> Myts, V.L. (2009) Каффа и Феодоро в XV в. Контакты и конфликты. Simferopol</bibl>
-                <bibl xml:id="b0217"><bibl type="abbrev">Stefani 1879</bibl> Stefani, L.E. (1879) "Объяснение некоторых художественных произведений, открытых в Южной России в 1875 году." ОАК за 1876 год, 5-225. </bibl>
-                <bibl xml:id="b0252"><bibl type="abbrev">Shlapak 2000</bibl> Shlapak, M.Ye. (2000) "Самая загадочная надпись Белгород-Днестровской крепости." Stratum plus 6:260-265. </bibl>
                 </listBibl>
         </body>
     </text>

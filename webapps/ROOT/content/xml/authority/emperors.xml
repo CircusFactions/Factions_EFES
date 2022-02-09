@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of emperors</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="commentary">
+                <listPerson>
+                    
+                    
+                    <person xml:id="phocas">
+                        <persName xml:lang="en">Phocas</persName>
+                        <floruit>Reign: CE 602-610</floruit>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q31556</idno>
+                    </person>
+                    
+                    <person xml:id="heraclius1">
+                        <persName xml:lang="en">Heraclius</persName>
+                        <floruit>Reign: CE 610-641</floruit>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q41852</idno>
+                    </person>
+                    
+                    
+                    <person xml:id="heraclius2">
+                        <persName xml:lang="en">Heraclius Constantine III</persName>
+                        <floruit>CE 613-641</floruit>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q41615</idno>
+                    </person> 
+                    
+                    <person xml:id="heraclii">
+                        <persName xml:lang="en">Heraclius and Heraclius Constantine III</persName>
+                        <floruit>CE 641</floruit>
+                        
+                    </person>  
+                    
+                    <person xml:id="anonymus">
+                        <persName xml:lang="la">Unknown emperor</persName>
+                    </person>
+                    <person xml:id="anonymi">
+                        <persName xml:lang="la">Unknown emperors</persName>
+                    </person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>
