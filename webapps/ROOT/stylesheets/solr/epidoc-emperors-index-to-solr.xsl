@@ -94,18 +94,18 @@
               </xsl:otherwise>
             </xsl:choose>
           </field>
-          <field name="index_item_sort_name">
+          <!--<field name="index_item_sort_name">
             <xsl:value-of select="$idno/@n" />
-          </field>
-          <field name="index_epithet">
+          </field>-->
+          <!--<field name="index_epithet">
             <xsl:for-each select="descendant::tei:addName[@nymRef][not(ancestor::tei:persName[ancestor::tei:persName=$self])]">
               <xsl:value-of select="@nymRef" />
               <xsl:if test="position()!=last()">, </xsl:if>
             </xsl:for-each>
-          </field>
-          <field name="index_external_resource">
+          </field>-->
+          <!--<field name="index_external_resource">
             <xsl:value-of select="$idno/tei:idno" />
-          </field>
+          </field>-->
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
@@ -134,18 +134,18 @@
               </xsl:otherwise>
             </xsl:choose>
           </field>
-          <field name="index_item_sort_name">
+          <!--<field name="index_item_sort_name">
             <xsl:value-of select="$idno/@n" />
-          </field>
-          <field name="index_epithet">
+          </field>-->
+          <!--<field name="index_epithet">
             <xsl:for-each select="descendant::tei:addName[@nymRef][not(ancestor::tei:persName[ancestor::tei:persName=$self])]">
               <xsl:value-of select="@nymRef" />
               <xsl:if test="position()!=last()">, </xsl:if>
             </xsl:for-each>
-          </field>
-          <field name="index_external_resource">
+          </field>-->
+          <!--<field name="index_external_resource">
             <xsl:value-of select="$idno/tei:idno" />
-          </field>
+          </field>-->
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
