@@ -2,7 +2,7 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions065" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions067" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,7 +11,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions065</idno>
+                <idno type="filename">Factions067</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -25,27 +25,27 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Stone</material> <objectType>lintel</objectType> block: 
-                                        <dimensions><width>1.42</width> <height>0.285</height> <depth>0.37</depth></dimensions>. 
+                                    <p><material>Mosaic</material> <objectType>floor</objectType> panel, 
+                                        (no measurements). 
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed </rs> on the face</layout>
+                                <layout> <rs key="litteris tessellis">Mosaic</rs> letters within a circular medallion.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height>0.055-0.065</height></handNote>
+                            <handNote> <height>0.045-0.010</height></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                            <origDate notBefore="0301" notAfter="0499" evidence="material-context" cert="low">Fourth-fifth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678439">Umm al-Jimal</placeName>: 
-                                Southwest church: over a door at the far east end of the church, south of the apse.</p>
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678378">Scythopolis</placeName>: in a side-walk beside a paved road, 
+                                in front of the entrance to a house.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>
@@ -89,16 +89,16 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><surface/></facsimile>
+    </teiHeader><facsimile><graphic url="paes266.jpg"><desc>Drawing by Littman</desc></graphic></facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="paes"/> <citedRange>256</citedRange> (copied by Littman)</bibl>, whence 
-                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">15</citedRange></bibl>, and listed, 
+                <p><bibl><ptr target="paes"/> <citedRange>266</citedRange> (copied by Littman)</bibl>, whence 
+                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">16</citedRange></bibl>, and listed, 
                     <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
-                    <bibl><ptr target="igls2009"/> <citedRange>147</citedRange>, with photograph</bibl>, whence 
+                    <bibl><ptr target="igls2009"/> <citedRange>148</citedRange></bibl>, whence <!-- check IGLS: did Bader see it? -->
                     <bibl><ptr target="seg"/> <citedRange>59.1721</citedRange></bibl>, 
-                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341673">341673</ref></citedRange></bibl>, 
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341674">341674</ref></citedRange></bibl>, 
                     <bibl><ptr target="feisselBE"/> <citedRange>612</citedRange></bibl>
           .
                     </p>
@@ -106,20 +106,17 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
+            <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <g ref="symbols.xml#crux"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχε</w> 
                 
-              <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενέτον</w></orgName> 
+              <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"> <milestone unit="block"/><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενήτον</w></orgName> 
      </ab>
      </div>
-            <div type="apparatus"><listApp>
-                <app loc="1"><rdg resp="#paes, igls2009">Νίκα</rdg></app></listApp></div>
             
-            <div type="translation" source="#paes" xml:lang="en">
-                <p>Conquer, Fortune of the Blues</p>
+            
+            <div type="translation" resp="#paes" xml:lang="en">
+                <p>to the victory of Tyche of the Blues!</p>
             </div>
-            <div type="translation" resp="#igls2009" xml:lang="fr">
-                <p>Vaincs, la fortune des Bleus</p>
-            </div> 
+             
            <div type="translation" resp="#cmr" xml:lang="en">
            <p>The fortune of the Blues triumphs!</p>
                 

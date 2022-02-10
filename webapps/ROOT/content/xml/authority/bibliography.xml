@@ -136,12 +136,12 @@
                     <title level="m">Inscriptiones Christianae Graecae</title>, <date>2019</date>, <publisher>Edition Topoi</publisher>; available at 
                         <ref target="http://repository.edition-topoi.org/collection/ICG">Topoi</ref></bibl> 
                     
-                    <bibl xml:id="igls2009">  <bibl type="abbrev">IGLS 21</bibl>, <author ref="http://viaf.org/viaf/107050985">Nabil <name>Bader</name></author> 
+                    <bibl xml:id="igls2009">  <bibl type="abbrev">Bader, 2009</bibl>, <author ref="http://viaf.org/viaf/107050985">Nabil <name>Bader</name></author> 
                         <title level="m">Inscriptions de la Jordanie</title>
                         <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
                         <biblScope unit="volume">XXI, 5, 1</biblScope> <date>2009</date></bibl>
                     
-                    <bibl xml:id="igls2014">  <bibl type="abbrev">IGLS 15</bibl>, <author ref="http://viaf.org/viaf/49400831">A. <name>Fauriat</name></author> and 
+                    <bibl xml:id="igls2014">  <bibl type="abbrev">Fauriat-Sartre, 2014</bibl>, <author ref="http://viaf.org/viaf/49400831">A. <name>Fauriat</name></author> and 
                         <author ref=" http://viaf.org/viaf/36924349">M. <name>Sartre</name></author> <title level="m">Le plateau du Trachôn et ses bordures</title>
                         <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
                          <biblScope unit="volume">XV</biblScope> <date>2014</date></bibl>
@@ -291,6 +291,10 @@
                     
                     <bibl xml:id="stephanidou2014">  <bibl type="abbrev">Stephanidou, 2014</bibl> <author ref="http://viaf.org/viaf/1390042">T. <name>Stephanidou-Tiveriou</name></author>, <date>2014</date>, <title level="m" ref="https://zenon.dainst.org/Record/001406807">Die lokalen Sarkophage aus Thessaloniki</title>,
                        <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>
+                    
+                    <bibl xml:id="syon2004">  <bibl type="abbrev">Syon, 2004</bibl> <author ref="http://viaf.org/viaf/1390042">D. <name>Syon</name></author>, <date>2004</date>, 
+                        <title level="m">Die lokalen Sarkophage aus Thessaloniki</title>,
+                        <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>
                   
                     <bibl xml:id="thuer1989">  <bibl type="abbrev">Thür, 1989</bibl> <author ref=" http://viaf.org/viaf/56672699">H. <name>Thür</name></author>, <date>1989</date>, 
                         <title level="m">Das Hadrianstor in Ephesos</title>  <pubPlace>Vienna</pubPlace></bibl>
