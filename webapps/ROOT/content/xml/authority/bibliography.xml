@@ -60,6 +60,10 @@
                         <title level="m"><ref target="https://zenon.dainst.org/Record/000935560">Charisterion Orlandou</ref></title>, 
                         <biblScope unit="part">2</biblScope>, <pubPlace>Athens</pubPlace>  <biblScope unit="page">327-360</biblScope></bibl>
                     
+                    <bibl xml:id="ciip">  <bibl type="abbrev">CIIP</bibl>
+                        <date>2010-</date>, <title level="m">Corpus Inscriptionum Iudaeae/Palaestinae</title>, <pubPlace>Berlin</pubPlace></bibl>
+                    
+                    
                     <bibl xml:id="curtius1873">  <bibl type="abbrev">Curtius, 1873</bibl>  <author ref="http://viaf.org/viaf/23660287">Carl <name>Curtius</name></author>, <date>1873</date>, 
                         <title level="a">Inschriften aus Kleinasien</title>, <title level="j">Hermes</title>, <biblScope unit="issue">7</biblScope>
                         <biblScope unit="page">28-46</biblScope>, available at <ref target="https://www.jstor.org/stable/4471235">Jstor</ref> </bibl>

@@ -2,7 +2,7 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions064" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions069" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,7 +11,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions064</idno>
+                <idno type="filename">Factions069</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -25,27 +25,27 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Stone</material> <objectType>lintel</objectType> block with upper left corner missing: 
-                                        <dimensions><width>1.91</width> <height>0.20-0.29</height></dimensions>. 
+                                    <p>Right end fragment of a <material>stone</material> <objectType>block?</objectType>, 
+                                        (no measurements). 
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed </rs> on the face</layout>
+                                <layout> <rs key="scalpro">Inscribed</rs> on the face.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height>0.06-0.11</height></handNote>
+                            <handNote>No measurements</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                            <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/12809">Taff</placeName>: 
-                                over a door on the west side of a courtyard at the eastern end of the ruins.</p>
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/687928">Jerusalem</placeName>: 
+                                re-used in a wall in the Via Dolorosa, near the Lions' Gate.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>
@@ -78,10 +78,10 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                        <geogName type="modernCountry" key="IL">Israel</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/281184">Jerusalem</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -89,29 +89,38 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><surface/></facsimile>
+    </teiHeader><facsimile><graphic url="waddington1900.jpg"><desc>Drawing (Waddington)</desc></graphic></facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="waddington1870"/> <citedRange>2425</citedRange>, with plate 12.1</bibl>; 
-                    <bibl><ptr target="paes"/> <citedRange>804</citedRange> (copied by David Magie)</bibl>, whence 
-                    <!-- check <bibl><ptr target="christoph1966"/> <citedRange unit="entry">26</citedRange></bibl>, and --> listed, 
-                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
-                    <bibl><ptr target="igls2014"/> <citedRange>51</citedRange>, with photograph</bibl>, whence 
-          <!-- check SEG 64, 2014 ?? -->  .
-                    </p>
+                <p><bibl><ptr target="waddington1870"/> <citedRange>1900</citedRange></bibl>, whence 
+                    <bibl><ptr target="thomsen1921"/> <citedRange>10</citedRange></bibl>;
+                    discussed and emended <bibl><ptr target="paes"/> <citedRange>p.149</citedRange></bibl>, whence 
+                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">17</citedRange></bibl>, and (listed), 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>, 
+                    <bibl><ptr target="seg"/> <citedRange>8.213</citedRange></bibl>, whence 
+                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/319457">319457</ref></citedRange></bibl>; 
+                    <bibl><ptr target="ciip"/> <citedRange>1026</citedRange></bibl>
+                    
+                </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w>
-              <lb n="2"/> <w lemma="Βένετος">Βενήτων</w></orgName> 
+            <ab><lb n="1"/><supplied reason="lost"><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></supplied> <orgName ref="#blue" nymRef="Βένετος"><supplied reason="lost"><w lemma="ὁ">τῶ͂ν</w></supplied> <w lemma="Βένετος">Βενέτον</w></orgName> 
+                <lb n="2"/><w lemma="πολύς">π<supplied reason="lost">ολ</supplied>λὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
+
      </ab>
      </div>
-         
-           
+            
+            <div type="apparatus"><listApp>
+                <app loc="1"><rdg resp="#waddington1870">ΡΕΝΕΤΟΝ</rdg></app>
+                <app loc="2"><rdg resp="#waddington1870">Π . . ΛΑΤΑΕΤΗ</rdg></app>
+            </listApp></div>
+            
+             
            <div type="translation" resp="#cmr" xml:lang="en">
-           <p>The fortune of the Blues triumphs!</p>
+               <p>The fortune of the Blues triumphs! Many years!</p>
                 
          </div>
             <div type="commentary">
