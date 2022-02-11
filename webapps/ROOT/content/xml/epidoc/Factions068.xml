@@ -2,16 +2,16 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions067" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions068" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Prayer</rs> for <rs type="textType">Blue</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions067</idno>
+                <idno type="filename">Factions068</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -25,27 +25,27 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Mosaic</material> <objectType>floor</objectType> panel, 
+                                    <p><material>Ceramic</material> <objectType>tile</objectType>, 
                                         (no measurements). 
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="litteris tessellis">Mosaic</rs> letters within a circular medallion.</layout>
+                                <layout> <rs key="scalpro">Inscribed</rs> before firing.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>0.045-0.010</height></handNote>
+                            <handNote>Elegant,  <height>0.04-0.05</height></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0301" notAfter="0499" evidence="material-context" cert="low">Fourth-fifth century</origDate>
+                            <origDate notBefore="0301" notAfter="0499" evidence="material-context" cert="low">Fourth-fifth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678378">Scythopolis</placeName>: in a  mosaic-paved sidewalk beside a paved road, 
-                                in front of the entrance to a house or shop. This panel,appears to have been preserved when the mosaic was relaid. The road was repaired in the 6th century.</p>
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/697646">Umm ar-Rasas</placeName>: church of Saints Paul and Germanus, 
+                            found during excavation.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>
@@ -78,10 +78,10 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="IL">Israel</geogName>
+                        <geogName type="modernCountry" key="JO">Jordan</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/295435">Bet She’an</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/246330">Umm ar Raşāş</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -89,33 +89,36 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><graphic url="paes266.jpg"><desc>Drawing by Littman</desc></graphic></facsimile>
+    </teiHeader><facsimile><surface/></facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p>
-                    <bibl><ptr target="syon2004"/> <citedRange>Fig. 3</citedRange> (photograph only)</bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>54.1678</citedRange></bibl>
-                    </p>
+                <p> 
+                    <bibl><ptr target="piccirillo1997"/> <citedRange unit="page">389-90</citedRange> and plate</bibl>, whence 
+                    <bibl><ptr target="seg"/> <citedRange>47.2083</citedRange></bibl>,  
+                    <bibl><ptr target="feisselBE"/> <citedRange>1999.580</citedRange></bibl>, 
+                    also <bibl><ptr target="feissel2006"/> <citedRange>914</citedRange></bibl>
+                </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/> <g ref="symbols.xml#palm"/> <w lemma="νικάω">Νικᾷ</w>
-                <lb n="2"/><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
-                
-              <lb n="3"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶ͂ν</w> <w lemma="Βένετος">Βεν
-                  <lb n="4" break="no"/>έτων</w></orgName> 
-     </ab>
+            <ab><lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="ἅγιος">Ἅγιε</w> <persName type="divine"><name  nymRef="Παῦλος">Παῦλε</name></persName> 
+                <lb n="2"/><w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="divine"><name nymRef="Γερμανός"><hi rend="ligature">Γε</hi>ρμανέ</name></persName>, <w lemma="σόω">ϲõ
+                <lb n="3" break="no"/>ον</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τοὺϲ</w> <w lemma="Βένετος">Βενέτο
+                <lb n="4" break="no"/>υϲ</w></orgName> <w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="attested"><name nymRef="Παπίων">Παπίωνα</name>
+                <lb n="5"/> <persName type="attested"><name nymRef="Γεώργιος"><hi rend="ligature">Γε</hi>ωργ̣ίου</name></persName> <w lemma="ἀναγνώστης"><expan><abbr>ἀνα
+                <lb n="6" break="no"/>γν</abbr><ex>ώϲτην</ex></expan></w></persName>· <w lemma="ἀμήν">ἀμήν</w></ab>
      </div>
             
+            <div type="apparatus"><listApp>
+                <app loc="2"><rdg resp="#piccirillo1997">γερμανέ</rdg></app>
+                <app loc="5/6"><rdg resp="#piccirillo1997">ἀναγν(ώστου)</rdg></app>
+            </listApp></div>
             
-            <div type="translation" source="#syon2004" xml:lang="en">
-                <p>to the victory of Tyche of the Blues!</p>
-            </div>
              
            <div type="translation" resp="#cmr" xml:lang="en">
-           <p>The fortune of the Blues triumphs!</p>
+           <p>Saint Paul and Germanus, save the Blues and Papion, son of Georgios, reader. Amen!</p>
                 
          </div>
             <div type="commentary">

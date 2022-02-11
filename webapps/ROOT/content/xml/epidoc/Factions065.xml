@@ -94,19 +94,20 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="paes"/> <citedRange>256</citedRange> (copied by Littman)</bibl>, whence 
-                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">15</citedRange></bibl>, and listed, 
-                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
+                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">15</citedRange></bibl>, 
+                    and listed, 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>; 
+                    <bibl><ptr target="piccirillo1981"/> <citedRange unit="page">60</citedRange></bibl>; 
                     <bibl><ptr target="igls2009"/> <citedRange>147</citedRange>, with photograph</bibl>, whence 
                     <bibl><ptr target="seg"/> <citedRange>59.1721</citedRange></bibl>, 
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341673">341673</ref></citedRange></bibl>, 
-                    <bibl><ptr target="feisselBE"/> <citedRange>612</citedRange></bibl>
-          .
+                    <bibl><ptr target="feisselBE"/> <citedRange>612</citedRange></bibl>, also <bibl><ptr target="feissel2006"/> <citedRange>914</citedRange></bibl>.
                     </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
+            <ab><lb n="1"/> <g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
                 
               <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενέτον</w></orgName> 
      </ab>

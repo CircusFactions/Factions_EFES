@@ -207,10 +207,20 @@
                     <bibl xml:id="PHI"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
                         Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/"/>PHI</bibl>
                     
+                    <bibl xml:id="piccirillo1981">  <bibl type="abbrev">Piccirillo, 1981</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
+                        <date>1981</date>, 
+                        <title level="a">Chiese e mosaici della Giordania settentrionale</title>, <title level="m">Liber Annuus</title>, 
+                        <pubPlace>Jerusalem</pubPlace>, </bibl>
+                    
                     <bibl xml:id="piccirillo1982">  <bibl type="abbrev">Piccirillo,1982</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
                         <date>1982</date>, 
                         <title level="a">Ricerca in Giordania</title>, <title level="j">Liber Annuus</title>, 
                         <biblScope unit="issue">32</biblScope>, <biblScope unit="page">xxx</biblScope></bibl>
+                    
+                    <bibl xml:id="piccirillo1997">  <bibl type="abbrev">Piccirillo,1997</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
+                        <date>1997</date>, 
+                        <title level="a">La chiesa di san Paolo a Umm al-Rasas</title>, <title level="j">Liber Annuus</title>, 
+                        <biblScope unit="issue">47</biblScope>, <biblScope unit="page">375-394</biblScope></bibl>
                     
                     <bibl xml:id="paes">  <bibl type="abbrev">I.Syria, PAES</bibl> <editor ref="http://viaf.org/viaf/49101390">H. C. <name>Butler</name></editor>, 
                         <date>1904-1922</date>, 
@@ -292,9 +302,10 @@
                     <bibl xml:id="stephanidou2014">  <bibl type="abbrev">Stephanidou, 2014</bibl> <author ref="http://viaf.org/viaf/1390042">T. <name>Stephanidou-Tiveriou</name></author>, <date>2014</date>, <title level="m" ref="https://zenon.dainst.org/Record/001406807">Die lokalen Sarkophage aus Thessaloniki</title>,
                        <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>
                     
-                    <bibl xml:id="syon2004">  <bibl type="abbrev">Syon, 2004</bibl> <author ref="http://viaf.org/viaf/1390042">D. <name>Syon</name></author>, <date>2004</date>, 
-                        <title level="m">Die lokalen Sarkophage aus Thessaloniki</title>,
-                        <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>
+                    <bibl xml:id="syon2004">  <bibl type="abbrev">Syon, 2004</bibl> <author ref="http://viaf.org/viaf/98247089">D. <name>Syon</name></author>, <date>2004</date>, 
+                        <title level="a">Beth She'an</title>,
+                        <title level="j">Excavations and Surveys in Israel</title>, <biblScope unit="issue">116</biblScope>; 
+                        available at <ref target="http://www.hadashot-esi.org.il/">Hadashot Arkheologiyot</ref></bibl>
                   
                     <bibl xml:id="thuer1989">  <bibl type="abbrev">Thür, 1989</bibl> <author ref=" http://viaf.org/viaf/56672699">H. <name>Thür</name></author>, <date>1989</date>, 
                         <title level="m">Das Hadrianstor in Ephesos</title>  <pubPlace>Vienna</pubPlace></bibl>
