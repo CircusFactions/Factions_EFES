@@ -41,8 +41,13 @@
                             ordonnée par le gouvernement français</ref></title>, <biblScope unit="issue">III</biblScope>, <pubPlace>Paris</pubPlace>, available 
                         <ref target="http://digi.ub.uni-heidelberg.de/diglit/blouet1838">Heidelberg Digital Library</ref></bibl>
                   
-                    <bibl xml:id="boeckh1843">  <bibl type="abbrev">CIG II, 1843</bibl><author ref="http://viaf.org/viaf/37048283">Augustus <name>Boeckh</name></author>, <date>1843</date>, <title level="m">Corpus Inscriptionum Graecarum</title> 
+                    <bibl xml:id="boeckh1843">  <bibl type="abbrev">CIG II, 1843</bibl><author ref="http://viaf.org/viaf/37048283">Augustus <name>Boeckh</name></author>, <date>1843</date>, 
+                        <title level="m">Corpus Inscriptionum Graecarum</title> 
                         <biblScope unit="volume">II</biblScope>, <pubPlace>Berlin</pubPlace></bibl>
+                    
+                    <bibl xml:id="borkowski1981">  <bibl type="abbrev">Borkowski, 1981</bibl><author ref="http://viaf.org/viaf/164293824">Zbigniew <name>Borkowski</name></author>, 
+                        <date>1981</date>, <title level="m">Inscriptions des factions à Alexandrie</title>, <title level="s">Alexandrie</title> 
+                        <biblScope unit="volume">II</biblScope>, <pubPlace>Warsaw</pubPlace></bibl>
                     
                     <bibl xml:id="cameron1973">  <bibl type="abbrev">Cameron, 1973</bibl> <author ref="http://viaf.org/viaf/91284763">Alan <name>Cameron</name></author>, 
                         <date>1976</date>, <title level="m">Porphyrius the Charioteer</title>, <pubPlace>Oxford</pubPlace></bibl>
@@ -187,7 +192,7 @@
                     
                     <bibl xml:id="kiourtzian2005">  <bibl type="abbrev">Kiourtzian, 2005</bibl><author ref="http://viaf.org/viaf/42014020">G. <name>Kiourtzian</name></author>, 
                         <date>2005</date>, <title level="a">Enépigraphos plinthos</title> 
-                        <title level="m">Mélanges Jean-Pierre Sodini</title>, <biblScope>381-391</biblScope></bibl><!-- check 398 no.5 -->
+                        <title level="m">Mélanges Jean-Pierre Sodini</title>, <pubPlace>Paris</pubPlace> <biblScope>381-391</biblScope></bibl><!-- check 398 no.5 -->
                    
                     <bibl xml:id="lazarides1969">  <bibl type="abbrev">Lazarides, 1907</bibl> <author>P.E. <name>Lazarides</name></author>, <date>1969</date>, 
                         <title level="a">Aνασκαφαί Nέας Aγχιάλoυ</title>, <title level="j">Πρακτικά της εν Aθήναις Aρχαιoλoγικής Eταιρείας</title>, 
@@ -197,6 +202,9 @@
                         <title level="m">Recueil des inscriptions grecques-chrétiennes d’Égypte </title>, 
                         <pubPlace>Cairo</pubPlace>, available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/lefebvre1907/0017">Heidelberg</ref></bibl>
                     
+                    <bibl xml:id="lukaszewicz2006">  <bibl type="abbrev">Łukaszewicz, 2006</bibl><author ref="http://viaf.org/viaf/161429523">A. <name>Łukaszewicz</name></author>, 
+                        <date>2006</date>, <title level="a">Violence in Alexandria</title> 
+                        <title level="m">Violence and Aggression in the Ancient World </title>, <pubPlace>Krakow</pubPlace> <biblScope>127-134</biblScope></bibl>
                     
                     <bibl xml:id="neroutsos1887">  <bibl type="abbrev">Néroutsos, 1887</bibl> <author ref="http://viaf.org/viaf/89708021">P.E. <name>Néroutsos</name></author>, <date>1887</date>, 
                         <title level="a">Inscriptions </title>, <title level="j">Revue archéologique</title>, 
