@@ -2,16 +2,16 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions069" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions071" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Place</rs> inscription for <rs type="textType">Green</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions069</idno>
+                <idno type="filename">Factions071</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Right end fragment of a <material>stone</material> <objectType>block?</objectType>, 
+                                    <p>Greenish <material>marble</material> <objectType>paving-stone</objectType>, brken at upper left
                                         (no measurements). 
                                         </p>
                                 </support>
@@ -35,7 +35,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>No measurements</handNote>
+                            <handNote>Sixth century: no measurements</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -44,11 +44,11 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/687928">Jerusalem</placeName>: 
-                                re-used in a wall in the Via Dolorosa, near the Lions' Gate.</p>
+                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
+                                <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the baths.</p>
                         </provenance>
                         <provenance type="observed">
-                            <p>Findspot </p>
+                            <p>Findspot</p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -78,10 +78,10 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="IL">Israel</geogName>
+                        <geogName type="modernCountry" key="EG">Egypt</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/281184">Jerusalem</placeName>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/352465">Mīnā al Başal</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -89,38 +89,31 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><graphic url="waddington1900.jpg"><desc>Drawing (Waddington)</desc></graphic></facsimile>
+    </teiHeader><facsimile><surface/></facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="waddington1870"/> <citedRange>1900</citedRange></bibl>, whence 
-                    <bibl><ptr target="thomsen1921"/> <citedRange>10</citedRange></bibl>;
-                    discussed and emended <bibl><ptr target="paes"/> <citedRange><ref target="https://digi.ub.uni-heidelberg.de/diglit/syria_div3_sectA_3/0023">p.149</ref></citedRange></bibl>, whence 
-                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">17</citedRange></bibl>, and (listed), 
-                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>, 
-                    <bibl><ptr target="seg"/> <citedRange>8.213</citedRange></bibl>, whence 
-                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/319457">319457</ref></citedRange></bibl>; 
-                    <bibl><ptr target="ciip"/> <citedRange>1026</citedRange></bibl>
+                <p><bibl><ptr target="Łukaszewicz2006"/> <citedRange>8</citedRange></bibl>, whence 
+                    <bibl><ptr target="seg"/> <citedRange>56.1975</citedRange></bibl>.
                     
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><supplied reason="lost"><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></supplied> <orgName ref="#blue" nymRef="Βένετος"><supplied reason="lost"><w lemma="ὁ">τῶ͂ν</w></supplied> <w lemma="Βένετος">Βενέτον</w></orgName> 
-                <lb n="2"/><w lemma="πολύς">π<supplied reason="lost">ολ</supplied>λὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
+            <ab><lb n="1"/> <w lemma="τόπος">τόπος</w> <orgName  ref="#green" nymRef="Πράσινος">Πρ
+                 <lb n="2" break="no"/>αϲήνον</orgName> 
+                
+               
 
      </ab>
      </div>
             
-            <div type="apparatus"><listApp>
-                <app loc="1"><rdg resp="#waddington1870">ΡΕΝΕΤΟΝ</rdg></app>
-                <app loc="2"><rdg resp="#waddington1870">Π . . ΛΑΤΑΕΤΗ</rdg></app>
-            </listApp></div>
+            
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p>The fortune of the Blues triumphs! Many years!</p>
+               <p>Place of Greens</p>
                 
          </div>
             <div type="commentary">

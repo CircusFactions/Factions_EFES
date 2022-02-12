@@ -189,9 +189,18 @@
                         <date>2005</date>, <title level="a">Enépigraphos plinthos</title> 
                         <title level="m">Mélanges Jean-Pierre Sodini</title>, <biblScope>381-391</biblScope></bibl><!-- check 398 no.5 -->
                    
-                    <bibl xml:id="lazarides1969">  <bibl type="abbrev">Lazarides, 1969</bibl> <author>P.E. <name>Lazarides</name></author>, <date>1969</date>, 
+                    <bibl xml:id="lazarides1969">  <bibl type="abbrev">Lazarides, 1907</bibl> <author>P.E. <name>Lazarides</name></author>, <date>1969</date>, 
                         <title level="a">Aνασκαφαί Nέας Aγχιάλoυ</title>, <title level="j">Πρακτικά της εν Aθήναις Aρχαιoλoγικής Eταιρείας</title>, 
                         <biblScope unit="issue">125</biblScope>, <biblScope unit="page">21-25</biblScope></bibl>
+                    
+                    <bibl xml:id="lefebvre1907">  <bibl type="abbrev">I.Chr. Egypte</bibl> <author>G. <name>Lefebvre</name></author>, <date>1907</date>, 
+                        <title level="m">Recueil des inscriptions grecques-chrétiennes d’Égypte </title>, 
+                        <pubPlace>Cairo</pubPlace>, available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/lefebvre1907/0017">Heidelberg</ref></bibl>
+                    
+                    
+                    <bibl xml:id="neroutsos1887">  <bibl type="abbrev">Néroutsos, 1887</bibl> <author ref="http://viaf.org/viaf/89708021">P.E. <name>Néroutsos</name></author>, <date>1887</date>, 
+                        <title level="a">Inscriptions </title>, <title level="j">Revue archéologique</title>, 
+                        <biblScope unit="page">198-209</biblScope>, available at <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203622h/f201.item">Gallica</ref></bibl>
                     
                     <bibl xml:id="nigdelis2011">  <bibl type="abbrev">Nigdelis, 2011</bibl> <author ref="http://viaf.org/viaf/298566809">Π. Μ. <name>Νίγδελης</name></author>, <date>2011</date>, <title level="a">Μακεδονικά Επιγραφικά ΙΙΙ (Θεσσαλονίκη)</title>, <title level="j">Τεκμήρια</title>, 
                         <biblScope unit="issue">10</biblScope>, <biblScope unit="page">121-184</biblScope> available at <ptr target="http://epublishing.ekt.gr/el/5131/Τεκμήρια/7082"/>Tekmeria</bibl>
@@ -310,6 +319,11 @@
                         <title level="a">Beth She'an</title>,
                         <title level="j">Excavations and Surveys in Israel</title>, <biblScope unit="issue">116</biblScope>; 
                         available at <ref target="http://www.hadashot-esi.org.il/">Hadashot Arkheologiyot</ref></bibl>
+                    
+                    <bibl xml:id="thomsen1921">  <bibl type="abbrev">Thomsen, 1921</bibl> <author ref="http://viaf.org/viaf/49349889">P. <name>Thomsen</name></author>, <date>1921</date>, 
+                        <title level="a">Die lateinischen und griechischen Inschriften der Stadt Jerusalem und ihrer nächsten Umgebung (Fortsetzung)</title>,
+                        <title level="j">Zeitschrift des Deutschen Palästina-Vereins</title>, <biblScope unit="issue">44.1</biblScope>; 
+                        available at <ref target="https://www.jstor.org/stable/27929414">JSTOR</ref></bibl>
                   
                     <bibl xml:id="thuer1989">  <bibl type="abbrev">Thür, 1989</bibl> <author ref=" http://viaf.org/viaf/56672699">H. <name>Thür</name></author>, <date>1989</date>, 
                         <title level="m">Das Hadrianstor in Ephesos</title>  <pubPlace>Vienna</pubPlace></bibl>
