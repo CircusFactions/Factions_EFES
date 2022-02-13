@@ -2,11 +2,11 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions072" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions073" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs>  for <rs type="textType">Green</rs>s; <rs type="textType">imprecation</rs> for the <rs type="textType">Blue</rs></title>
+                <title><rs type="textType">Acclamation</rs>  for <rs type="textType">Blue</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -45,7 +45,7 @@
                         <provenance type="found">
                             <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
                                 <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the 
-                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName>, at K.2.</p>
+                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName></p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -93,31 +93,21 @@
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="borkowski1981"/> <citedRange>39</citedRange></bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>31.1492</citedRange></bibl>, whence 
-                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223649">223649</ref></citedRange></bibl>.
+                <p><bibl><ptr target="borkowski1981"/> <citedRange>47</citedRange></bibl>, whence 
+                    <bibl><ptr target="seg"/> <citedRange>31.1494</citedRange></bibl>, whence 
+                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223651">223651</ref></citedRange></bibl>.
                     
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ
-                <lb n="2" break="no"/>η</w> <persName type="attested"><name nymRef="Καλότυχος">Καλοτύχο
-    <lb n="3" break="no"/>υ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="νέος">νέ
-    <lb n="4" break="no"/>ου</w> <persName type="attested"><name nymRef="Δόρος">Δόρου</name></persName> 
-    <lb n="5"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
-    <lb n="6"/><orgName ref="#green" nymRef="#Πράσινος"><w lemma="πράσινος">Πραϲίνω<supplied reason="lost">ν</supplied></w> 
-    <lb n="7"/><addName nymRef="γενναῖος">γενεωτά
-    <lb n="8" break="no"/>των</addName></orgName>· 
-    <lb n="9"/><w lemma="ἀπό">ἀπὸ</w> <w lemma="κορυφή">κορυ
-    <lb n="10" break="no"/>φῆϲ</w> <w lemma="ὡς">ὡϲ</w> <w lemma="ὄνυχος">ὀ
-    <lb n="11" break="no"/>νύχων</w> 
-    <lb n="12"/><w lemma="πίπτω">ἔπεϲεν</w> 
-    <lb n="13"/><orgName  ref="#green" nymRef="#Βένετος"><w lemma="ὁ">τὸ</w> <w lemma="βένετος">Βένετο<supplied reason="lost">ν</supplied></w></orgName> <!-- check -->
-    <lb n="14"/><w lemma="καί">καὶ</w> <gap reason="lost" quantity="1" unit="character"/> <orig>ηχ</orig> <gap reason="lost" quantity="1" unit="character"/> <orig>ϲ</orig>. 
-    <lb n="15"/><orig>μετ</orig> <gap reason="lost" quantity="1" unit="character"/> <orig>των</orig>
-
+            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
+               <lb n="2"/> <name nymRef="Εὐτόκιος">Εὐτοκίου</name> 
+                <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος"><w lemma="βένετος">Βενέτων</w></orgName>· 
+                <lb n="2"/> <w lemma="κακός">κακὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> 
+                <lb n="2"/> <w lemma="ὁ">τοῦ</w> <name nymRef="Λαχανᾶς">Λαχανᾶ</name>
+    
      </ab>
      </div>
             
@@ -125,7 +115,7 @@
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p>The fortune triumphs of Kalotychos and the young Doros. The fortune triumphs of most noble Greens. The Blue has fallen from top to bottom, and [ . . .</p>
+               <p>The fortune triumphs of Eutokios and  Blues! Bad years for Lachanas! </p>
                 
          </div>
             <div type="commentary">
