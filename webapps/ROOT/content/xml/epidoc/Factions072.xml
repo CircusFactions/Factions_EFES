@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Seat</rs> inscription for <rs type="textType">Green</rs>s</title>
+                <title><rs type="textType">Acclamation</rs>  for <rs type="textType">Green</rs>s; <rs type="textType">imprecation</rs> for the <rs type="textType">Blue</rs></title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -25,17 +25,16 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Greenish <material>marble</material> <objectType>paving-stone</objectType>, brken at upper left
-                                        (no measurements). 
+                                    <p> <material>Stone</material> <objectType>seat</objectType>. 
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed</rs> on the face.</layout>
+                                <layout> <rs key="litteris scariphatis">Lightly incised</rs> on the face.</layout> <!-- check -->
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Sixth century: no measurements</handNote>
+                            <handNote>No measurements</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -103,21 +102,21 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/>νικᾷ ἡ τύχ-
-    <lb n="2"/>η Καλοτύχο-
-    <lb n="3" break="no"/>υ καὶ τοῦ νέ-
-    <lb n="4" break="no"/>ου Δόρου 
-    <lb n="5"/>νικᾷ ἡ τύχη 
-    <lb n="6"/>Πραϲινω[ν] 
-    <lb n="7"/>γενεωτά-
-    <lb n="8" break="no"/>των· 
-    <lb n="9"/>ἀπὸ κορυ-
-    <lb n="10" break="no"/>φῆϲ ὡϲ ὀ-
-    <lb n="11" break="no"/>νύχων 
-    <lb n="12"/>ἔπεϲεν 
-    <lb n="13"/>τὸ Βένετο[ν] 
-    <lb n="14"/>καὶ. ΗΧ. Ϲ. 
-    <lb n="15"/>ΜΕΤ. ΤωΝ
+            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ
+                <lb n="2" break="no"/>η</w> <persName type="attested"><name nymRef="Καλότυχος">Καλοτύχο
+    <lb n="3" break="no"/>υ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="νέος">νέ
+    <lb n="4" break="no"/>ου</w> <persName type="attested"><name nymRef="Δόρος">Δόρου</name></persName> 
+    <lb n="5"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
+    <lb n="6"/><w lemma="πράσινος">Πραϲίνω<supplied reason="lost">ν</supplied></w> 
+    <lb n="7"/><w lemma="γενναῖος">γενεωτά
+    <lb n="8" break="no"/>των</w>· 
+    <lb n="9"/><w lemma="ἀπό">ἀπὸ</w> <w lemma="κορυφή">κορυ
+    <lb n="10" break="no"/>φῆϲ</w> <w lemma="ὡς">ὡϲ</w> <w lemma="ὄνυχος">ὀ
+    <lb n="11" break="no"/>νύχων</w> 
+    <lb n="12"/><w lemma="πίπτω">ἔπεϲεν</w> 
+    <lb n="13"/><w lemma="ὁ">τὸ</w> <w lemma="βένετος">Βένετο<supplied reason="lost">ν</supplied></w> <!-- check -->
+    <lb n="14"/><w lemma="καί">καὶ</w> <gap reason="lost" quantity="1" unit="character"/> <orig>ηχ</orig> <gap reason="lost" quantity="1" unit="character"/> <orig>ϲ</orig>. 
+    <lb n="15"/><orig>μετ</orig> <gap reason="lost" quantity="1" unit="character"/> <orig>των</orig>
 
      </ab>
      </div>
@@ -126,7 +125,7 @@
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p>[Place] of Greens</p>
+               <p>The fortune triumphs of Kalotychos and the young Doros. The fortune triumphs of most noble Greens. The Blue has fallen from top to bottom, and [ . . .</p>
                 
          </div>
             <div type="commentary">
