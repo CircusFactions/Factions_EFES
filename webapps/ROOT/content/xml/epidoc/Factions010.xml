@@ -90,8 +90,9 @@
       <revisionDesc>
           <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader><facsimile><graphic url="FactionEphesos10.jpg"><desc>Face (2004)</desc></graphic>
-      <graphic url="FactionEphesos10a.jpg"><desc>Face (1996)</desc></graphic></facsimile>
+   </teiHeader>
+   <facsimile><surface><graphic url="FactionEphesos10.jpg"><desc>Face (2004)</desc></graphic>
+      <graphic url="FactionEphesos10a.jpg"><desc>Face (1996)</desc></graphic></surface></facsimile>
    <text>
       <body>
          <div type="bibliography">
@@ -101,7 +102,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab><!-- mark up as monogram -->
-  <lb n="1"/><abbr><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> <orgName ref="#green" nymRef="#Πράσινος">Πραϲίνων</orgName></abbr>
+  <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="#οἱ Πρασίνοι"><w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πραϲίνων</w></orgName>
 
 </ab>
          </div>
