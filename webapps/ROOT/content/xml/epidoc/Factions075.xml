@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs>  for Helladia and <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Acclamation</rs> for Helladia and <rs type="textType">Blue</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -106,7 +106,7 @@
                     <bibl xml:id="cameron1973"> <citedRange unit="page">74</citedRange></bibl>, 
                     <bibl xml:id="cameronCF"> <citedRange unit="page">317</citedRange></bibl>.
                     Catalogue description and illustration, <ref type="https://collections.louvre.fr/en/ark:/53355/cl010044601">Louvre</ref>
-                    
+                    <!-- Marie-Hélène Rutschowscaya, Le peigne d’Helladia, Études Coptes, 7 (2000), 235–244  -->
                 </p>
             </div>
             
@@ -126,7 +126,7 @@
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p>The fortune triumphs of Helladia and Blues. Amen</p>
+               <p>The fortune triumphs of Helladia and Blues! Amen</p>
                 
          </div>
             <div type="commentary">
