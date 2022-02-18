@@ -73,6 +73,9 @@
                         <title level="a">Inschriften aus Kleinasien</title>, <title level="j">Hermes</title>, <biblScope unit="issue">7</biblScope>
                         <biblScope unit="page">28-46</biblScope>, available at <ref target="https://www.jstor.org/stable/4471235">Jstor</ref> </bibl>
                     
+                    <bibl xml:id="dain1933">  <bibl type="abbrev">Dain, 1933</bibl>  <author ref="http://viaf.org/viaf/34455128">A.<name>Dain</name></author>, <date>1933</date>, 
+                        <title level="m">Inscriptions grecques du Musée du Louvre: Les textes inédits</title>, <pubPlace>Paris</pubPlace></bibl>
+                    
                     <bibl xml:id="daux1973">  <bibl type="abbrev">Daux, 1973</bibl>  <author ref="http://viaf.org/viaf/7463501">G.<name>Daux</name></author>, <date>1973</date>, 
                         <title level="a">Compléments et corrections aux Inscriptiones Thessalonicae</title>, <title level="j"> Bulletin de Correspondance Hellenique</title>,
                         <biblScope unit="page">585-599</biblScope>, available at <ref target="https://www.persee.fr/doc/bch_0007-4217_1973_num_97_2_4844">Persée</ref> </bibl>
@@ -316,7 +319,7 @@
                         <title level="a">Antiquités syriennes</title>, <title level="j">Syria</title>, <biblScope unit="issue">27, 3-4</biblScope>, 
                         <biblScope unit="pp">229-25</biblScope>, available at <ref target="https://www.persee.fr/doc/syria_0039-7946_1950_num_27_3_4591">Persée</ref></bibl>
                     
-                    <bibl xml:id="SEG"><bibl type="abbrev">SEG</bibl>: <title>Supplementum Epigraphicum Graecum</title>,
+                    <bibl xml:id="seg"><bibl type="abbrev">SEG</bibl>: <title>Supplementum Epigraphicum Graecum</title>,
                         <pubPlace>Leiden</pubPlace>, <publisher>Brill Publishing</publisher>,
                         <date>1923-</date></bibl>
                     

@@ -11,7 +11,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions072</idno>
+                <idno type="filename">Factions073</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>No measurements</handNote>
+                            <handNote><height>0.05-0.055</height></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -45,7 +45,7 @@
                         <provenance type="found">
                             <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
                                 <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the 
-                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName></p> <!-- check -->
+                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName>, Row 5, block 3.</p> 
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -93,7 +93,7 @@
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="borkowski1981"/> <citedRange>24</citedRange></bibl>, whence 
+                <p><bibl><ptr target="borkowski1981"/> <citedRange>24</citedRange>, ανδ πλατε 25</bibl>, whence 
                     <bibl><ptr target="seg"/> <citedRange>31.1493</citedRange></bibl>, whence 
                     <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223650">223650</ref></citedRange></bibl>.
                     
@@ -103,14 +103,19 @@
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
             <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
-    <lb n="2"/><orgName ref="#green" nymRef="#Πράσινος"><w lemma="ὁ">τῶν</w> <addName nymRef="νέος"><supplied reason="lost">ν</supplied>έων</addName> <w lemma="πράσινος">Πρ
-        <lb n="3" break="no"/>αϲίνων</w></orgName> 
+    <lb n="2"/><orgName ref="#green" nymRef="#Πράσινος"><w lemma="ὁ">τῶν</w> <addName nymRef="νέος"><supplied reason="lost">ν</supplied>έων</addName> <w lemma="πράσινος">Πρ<supplied reason="lost">α</supplied>
+        <lb n="3" break="no"/>ϲίνων</w></orgName> 
     
 
      </ab>
      </div>
+            <div type="apparatus"><listApp><app loc="2-3"><note>Borkowski's description of the distribution of the lines, followed here, 
+                diverges from his printed text, Πρ/ασίνων, followed by SEG</note></app></listApp></div>
             
-            
+            <div type="translation" resp="#borkowski1981" xml:lang="fr">
+                <p> Vive les jeunes Verts!</p>
+                
+            </div>    
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
@@ -119,7 +124,7 @@
          </div>
             <div type="commentary">
                 
-                
+              <p></p>  
             </div>
             
         </body>

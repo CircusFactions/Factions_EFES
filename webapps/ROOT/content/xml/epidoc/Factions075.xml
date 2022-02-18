@@ -2,16 +2,16 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions074" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions075" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs>  for <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Acclamation</rs>  for Helladia and <rs type="textType">Blue</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions074</idno>
+                <idno type="filename">Factions075</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -20,35 +20,36 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <msIdentifier><repository xml:id="db1097">Louvre</repository> <idno>E 11874</idno> <altIdentifier><idno>X 3664</idno></altIdentifier></msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p> <material>Stone</material> <objectType>seat</objectType>. 
+                                    <p> <material>Ivory</material> <objectType>comb</objectType>, 
+                                        <dimensions><height>0.175</height> <width>0.068</width><depth>0.005</depth></dimensions>. 
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Deeply <rs key="litteris scariphatis">incised</rs> lengthways along the face.</layout> 
+                                <layout><rs key="scalpro">Inscribed</rs> on both sides, above and below relief images of pantomime performance</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Careful, and fairly regular, <height>0.035-0.04</height></handNote>
+                            <handNote> <height>0.003-0.004</height></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
+                            <origPlace>Unknown</origPlace> 
+                            <origDate notBefore="0301" notAfter="0599" evidence="style">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
-                                <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the 
-                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName>, row 2, block 5.</p> <!-- check -->
+                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/756518">Antinoe</placeName>: 
+                                no further details; found before 1826</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
-                            <p>Findspot</p>
+                            <p>Louvre, Paris, Département des Antiquités égyptiennes, E 11874 (X 3664 )
+                            </p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -81,7 +82,7 @@
                         <geogName type="modernCountry" key="EG">Egypt</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/9496107">Al Masraḩ ar Rūmānī</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/359989">Ash Shaykh ‘Ibādah</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -89,40 +90,47 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><surface/></facsimile>
+    </teiHeader><facsimile><graphic url="louvre04.jpg"><desc>Side 1, view (Musée du Louvre)</desc></graphic>
+        <graphic url="louvre01.jpg"><desc>Text a (Musée du Louvre)</desc></graphic> 
+        <graphic url="louvre06.jpg"><desc>Text a (Musée du Louvre)</desc></graphic>
+        
+        <graphic url="louvre03.jpg"><desc>Side 2, view (Musée du Louvre)</desc></graphic>
+        <graphic url="louvre02.jpg"><desc>Text b (Musée du Louvre)</desc></graphic>
+        <graphic url="louvre05.jpg"><desc>Text b (Musée du Louvre)</desc></graphic>
+       </facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="borkowski1981"/> <citedRange>47</citedRange> and plate 26</bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>31.1494</citedRange></bibl>, whence 
-                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223651">223651</ref></citedRange></bibl>.
+                <p><bibl><ptr target="dain1933"/> <citedRange>217</citedRange></bibl>, whence 
+                    <bibl xml:id="christoph1966"> <citedRange>24</citedRange></bibl>, 
+                    <bibl xml:id="cameron1973"> <citedRange unit="page">74</citedRange></bibl>, 
+                    <bibl xml:id="cameronCF"> <citedRange unit="page">317</citedRange></bibl>.
+                    Catalogue description and illustration, <ref type="https://collections.louvre.fr/en/ark:/53355/cl010044601">Louvre</ref>
                     
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
-               <lb n="2"/> <name nymRef="Εὐτόκιος">Εὐτοκίου</name> 
-                <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος"><w lemma="βένετος">Βενέτων</w></orgName>· 
-                <lb n="2"/> <w lemma="κακός">κακὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> 
-                <lb n="2"/> <w lemma="ὁ">τοῦ</w> <name nymRef="Λαχανᾶς">Λαχανᾶ</name>
+            <div type="textpart" subtype="side" n="a"><ab>
+                <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <g ref="symbols.xml#crux"/>
+               <lb n="2"/><persName type="attested"><name>Ἑλλαδίαϲ</name></persName> </ab> </div>
+                <div type="textpart" subtype="side" n="b"><ab>
+                <lb n="3"/>    <w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος">  <w lemma="βένετος">Βενέτων</w></orgName>
+              <lb n="4"/><g ref="symbols.xml#crux"/> <w lemma="Ἀμήν"> Ἀμήν</w> <g ref="symbols.xml#crux"/></ab></div>
     
-     </ab>
+     
      </div>
             
-            <div type="translation" resp="#borkowski1981" xml:lang="fr">
-                <p>Vive Eutokios et les Bleus</p>
-                
-            </div>  
+             
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p>The fortune triumphs of Eutokios and  Blues, mauvaise années pour Lachanas (?) </p>
+               <p>The fortune triumphs of Helladia and Blues. Amen</p>
                 
          </div>
             <div type="commentary">
-                <p>Lachanas is attested as a name in LGPN.</p>
+                
                 
             </div>
             
