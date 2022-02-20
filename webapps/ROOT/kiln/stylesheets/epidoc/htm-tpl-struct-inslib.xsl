@@ -85,47 +85,33 @@
      </xsl:choose>
      </p>
 
-     <div id="inslib-text">
-          <div id="edition">
-              <p><b>Interpretive edition:</b></p>
-              <!-- Edited text output -->
-              <xsl:variable name="edtxt">
-                  <xsl:apply-templates select="//t:div[@type='edition']">
-                      <xsl:with-param name="parm-edition-type" tunnel="yes" select="'interpretive'"/>
-                      <xsl:with-param name="parm-verse-lines" tunnel="yes" select="'no'"/>
-                   </xsl:apply-templates>
-                </xsl:variable>
-              <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
-              <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
-            </div>
-          
-          <xsl:if test="//t:div[@type='edition']//t:lg">
-              <div id="verse">
-                  <p><b>Verse edition:</b></p>
-                  <!-- Edited text output -->
-                  <xsl:variable name="edtxt">
-                      <xsl:apply-templates select="//t:div[@type='edition']">
-                          <xsl:with-param name="parm-edition-type" tunnel="yes" select="'interpretive'"/>
-                          <xsl:with-param name="parm-verse-lines" tunnel="yes" select="'yes'"/>
-                      </xsl:apply-templates>
-                  </xsl:variable>
-                  <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
-                  <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
-               </div>
-         </xsl:if>
-              
-        <div id="diplomatic">
-            <p><b>Diplomatic edition:</b></p>
-            <!-- Edited text output -->
-            <xsl:variable name="edtxt">
-               <xsl:apply-templates select="//t:div[@type='edition']">
-                  <xsl:with-param name="parm-edition-type" tunnel="yes" select="'diplomatic'"/>
-                 <xsl:with-param name="parm-verse-lines" tunnel="yes" select="'no'"/>
-              </xsl:apply-templates>
+     <div class="section-container tabs" data-section="tabs">
+       <section>
+         <p class="title" data-section-title="data-section-title"><a href="#">Interpretive</a></p>
+         <div class="content" id="edition" data-section-content="data-section-content">
+           <!-- Edited text output -->
+           <xsl:variable name="edtxt">
+             <xsl:apply-templates select="//t:div[@type='edition']">
+               <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
+             </xsl:apply-templates>
            </xsl:variable>
            <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
            <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
-        </div>
+         </div>
+       </section>
+       <section>
+         <p class="title" data-section-title="data-section-title"><a href="#">Diplomatic</a></p>
+         <div class="content" id="diplomatic" data-section-content="data-section-content">
+           <!-- Edited text output -->
+           <xsl:variable name="edtxt">
+             <xsl:apply-templates select="//t:div[@type='edition']">
+               <xsl:with-param name="parm-edition-type" select="'diplomatic'" tunnel="yes"/>
+             </xsl:apply-templates>
+           </xsl:variable>
+           <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+           <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+         </div>
+       </section>
      </div>
 
      <div id="apparatus">
