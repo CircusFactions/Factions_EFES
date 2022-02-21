@@ -13,39 +13,41 @@
    <xsl:template name="inslib-body-structure">
      <xsl:call-template name="navigation"/>
 
-     <p>
+     <div id="source-description">
+       
        <xsl:if test="//t:support">
-         <b>Description: </b>
+         <p><b>Description: </b>
      <xsl:choose>
        <xsl:when test="//t:support/t:p/node()">
-         <xsl:apply-templates select="//t:support/t:p" mode="inslib-dimensions"/>
+         <xsl:apply-templates select="//t:support/t:p/node()" mode="inslib-dimensions"/>
        </xsl:when>
        <xsl:when test="//t:support//node()">
          <xsl:apply-templates select="//t:support" mode="inslib-dimensions"/>
        </xsl:when>
        <xsl:otherwise>Unknown</xsl:otherwise>
      </xsl:choose>
+         </p>
        </xsl:if>
 
        <xsl:if test="//t:layoutDesc">
-         <br/>
-     <b>Text: </b>
+     <p><b>Text: </b>
      <xsl:choose>
        <xsl:when test="//t:layoutDesc/t:layout//node()">
          <xsl:apply-templates select="//t:layoutDesc/t:layout" mode="inslib-dimensions"/>
        </xsl:when>
        <xsl:otherwise>Unknown.</xsl:otherwise>
      </xsl:choose>
+     </p>
        </xsl:if>
        
        <xsl:if test="//t:handDesc">
-     <br/>
-     <b>Letters: </b>
+       <p><b>Letters: </b>
      <xsl:if test="//t:handDesc/t:handNote/node()">
        <xsl:apply-templates select="//t:handDesc/t:handNote"/>
      </xsl:if>
+       </p>
        </xsl:if>
-     </p>
+     
 
      <xsl:if test="//t:origDate">
        <p><b>Date: </b>
@@ -66,29 +68,29 @@
      </p>
      </xsl:if>
 
-     <p>
+     
        <xsl:if test="//t:provenance">
-       <b>Findspot: </b>
+         <p><b>Findspot: </b>
      <xsl:choose>
        <xsl:when test="//t:provenance[@type='found'][string(translate(normalize-space(.),' ',''))]">
-         <xsl:apply-templates select="//t:provenance[@type='found']" mode="inslib-placename"/>
+         <xsl:apply-templates select="//t:provenance[@type='found']//t:p/node()" mode="inslib-placename"/>
        </xsl:when>
        <xsl:otherwise>Unknown</xsl:otherwise>
      </xsl:choose>
+         </p>
        </xsl:if>
        <xsl:if test="//t:origPlace">
-     <br/>
-     <b>Original location: </b>
+         <p><b>Original location: </b>
      <xsl:choose>
        <xsl:when test="//t:origin/t:origPlace/node()">
          <xsl:apply-templates select="//t:origin/t:origPlace" mode="inslib-placename"/>
        </xsl:when>
        <xsl:otherwise>Unknown</xsl:otherwise>
      </xsl:choose>
+         </p>
        </xsl:if>
-       <xsl:if test="//t:provenance or //t:repository">
-     <br/>
-     <b>Last recorded location: </b>
+       <xsl:if test="//t:provenance[@type!='found']//text()|//t:repository">
+         <p><b>Last recorded location: </b>
      <xsl:choose>
        <xsl:when test="//t:provenance[@type='observed'][string(translate(normalize-space(.),' ',''))]">
          <xsl:apply-templates select="//t:provenance[@type='observed']" mode="inslib-placename"/>
@@ -98,7 +100,7 @@
        <xsl:otherwise>
          <xsl:choose>
          <xsl:when test="//t:msIdentifier//t:repository[@ref][string(translate(normalize-space(.),' ',''))]">
-         <xsl:value-of select="//t:msIdentifier//t:repository[@ref][1]"/>
+           <xsl:apply-templates select="//t:msIdentifier//t:repository[@ref][1]" mode="inslib-placename"/>
          <!-- Named template found below. -->
          <xsl:call-template name="inslib-invno"/>
        </xsl:when>
@@ -106,8 +108,9 @@
          </xsl:choose>
        </xsl:otherwise>
      </xsl:choose>
+         </p>
        </xsl:if>
-     </p>
+     </div>
 
      <xsl:if test="//t:div[@type='edition']">
        <div class="section-container tabs" data-section="tabs">
@@ -140,7 +143,7 @@
      </div>
      </xsl:if>
 
-     <xsl:if test="//t:div[@type='apparatus']">
+     <xsl:if test="//t:div[@type='apparatus']//node()">
        <div id="apparatus">
        <!-- Apparatus text output -->
        <xsl:variable name="apptxt">
@@ -190,7 +193,7 @@
                <xsl:choose>
                  <xsl:when test="doc-available($bibliography-al) = fn:true() and document($bibliography-al)//t:bibl[@xml:id=$source-id][not(@sameAs)]">
                    <xsl:variable name="source" select="document($bibliography-al)//t:bibl[@xml:id=$source-id][not(@sameAs)]"/>
-                     <a href="{concat('../concordance/bibliography/', $source-id, '.html')}" target="_blank">
+                     <a href="../concordance/bibliography/{$source-id}.html" target="_blank">
                        <xsl:choose>
                          <xsl:when test="$source//t:bibl[@type='abbrev']">
                            <xsl:apply-templates select="$source//t:bibl[@type='abbrev'][1]"/>
@@ -284,26 +287,10 @@
                </xsl:otherwise>
              </xsl:choose>
            </xsl:for-each>
-           
-           <!--<p>
-             <xsl:for-each select="//t:facsimile//t:graphic//t:desc">
-               <br/><xsl:number value="position()" format="1" /><xsl:text>. </xsl:text><xsl:apply-templates select="." />
-           </xsl:for-each>
-           </p>-->
-           
          </xsl:when>
          <xsl:otherwise>
            <xsl:for-each select="//t:facsimile[not(//t:graphic)]">
-             <p>
-               <xsl:choose>
-                 <xsl:when test="starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IRT')">
-                   <xsl:text>None available (2021).</xsl:text>
-                 </xsl:when>
-                 <xsl:otherwise>
-                   <xsl:text>None available (2020).</xsl:text>
-                 </xsl:otherwise>
-               </xsl:choose>
-               </p>
+               <p>None available.</p>
            </xsl:for-each>
          </xsl:otherwise>
        </xsl:choose>
@@ -334,7 +321,53 @@
       </html>
    </xsl:template>
 
-   <xsl:template match="t:dimensions" mode="inslib-dimensions">
+  <xsl:template name="inslib-invno">
+    <xsl:if test="//t:idno[ancestor::t:msIdentifier][translate(normalize-space(string(.)),' ','')!='']">
+      <xsl:text> (Inv. no. </xsl:text>
+      <xsl:for-each select="//t:idno[ancestor::t:msIdentifier][translate(normalize-space(string(.)),' ','')!='']">
+        <xsl:value-of select="."/>
+        <xsl:if test="position()!=last()">
+          <xsl:text>, </xsl:text>
+        </xsl:if>
+      </xsl:for-each>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template name="inslib-title">
+    <xsl:choose>
+      <xsl:when test="//t:titleStmt/t:title and starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IRT')">
+        <xsl:value-of select="substring-after(//t:publicationStmt/t:idno[@type='filename']/text(),'IRT')"/>
+        <xsl:text>. </xsl:text>
+        <xsl:apply-templates select="//t:titleStmt/t:title"/>
+      </xsl:when>
+      <xsl:when test="//t:titleStmt/t:title and starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IGCyr')">
+        <xsl:apply-templates select="//t:titleStmt/t:title"/>
+      </xsl:when>
+      <xsl:when test="//t:titleStmt/t:title and starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'GVCyr')">
+        <xsl:apply-templates select="//t:titleStmt/t:title"/>
+      </xsl:when>
+      <xsl:when test="//t:titleStmt/t:title and number(substring(//t:publicationStmt/t:idno[@type='filename']/text(),2,5))">
+        <xsl:value-of select="//t:publicationStmt/t:idno[@type='filename']/text()"/>
+        <xsl:text>. </xsl:text>
+        <xsl:apply-templates select="//t:titleStmt/t:title"/>
+      </xsl:when>
+      <xsl:when test="//t:titleStmt/t:title/node()">
+        <xsl:apply-templates select="//t:titleStmt/t:title"/>
+      </xsl:when>
+      <xsl:when test="//t:sourceDesc//t:bibl/node()">
+        <xsl:value-of select="//t:sourceDesc//t:bibl"/>
+      </xsl:when>
+      <xsl:when test="//t:idno[@type='filename']/text()">
+        <xsl:value-of select="//t:idno[@type='filename']"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>EpiDoc example output, InsLib style</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="t:dimensions" mode="inslib-dimensions">
       <xsl:if test="//text()">
         <xsl:if test="t:width/text()"><xsl:text>w: </xsl:text>
             <xsl:value-of select="t:width"/>
@@ -359,7 +392,7 @@
          </xsl:if>
       </xsl:if>
    </xsl:template>
-
+  
   <xsl:template match="t:placeName|t:rs|t:repository" mode="inslib-placename">
     <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
     <!-- if you are running this template outside EFES, change the path to the institutions authority list accordingly -->
@@ -378,90 +411,27 @@
          </xsl:otherwise>
       </xsl:choose>
    </xsl:template>
-
-   <xsl:template name="inslib-invno">
-     <xsl:if test="//t:idno[ancestor::t:msIdentifier][string(translate(normalize-space(.),' ',''))]">
-         <xsl:text> (Inv. no. </xsl:text>
-       <xsl:for-each select="//t:idno[ancestor::t:msIdentifier][string(translate(normalize-space(.),' ',''))]">
-            <xsl:value-of select="."/>
-            <xsl:if test="position()!=last()">
-               <xsl:text>, </xsl:text>
-            </xsl:if>
-         </xsl:for-each>
-         <xsl:text>)</xsl:text>
-      </xsl:if>
-   </xsl:template>
-
-   <xsl:template name="inslib-title">
-     <xsl:choose>
-       <xsl:when test="//t:titleStmt/t:title and starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IRT')">
-         <xsl:value-of select="substring-after(//t:publicationStmt/t:idno[@type='filename']/text(),'IRT')"/>
-         <xsl:text>. </xsl:text>
-         <xsl:apply-templates select="//t:titleStmt/t:title"/>
-       </xsl:when>
-       <xsl:when test="//t:titleStmt/t:title and starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IGCyr')">
-         <xsl:value-of select="//t:publicationStmt/t:idno[@type='filename']"/>
-         <xsl:text>. </xsl:text>
-         <xsl:apply-templates select="//t:titleStmt/t:title"/>
-       </xsl:when>
-       <xsl:when test="//t:titleStmt/t:title and starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'GVCyr')">
-         <xsl:value-of select="//t:publicationStmt/t:idno[@type='filename']"/>
-         <xsl:text>. </xsl:text>
-         <xsl:apply-templates select="//t:titleStmt/t:title"/>
-       </xsl:when>
-       <xsl:when test="//t:titleStmt/t:title and number(substring(//t:publicationStmt/t:idno[@type='filename']/text(),2,5))">
-         <xsl:value-of select="//t:publicationStmt/t:idno[@type='filename']/text()"/>
-         <xsl:text>. </xsl:text>
-         <xsl:apply-templates select="//t:titleStmt/t:title"/>
-       </xsl:when>
-       <xsl:when test="//t:titleStmt/t:title/node()">
-         <xsl:apply-templates select="//t:titleStmt/t:title"/>
-       </xsl:when>
-       <xsl:when test="//t:sourceDesc//t:bibl/node()">
-         <xsl:value-of select="//t:sourceDesc//t:bibl"/>
-       </xsl:when>
-       <xsl:when test="//t:idno[@type='filename']/text()">
-         <xsl:value-of select="//t:idno[@type='filename']"/>
-       </xsl:when>
-       <xsl:otherwise>
-         <xsl:text>EpiDoc example output, InsLib style</xsl:text>
-       </xsl:otherwise>
-     </xsl:choose>
-   </xsl:template>
   
   <xsl:template name="navigation">
     <!-- if you are running this template outside EFES, change the path to the inscriptions list accordingly -->
     <xsl:if test="doc-available(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/lists/all_inscriptions.xml')) = fn:true()">
       <xsl:variable name="list" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/lists/all_inscriptions.xml'))//t:list"/>
-      <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='filename']"/></xsl:variable>
-      <xsl:variable name="prev" select="$list/t:item[substring-before(@n,'.xml')=$filename]/preceding-sibling::t:item[1]/substring-before(@n,'.xml')"/>
-      <xsl:variable name="next" select="$list/t:item[substring-before(@n,'.xml')=$filename]/following-sibling::t:item[1]/substring-before(@n,'.xml')"/>
+      <xsl:variable name="filename"><xsl:value-of select="lower-case(string(//t:idno[@type='filename'][1]))"/></xsl:variable>
+      <xsl:variable name="prev" select="$list/t:item[substring-before(lower-case(@n),'.xml')=$filename]/preceding-sibling::t:item[1]/substring-before(@n,'.xml')"/>
+      <xsl:variable name="next" select="$list/t:item[substring-before(lower-case(@n),'.xml')=$filename]/following-sibling::t:item[1]/substring-before(@n,'.xml')"/>
       
       <div class="row">
         <div class="large-12 columns">
           <ul class="pagination right">
             <xsl:if test="$prev">
               <li class="arrow">
-                <a href="{concat('./', $prev, '.html')}">
-                  <xsl:text>&#171; Previous: </xsl:text>
-                  <xsl:choose>
-                    <xsl:when test="starts-with($filename, 'IRT')"><xsl:value-of select="substring($prev,4)"/></xsl:when>
-                    <xsl:otherwise><xsl:value-of select="$prev"/></xsl:otherwise>
-                  </xsl:choose>
-                </a>
+                <a href="./{$prev}.html">&#171; Previous</a>
               </li>
             </xsl:if>
             
             <xsl:if test="$next">
               <li class="arrow">
-                <a href="{concat('./', $next, '.html')}">
-                  <xsl:text>Next: </xsl:text>
-                  <xsl:choose>
-                    <xsl:when test="starts-with($filename, 'IRT')"><xsl:value-of select="substring($next,4)"/></xsl:when>
-                    <xsl:otherwise><xsl:value-of select="$next"/></xsl:otherwise>
-                  </xsl:choose>
-                  <xsl:text>&#187;</xsl:text>
-                </a>
+                <a href="./{$next}.html">Next &#187;</a>
               </li>
             </xsl:if>
           </ul>
