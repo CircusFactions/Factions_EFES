@@ -28,7 +28,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Marble corner block (<dimensions><width>1.04</width> <height>1.26</height></dimensions>)
+                           <p><material>Marble</material> corner <objectType>block</objectType> (<dimensions><width>1.04</width> <height>1.26</height></dimensions>)
                               from a <objectType>gate</objectType></p>
                         </support>
                      </supportDesc>
@@ -42,7 +42,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>The colonnade to the east of the Marble street</origPlace>
+                     <origPlace>Gate of Hadrian</origPlace>
                      <origDate notBefore="0602" notAfter="0610"  precision="low" evidence="reign">602-610 C.E.</origDate>
                   </origin>
                         <provenance type="found">
@@ -116,7 +116,7 @@
          </div>
          <div type="apparatus">
             <listApp>
-               <app loc="1"><note>Traces of three letters seen by Heberdey, none by me</note></app> 
+               <app loc="1"><note>Traces of three letters seen by Heberdey, none by Roueché</note></app> 
            <app loc="3"><note>ΠΡΑϹΙΝ written in a rasura; the letters below are not apparent. Heberdey Β under Π, Τ under Ν</note></app>
            <app loc="4"><note>Π: Heberdey saw an upright</note></app>
             <app loc="4"><note>Λ is written Α, suggesting that errors are possible in this text</note></app>
@@ -127,7 +127,7 @@
 </p></div>
          <div type="commentary">
             <p>In line 3 Πραϲίνων, Greens, appears to have been written over Βενέτων, Blues. This might reflect internal tensions, but is perhaps more likely to indicate a simple error. 
-               This stone is clearly a partner one now lost in the opposite corner; it is likely that they were intended to name each of the two colours.</p> 
+               This stone is clearly a partner to one now lost in the opposite corner; it is likely that they were intended to name each of the two colours.</p> 
          </div>
          
       </body>
