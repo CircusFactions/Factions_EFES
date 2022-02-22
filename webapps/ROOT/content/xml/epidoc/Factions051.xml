@@ -93,7 +93,7 @@
         <body>
             <div type="bibliography">
                 <p>Copied by Ramsay in 1886, published <bibl><ptr target="ramsay1897"/> <citedRange unit="entry"><ref target="https://hdl.handle.net/2027/ien.35556032371965?urlappend=%3Bseq=235">434</ref></citedRange></bibl>, whence 
-                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/281236">281236</ref></citedRange></bibl>,  
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/281236">281236</ref></citedRange></bibl>,  
                     <bibl><ptr target="igc"/> <citedRange unit="entry">311</citedRange></bibl>, 
                     on which <bibl><ptr type="robert1955"/> <citedRange unit="page">228-392</citedRange></bibl>;
                     from these <bibl><ptr target="christoph1966"/> <citedRange>11</citedRange></bibl>, 
@@ -103,11 +103,11 @@
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="ὁ">ὁ</w> <w lemma="θεός">θεὸϲ</w> <w lemma="ὁ">το͂ν</w> <w lemma="ἀρχάγγελος">ἀρχαγέλον</w> 
+               <ab><lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="ὁ">ὁ</w> <w lemma="θεός">θεὸϲ</w> <w lemma="ὁ">το͂ν</w> <w lemma="ἀρχάγγελος">ἀρχαγέλον</w> 
                     <lb n="2"/><w lemma="συμπράσσω">ϲύνπ<unclear>ρ</unclear>αξον</w> <w lemma="ὁ">τοὺϲ</w> <w lemma="ὁ">τῆ<supplied reason="lost">ϲ</supplied></w>
                     <lb n="3"/><w lemma="κώμη">κούμηϲ</w> <w lemma="ἐγώ">μου</w> <w lemma="πᾶς">πᾶϲην</w> 
                     <lb n="4"/> <w lemma="καί">καὶ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲίνον</w> <w lemma="ὁ">το͂ν</w> <addName nymRef="ὀρθόδοξος"><supplied reason="lost">ὀρ</supplied> 
-                    <lb n="5" break="no"/>θωδόξον</addName></orgName> <g ref="symbols.xml#crux"/>
+                    <lb n="5" break="no"/>θωδόξον</addName></orgName> <g ref="symbol.xml#crux"/>
 
                </ab>
                

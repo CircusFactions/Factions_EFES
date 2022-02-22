@@ -92,9 +92,9 @@
       <body>
          <div type="bibliography">
           <p>  <bibl><ptr target="roueche1989"/> <citedRange>181.ix</citedRange></bibl>, whence 
-             <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257716">257716</ref></citedRange></bibl>
+             <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257716">257716</ref></citedRange></bibl>
              <bibl><ptr type="roueche1993"/> <citedRange unit="entry">46.X.4</citedRange></bibl>, whence 
-             <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265117">265117</ref></citedRange></bibl>;
+             <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265117">265117</ref></citedRange></bibl>;
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080057.html">8.107</ref></citedRange></bibl>
                </p>
          </div>

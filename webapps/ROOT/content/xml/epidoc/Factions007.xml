@@ -125,7 +125,7 @@
             <div type="textpart" n="ii.a" ><ab>
   <lb n="1"/> <persName type="emperor" key="anonymi"><w lemma="εὐσεβής">εὐϲεβῶν</w></persName>
 		<lb n="2"/><w lemma="βασιλεύς">βαϲιλέων</w>
-		<lb n="3"/><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> <g ref="symbols.xml#crux"/>
+		<lb n="3"/><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> <g ref="symbol.xml#crux"/>
 </ab></div>
             <div type="textpart" n="ii.b" ><ab>
   <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>

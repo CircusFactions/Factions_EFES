@@ -95,7 +95,7 @@
             <div type="bibliography">
                 <p><bibl><ptr target="borkowski1981"/> <citedRange>32</citedRange> and plate 30</bibl>, whence 
                     <bibl><ptr target="seg"/> <citedRange>31.1498</citedRange></bibl>, whence 
-                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223655">223655</ref></citedRange></bibl>.
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223655">223655</ref></citedRange></bibl>.
                     
                 </p>
             </div>

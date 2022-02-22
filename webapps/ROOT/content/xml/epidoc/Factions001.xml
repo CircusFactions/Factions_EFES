@@ -107,7 +107,7 @@
                <bibl><ptr target="pallas1977"/> <citedRange unit="entry">50</citedRange> </bibl>, 
           listed, <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>; 
                republished <bibl> <ptr target="kiourtzian2005"/> <citedRange></citedRange></bibl>,
-               whence <bibl><ptr target="SEG"/> <citedRange>55.615</citedRange></bibl>, whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/333526">333526</ref></citedRange></bibl>; 
+               whence <bibl><ptr target="SEG"/> <citedRange>55.615</citedRange></bibl>, whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/333526">333526</ref></citedRange></bibl>; 
                <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/3826">3826</ref></citedRange></bibl>
                Mentioned, <bibl> <ptr target="feisselBE"/> <citedRange>2006.531</citedRange>, available at <ref target="https://www.persee.fr/doc/reg_0035-2039_2006_num_119_2_4678#reg_0035-2039_2006_num_119_2_T2_0748_0000">Persée</ref></bibl>
             </p>
@@ -115,9 +115,9 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
-                    <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+                    <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
                     <lb n="2"/><orgName ref="#green" nymRef="Πράσινος">Πραϲίνων <w lemma="ὁ">τῶν</w> <addName nymRef="ὀρθόδοξος">ὀρ 
-                    <lb n="3" break="no"/>θοδόξων</addName></orgName> <g ref="symbols.xml#crux"/> <space extent="unknown"/>
+                    <lb n="3" break="no"/>θοδόξων</addName></orgName> <g ref="symbol.xml#crux"/> <space extent="unknown"/>
                 </ab>
          </div>
          

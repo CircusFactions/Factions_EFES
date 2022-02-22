@@ -100,7 +100,7 @@
       <body>
          <div type="bibliography">
             <p>Copied by Halbherr, and published from his drawing  <bibl> <ptr target="inscret"/> <citedRange>IV, 513</citedRange></bibl>, 
-               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/200963">200963</ref></citedRange></bibl>, 
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/200963">200963</ref></citedRange></bibl>, 
                cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">75</citedRange></bibl>, and listed, 
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange>, cf p.126</bibl>; 
                republished <bibl> <ptr target="bandy1970"/> <citedRange>20</citedRange></bibl></p>
@@ -108,8 +108,8 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-             <lb n="1"/><g ref="symbols.xml#crux"/> 
- <lb n="2"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w> 
+             <lb n="1"/><g ref="symbol.xml#crux"/> 
+ <lb n="2"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w> 
  <lb n="3"/><orgName ref="#green" nymRef="Πράσινος">Πραϲίνων</orgName>  
   <lb n="3a"/><gap reason="lost" quantity="1" unit="line"/>
  <lb n="5"/><w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="Ἰωάννης">Ἰωάννη<supplied reason="lost">ϲ</supplied></name></persName>.

@@ -95,7 +95,7 @@
             <div type="bibliography">
                 <p><bibl><ptr target="neroutsos1887"/> <citedRange><ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203622h/f206.image">8</ref></citedRange></bibl>, whence 
                     <bibl><ptr target="lefebvre1907"/> <citedRange><ref target="https://digi.ub.uni-heidelberg.de/diglit/lefebvre1907/0056">37</ref></citedRange></bibl>, whence 
-                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/217101">217101</ref></citedRange></bibl>,
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/217101">217101</ref></citedRange></bibl>,
                     <bibl><ptr target="christoph1966"/> <citedRange unit="entry">21</citedRange></bibl>, and (listed), 
                     <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>.
                     
@@ -105,8 +105,8 @@
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
             <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <persName type="attested"><name nymRef="Εὐτόκιος">Εὐ
-                 <lb n="2" break="no"/>τοκίου</name></persName> <g ref="symbols.xml#crux"/> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"> <w lemma="Βένετος">Βε
-                      <lb n="3" break="no"/>νέτων</w></orgName> <g ref="symbols.xml#crux"/> <w lemma="καί">καὶ</w>
+                 <lb n="2" break="no"/>τοκίου</name></persName> <g ref="symbol.xml#crux"/> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"> <w lemma="Βένετος">Βε
+                      <lb n="3" break="no"/>νέτων</w></orgName> <g ref="symbol.xml#crux"/> <w lemma="καί">καὶ</w>
                 
                  <lb n="4"/><w lemma="ὁ">τοῦ</w> <w lemma="γράφω">γραψάντο<supplied reason="lost">ϲ</supplied></w>
                 

@@ -97,7 +97,7 @@
       <body>
          <div type="bibliography"> <!-- check -->
             <p>Heberdey, Skizzenbuch 2037a, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1198.1</citedRange></bibl>, 
-               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/250868">250868</ref></citedRange></bibl>,
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/250868">250868</ref></citedRange></bibl>,
                <bibl><ptr target="roueche1999"/> <citedRange unit="entry">10</citedRange></bibl></p>
          </div>
          
@@ -107,7 +107,7 @@
              <lb n="1"/><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ
                 <lb n="2" break="no"/>χη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πρ
                    <lb n="3" break="no"/>αϲίνω
-                   <lb n="4" break="no"/>ν</w></orgName> <g ref="symbols.xml#crux"/>
+                   <lb n="4" break="no"/>ν</w></orgName> <g ref="symbol.xml#crux"/>
 
 </ab>
          </div>

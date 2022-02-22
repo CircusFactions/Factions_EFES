@@ -101,7 +101,7 @@
       <body>
          <div type="bibliography">
             <p>First published by <bibl> <ptr target="edson1972"/> <citedRange>20</citedRange></bibl>, 
-               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/137201">137201</ref></citedRange></bibl>, and listed, 
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/137201">137201</ref></citedRange></bibl>, and listed, 
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>. 
                Now available at <bibl><ptr target="hallof"/> <ref target="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20X%202,%201,%2020">Telota</ref></bibl></p>
          </div>

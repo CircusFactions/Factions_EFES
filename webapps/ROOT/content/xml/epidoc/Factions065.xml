@@ -107,7 +107,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/> <g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
+            <ab><lb n="1"/> <g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
                 
               <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενέτον</w></orgName> 
      </ab>
@@ -118,7 +118,7 @@
             <div type="translation" source="#paes" xml:lang="en">
                 <p>Conquer, Fortune of the Blues</p>
             </div>
-            <div type="translation" resp="#igls2009" xml:lang="fr">
+            <div type="translation" source="#igls2009" xml:lang="fr">
                 <p>Vaincs, la fortune des Bleus</p>
             </div> 
            <div type="translation" resp="#cmr" xml:lang="en">

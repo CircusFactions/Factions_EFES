@@ -104,7 +104,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/><g ref="symbols.xml#crux"/> <del rend="erasure"><persName type="emperor" key="phocas"><name>Φωκᾷ</name></persName> <w lemma="ὁ">τῷ</w></del> <w lemma="θεοστεφής"><del rend="erasure">θεο</del>
+  <lb n="1"/><g ref="symbol.xml#crux"/> <del rend="erasure"><persName type="emperor" key="phocas"><name>Φωκᾷ</name></persName> <w lemma="ὁ">τῷ</w></del> <w lemma="θεοστεφής"><del rend="erasure">θεο</del>
 	<lb n="2" break="no"/>ϲτε<del rend="erasure">φῆ</del></w> <del rend="erasure"><w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w></del> <orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος"><del rend="erasure">Βενέ</del>
 	<lb n="3" break="no"/>τοιϲ</w></orgName> <del rend="erasure"><persName type="divine" key="kyrios"><w lemma="Κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName></del> <w lemma="βοηθέω"><del rend="erasure">βοή</del>θη
 	<lb n="4" break="no"/><space extent="3" unit="character"/> <supplied reason="lost" cert="low">ϲον</supplied></w>

@@ -101,7 +101,7 @@
             <p>First published by <bibl><ptr target="gedeon1913"/> <citedRange>12-13</citedRange></bibl> <!-- check -->
               whence 
                <bibl> <ptr target="asdracha1998"/> <citedRange unit="page">330</citedRange> <citedRange>n.155</citedRange></bibl>, 
-               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/166200">166200</ref></citedRange></bibl>, 
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/166200">166200</ref></citedRange></bibl>, 
                <bibl><ptr target="SEG"/> <citedRange>48.887</citedRange></bibl>;
                reprinted, <bibl> <ptr target="asdracha2003"/></bibl></p>
          </div>

@@ -95,7 +95,7 @@
          <div type="bibliography">
             <p><bibl><ptr target="rehm1958"/> <citedRange unit="entry">604</citedRange></bibl>; 
                emended <bibl><ptr target="robert1960"/> <citedRange unit="page">490-491</citedRange></bibl>, 
-               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/247689">247689</ref></citedRange></bibl>; 
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/247689">247689</ref></citedRange></bibl>; 
                cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">75</citedRange></bibl>,
                listed <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>
                </p>
@@ -108,7 +108,7 @@
       <lb n="3" break="no"/><abbr>λαρ</abbr><ex>ίου</ex></expan></w></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w>  <orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος"><supplied reason="lost">Β</supplied>ενε- 
       <lb n="4" break="no"/>τῶν</w></orgName> <w lemma="πολύς">πολλὰ</w> 
       <lb n="5"/><w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> 
-      <lb n="6"/><space/> <g ref="symbols.xml#crux"/>
+      <lb n="6"/><space/> <g ref="symbol.xml#crux"/>
 </ab>     </div>
          
          

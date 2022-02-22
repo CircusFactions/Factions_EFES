@@ -2,16 +2,16 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions066" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions076" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s</title>
+                <title>i: <rs type="textType">Place</rs>inscription for <rs type="textType">Blue</rs>s; ii: <rs type="textType">Acclamation</rs> for Phocas</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions066</idno>
+                <idno type="filename">Factions076</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -20,35 +20,40 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><msName>n/a</msName></msIdentifier>
+                    <msIdentifier><repository>Findspot</repository></msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Stone</material> <objectType>lintel</objectType> block: 
-                                        <dimensions><width>0.985</width> <height>0.19-0.25</height></dimensions>. 
+                                    <p> <material>Stone</material>  <objectType>column</objectType>, probably part of a tetrapylon: 
+                                         a base
+                                        (<dimensions><height>2.00</height> <width>1.58</width></dimensions>), supporting a rectangular block 
+                                        (<dimensions><height>0.50</height> <width>1.90</width></dimensions>), above which an ocatgonal block, 
+                                        (<dimensions><height>0.50</height> <width>0.80</width></dimensions>); on the octagonal are three circular cornices, 
+                                        (<dimensions><height>0.50</height></dimensions>). These support a cylinder, <dimensions><height>1.20</height></dimensions>  
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed </rs> on the face, on either side of a central cross, in a circle, in relief.</layout>
+                                <layout><rs key="scalpro">Inscribed</rs> i on the west face of the octagonal block, ii on the west face of the cylinder.  </layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>0.045-0.010</height></handNote>
+                            <handNote> No measurements</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                            <origDate notBefore="0602" notAfter="0610" evidence="textual-context">602-610</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678439">Umm al-Jimal</placeName>: 
-                                over the entrance door of a house east of the church.</p>
+                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/736983">Oxyrhynchus</placeName>: 
+                                to the south ovf the settlement: found in 1911</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
-                            <p>Findspot </p>
+                            <p>Louvre, Paris, Département des Antiquités égyptiennes, E 11874 (X 3664 )
+                            </p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -78,10 +83,10 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                        <geogName type="modernCountry" key="EG">Egypt</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/361471">Al Bahnasa</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -89,39 +94,35 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><graphic url="paes266.jpg"><desc>Drawing by Littman</desc></graphic></facsimile>
+    </teiHeader><facsimile><surface/>
+       </facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="paes"/> <citedRange>266</citedRange> (copied by Littman)</bibl>, whence 
-                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">16</citedRange></bibl>, and listed, 
-                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
-                    <bibl><ptr target="igls2009"/> <citedRange>148</citedRange></bibl>, whence <!-- check IGLS: did Bader see it? -->
-                    <bibl><ptr target="seg"/> <citedRange>59.1721</citedRange></bibl>, 
-                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341674">341674</ref></citedRange></bibl>, 
-                    <bibl><ptr target="feisselBE"/> <citedRange>612</citedRange></bibl>
-          .
-                    </p>
+                <p>Copied by Pistelli, and published from a letter <bibl><ptr target="pareti1912"/> <citedRange>304-305</citedRange></bibl>, whence 
+                    
+                    <bibl><ptr target="christoph1966"/> <citedRange>22, 23</citedRange></bibl>,  
+                    <bibl> <ptr target="cameronCF"/> <citedRange unit="page">148</citedRange>. <citedRange unit="page">317</citedRange></bibl>;
+                </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <g ref="symbol.xml#crux"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχε</w> 
-                
-              <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"> <milestone unit="block"/><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενήτον</w></orgName> 
-     </ab>
+            <div type="textpart" subtype="side" n="a"><ab>
+                <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <g ref="symbol.xml#crux"/>
+               <lb n="2"/><persName type="attested"><name>Ἑλλαδίαϲ</name></persName> </ab> </div>
+                <div type="textpart" subtype="side" n="b"><ab>
+                <lb n="3"/>    <w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος">  <w lemma="βένετος">Βενέτων</w></orgName>
+              <lb n="4"/><g ref="symbol.xml#crux"/> <w lemma="Ἀμήν"> Ἀμήν</w> <g ref="symbol.xml#crux"/></ab></div>
+    
+     
      </div>
-            <div type="apparatus"><listApp>
-                <app loc="1"><rdg resp="#paes, igls2009">Νίκα</rdg></app></listApp></div>
             
-            <div type="translation" resp="#paes" xml:lang="en">
-                <p>Conquer, Fortune of the Blues!</p>
-            </div>
-            <div type="translation" resp="#igls2009" xml:lang="fr">
-                <p>Vaincs, la fortune des Bleus</p>
-            </div> 
+             
+            
+             
            <div type="translation" resp="#cmr" xml:lang="en">
-           <p>The fortune of the Blues triumphs!</p>
+               <p>The fortune triumphs of Helladia and Blues! Amen</p>
                 
          </div>
             <div type="commentary">

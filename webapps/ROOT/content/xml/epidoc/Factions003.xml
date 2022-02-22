@@ -101,7 +101,7 @@
       <body>
          <div type="bibliography">
             <p>First published by <bibl><ptr target="edson1976"/> <citedRange>842</citedRange></bibl>
-               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/138030">138030</ref></citedRange></bibl>, and listed, 
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/138030">138030</ref></citedRange></bibl>, and listed, 
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>; discussed <bibl><ptr target="daux1973"/> <citedRange unit="page">599</citedRange></bibl>, 
                <!-- Peek in Maia 25 1973) -->
                <bibl><ptr target="robert1974"/> <citedRange unit="page">185</citedRange></bibl>, 

@@ -228,7 +228,13 @@
                         <title level="m" ref="https://zenon.dainst.org/Record/000167250">Les monuments paléochrétiens de Grèce decouverts de 1959 à 1973</title> 
                         <pubPlace>Vatican City</pubPlace></bibl>
                     
-                    <bibl xml:id="PHI"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
+                    
+                    <bibl xml:id="pareti1912">  <bibl type="abbrev">Pareti, 1912</bibl> <author ref="http://viaf.org/viaf/73978331">L. <name>Pareti</name></author>, <date>1912</date>, 
+                        <title level="a">Verdi e azzuri ai tempi di Foca e due iscrizioni inedite di Oxyrhynchos</title>, <title level="j">Studi Italiani di filologia classica </title>, 
+                        <biblScope unit="issue">19</biblScope>, <biblScope unit="page">305-315</biblScope> available at 
+                        <ptr target="https://archive.org/details/studiitalianidif19fireuoft/page/304"/>Internet Archive</bibl>
+                    
+                    <bibl xml:id="phi"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
                         Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/"/>PHI</bibl>
                     
                     <bibl xml:id="piccirillo1981">  <bibl type="abbrev">Piccirillo, 1981</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 

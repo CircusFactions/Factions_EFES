@@ -97,11 +97,11 @@
             <p>Described <bibl><ptr target="weigand1904"/> <citedRange unit="page">483</citedRange></bibl>, published <bibl><ptr target="hiller1906"/> <citedRange unit="entry">353</citedRange> inventory number 51</bibl>, 
                whence <bibl><ptr target="igc"/> <citedRange unit="entry">120</citedRange></bibl>,  
                <bibl><ptr target="christoph1966"/> <citedRange unit="entry">2</citedRange></bibl>, 
-               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/254043">254043</ref></citedRange></bibl>, 
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/254043">254043</ref></citedRange></bibl>, 
                cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">77</citedRange></bibl>, and listed, 
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; 
                republished <bibl><ptr target="inspriene"/> <citedRange unit="entry">340</citedRange>, and plate 157 (from the squeeze)</bibl> <!-- check for measurements -->, 
-               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/352663">352663</ref></citedRange></bibl>
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/352663">352663</ref></citedRange></bibl>
                </p>
          </div>
          

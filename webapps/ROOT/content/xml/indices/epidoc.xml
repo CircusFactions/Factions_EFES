@@ -67,7 +67,7 @@
         </div>
       </div>
 
-      <div xml:id="numeral">
+  <!--    <div xml:id="numeral">
         <head>Numerals</head>
 
         <div type="headings">
@@ -85,7 +85,7 @@
             </item>
           </list>
         </div>
-      </div>
+      </div> --> 
 
       <div xml:id="emperors">
         <head>Emperors and Imperial family</head>
@@ -216,6 +216,7 @@
           <list>
             <item>Name</item>
             <item>Type</item>
+            <item>External resource</item>
             <item>References</item>
           </list>
         </div>
