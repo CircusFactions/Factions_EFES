@@ -34,6 +34,9 @@
                             IIIe - VIIe siècles</title>, <title level="j" source="https://zenon.dainst.org/Record/000630432">Aρχαιoλoγικóν Δελτίoν</title> 
                         <biblScope unit="issue">49,1/50,1, 1994-1995</biblScope>, <biblScope unit="page">279-356</biblScope></bibl> 
                     
+                    <bibl xml:id="baillet1926">  <bibl type="abbrev">Baillet, 1926</bibl> <author ref="http://viaf.org/viaf/4922512">Jules <name>Baillet</name></author>, <date>1926</date>,
+                        <title level="m">Inscriptions grecques et latines des tombeaux des rois ou Syringes à Thèbes</title>,  <pubPlace>Cairo</pubPlace></bibl>
+                    
                     <bibl xml:id="BE">  <bibl type="abbrev">BE</bibl> <title>Bulletin Épigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date></bibl>
                   
                     <bibl xml:id="blouet1838">  <bibl type="abbrev">Blouet, 1838</bibl> <author ref="http://viaf.org/viaf/66615396">G.-A. <name>Blouet</name></author>, <date>1838</date>,
@@ -89,6 +92,10 @@
                     
                     <bibl xml:id="feissel2006">  <bibl type="abbrev">Feissel, 2006</bibl> <author ref="http://viaf.org/viaf/36918084">Denis <name type="surname">Feissel</name></author> 
                         <title>Chroniques d'épigraphie byzantine: 1987-2004</title>, <date>2006</date>, <pubPlace>Paris</pubPlace></bibl>
+                    
+                    <bibl xml:id="flinders1925">  <bibl type="abbrev">Flinders Petrie, 1925</bibl> <author ref="http://viaf.org/viaf/9963139">W. M. <name>Flinders Petrie</name></author>, <date>1925</date> 
+                        <title level="m">Tombs of the courtiers and Oxyrhynkhos</title>,  <pubPlace>London</pubPlace>; 
+                        available at <ref target="https://egyptartefacts.griffith.ox.ac.uk/sites/default/files/Tombs%20of%20the%20Courtiers%20report.pdf">Oxford</ref></bibl>
                     
                     <bibl xml:id="feisselBE">  <bibl type="abbrev">Feissel, Bulletin Épigraphique</bibl> <author ref="http://viaf.org/viaf/36918084">Denis <name type="surname">Feissel</name></author>
                         <title level="a">Bulletin Épigraphique</title> in <title level="j">Revue des Études Grecques</title>
@@ -209,6 +216,10 @@
                         <date>2006</date>, <title level="a">Violence in Alexandria</title> 
                         <title level="m">Violence and Aggression in the Ancient World </title>, <pubPlace>Krakow</pubPlace> <biblScope>127-134</biblScope></bibl>
                     
+                    <bibl xml:id="lukaszewicz2010">  <bibl type="abbrev">Łukaszewicz, 2010</bibl><author ref="http://viaf.org/viaf/161429523">A. <name>Łukaszewicz</name></author>, 
+                        <date>2010</date>, <title level="a">Memnon, his ancient visitors, and some related problems</title> 
+                        <title level="m">Tradition and Transformation: Egypt under Roman rule</title>, <pubPlace>Leiden</pubPlace> <biblScope>255-263</biblScope></bibl>
+                    
                     <bibl xml:id="neroutsos1887">  <bibl type="abbrev">Néroutsos, 1887</bibl> <author ref="http://viaf.org/viaf/89708021">P.E. <name>Néroutsos</name></author>, <date>1887</date>, 
                         <title level="a">Inscriptions </title>, <title level="j">Revue archéologique</title>, 
                         <biblScope unit="page">198-209</biblScope>, available at <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203622h/f201.item">Gallica</ref></bibl>
@@ -319,6 +330,11 @@
                     <editor>H.<name type="surname">Amirav</name></editor>, <editor>Bas<name type="surname">ter Haar Romeny</name></editor>,
                     <title level="m">From Rome to Constantinople: Studies in Honour of Averil Cameron</title>  <pubPlace>Leuven</pubPlace>, 
                     <biblScope unit="pp">221-234</biblScope></bibl>
+                    
+                    <bibl xml:id="Sammelbuch"><bibl type="abbrev">Sammelbuch</bibl> <author ref="http://viaf.org/viaf/71469675">F. <name type="surname">Preisigke</name></author>
+                        et al, <date>1913-</date>, <title level="m">Sammelbuch griechischer Urkunden
+                            aus Ägypten</title>,
+                        <pubPlace>Strassburg</pubPlace>/<pubPlace>Wiesbaden</pubPlace></bibl>
                     
                     <bibl xml:id="seyrig1950">  <bibl type="abbrev">Seyrig, 1950</bibl>
                         <author ref="http://viaf.org/viaf/381705">Henri <name type="surname">Seyrig</name></author>, <date>1950</date>, 

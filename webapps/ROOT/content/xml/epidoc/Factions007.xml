@@ -116,7 +116,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <div type="textpart" n="i" ><ab>
-  <lb n="1"/><persName type="emperor" key="anonymi"><addName nymRef="χριστιανός"><w>Χριϲτια
+  <lb n="1"/><persName type="emperor" ref="#anonymi"><addName nymRef="χριστιανός"><w>Χριϲτια
 <lb n="2" break="no"/>νῶν</w></addName> <w lemma="βασιλεύς">βαϲιλέ
 <lb n="3" break="no"/>ων</w></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <orgName ref="#green" nymRef="Πράσινος"><w>Πραϲίνων</w></orgName>
 	<lb n="4"/>	<w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
@@ -136,12 +136,13 @@
             
          </div>
          <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p>i:		Many years for Christian emperors and Greens!
+           <div type="translation" xml:lang="en" resp="#cmr">
+              <p>i:		Many years for Christian emperors and Greens!
 ii.a:		Many years for pious emperors!
 ii.b:		. . . ]many years!
 </p></div></div>
          <div type="commentary">
-            <p>Of the Christian Emperors of the Greek faction, may the years be many. Of the pious Emperors, may the years be many.</p> 
+            <p>Of the Christian Emperors of the Green faction, may the years be many. Of the pious Emperors, may the years be many.</p> 
          </div>
          
       </body>

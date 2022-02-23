@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions077" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>?An official of the <rs type="textType">Blue</rs>s</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre for Computing in the Humanities, King's College London</authority>
+                <idno type="filename">Factions077</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Findspot</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Stone</material> <objectType>wall</objectType> of a rock-cut tomb</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc> 
+                                <layout><rs key="scalpro">Painted</rs> on the wall.  </layout> <!-- check -->
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> No measurements</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace> 
+                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p>Egypt: Thebes, <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/384697574">Valley of the Kings</placeName>, 
+                              Tomb of Ramses VI</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+                <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass/>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term>
+                        <geogName type="ancientRegion" key="Asia">Asia</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="EG">Egypt</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/353494">/Maqabir al Muluk</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>From previous publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+        </revisionDesc>
+    </teiHeader><facsimile><surface/>
+       </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="baillet1926"/> <citedRange>1851</citedRange></bibl>, whence 
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/225941">225941</ref></citedRange></bibl>;
+                    <bibl><ptr target="lukaszewicz2010"/> <citedRange>261</citedRange></bibl>, whence
+                    <bibl> <ptr target="seg"/> <citedRange>60.1767</citedRange> (mention)</bibl>.
+                </p>
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                <lb n="1"/> <persName type="attested"><name nymRef="Τα . λεινος">Τα<gap reason="lost" quantity="1" unit="character"/>λεινοϲ</name></persName>
+              <lb n="2"/> <placeName type="ethnic" ref="#alexandria"><supplied reason="lost">Ἀ</supplied>λ<supplied reason="lost">εξ</supplied>ανδρε<supplied reason="lost">ὺϲ</supplied></placeName> 
+                <lb n="3"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="βένετος">Βενέτον</w></orgName> 
+                <lb n="4"/><gap reason="lost" quantity="3" unit="character"/><w part="F">αριϲ</w>  
+                    </ab></div>
+            
+                
+    
+     
+    
+            
+             
+             
+           <div type="translation" resp="#cmr" xml:lang="en">
+              
+               <p> Ta?leinos of Alexandria, (official) of the Blues</p> 
+              
+                
+         </div>
+            <div type="commentary">
+                 
+            </div>
+            
+        </body>
+    </text>
+</TEI>

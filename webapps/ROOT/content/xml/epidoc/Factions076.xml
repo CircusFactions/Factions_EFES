@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>i: <rs type="textType">Place</rs>inscription for <rs type="textType">Blue</rs>s; ii: <rs type="textType">Acclamation</rs> for Phocas</title>
+                <title>i: <rs type="textType">Acclamation</rs> for Phocas; ii: <rs type="textType">Place</rs> inscription for <rs type="textType">Blue</rs></title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -25,17 +25,18 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p> <material>Stone</material>  <objectType>column</objectType>, probably part of a tetrapylon: 
+                                    <p>Composite <material>stone</material> statue <objectType>base</objectType>: 
                                          a base
                                         (<dimensions><height>2.00</height> <width>1.58</width></dimensions>), supporting a rectangular block 
-                                        (<dimensions><height>0.50</height> <width>1.90</width></dimensions>), above which an ocatgonal block, 
+                                        (<dimensions><height>0.50</height> <width>1.90</width></dimensions>), above which an octagonal block, 
                                         (<dimensions><height>0.50</height> <width>0.80</width></dimensions>); on the octagonal are three circular cornices, 
-                                        (<dimensions><height>0.50</height></dimensions>). These support a cylinder, <dimensions><height>1.20</height></dimensions>  
+                                        (<dimensions><height>0.50</height></dimensions>). These support a cylinder, <dimensions><height>1.20</height></dimensions>; examination of the 
+                                        upper surface suggests that this was intended to support a statue.
                                         </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout><rs key="scalpro">Inscribed</rs> i on the west face of the octagonal block, ii on the west face of the cylinder.  </layout> 
+                                <layout><rs key="scalpro">Inscribed</rs> ii on the west face of the octagonal block, i on the west face of the cylinder.  </layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -49,11 +50,10 @@
                         </origin>
                         <provenance type="found">
                             <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/736983">Oxyrhynchus</placeName>: 
-                                to the south ovf the settlement: found in 1911</p> <!-- check -->
+                                to the south of the settlement: found in 1912</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
-                            <p>Louvre, Paris, Département des Antiquités égyptiennes, E 11874 (X 3664 )
-                            </p>
+                            <p>Findspot (1922); by 2018 the texts were no longer visible.</p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -100,33 +100,55 @@
         <body>
             <div type="bibliography">
                 <p>Copied by Pistelli, and published from a letter <bibl><ptr target="pareti1912"/> <citedRange>304-305</citedRange></bibl>, whence 
-                    
+                   <bibl><ptr target="Sammelbuch"/> <citedRange>3.6017</citedRange>, <citedRange>3.6018</citedRange></bibl>, whence 
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/222092">222092</ref></citedRange>, 
+                        <citedRange><ref target="https://epigraphy.packhum.org/text/222093">222093</ref></citedRange></bibl>,
                     <bibl><ptr target="christoph1966"/> <citedRange>22, 23</citedRange></bibl>,  
-                    <bibl> <ptr target="cameronCF"/> <citedRange unit="page">148</citedRange>. <citedRange unit="page">317</citedRange></bibl>;
+                    <bibl> <ptr target="cameronCF"/> <citedRange unit="page">148</citedRange>, <citedRange unit="page">317</citedRange></bibl>; 
+                    copied by Walker and published  <bibl><ptr target="flinders1925"/> <citedRange unit="page">13</citedRange></bibl>.
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               
-            <div type="textpart" subtype="side" n="a"><ab>
-                <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <g ref="symbol.xml#crux"/>
-               <lb n="2"/><persName type="attested"><name>Ἑλλαδίαϲ</name></persName> </ab> </div>
-                <div type="textpart" subtype="side" n="b"><ab>
-                <lb n="3"/>    <w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος">  <w lemma="βένετος">Βενέτων</w></orgName>
-              <lb n="4"/><g ref="symbol.xml#crux"/> <w lemma="Ἀμήν"> Ἀμήν</w> <g ref="symbol.xml#crux"/></ab></div>
+               <div type="textpart" n="i"><ab>
+                <lb n="1"/>   <g ref="symbol.xml#crux"/> <persName type="emperor" ref="#phocas"><name nymRef="Φωκᾶς">Φωκᾶ</name> <w lemma="ὁ">τοῦ</w> <addName nymRef="εὐσεβέστατος"><w lemma="εὐσεβής">εὐ
+              <lb n="2" break="no"/>ϲεβεϲτάτου</w></addName>
+                <lb n="3"/><w lemma="ἡμεῖς">ἡμῶν</w> <w lemma="δεσπότης">δεσπό
+                <lb n="4" break="no"/>του</w></persName> <w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w>  
+                    <lb n="5"/><space/> <w lemma="ἔτος">ἔτη</w> <space/></ab></div>
+            <div type="textpart"  n="ii"><ab>
+                <lb n="1"/><w lemma="τόπος">Τόποϲ</w> <w lemma="διαφέρω">διαφέρ
+               <lb n="2" break="no"/> <space/> ων </w>
+            <lb n="3"/><orgName ref="#blue" nymRef="#Βένετος"><w lemma="ὁ">τοῖϲ</w>  <w lemma="βένετος">Βενέτων</w></orgName></ab> </div>
+                
     
      
      </div>
-            
+            <div type="apparatus"><listApp>
+                
+                <app loc="i.1"><rdg resp="#flinders1925">. . . ΦΩΚΑΙΟΥ</rdg></app>
+                <app loc="i.1/2"><note>Pistelli reported, in a later letter, that he could read ΕΥ, but he did not make clear whether this was at the end of line 1 or the beginning of 
+                line 2.</note></app>
+                <app loc="i.2"><rdg resp="#flinders1925">(ΕΥ)ϹΕΒΕϹΤΑΤΟΥ</rdg></app>
+                <app loc="i.3"><rdg resp="#flinders1925">(0ΙΚ)ΕΙΩΝ ΔΕϹΠΟ</rdg></app>
+                <app loc="ii.1"><rdg resp="#flinders1925">ΑΝΑΦΕΡΟ(ΝΤΩΝ)</rdg></app>
+                <app loc="ii.2"><rdg resp="#flinders1925"> . . . ΝΕ . . . .</rdg></app></listApp></div>
              
-            
-             
+            <div type="translation" source="#flinders1925" xml:lang="en">
+                
+                <p><note>i</note>: Of Phocaeus, a most pious master of his household for many years</p>
+            </div>  
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p>The fortune triumphs of Helladia and Blues! Amen</p>
+              
+               <p><note>i</note>: Many years for Phocas, our most pious lord!</p> 
+               <p><note>ii</note>: Place belonging to the Blues</p>
                 
          </div>
             <div type="commentary">
-                
+                <p>For the history of the column see <ref target="http://www.papyrology.ox.ac.uk/POxy/VExhibition/the_site/phocas-pillar.html">Oxyrhynchus: A City and its Texts, Virtual Exhibition: The Site</ref>. 
+                    By 1981 some traces of text i could still be seen. In spring 2019 the <ref target="https://www.oxirrinc.com/en/el-yacimiento/columna-honorifica/">excavation team from the University of Barcelona</ref>, led by Professor Josep Padró i Parcerisa, examined the column closely, 
+                    and could find no trace of either text; I am most grateful to Professor Padró for his help.</p>
+                <p>For this kind of composite structure compare the σύνθετος κίων. erected in 609 in Constantinople for Phocas, <ref target="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-2775">LSA 2275</ref> </p>
                 
             </div>
             

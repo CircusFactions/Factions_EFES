@@ -106,7 +106,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/><persName type="emperor" key="anonymi"><addName nymRef="χριστιανός"><w><supplied reason="lost">Χριϲ</supplied>τια<supplied reason="lost">νῶν</supplied></w></addName>
+  <lb n="1"/><persName type="emperor" ref="#anonymi"><addName nymRef="χριστιανός"><w><supplied reason="lost">Χριϲ</supplied>τια<supplied reason="lost">νῶν</supplied></w></addName>
 	<lb n="2"/><w lemma="βασιλεύς">βαϲιλέων</w></persName>
 	<lb n="3"/><w lemma="καί">καὶ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲίνων</w></orgName>
 	<lb n="4"/><w lemma="πολύς"><unclear>π</unclear>όλ<unclear>λ</unclear>α</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
