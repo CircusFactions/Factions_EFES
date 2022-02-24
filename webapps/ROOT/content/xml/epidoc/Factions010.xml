@@ -96,7 +96,7 @@
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl xml:id="roueche2007"> <citedRange unit="page">231</citedRange></bibl><!-- check -->, whence <bibl xml:id="ae"> <ptr target="ae"/> <citedRange>2007.1393</citedRange></bibl>, 
+            <p><bibl><ptr target="roueche2007"/> <citedRange unit="page">231</citedRange></bibl>, whence <bibl> <ptr target="ae"/> <citedRange>2007.1393</citedRange></bibl>, 
                <bibl><ptr target="SEG"/> <citedRange>57.1119.c</citedRange>, <citedRange>58.1331</citedRange></bibl></p>
          </div>
          

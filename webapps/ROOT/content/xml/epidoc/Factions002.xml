@@ -108,9 +108,9 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
            <div type="textpart" n="a"> <ab>
-                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> <!-- check -->
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αυτωι</orig><gap reason="lost" extent="unknown" unit="character"/> 
- <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear>εστηπ</orig><gap reason="lost" extent="unknown" unit="character"/> <!-- check -->
+ <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear>εστηπ</orig><gap reason="lost" extent="unknown" unit="character"/> 
  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="βούλομαι" part="I"><supplied reason="lost">β</supplied>ουλομε<supplied reason="lost">ν</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Λ</unclear></orig> <w lemma="οὗτος">τούτων</w><gap reason="lost" extent="unknown" unit="character"/> 
  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">σαμένων</w> <orig>Α</orig><gap reason="lost" extent="unknown" unit="character"/>
