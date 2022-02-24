@@ -101,7 +101,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/> <g ref="symbol.xml#palm"/> <w lemma="νικάω">Νικᾷ</w>
+            <ab><lb n="1"/> <g ref="symbols.xml#palm"/> <w lemma="νικάω">Νικᾷ</w>
                 <lb n="2"/><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
                 
               <lb n="3"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶ͂ν</w> <w lemma="Βένετος">Βεν

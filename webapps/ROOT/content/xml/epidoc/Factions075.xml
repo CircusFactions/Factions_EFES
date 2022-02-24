@@ -113,11 +113,11 @@
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
             <div type="textpart" subtype="side" n="a"><ab>
-                <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <g ref="symbol.xml#crux"/>
+                <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <g ref="symbols.xml#crux"/>
                <lb n="2"/><persName type="attested"><name>Ἑλλαδίαϲ</name></persName> </ab> </div>
                 <div type="textpart" subtype="side" n="b"><ab>
                 <lb n="3"/>    <w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος">  <w lemma="βένετος">Βενέτων</w></orgName>
-              <lb n="4"/><g ref="symbol.xml#crux"/> <w lemma="Ἀμήν"> Ἀμήν</w> <g ref="symbol.xml#crux"/></ab></div>
+              <lb n="4"/><g ref="symbols.xml#crux"/> <w lemma="Ἀμήν"> Ἀμήν</w> <g ref="symbols.xml#crux"/></ab></div>
     
      
      </div>

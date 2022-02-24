@@ -106,7 +106,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <g ref="symbol.xml#crux"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχε</w> 
+            <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <g ref="symbols.xml#crux"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχε</w> 
                 
               <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"> <milestone unit="block"/><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενήτον</w></orgName> 
      </ab>

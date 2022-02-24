@@ -100,7 +100,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab>
-                   <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="τόπος"><expan><abbr>Τ<hi rend="superscript">ό</hi></abbr><abbr>π<hi rend="superscript">ο</hi></abbr><ex>ϲ</ex></expan></w>  
+                   <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="τόπος"><expan><abbr>Τ<hi rend="superscript">ό</hi></abbr><abbr>π<hi rend="superscript">ο</hi></abbr><ex>ϲ</ex></expan></w>  
                    <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="παγανός"><expan><abbr>παγ</abbr><ex>ανῶν</ex></expan></w> <w lemma="Βένετος">Βενέτων</w></orgName> 
                    </ab>
              </div> 
