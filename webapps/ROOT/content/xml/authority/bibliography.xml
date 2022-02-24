@@ -339,7 +339,7 @@
                     <bibl xml:id="seyrig1950">  <bibl type="abbrev">Seyrig, 1950</bibl>
                         <author ref="http://viaf.org/viaf/381705">Henri <name type="surname">Seyrig</name></author>, <date>1950</date>, 
                         <title level="a">Antiquités syriennes</title>, <title level="j">Syria</title>, <biblScope unit="issue">27, 3-4</biblScope>, 
-                        <biblScope unit="pp">229-25</biblScope>, available at <ref target="https://www.persee.fr/doc/syria_0039-7946_1950_num_27_3_4591">Persée</ref></bibl>
+                        <biblScope unit="pp">229-52</biblScope>, available at <ref target="https://www.persee.fr/doc/syria_0039-7946_1950_num_27_3_4591">Persée</ref></bibl>
                     
                     <bibl xml:id="seg"><bibl type="abbrev">SEG</bibl>: <title>Supplementum Epigraphicum Graecum</title>,
                         <pubPlace>Leiden</pubPlace>, <publisher>Brill Publishing</publisher>,

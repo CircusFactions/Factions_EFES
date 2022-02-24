@@ -25,11 +25,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Limestone</material> <objectType>column-base</objectType></p>
+                                    <p><material>Limestone</material> <objectType>torus</objectType> of a column</p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Irregular <rs key="litteris scariphatis">graffito</rs> letters</layout>
+                                <layout>Irregular <rs key="litteris scariphatis">graffito</rs> letters, 0.47 long</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -109,12 +109,14 @@
             <div type="translation" xml:space="preserve">
                 <div type="translation" xml:lang="fr" source="#seyrig1950"><p>Victorieuse est la Fortune des Bleus.</p><!-- check -->
            </div>
+                <div type="translation" xml:lang="fr" source="#IGLS"><p>Victorieuse soit la Fortune des Bleus!.</p><!-- check -->
+           </div>
            <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the Blues triumphs!</p>
            </div>
                 
          </div>
             <div type="commentary">
-                <p></p>
+                <p>igls VI is Rey-Coquais, 1967, Baslbek et Beqa', form a copuy by Mouterde.</p>
                 
             </div>
             
