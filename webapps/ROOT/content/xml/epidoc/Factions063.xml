@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Red</rs>s</title>
+                <title><rs type="textType">Acclamation</rs> for ?<rs type="textType">Red</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -96,20 +96,19 @@
                     discussed and emended <bibl><ptr target="paes"/> <citedRange><ref target="https://digi.ub.uni-heidelberg.de/diglit/syria_div3_sectA_3/0023">p.149</ref></citedRange></bibl>, whence 
                     <bibl><ptr target="christoph1966"/> <citedRange unit="entry">26</citedRange></bibl>, and listed, 
                     <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
-                    <bibl><ptr target="igls2014"/> <citedRange>381</citedRange>, with photograph</bibl><!-- check IGLS for measurements --> , whence 
-          <!-- check SEG 64, 2014 -->  .
+                    <bibl><ptr target="igls2014"/> <citedRange>381</citedRange>, with photograph</bibl>.
                     </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-                  <div type="textpart" n="a"> <ab><lb n="1"/>Ἠλίαν</ab>
+                  <div type="textpart" n="a"> <ab><g ref="symbol.xml#crux"/><lb n="1"/>Ἠλίαν</ab>
              </div>
             <div type="textpart" n="b"><ab><lb n="1"/><g ref="symbol.xml#crux"/> 
     <lb n="2"/><g ref="symbol.xml#crux"/>  <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<milestone unit="block"/>χη</w> 
-                   <orgName ref="#red" nymRef="Κόκκινος"><w lemma="ὁ">το͂ν</w> <w lemma="Κόχχινος"><expan><abbr>Κοχ</abbr><ex>χίνων</ex></expan></w></orgName> <g ref="symbol.xml#crux"/> 
-     </ab></div>
-     </div>
+                   <orgName ref="#red" nymRef="Κόκκινος"><w lemma="ὁ">το͂ν</w> <w lemma="Κόχχινος"><expan><abbr>Κοχ</abbr><ex>χίνων</ex></expan></w></orgName> <g ref="symbol.xml#crux"/> </ab>
+</div>
+                </div>
          <div type="apparatus"><listApp>
              <app loc="b.2"><rdg resp="#waddington1870">ΚΟΧ: κό[σμον</rdg></app></listApp></div>
            

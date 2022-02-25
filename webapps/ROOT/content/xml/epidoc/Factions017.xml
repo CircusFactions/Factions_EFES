@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions017" xml:lang="en">
    <teiHeader>
@@ -101,13 +100,14 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Skizzenbuch 2838, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1198.3</citedRange></bibl>; <bibl><ptr target="roueche1999"/> <citedRange unit="entry">18</citedRange></bibl></p>
+            <p>Skizzenbuch 2838, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1198.3</citedRange></bibl>; 
+               <bibl><ptr target="roueche1999"/> <citedRange unit="entry">18</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
          <ab>
             <lb n="1"/><w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w>
-         <lb n="1"/><supplied reason="lost"><w lemma="ὁ">τῶν</w></supplied> <orgName ref="#green" nymRef="Πράσινος">Πρα<supplied reason="lost">σίνων</supplied></orgName>
+         <lb n="1"/><supplied reason="lost"><w lemma="ὁ">τῶν</w></supplied> <orgName ref="#green" nymRef="Πράσινος"><w>Πρα<supplied reason="lost">σίνων</supplied></w></orgName>
        </ab>   </div>
          <div type="apparatus"><!-- check -->
             
