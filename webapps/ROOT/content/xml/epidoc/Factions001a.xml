@@ -107,7 +107,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
-                    <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+                    <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
                    <orgName ref="#green" nymRef="Πράσινος"><expan><abbr>Πρα</abbr><ex>ϲίνων</ex></expan></orgName> </ab>
          </div>
          

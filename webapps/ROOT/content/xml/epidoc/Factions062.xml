@@ -101,7 +101,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab>
-                   <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="κοσμέω">Ἐκοϲμέθη</w>
+                   <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="κοσμέω">Ἐκοϲμέθη</w>
     <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ψηφόω">ἐψηφώθε</w>
     <lb n="3"/> <w lemma="ὁ">ὁ</w> <w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>οϲ</ex></expan></w> <w lemma="οὗτος">οὗτοϲ</w> <orgName ref="#blue" nymRef="#καλλάινος"><w lemma="ὁ">τῶν</w> <w lemma="ἐπίτιμος"><expan><abbr>ἐπι
    <lb n="4" break="no"/>τίμ</abbr><ex>ων</ex></expan></w> <w lemma="καλλάινος"><expan><abbr>Καλλαίν</abbr><ex>ων</ex></expan></w></orgName> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῆϲ</w>

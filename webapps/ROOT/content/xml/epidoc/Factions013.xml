@@ -107,7 +107,7 @@
              <lb n="1"/><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ
                 <lb n="2" break="no"/>χη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πρ
                    <lb n="3" break="no"/>αϲίνω
-                   <lb n="4" break="no"/>ν</w></orgName> <g ref="symbols.xml#crux"/>
+                   <lb n="4" break="no"/>ν</w></orgName> <g ref="symbol.xml#crux"/>
 
 </ab>
          </div>

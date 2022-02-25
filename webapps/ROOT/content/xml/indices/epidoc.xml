@@ -17,7 +17,12 @@
     <body>
       <div xml:id="symbol">
         <head>Symbols</head>
-
+        <div type="headings">
+          <list>
+            <item>Symbol</item>
+            <item>References</item>
+          </list>
+        </div>
         <div type="notes">
           <list>
             <item>
@@ -62,6 +67,23 @@
           <list>
             <item>
               <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="erasures">
+        <head>Erasures</head>
+        <div type="headings">
+          <list>
+            <item>Erased text</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the text is partially or completely restored in this inscription.</p>
             </item>
           </list>
         </div>
@@ -225,16 +247,23 @@
         </div>
       </div>
       
+      
       <div xml:id="organisations">
         <head>Organisations</head>
         <div type="headings">
           <list>
             <item>Name</item>
+            <item>Epithets</item>
+            <item>External resource</item>
             <item>References</item>
           </list>
         </div>
         <div type="notes">
-          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
         </div>
       </div>
     <!--
