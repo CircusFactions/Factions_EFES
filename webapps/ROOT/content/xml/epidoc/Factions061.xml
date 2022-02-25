@@ -92,7 +92,7 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="lajtar2017"/> <citedRange></citedRange></bibl> with photographs and a drawing, whence 
-                    <bibl><ptr target="SEG"/> <citedRange>60.1717</citedRange></bibl>.
+                    <bibl><ptr target="seg"/> <citedRange>60.1717</citedRange></bibl>.
                     </p>
             </div>
             

@@ -94,8 +94,8 @@
             <div type="bibliography">
                 <p>Mentioned <bibl><ptr target="piccirillo1982"/> <citedRange>509-510</citedRange>, with plate 12.1</bibl>; 
                     <bibl><ptr target="zayadine1986"/> <citedRange>17-18</citedRange>, with plate VII</bibl> , whence 
-                    <bibl><ptr target="SEG"/> <citedRange>37.1548</citedRange></bibl>, <bibl><ptr target="feisselBE"/>1989.993</bibl>, 
-                    also <bibl><ptr type="feissel2006"/> <citedRange>872</citedRange></bibl>.
+                    <bibl><ptr target="seg"/> <citedRange>37.1548</citedRange></bibl>, <bibl><ptr target="feisselBE"/>1989.993</bibl>, 
+                    also <bibl><ptr target="feissel2006"/> <citedRange>872</citedRange></bibl>.
                     </p>
             </div>
             

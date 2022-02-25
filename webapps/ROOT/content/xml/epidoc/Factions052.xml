@@ -95,7 +95,7 @@
                 <p>Recorded in 2009, published <bibl><ptr target="walser2013"/> <citedRange unit="entry">27</citedRange> and plate 27</bibl>, whence 
                     <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/2352">2352</ref></citedRange></bibl>; 
                     revised, <bibl><ptr target="feisselBE"/> <citedRange>2014.581</citedRange></bibl>,  
-                    <bibl><ptr target="SEG"/> <citedRange unit="entry">63.1199</citedRange></bibl>, 
+                    <bibl><ptr target="seg"/> <citedRange unit="entry">63.1199</citedRange></bibl>, 
                     </p>
             </div>
             

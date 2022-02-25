@@ -100,7 +100,7 @@
       <body>
          <div type="bibliography">
             <p><bibl> <ptr target="oikonomou2003"/> <citedRange>51, 69</citedRange></bibl>,
-               whence <bibl><ptr target="SEG"/> <citedRange>53.343</citedRange></bibl>, 
+               whence <bibl><ptr target="seg"/> <citedRange>53.343</citedRange></bibl>, 
                <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/3420">3420</ref></citedRange></bibl>
             </p>
          </div>

@@ -94,7 +94,7 @@
             <div type="bibliography">
                 <p><bibl><ptr target="iplik2010"/> <citedRange></citedRange></bibl>, whence 
                     <bibl><ptr target="feisselBE"/> <citedRange>2013.517</citedRange></bibl>,  
-                    <bibl><ptr target="SEG"/> <citedRange unit="entry">60.1557</citedRange></bibl>, 
+                    <bibl><ptr target="seg"/> <citedRange unit="entry">60.1557</citedRange></bibl>, 
                     </p>
             </div>
             

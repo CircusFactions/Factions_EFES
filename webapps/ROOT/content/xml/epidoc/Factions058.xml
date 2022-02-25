@@ -92,7 +92,7 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">6</citedRange>, with a drawing</bibl>, whence 
-                    <bibl><ptr target="SEG"/> <citedRange>52.1606</citedRange></bibl>;
+                    <bibl><ptr target="seg"/> <citedRange>52.1606</citedRange></bibl>;
                     <bibl><ptr target="ityr2006"/> <citedRange>132</citedRange></bibl>.
                     </p>
             </div>

@@ -96,11 +96,11 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Published from a copy by Roueché, <bibl><ptr type="cameron1973"/> <citedRange unit="page">276</citedRange></bibl>, whence 
-               <bibl><ptr type="robertBE"/> <citedRange unit="entry">1973.400</citedRange></bibl>; 
+            <p>Published from a copy by Roueché, <bibl><ptr target="cameron1973"/> <citedRange unit="page">276</citedRange></bibl>, whence 
+               <bibl><ptr target="robertBE"/> <citedRange unit="entry">1973.400</citedRange></bibl>; 
                <bibl><ptr target="roueche1989"/> <citedRange>182</citedRange></bibl>,
                whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257717">257717</ref></citedRange></bibl>; 
-               <bibl><ptr type="roueche1993"/> <citedRange unit="entry">1.iii</citedRange></bibl>,  whence 
+               <bibl><ptr target="roueche1993"/> <citedRange unit="entry">1.iii</citedRange></bibl>,  whence 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/264877">264877</ref></citedRange></bibl>;
                <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla182.html">182</ref></citedRange></bibl>, 
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080104.html">8.104</ref></citedRange></bibl>

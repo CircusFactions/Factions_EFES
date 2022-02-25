@@ -2,16 +2,16 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions059" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions049a" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Place</rs> inscription for <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Acclamation</rs> for <rs type="textType">Red</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Centre for Computing in the Humanities, King's College London</authority>
-                <idno type="filename">Factions059</idno>
+                <idno type="filename">Factions049a</idno>
                 <availability>
                     <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -25,28 +25,28 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>White <material>marble</material> <objectType>column</objectType>, <dimensions><dim>0.41</dim></dimensions> at the base.</p>
+                                    <p><material>Marble</material> <objectType>bench</objectType>.</p>
                                 </support>
                             </supportDesc>
-                            <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed</rs> on the shaft</layout>
+                            <layoutDesc>
+                                <layout>Broad, shallow <rs type="execution" key="litteris scariphatis">graffito</rs> on the upper face.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>0.03</height></handNote>
+                            <handNote>Nio measurements </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/610184253">Tyre: Hippodrome</placeName>: 
-                                presumably found on the east side of the <rs type="monument">hippodrome</rs>.</p>
+                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804148">Aphrodisias</placeName>: 
+                                South <rs type="monument">Agora</rs>: one of the row of seats around the pool, on the north side.</p>
                         </provenance>
                         <provenance type="observed">
-                            <p>Findspot (<date type="observed">2000</date>); inventory no. 1821</p>
+                            <p>Findspot</p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -76,50 +76,43 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                        <geogName type="modernCountry" key="TR">Turkey</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/267008">Tyre</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
                     </term>
                 </keywords>
             </textClass>
-            <creation>From previous publications (Roueché)</creation></profileDesc>
+            <creation>From previous publication</creation></profileDesc>
         <revisionDesc>
-            <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
+            <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
     </teiHeader><facsimile><surface/></facsimile>
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">7</citedRange>, with a plate</bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>52.1607</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.580</bibl>, 
-                    also <bibl><ptr target="feissel2006"/> <citedRange>683</citedRange></bibl>;
-                    <bibl><ptr target="ityr2006"/> <citedRange>133</citedRange></bibl>.
-                    </p>
+                <p>Mentioned <bibl><ptr target="smith2014"/> <citedRange unit="page">77, 86</citedRange></bibl>, whence 
+                    <bibl><ptr target="seg"/> <citedRange>2014.952</citedRange></bibl>. 
+                </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab>
-                   <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="τόπος"><expan><abbr>Τ<hi rend="superscript">ό</hi></abbr><abbr>π<hi rend="superscript">ο</hi></abbr><ex>ϲ</ex></expan></w>  
-                   <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="παγανός"><expan><abbr>παγ</abbr><ex>ανῶν</ex></expan></w> <w lemma="Βένετος">Βενέτων</w></orgName> 
-                   </ab>
+               <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> 
+                   <lb n="2"/><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ
+                       <lb n="3" break="no"/>χη</w> <w lemma="ὁ">τῶν</w> 
+                   <lb n="4"/> <w lemma="">Ῥου
+                       <lb n="5" break="no"/>ϲέων</w>
+               </ab>
+               
              </div> 
-           
-            <div type="apparatus"><listApp><app loc="2"><rdg resp="#reycoquais2002">παγ(άρχου)</rdg> 
-                <rdg resp="#feisselBE">παγ(ανῶν)</rdg></app></listApp></div>
-           
+            
+            
             <div type="translation" xml:space="preserve">
-                <div type="translation" xml:lang="fr" source="#ityr2006"><p>Emplacement du 'pagarque' des Bleus</p>
+           <div type="translation" xml:lang="en" resp="#cmr"><p> The fortune of the Reds triumphs!</p>
            </div>
-           <div type="translation" xml:lang="en" resp="#cmr"><p>Place of Blue pagani?</p>
-           </div>
-                
          </div>
             <div type="commentary">
-                <p>Feissel points to the use of paganus for 'ordinary members"; Paganus is also used to describe some members of a gladiatorial familia, 
-                    although their category is unclear. 
-                    (Robert, Gladiateurs 20</p>
-                
+                <p>The lettering and layout are strikingly similar to those of <ref target="https://insaph.kcl.ac.uk/ala2004/inscription/eAla080.html">ALA 80</ref>.</p> 
             </div>
             
         </body>

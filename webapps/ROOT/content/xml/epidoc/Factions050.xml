@@ -95,10 +95,10 @@
             <div type="bibliography">
                 <p><bibl><ptr target="hula1898"/> <citedRange unit="page"><ref target="https://archive.org/details/bub_gb_1dPlAAAAMAAJ/page/n273">24</ref>1</citedRange></bibl>; from notes by Hula,  
                     <bibl><ptr target="igc"/> <citedRange unit="entry">243bis</citedRange></bibl>, 
-                    on which <bibl><ptr type="robert1955"/> <citedRange unit="page">232</citedRange> note 1</bibl>;
+                    on which <bibl><ptr target="robert1955"/> <citedRange unit="page">232</citedRange> note 1</bibl>;
                     cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>,
                     listed, <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; 
-                    <bibl> <ptr type="sahin1982"/> <citedRange>1020</citedRange></bibl>, whence 
+                    <bibl> <ptr target="sahin1982"/> <citedRange>1020</citedRange></bibl>, whence 
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/262789">262789</ref></citedRange></bibl>
                 </p>
             </div>

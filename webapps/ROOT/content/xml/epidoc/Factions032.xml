@@ -94,7 +94,7 @@
       <body>
          <div type="bibliography">
             <p><bibl><ptr target="kadıoğlu2006"/> <citedRange unit="entry">18</citedRange></bibl>, whence 
-               <bibl><ptr target="SEG"/> <citedRange>59.1242</citedRange></bibl>
+               <bibl><ptr target="seg"/> <citedRange>59.1242</citedRange></bibl>
                </p>
          </div>
          

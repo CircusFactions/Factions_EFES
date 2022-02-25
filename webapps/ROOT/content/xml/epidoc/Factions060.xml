@@ -92,8 +92,8 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">8</citedRange>, with a plate</bibl>, whence 
-                    <bibl><ptr target="SEG"/> <citedRange>52.1608</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.580</bibl>, 
-                    also <bibl><ptr type="feissel2006"/> <citedRange>683</citedRange></bibl>;
+                    <bibl><ptr target="seg"/> <citedRange>52.1608</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.580</bibl>, 
+                    also <bibl><ptr target="feissel2006"/> <citedRange>683</citedRange></bibl>;
                     <bibl><ptr target="ityr2006"/> <citedRange>134</citedRange></bibl>.
                     </p>
             </div>

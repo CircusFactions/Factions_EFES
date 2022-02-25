@@ -100,7 +100,7 @@
          <div type="bibliography">
             <p><bibl><ptr target="igc"/> <citedRange unit="entry">114(5)</citedRange></bibl>, whence listed, 
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; <bibl><ptr target="inseph"/> <citedRange unit="entry">1192.3</citedRange></bibl> from Skizzenbuch 1028 
-               Republished by <bibl> <ptr target="thuer1989"/> <citedRange unit="page">74-5</citedRange> <citedRange unit="entry">4</citedRange></bibl>, whence <bibl><ptr target="SEG"/> <citedRange>39.1187</citedRange></bibl>;   
+               Republished by <bibl> <ptr target="thuer1989"/> <citedRange unit="page">74-5</citedRange> <citedRange unit="entry">4</citedRange></bibl>, whence <bibl><ptr target="seg"/> <citedRange>39.1187</citedRange></bibl>;   
                <bibl><ptr target="roueche1999"/> <citedRange unit="entry">7</citedRange></bibl></p>
          </div>
          

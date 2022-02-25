@@ -59,7 +59,6 @@
                         <date>1976</date>, <title level="m">Circus Factions</title>, <pubPlace>Oxford</pubPlace></bibl>
                     
                     <bibl xml:id="chaniotis2011">  <bibl type="abbrev">Chaniotis, 2011</bibl> <author ref="http://viaf.org/viaf/69054999">Α. <name>Chaniotis</name></author><date>2011</date>, 
-                        <title level="a">οἱ ἐκτὸς τῆς Κωνσταντινοπόλεως Βυζαντινοὶ Δῆμοι</title>, 
                         <title level="m"><ref target="https://zenon.dainst.org/Record/001377877">Ancient Graffiti in Context</ref></title>, 
                     <pubPlace>London</pubPlace>  <biblScope unit="page">191-205</biblScope></bibl>
                     
@@ -344,6 +343,10 @@
                     <bibl xml:id="seg"><bibl type="abbrev">SEG</bibl>: <title>Supplementum Epigraphicum Graecum</title>,
                         <pubPlace>Leiden</pubPlace>, <publisher>Brill Publishing</publisher>,
                         <date>1923-</date></bibl>
+                    
+                    <bibl xml:id="smith2014"><bibl type="abbrev">Smith, 2014</bibl>: <title level="a">Aphrodisias</title>,
+                        <title level="a">Aphrodisias</title>, <title level="s">Kazı Sonuçları Toplantısı</title> <biblScope unit="issue">36.2</biblScope>
+                        <biblScope unit="page">73-100</biblScope> <date>2014</date></bibl>
                     
                     <bibl xml:id="stephanidou2014">  <bibl type="abbrev">Stephanidou, 2014</bibl> <author ref="http://viaf.org/viaf/1390042">T. <name>Stephanidou-Tiveriou</name></author>, <date>2014</date>, <title level="m" ref="https://zenon.dainst.org/Record/001406807">Die lokalen Sarkophage aus Thessaloniki</title>,
                        <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>

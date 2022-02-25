@@ -98,7 +98,7 @@
       <body>
          <div type="bibliography">
             <p><bibl><ptr target="roueche2007"/> <citedRange></citedRange></bibl>, whence <bibl><ptr target="ae"/> <citedRange>2007.1392</citedRange></bibl>, 
-               <bibl><ptr target="SEG"/> <citedRange>57.1119.a, b</citedRange>, <citedRange>58.1330</citedRange></bibl></p>
+               <bibl><ptr target="seg"/> <citedRange>57.1119.a, b</citedRange>, <citedRange>58.1330</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">

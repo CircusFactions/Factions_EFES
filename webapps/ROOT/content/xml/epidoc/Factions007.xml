@@ -139,14 +139,17 @@
          <div type="apparatus"><!-- check -->
             
          </div>
-         <div type="translation" xml:space="preserve">
+         
+         <div type="translation" xml:lang="en" source="#wood1877">
+            <p>i:Of the Christian emperors of the green faction, may the years be many! 
+               ii.a:	Of the pious Emperors, may the years be many!</p></div>
            <div type="translation" xml:lang="en" resp="#cmr">
               <p>i:		Many years for Christian emperors and Greens!
 ii.a:		Many years for pious emperors!
 ii.b:		. . . ]many years!
-</p></div></div>
+</p></div>
          <div type="commentary">
-            <p>Of the Christian Emperors of the Green faction, may the years be many. Of the pious Emperors, may the years be many.</p> 
+            <p></p> 
          </div>
          
       </body>

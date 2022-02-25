@@ -95,7 +95,7 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, whence <bibl><ptr target="SEG"/> <citedRange>36.1605</citedRange></bibl></p>
+            <p>Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, whence <bibl><ptr target="seg"/> <citedRange>36.1605</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -97,7 +97,7 @@
             <p>Recorded by Peter Herrman, whence
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">248</citedRange>, <citedRange unit="page">315</citedRange></bibl>; 
                published <bibl><ptr target="roueche1995"/>
-                  <citedRange>3</citedRange></bibl> whence <bibl><ptr target="SEG"/> <citedRange>45.1608</citedRange></bibl>; <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.I.a</citedRange>
+                  <citedRange>3</citedRange></bibl> whence <bibl><ptr target="seg"/> <citedRange>45.1608</citedRange></bibl>; <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.I.a</citedRange>
                   </bibl>, whence <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/1708">1708</ref></citedRange></bibl>, 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/351669">351669</ref></citedRange></bibl>
                </p>
