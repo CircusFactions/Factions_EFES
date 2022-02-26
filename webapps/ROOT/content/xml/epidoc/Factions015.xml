@@ -109,7 +109,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="ὀρθόδοξος"><w lemma="ὀρθόδοξος"><abbr>ὀρθοδόξων</abbr></w></addName> <g ref="symbol.xml#crux"/> <addName nymRef="Χριστιανός"><w>Χριστιανῶν</w></addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>σιλέων</w></persName> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος"><abbr>Πρασίνων</abbr></w></orgName>
+  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="ὀρθόδοξος"><expan><ex>ὀρθοδόξων</ex></expan></addName> <g ref="symbol.xml#crux"/> <addName nymRef="Χριστιανός"><w>Χριστιανῶν</w></addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>σιλέων</w></persName> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος"><expan><ex>Πρασίνων</ex></expan></w></orgName>
 
 </ab></div>
          
@@ -117,9 +117,9 @@
          <div type="translation" xml:space="preserve">
            <p>(For) orthodox Christian emperors (and) Greens <note>or</note> (For) Christian emperors ?(and) orthodox Greens</p></div>
          <div type="commentary">
-            <p>For the epithet Orthodox apparently used of the Greens see also Text 11; Greegoure also restored a reference to the Greens as orthodox in another text at Ephesos, 
+            <p>For the epithet Orthodox apparently used of the Greens see also Text 11; Grégoire also restored a reference to the Greens as orthodox in another text at Ephesos, 
                <title>I.Eph.</title> 1192.2, 
-               followed by Roueché, 1999, item 9, but in fact the monumental style makes it more likely that the epithet ther refers to the emperors.</p>
+               followed by Roueché, 1999, item 9, but in fact the monumental style makes it more likely that the epithet there refers to the emperors.</p>
          </div>
          
       </body>

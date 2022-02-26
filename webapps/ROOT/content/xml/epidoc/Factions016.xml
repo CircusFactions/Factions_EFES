@@ -101,12 +101,12 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Transcribed by Heberdey, Skizzenbuch 1029, whence <bibl><ptr target="roueche1999"/> <citedRange>13</citedRange></bibl>, whence <title>SEG</title> 49.1448</p>
+            <p>Transcribed by Heberdey, Skizzenbuch 1029, whence <bibl><ptr target="roueche1999"/> <citedRange>13</citedRange></bibl>, whence <bibl><ptr target="seg"/> <citedRange>49.1448</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
-          <ab>
-  <lb n="1"/><abbr><w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></abbr> <abbr><w lemma="ὁ">τῶν</w> <orgName ref="#green" nymRef="Πράσινος">Πρασίνων</orgName></abbr> 
+          <ab><!-- check, ask -->
+  <lb n="1"/><expan><w lemma="νικάω"><ex>Νηκᾷ</ex></w> <w lemma="ὁ"><ex>ἡ</ex></w> <w lemma="τύχη"><ex>τύχη</ex></w></expan> <expan><w lemma="ὁ"><ex>τῶν</ex></w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="πράσινος"><ex>Πρασίνων</ex></w></orgName></expan> 
 
 </ab></div>
          
