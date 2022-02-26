@@ -95,7 +95,8 @@
                 <p><bibl><ptr target="baillet1926"/> <citedRange>1851</citedRange></bibl>, whence 
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/225941">225941</ref></citedRange></bibl>;
                     <bibl><ptr target="lukaszewicz2010"/> <citedRange>261</citedRange></bibl>, whence
-                    <bibl> <ptr target="seg"/> <citedRange>60.1767</citedRange> (mention)</bibl>.
+                    <bibl> <ptr target="seg"/> <citedRange>60.1767</citedRange> (mention)</bibl>, 
+                    <bibl><ptr target="lukaszewicz2013"/> <citedRange>103-4</citedRange></bibl>
                 </p>
             </div>
             
@@ -116,14 +117,13 @@
              
            <div type="translation" resp="#cmr" xml:lang="en">
               
-               <p> Ta?leinos of Alexandria, (official) of the Blues</p> 
+               <p> Ta?leinos of Alexandria, [official] of the Blues</p> 
               
                 
          </div>
             <div type="commentary">
-              <p>Perhaps Τα<unclear>υ̣</unclear>λινος for Ταυρῖνος</p> 
-                <p>  SEG 64.1882 from lukaszewicz 2013, Lecture Halls at Kom el-Dikka in Alexandria  in Divine Men and Women in the History and Society of Late Hellenism (Krakow, 2013)
-                101-113, 103-4 </p>
+                <p>Perhaps Τα<unclear>υ̣</unclear>λεῖνος for Ταυρῖνος (sο Łukaszewicz).</p> 
+                
             </div>
             
         </body>

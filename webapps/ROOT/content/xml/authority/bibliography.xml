@@ -219,14 +219,19 @@
                         <date>2010</date>, <title level="a">Memnon, his ancient visitors, and some related problems</title> 
                         <title level="m">Tradition and Transformation: Egypt under Roman rule</title>, <pubPlace>Leiden</pubPlace> <biblScope>255-263</biblScope></bibl>
                     
+                    <bibl xml:id="lukaszewicz2013">  <bibl type="abbrev">Łukaszewicz, 2013</bibl><author ref="http://viaf.org/viaf/161429523">A. <name>Łukaszewicz</name></author>, 
+                        <date>2013</date>, <title level="a">Lecture Halls at Kom el-Dikka in Alexandria</title> 
+                        <title level="m">Divine Men and Women in the History and Society of Late Hellenism</title>, <pubPlace>Krakow</pubPlace> <biblScope>101-113</biblScope></bibl>
+                    
                     <bibl xml:id="neroutsos1887">  <bibl type="abbrev">Néroutsos, 1887</bibl> <author ref="http://viaf.org/viaf/89708021">P.E. <name>Néroutsos</name></author>, <date>1887</date>, 
                         <title level="a">Inscriptions </title>, <title level="j">Revue archéologique</title>, 
                         <biblScope unit="page">198-209</biblScope>, available at <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203622h/f201.item">Gallica</ref></bibl>
                     
                     <bibl xml:id="nigdelis2011">  <bibl type="abbrev">Nigdelis, 2011</bibl> <author ref="http://viaf.org/viaf/298566809">Π. Μ. <name>Νίγδελης</name></author>, <date>2011</date>, <title level="a">Μακεδονικά Επιγραφικά ΙΙΙ (Θεσσαλονίκη)</title>, <title level="j">Τεκμήρια</title>, 
-                        <biblScope unit="issue">10</biblScope>, <biblScope unit="page">121-184</biblScope> available at <ptr target="http://epublishing.ekt.gr/el/5131/Τεκμήρια/7082"/>Tekmeria</bibl>
+                        <biblScope unit="issue">10</biblScope>, <biblScope unit="page">121-184</biblScope> available at <ref target="http://epublishing.ekt.gr/el/5131/Τεκμήρια/7082">Tekmeria</ref></bibl>
                     
-                    <bibl xml:id="oikonomou2003">  <bibl type="abbrev">Oikonomou-Laniado, 2003</bibl> <author ref="http://viaf.org/viaf/54431896">A. <name>Oikonomou-Laniado</name></author>, <date>2003</date> 
+                    <bibl xml:id="oikonomou2003">  <bibl type="abbrev">Oikonomou-Laniado, 2003</bibl> <author ref="http://viaf.org/viaf/54431896">A. <name>Oikonomou-Laniado</name></author>, 
+                        <date>2003</date> 
                         <title level="m">Argos paléochrétienne: Contribution à l'étude du Péloponnèse Byzantin</title> 
                         <pubPlace>Oxford</pubPlace></bibl>
                     
@@ -242,14 +247,14 @@
                     <bibl xml:id="pareti1912">  <bibl type="abbrev">Pareti, 1912</bibl> <author ref="http://viaf.org/viaf/73978331">L. <name>Pareti</name></author>, <date>1912</date>, 
                         <title level="a">Verdi e azzuri ai tempi di Foca e due iscrizioni inedite di Oxyrhynchos</title>, <title level="j">Studi Italiani di filologia classica </title>, 
                         <biblScope unit="issue">19</biblScope>, <biblScope unit="page">305-315</biblScope> available at 
-                        <ptr target="https://archive.org/details/studiitalianidif19fireuoft/page/304"/>Internet Archive</bibl>
+                        <ref target="https://archive.org/details/studiitalianidif19fireuoft/page/304">Internet Archive</ref></bibl>
                     
                     <bibl xml:id="phi"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
-                        Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/"/>PHI</bibl>
+                        Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/">PHI</ref></bibl>
                     
                     <bibl xml:id="piccirillo1981">  <bibl type="abbrev">Piccirillo, 1981</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
                         <date>1981</date>, 
-                        <title level="a">Chiese e mosaici della Giordania settentrionale</title>, <title level="m">Liber Annuus</title>, 
+                        <title level="a">Chiese e mosaici della Giordania settentrionale</title>, <title level="m">Liber Annuus</title>, <!-- details -->
                         <pubPlace>Jerusalem</pubPlace>, </bibl>
                     
                     <bibl xml:id="piccirillo1982">  <bibl type="abbrev">Piccirillo,1982</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
@@ -344,7 +349,7 @@
                         <pubPlace>Leiden</pubPlace>, <publisher>Brill Publishing</publisher>,
                         <date>1923-</date></bibl>
                     
-                    <bibl xml:id="smith2014"><bibl type="abbrev">Smith, 2014</bibl>: <title level="a">Aphrodisias</title>,
+                    <bibl xml:id="smith2014"><bibl type="abbrev">Smith, 2014</bibl>: <!-- add authors --><title level="a">Aphrodisias</title>,
                         <title level="a">Aphrodisias</title>, <title level="s">Kazı Sonuçları Toplantısı</title> <biblScope unit="issue">36.2</biblScope>
                         <biblScope unit="page">73-100</biblScope> <date>2014</date></bibl>
                     
@@ -380,11 +385,11 @@
                     
                     <bibl xml:id="wood1877">  <bibl type="abbrev">Wood, 1877</bibl><author ref="http://viaf.org/viaf/74629615">J. T. <name type="surname">Wood</name></author>, <date>1877</date>
                         <title level="a">Inscriptions from the city and suburbs</title>  <title level="m">Discoveries at Ephesus</title>
-                        <biblScope unit="page">327-333</biblScope>, available at <ref target="https://hdl.handle.net/2027/umn.31951002404487v"/>Hathi Trust</bibl>
+                        <biblScope unit="page">327-333</biblScope>, available at <ref target="https://hdl.handle.net/2027/umn.31951002404487v">Hathi Trust</ref></bibl>
                     
                     <bibl xml:id="wood1878">  <bibl type="abbrev">Wood, 1878</bibl><author ref="http://viaf.org/viaf/74629615">J. T. <name type="surname">Wood</name></author>, <date>1878</date>
                         <title level="a">On the Antiquities of Ephesus having relation to Christianity</title>  <title level="j">Transactions of the Society of Biblical Archaeology</title>
-                        <biblScope unit="page">327-333</biblScope>, available at <ref target="https://archive.org/details/transactionssoc05nashgoog"/>Archive.org</bibl>
+                        <biblScope unit="page">327-333</biblScope>, available at <ref target="https://archive.org/details/transactionssoc05nashgoog">Archive.org</ref></bibl>
                     <bibl xml:id="zayadine1986">  <bibl type="abbrev">Zayadine, 1986</bibl> <author ref=" http://viaf.org/viaf/38450705">F. <name>Zayadine</name></author>, 
                         <date>1986</date>, <title level="a">The Jerash Project for excavation and restoration: a synopsis</title>, in
                         <title level="m">Jerash Archaeological Project, 1981-1983</title> <biblScope>7-28</biblScope>  <pubPlace>Amman</pubPlace></bibl>

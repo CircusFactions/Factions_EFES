@@ -94,9 +94,10 @@
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="borkowski1981"/> <citedRange>39</citedRange> and plate 24</bibl>, whence 
+                <p><bibl><ptr target="borkowski1981"/> <citedRange>39</citedRange>, p.81 and plate 24</bibl>, whence 
                     <bibl><ptr target="seg"/> <citedRange>31.1492</citedRange></bibl>, whence 
-                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223649">223649</ref></citedRange></bibl>.
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/223649">223649</ref></citedRange></bibl>,
+                    <bibl><ptr target="lukaszewicz2013"/> <citedRange>107, n.23</citedRange></bibl>
                     
                 </p>
             </div>
@@ -118,16 +119,16 @@
     <lb n="12"/><w lemma="πίπτω">ἔπεϲεν</w> 
     <lb n="13"/><orgName  ref="#green" nymRef="#Βένετο"><w lemma="ὁ">τὸ</w> <w lemma="βένετος">Βένετο</w></orgName> 
     <lb n="14"/><w lemma="καί">καὶ</w> <orig><unclear>γ</unclear>ηχαϲ<unclear>ι</unclear></orig> 
-    <lb n="15"/><orig>μετ<unclear>α</unclear>των</orig>
+    <lb n="15"/><w lemma="μετά">μετ’</w> <w lemma="αὐτῶν"><unclear>α</unclear>των</w>
 
      </ab></div>
      </div>
-            <div type="apparatus"><listApp><app loc="6"><rdg resp="seg">Βένετο[ν]</rdg></app>
+            <div type="apparatus"><listApp><app loc="6"><rdg resp="#seg">Βένετο[ν]</rdg></app>
                 <app loc="14-15"><note>The fuller version presented by Borkowski in his commentary</note></app>
-                <app loc="14"><rdg resp="seg">․ΗΧ․Ϲ․</rdg></app>
-                <app loc="15"><rdg resp="seg">ΜΕΤ․ΤΩΝ.</rdg></app></listApp></div>
+                <app loc="14"><rdg>ΚΑΙ․ΗΧ․Ϲ․</rdg> <rdg resp="#lukaszewicz2013">καὶ Βηχιϲ</rdg></app> 
+                <app loc="15"><rdg>ΜΕΤ․ΤΩΝ.</rdg> <rdg resp="#borkowski1981">μετὰ τῶν</rdg></app></listApp></div>
             
-            <div type="translation" resp="#borkowski1981" xml:lang="fr">
+            <div type="translation" source="#borkowski1981" xml:lang="fr">
                 <p> Vive Kalotychos et Doros le Jeune! Vive les <hi rend="italic">gennaiotatoi</hi> Verts! 
                      De la tête aux pieds est tombé la faction des Bleus et . . .</p>
                 
@@ -135,14 +136,15 @@
             
              
            <div type="translation" resp="#cmr" xml:lang="en">
-               <p><note>a</note>: The fortune triumphs of Kalotychos and the young Doros.   <note>b</note>: The fortune triumphs of most noble Greens. <note>c</note>: The Blue has fallen from top to bottom, and [ . . .</p>
+               <p><note>a</note>: The fortune triumphs of Kalotychos and the young Doros.   
+                   <note>b</note>: The fortune triumphs of most noble Greens. 
+                   <note>c</note>: The Blue has fallen from top to bottom, and [ . . .] with them</p>
                 
          </div>
             <div type="commentary">
                 
-            <p>Kalotychos and Doros are both acclaimed in other texts on the seats.</p> 
-                <p>lukaszewicz 2013, Lecture Halls at Kom el-Dikka in Alexandria  in Divine Men and Women in the History and Society of Late Hellenism (Krakow, 2013)
-                    101-113, 107, n.23 cj καὶ Βηχιϲ/ μετὰ τῶν </p>
+            <p>Kalotychos and Doros are both acclaimed in other texts on the seats in the auditorium.</p> 
+                
             </div>
             
         </body>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions001" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -32,8 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout> Sprawling <rs type="execution" key="litteris scariphatis">graffito</rs> on one face.
-                           .</layout>
+                        <layout> Sprawling <rs type="execution" key="litteris scariphatis">graffito</rs> on one face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -107,7 +106,7 @@
                <bibl><ptr target="pallas1977"/> <citedRange unit="entry">50</citedRange> </bibl>, 
           listed, <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>; 
                republished <bibl> <ptr target="kiourtzian2005"/> <citedRange></citedRange></bibl>,
-               whence <bibl><ptr target="seg"/> <citedRange>55.615</citedRange></bibl>, whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/333526">333526</ref></citedRange></bibl>; 
+               whence <bibl><ptr target="seg"/> <citedRange>55.615</citedRange></bibl>, whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/333526">333526</ref></citedRange></bibl>, 
                <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/3826">3826</ref></citedRange></bibl>
                Mentioned, <bibl> <ptr target="feisselBE"/> <citedRange>2006.531</citedRange>, available at <ref target="https://www.persee.fr/doc/reg_0035-2039_2006_num_119_2_4678#reg_0035-2039_2006_num_119_2_T2_0748_0000">Persée</ref></bibl>
             </p>
@@ -122,16 +121,16 @@
          </div>
          
          <div type="apparatus">
-            <listApp><app loc="1"><rdg source="#pallas1977">τύχη τῶν</rdg>
+            <listApp><app loc="1"><rdg resp="#pallas1977">τύχη τῶν</rdg>
                </app></listApp>
             
          </div> 
          <div type="translation" xml:space="preserve">
-            <div type="translation" xml:lang="en" source="IChrGr"><p>The fortune of the orthodox Greens triumphs!</p></div>
+            <div type="translation" xml:lang="en" source="#IChrGr"><p>The fortune of the orthodox Greens triumphs!</p></div>
          </div>
          <div type="commentary">
-            <p>For the epithet Orthodox apparently used of the Greens see also Text 15; Grégoire also restored a reference to the Greens as orthodox in another text at Ephesos, <title>I.Eph.</title> 1192.2, 
-            but that is far from certain.</p>
+            <p>For the epithet Orthodox apparently used of the Greens see also <ref type="inscription" n="Factions015">Text 15</ref>; Grégoire also restored a reference to the Greens as orthodox in another text at Ephesos, 
+               <title>I.Eph.</title> 1192.2, but that reading is far from certain.</p>
          </div>
          
       </body>
