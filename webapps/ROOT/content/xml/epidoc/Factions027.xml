@@ -115,9 +115,9 @@
          <div type="apparatus">
             <listApp>
                <app loc="2"><note>Before the π Rehm reported a vertical stroke</note></app>
-               <app loc="2/3"><rdg source="#rehm1958">πρκαγκελ/λαρ</rdg></app>
+               <app loc="2/3"><rdg resp="#rehm1958">πρκαγκελ/λαρ</rdg></app>
                <app loc="3"><note>The rho has an abbreviation mark in its tail</note></app>
-               <app loc="3/4"><rdg source="#rehm1958">[γ]ενε/τῶν</rdg></app>
+               <app loc="3/4"><rdg resp="#rehm1958">[γ]ενε/τῶν</rdg></app>
             </listApp>
          </div> 
          
@@ -125,8 +125,7 @@
          <div type="translation" xml:space="preserve">
            <div type="translation" resp="#cmr" xml:lang="en"><p>Many years for Georgios the protokankellarios and the Blues!</p></div></div>
          <div type="commentary">
-            <p>A pair with Text 26.
-            </p> 
+            <p>A pair with <ref type="inscription" n="Factions026">Text 26</ref>.</p> 
          </div>
          
       </body>
