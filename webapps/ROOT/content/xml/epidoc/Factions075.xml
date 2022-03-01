@@ -20,7 +20,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><repository xml:id="db1097">Louvre</repository> <idno>E 11874</idno> <altIdentifier><idno>X 3664</idno></altIdentifier></msIdentifier>
+                    <msIdentifier><repository xml:id="louvre">Louvre</repository> <idno>E 11874</idno> <altIdentifier><idno>X 3664</idno></altIdentifier></msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>

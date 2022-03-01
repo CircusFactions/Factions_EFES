@@ -150,7 +150,7 @@
                     <bibl xml:id="inseph"><bibl type="abbrev">I.Ephesos</bibl><title level="m">Die inschriften von Ephesos</title>, <date>1979-1984</date><editor>R. Merkelbach et al.</editor>, 
                         <pubPlace>Bonn</pubPlace></bibl>
                     
-                    <bibl xml:id="IChrGr">  <bibl type="abbrev">ICG, 2019</bibl> <author ref="http://viaf.org/viaf/61582626">C. <name>Breytenbach</name> et al.</author>, 
+                    <bibl xml:id="IChrGr">  <bibl type="abbrev">IChrGr</bibl> <author ref="http://viaf.org/viaf/61582626">C. <name>Breytenbach</name> et al.</author>, 
                     <title level="m">Inscriptiones Christianae Graecae</title>, <date>2019</date>, <publisher>Edition Topoi</publisher>; available at 
                         <ref target="http://repository.edition-topoi.org/collection/ICG">Topoi</ref></bibl> 
                     

@@ -14,9 +14,16 @@
         <body>
         
         <listPlace>
-           
+            <place xml:id="argos">
+                <placeName>Archaeological Museum of Argos</placeName>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q4785389</idno>
+            </place>
+            <place xml:id="neaanchialos">
+                <placeName>Nea Anchialos Museum</placeName> <!-- check -->
+                
+            </place>
             
-            <place xml:id="db1097">
+            <place xml:id="louvre">
                 <placeName>Louvre, Paris</placeName>
                 <idno>https://ror.org/05k441034</idno>
             </place>

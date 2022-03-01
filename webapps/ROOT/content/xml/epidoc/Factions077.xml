@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout><rs key="scalpro">Painted</rs> on the wall.  </layout> <!-- check -->
+                                <layout><rs key="pictura">Painted</rs> on the wall.  </layout> <!-- check -->
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

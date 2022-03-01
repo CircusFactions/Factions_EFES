@@ -22,7 +22,7 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <msIdentifier><repository xml:id="argos">Archaeological Museum of Argos</repository></msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -32,18 +32,18 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution">Painted</rs> on one side.
+                        <layout><rs type="execution" ref="pictura">Painted</rs> on one side.
                            .</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Fourth-fifth century C.E.: no measurements</handNote>
+                     <handNote>Fourth to sixth centuries: no measurements</handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>Unknown.</origPlace>
-                     <origDate notBefore="0301" notAfter="0500"  precision="low" evidence="lettering, context">Fourth to fifth centuries C.E.</origDate>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="material-context">Fifth to sixth centuries C.E.</origDate>
                   </origin>
                   
                      
@@ -112,9 +112,9 @@
          </div>
          
          
-         <div type="translation" xml:space="preserve">
-            <div type="translation" xml:lang="en" source="IChrGr"><p>The fortune of the Greens triumphs!</p></div>
-         </div>
+         
+            <div type="translation" xml:lang="en" resp="IChrGr"><p>The fortune triumphs of Greens!</p></div>
+         
          <div type="commentary">
             <p></p>
          </div>
