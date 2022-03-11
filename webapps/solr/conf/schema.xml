@@ -144,7 +144,13 @@
    <field name="support_material" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="found_provenance" type="string" indexed="true"
-          multiValued="true" stored="true" required="false" />
+     multiValued="true" stored="true" required="false" />
+   <field name="findspot_upper_level" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
+   <field name="findspot_intermediate_level" type="string" 
+     indexed="true" multiValued="true" stored="true" required="false" />
+   <field name="findspot_lower_level" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
    <field name="mentioned_places" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
@@ -159,10 +165,14 @@
      multiValued="true" required="false" type="string" />
    <field indexed="true" multiValued="true" name="inscription_type"
      required="false" stored="true" type="string" />
+   <field name="origin_date_evidence" required="false" indexed="true"
+     multiValued="true" stored="true" type="string" />
 
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
-          multiValued="false" required="false" type="string" />
+     multiValued="false" required="false" type="string" />
+   <field name="index_attested_form" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
    <field name="index_instance_location" stored="true" indexed="false"
           multiValued="true" required="false" type="string" />
    <field name="index_abbreviation_expansion" stored="true"
@@ -175,10 +185,24 @@
      multiValued="false" required="false" type="string" />
    <field name="index_institution_type" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
-   <field name="index_ethnic" stored="true" indexed="true"
+   <field name="index_item_sort_name" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
-   <field name="origin_date_evidence" required="false" indexed="true"
-          multiValued="true" stored="true" type="string" />
+   <field name="index_item_sort_dur" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_item_type" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_external_resource" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_epithet" type="string" required="false"
+     multiValued="true" stored="true" indexed="true" />
+   <field name="index_ethnic" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_findspot_upper_level" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_findspot_intermediate_level" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
+   <field name="index_findspot_lower_level" type="string" required="false"
+     multiValued="false" stored="true" indexed="true" />
    <!-- Concordance fields. -->
    <field name="concordance_bibliography_ref" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
