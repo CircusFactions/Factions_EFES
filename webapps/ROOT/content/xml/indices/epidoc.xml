@@ -205,8 +205,8 @@
       </div>
       
       <!--     
-      <div xml:id="prosopography">
-        <head>Prosopography</head>
+      <div xml:id="persons">
+        <head>Persons</head>
         <div type="headings">
           <list>
             <item>Name</item>
