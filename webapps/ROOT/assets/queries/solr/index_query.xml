@@ -4,5 +4,6 @@
   <fq default="true" escape="false"></fq>
   <df>index_item_name</df>
   <rows>20000</rows>
+  <sort ordering="asc">index_item_sort_name</sort>
   <sort ordering="asc">index_item_name</sort>
 </query>
