@@ -27,13 +27,14 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p><objectType>Statue-base</objectType>, bearing inscription IEph 526 (available at PHI 872) on the front face.</p>
+                           <p><objectType>Statue-base</objectType>, bearing inscription IEph 526 
+                              (available at PHI <ref target="https://epigraphy.packhum.org/text/248587">872</ref>) on the front face.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="litter scariphatis">Graffito</rs> on the north side. There are at least two texts, perhaps 3 (depending on whether b and c should be read as a single text).a, cut just below the moulding, is barely legible, 
-                           line 1 is in small letters, line 2 is in larger letters, with traces of an attempt to erase themc
-                           c, a monogram,has been erased. At the lower edge of the face there are traces of two further lines, erased.
+                        <layout>Shallow <rs type="execution" key="litter scariphatis">graffito</rs> on the north side. There are at least two texts, perhaps 3 (depending on whether b and c should be read as a single text).a, cut just below the moulding, is barely legible, 
+                           line 1 is in small letters; line 2 is in larger letters, with traces of an attempt to erase them;
+                           c, a monogram, has been erased. At the lower edge of the face there are traces of two further lines, erased.
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -114,7 +115,7 @@
 </ab></div>
 
     <div type="textpart" n="c"><ab>
-      <orgName ref="#green" nymRef="Πράσινος"><abbr>Πραϲίνων</abbr></orgName></ab>
+      <orgName ref="#green" nymRef="#Πράσινος"><expan><ex>Πραϲίνων</ex></expan></orgName></ab>
     </div>      </div>
          
          <div type="translation" xml:space="preserve">
