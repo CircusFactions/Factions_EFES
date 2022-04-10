@@ -47,7 +47,7 @@
                   </origin>
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName>: 
                               in the East colonnade of the lower <rs type="monument">Agora</rs>, fifth standing column from the south.</p>
                         </provenance>
                         <provenance type="observed">

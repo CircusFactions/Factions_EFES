@@ -43,7 +43,7 @@
                     <idno type="pleiades">https://pleiades.stoa.org/places/463141627</idno>
                 </place>
                 <place xml:id="aphrodisiassouthagora">
-                    <placeName xml:lang="en">Aphrodisias, Odeon</placeName>
+                    <placeName xml:lang="en">Aphrodisias, South Agora</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/792804148</idno>
                 </place>
                 <place xml:id="aphrodisiasstadium">
@@ -54,6 +54,11 @@
                     <placeName xml:lang="en">Aphrodisias, Theatre</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/792804149</idno>
                 </place>
+                <place xml:id="argos">
+                    <placeName xml:lang="en">Argos</placeName>
+                    <placeName xml:lang="grc">Ἄργος</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/570106</idno>
+                </place>
                 <place xml:id="ephesus">
                     <placeName xml:lang="en">Ephesus</placeName>
                     <placeName xml:lang="grc">Ἔφεσος</placeName>
@@ -61,11 +66,25 @@
                     <idno type="geonames">http://www.geonames.org/695513</idno>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q47611</idno>
                 </place>
+                <place xml:id="gortyn">
+                    <placeName xml:lang="en">Gortyn</placeName>
+                    <placeName xml:lang="grc">Γόρτυν</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/589796</idno>
+                </place>
                 <place xml:id="miletustheatre">
                     <placeName xml:lang="en">Miletus, Theatre</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/265498964</idno>
                 </place>
-                <place xml:id="Stratonikeia">
+                <place xml:id="myriophyton">
+                    <placeName xml:lang="en">Myriophyton/Mürefte</placeName>
+                    <idno type="geonames">http://www.geonames.org/315250</idno>
+                </place>
+                <place xml:id="smyrna">
+                    <placeName xml:lang="en">Smyrna</placeName>
+                    <placeName xml:lang="grc">Σμύρνα</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/550893</idno>
+                </place>
+                <place xml:id="stratonikeia">
                     <placeName xml:lang="en">Stratonikeia</placeName>
                     <placeName xml:lang="grc">Στρατονίκεια</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/599947</idno>
@@ -78,6 +97,11 @@
                     <idno type="pleiades">https://pleiades.stoa.org/places/491741</idno>
                     <idno type="geonames">http://www.geonames.org/734077</idno>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q171517</idno>
+                </place>
+                <place xml:id="thebespth">
+                    <placeName xml:lang="en">Phiotic Thebes</placeName>
+                    <placeName xml:lang="grc">Θῆβαι Φθιώτιδες</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/541137</idno>
                 </place>
                 
                 </listPlace>

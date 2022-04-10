@@ -50,7 +50,7 @@
                      
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName>: 
                               <rs type="monument">gateway</rs> at the entrance to the Marble <rs type="monument">street</rs> just west of the Theatre.</p>
                         </provenance>
                         <provenance type="observed">

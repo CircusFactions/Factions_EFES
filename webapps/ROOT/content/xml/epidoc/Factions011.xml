@@ -47,7 +47,7 @@
                   </origin>
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                              <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName>: 
                               lying loose beside the Marble <rs type="monument">street</rs>.</p>
                         </provenance>
                         <provenance type="observed">
