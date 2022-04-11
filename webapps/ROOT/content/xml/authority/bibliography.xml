@@ -41,7 +41,7 @@
                   
                     <bibl xml:id="blouet1838">  <bibl type="abbrev">Blouet, 1838</bibl> <author ref="http://viaf.org/viaf/66615396">G.-A. <name>Blouet</name></author>, <date>1838</date>,
                         <title level="m"><ref target="https://zenon.dainst.org/Record/000802957">Expédition scientifique de Morée, 
-                            ordonnée par le gouvernement français</ref></title>, <biblScope unit="issue">III</biblScope>, <pubPlace>Paris</pubPlace>, available 
+                            ordonnée par le gouvernement français</ref></title>, <biblScope unit="issue">III</biblScope>, <pubPlace>Paris</pubPlace>, available at 
                         <ref target="http://digi.ub.uni-heidelberg.de/diglit/blouet1838">Heidelberg Digital Library</ref></bibl>
                   
                     <bibl xml:id="boeckh1843">  <bibl type="abbrev">CIG II, 1843</bibl><author ref="http://viaf.org/viaf/37048283">Augustus <name>Boeckh</name></author>, <date>1843</date>, 
@@ -58,7 +58,7 @@
                     <bibl xml:id="cameronCF">  <bibl type="abbrev">Cameron, 1976</bibl> <author ref="http://viaf.org/viaf/91284763">Alan <name>Cameron</name></author>,
                         <date>1976</date>, <title level="m">Circus Factions</title>, <pubPlace>Oxford</pubPlace></bibl>
                     
-                    <bibl xml:id="chaniotis2011">  <bibl type="abbrev">Chaniotis, 2011</bibl> <author ref="http://viaf.org/viaf/69054999">Α. <name>Chaniotis</name></author><date>2011</date>, 
+                    <bibl xml:id="chaniotis2011">  <bibl type="abbrev">Chaniotis, 2011</bibl> <author ref="http://viaf.org/viaf/69054999">Α. <name>Chaniotis</name></author> <date>2011</date>, 
                         <title level="m"><ref target="https://zenon.dainst.org/Record/001377877">Ancient Graffiti in Context</ref></title>, 
                     <pubPlace>London</pubPlace>  <biblScope unit="page">191-205</biblScope></bibl>
                     
@@ -69,7 +69,6 @@
                     
                     <bibl xml:id="ciip">  <bibl type="abbrev">CIIP</bibl>
                         <date>2010-</date>, <title level="m">Corpus Inscriptionum Iudaeae/Palaestinae</title>, <pubPlace>Berlin</pubPlace></bibl>
-                    
                     
                     <bibl xml:id="curtius1873">  <bibl type="abbrev">Curtius, 1873</bibl>  <author ref="http://viaf.org/viaf/23660287">Carl <name>Curtius</name></author>, <date>1873</date>, 
                         <title level="a">Inschriften aus Kleinasien</title>, <title level="j">Hermes</title>, <biblScope unit="issue">7</biblScope>
@@ -323,7 +322,7 @@
                         <title level="m" ref="https://zenon.dainst.org/Record/000359927">100 Jahre Österreichische Forschungen in Ephesos</title>, <pubPlace>Vienna</pubPlace>, 
                         <biblScope unit="pp">161-170</biblScope></bibl>
                     
-                    <bibl xml:id="roueche2004"> <bibl type="abbrev">ala2004</bibl>
+                    <bibl xml:id="roueche2004"> <bibl type="abbrev">Roueché, 2004</bibl>
                         <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>2004</date>, 
                         <title level="m">Aphrodisias in Late Antiquity, revised second edition</title>, <pubPlace>London</pubPlace>, 
                         available at <ref target="http://insaph.kcl.ac.uk/ala2004/">http://insaph.kcl.ac.uk/ala2004/</ref></bibl>

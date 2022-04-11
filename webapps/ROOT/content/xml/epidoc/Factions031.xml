@@ -44,7 +44,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599832">Nysa</placeName>: 
+                           <p><placeName type="ancientFindspot" ref="nysa">Nysa</placeName> (<ref target="https://pleiades.stoa.org/places/599832">Pleiades</ref>): 
                               <rs type="monument">Theatre</rs>: cornice block (Catalogue p.192, no. 72) of the first podium on the eastern side of the façade.</p>
                         </provenance>
                         <provenance type="observed">

@@ -85,6 +85,11 @@
                     <placeName xml:lang="tr">Mürefte</placeName>
                     <idno type="geonames">http://www.geonames.org/315250</idno>
                 </place>
+                <place xml:id="nysa">
+                    <placeName xml:lang="en">Nysa</placeName>
+                    <placeName xml:lang="grc">Νύσα</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/599832</idno>
+                </place>
                 <place xml:id="priene">
                     <placeName xml:lang="en">Priene</placeName>
                     <placeName xml:lang="grc">Πριήνη</placeName>
