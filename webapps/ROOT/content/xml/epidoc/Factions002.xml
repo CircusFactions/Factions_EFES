@@ -51,7 +51,8 @@
                      
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="thessalonica">Thessalonica</placeName>:</p>
+                              <placeName type="ancientFindspot" ref="thessalonica">Thessalonica</placeName> 
+                              (<ref target="https://pleiades.stoa.org/places/491741">Pleiades</ref>):</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot.</p>

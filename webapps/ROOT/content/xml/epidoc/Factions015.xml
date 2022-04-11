@@ -48,8 +48,7 @@
                   
                      
                         <provenance type="found">
-                           <p>
-                              <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599612">Ephesus</placeName>: 
+                           <p><placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
                               standing at the bottom of the Embolos <rs type="monument">street</rs>, facing the Gate of Hadrian.</p><!-- check -->
                         </provenance>
                         <provenance type="observed">

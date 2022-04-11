@@ -48,7 +48,9 @@
                      
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="smyrna">Smyrna</placeName>: reused in a fountain: sur une pierre servant de montant à une fontaine.</p>
+                              <placeName type="ancientFindspot" ref="smyrna">Smyrna</placeName> 
+                              (<ref target="https://pleiades.stoa.org/places/550893">Pleiades</ref>): 
+                              reused as the access to a fountain, 'sur une pierre servant de montant à une fontaine'.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot.</p>

@@ -50,7 +50,8 @@
                      
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="gortyn">Gortyn</placeName>:</p>
+                              <placeName type="ancientFindspot" ref="gortyn">Gortyn</placeName> 
+                              (<ref target="https://pleiades.stoa.org/places/589796">Pleiades</ref>):</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot.</p>
