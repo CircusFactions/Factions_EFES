@@ -101,9 +101,9 @@
          <div type="bibliography">
             <p>Copied by M. Trézel, and published by Le Bas in <bibl><ptr target="blouet1838"/>, Smyrne 1, <citedRange unit="page">54</citedRange>,
                available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/blouet1838/0130/image">Heidelberg Digital Library</ref></bibl>, 
-               whence <bibl> <ptr target="boeckh1843"/><citedRange>3171b</citedRange></bibl>, 
-               <bibl> <ptr target="petzl1987"/><citedRange>886</citedRange></bibl>; mentioned 
-               <bibl><ptr target="feisselBE"/> <citedRange>1989.916</citedRange></bibl>, <bibl><ptr target="feissel2006"/> <citedRange>257</citedRange></bibl>.</p>
+               whence <bibl><ptr target="boeckh1843"/>, <citedRange>3171b</citedRange></bibl>, 
+               <bibl><ptr target="petzl1987"/>, <citedRange>886</citedRange></bibl>; corrected 
+               <bibl><ptr target="feisselBE"/> <citedRange>1989.916</citedRange></bibl>, <bibl><ptr target="feissel2006"/>, <citedRange>257</citedRange></bibl>.</p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
@@ -113,7 +113,7 @@
          </div>
          <div type="apparatus">
             <listApp>
-               <app loc="1"><rdg source="#blouet1838">ΕΝΕ   ΤΩΝ</rdg></app>
+               <app loc="1"><rdg resp="#blouet1838">ΕΝΕ   ΤΩΝ</rdg></app>
             </listApp>
             
          </div>
@@ -121,7 +121,7 @@
            <p> . . . of the Blues . . .</p></div>
          <div type="commentary">
             <p>Le Bas interpreted the surviving letters as a reference to the Heneti/Veneti, translating as "Offrande des Hénètes"; 
-               this reading follows Feissel.</p> 
+               this was corrected by Feissel.</p> 
          </div>
          
       </body>

@@ -46,8 +46,8 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599905">Priene</placeName>: 
-                              Christian Basilica <rs type="monument">church</rs>: on the east side of the altar.</p>
+                           <p><placeName type="ancientFindspot" ref="priene">Priene</placeName> (<ref target="https://pleiades.stoa.org/places/599905">Pleiades</ref>): 
+                              Basilica <rs type="monument">church</rs>: on the east side of the altar.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -82,7 +82,7 @@
                         <geogName type="modernCountry" key="TR">Turkey</geogName>
                     </term>
                <term>
-                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7733372">Priene</placeName>
                     </term>
             </keywords>
          </textClass>

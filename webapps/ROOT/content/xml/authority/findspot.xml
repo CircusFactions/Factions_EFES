@@ -59,6 +59,11 @@
                     <placeName xml:lang="grc">Ἄργος</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/570106</idno>
                 </place>
+                <place xml:id="didyma">
+                    <placeName xml:lang="en">Didyma</placeName>
+                    <placeName xml:lang="grc">Δίδυμα</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/599593</idno>
+                </place>
                 <place xml:id="ephesus">
                     <placeName xml:lang="en">Ephesus</placeName>
                     <placeName xml:lang="grc">Ἔφεσος</placeName>
@@ -76,13 +81,19 @@
                     <idno type="pleiades">https://pleiades.stoa.org/places/265498964</idno>
                 </place>
                 <place xml:id="myriophyton">
-                    <placeName xml:lang="en">Myriophyton/Mürefte</placeName>
+                    <placeName xml:lang="en">Myriophyton</placeName>
+                    <placeName xml:lang="tr">Mürefte</placeName>
                     <idno type="geonames">http://www.geonames.org/315250</idno>
+                </place>
+                <place xml:id="priene">
+                    <placeName xml:lang="en">Priene</placeName>
+                    <placeName xml:lang="grc">Πριήνη</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/550893</idno>
                 </place>
                 <place xml:id="smyrna">
                     <placeName xml:lang="en">Smyrna</placeName>
                     <placeName xml:lang="grc">Σμύρνα</placeName>
-                    <idno type="pleiades">https://pleiades.stoa.org/places/550893</idno>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/599905</idno>
                 </place>
                 <place xml:id="stratonikeia">
                     <placeName xml:lang="en">Stratonikeia</placeName>

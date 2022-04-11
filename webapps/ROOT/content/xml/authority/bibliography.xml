@@ -82,7 +82,7 @@
                         <title level="a">Compléments et corrections aux Inscriptiones Thessalonicae</title>, <title level="j"> Bulletin de Correspondance Hellenique</title>,
                         <biblScope unit="page">585-599</biblScope>, available at <ref target="https://www.persee.fr/doc/bch_0007-4217_1973_num_97_2_4844">Persée</ref> </bibl>
                     
-                    <bibl xml:id="EDH"><bibl type="abbrev">EDH</bibl>: <title>Epigraphische Datenbank Heidelberg</title>
+                    <bibl xml:id="EDH"><bibl type="abbrev">EDH</bibl>: <title>Epigraphische Datenbank Heidelberg</title>, <date>1986-</date>,
                         available at <ref target="http://www.epigraphische-datenbank-heidelberg.de/"/>EDH</bibl>
                     
                     <bibl xml:id="edson1972">  <bibl type="abbrev">IG X,2,1, 1972</bibl> <author ref="http://viaf.org/viaf/72543898">C. <name>Edson</name></author>, <date>1972</date> 
@@ -98,7 +98,7 @@
                     
                     <bibl xml:id="feisselBE">  <bibl type="abbrev">Feissel, Bulletin Épigraphique</bibl> <author ref="http://viaf.org/viaf/36918084">Denis <name type="surname">Feissel</name></author>
                         <title level="a">Bulletin Épigraphique</title> in <title level="j">Revue des Études Grecques</title>
-                        <biblScope unit="issue">1987-</biblScope>, available at <ref target="http://www.persee.fr/collection/reg"/>Persée</bibl>
+                        <date>1987-</date>, available at <ref target="http://www.persee.fr/collection/reg"/>Persée</bibl>
                     
                     <bibl xml:id="inscret">  <bibl type="abbrev">I.Cret.</bibl> <author ref="http://viaf.org/viaf/102334118">M. <name>Guarducci</name></author>, <date>1935-1950</date> 
                         <title level="m"><ref target="https://zenon.dainst.org/Record/000762208">Inscriptiones Creticae</ref></title>, 
@@ -249,7 +249,7 @@
                         <biblScope unit="issue">19</biblScope>, <biblScope unit="page">305-315</biblScope> available at 
                         <ref target="https://archive.org/details/studiitalianidif19fireuoft/page/304">Internet Archive</ref></bibl>
                     
-                    <bibl xml:id="phi"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
+                    <bibl xml:id="phi"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, , <date>1987-</date>, <publisher>Packard
                         Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/">PHI</ref></bibl>
                     
                     <bibl xml:id="piccirillo1981">  <bibl type="abbrev">Piccirillo, 1981</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
@@ -298,7 +298,7 @@
                     
                     <bibl xml:id="robertBE">  <bibl type="abbrev">J and L Robert, Bulletin Épigraphique</bibl><author ref="http://viaf.org/viaf/41845785">J and L <name type="surname">Robert</name></author>
                         <title level="a">Bulletin Épigraphique</title> in <title level="j">Revue des Études Grecques</title>
-                        <biblScope unit="issue">1938-84</biblScope>, available at <ref target="http://www.persee.fr/collection/reg">Persée</ref></bibl>
+                        <date>1938-84</date>, available at <ref target="http://www.persee.fr/collection/reg">Persée</ref></bibl>
                     
                     <bibl xml:id="roueche1989"> <bibl type="abbrev">Roueché, 1989</bibl>
                         <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>1989</date> 
