@@ -53,7 +53,7 @@
                         <biblScope unit="volume">II</biblScope>, <pubPlace>Warsaw</pubPlace></bibl>
                     
                     <bibl xml:id="cameron1973">  <bibl type="abbrev">Cameron, 1973</bibl> <author ref="http://viaf.org/viaf/91284763">Alan <name>Cameron</name></author>, 
-                        <date>1976</date>, <title level="m">Porphyrius the Charioteer</title>, <pubPlace>Oxford</pubPlace></bibl>
+                        <date>1973</date>, <title level="m">Porphyrius the Charioteer</title>, <pubPlace>Oxford</pubPlace></bibl>
                     
                     <bibl xml:id="cameronCF">  <bibl type="abbrev">Cameron, 1976</bibl> <author ref="http://viaf.org/viaf/91284763">Alan <name>Cameron</name></author>,
                         <date>1976</date>, <title level="m">Circus Factions</title>, <pubPlace>Oxford</pubPlace></bibl>
@@ -322,7 +322,7 @@
                         <title level="m" ref="https://zenon.dainst.org/Record/000359927">100 Jahre Österreichische Forschungen in Ephesos</title>, <pubPlace>Vienna</pubPlace>, 
                         <biblScope unit="pp">161-170</biblScope></bibl>
                     
-                    <bibl xml:id="roueche2004"> <bibl type="abbrev">Roueché, 2004</bibl>
+                    <bibl xml:id="ala2004"> <bibl type="abbrev">Roueché, 2004</bibl>
                         <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>2004</date>, 
                         <title level="m">Aphrodisias in Late Antiquity, revised second edition</title>, <pubPlace>London</pubPlace>, 
                         available at <ref target="http://insaph.kcl.ac.uk/ala2004/">http://insaph.kcl.ac.uk/ala2004/</ref></bibl>

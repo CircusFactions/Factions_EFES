@@ -25,7 +25,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Wall <material>plaster</material> in a <objectType>doorway</objectType>s</p>
+                           <p>Wall <material>plaster</material> in a <objectType>doorway</objectType></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -35,7 +35,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>Line 1, <height>0.025</height>;
-                        line 2,<height>0,02-0.025</height>; line 3, <height>0.01(o)-0.0</height></handNote>
+                        line 2, <height>0.02-0.025</height>; line 3, <height>0.01(o)-0.0</height></handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -44,8 +44,8 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804149">Aphrodisias</placeName>: 
-                              <rs type="monument">Theatre</rs>: scaenae frons, northernmost chamber: doorway, on the north wall, a little further into the room. </p>
+                           <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
+                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>): scaenae frons, northernmost chamber: doorway, on the north wall, a little further into the room. </p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -110,15 +110,15 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
                 <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
-               <lb n="2"/><orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος">Πραϲίνων</w></orgName>
-               <lb n="3"/><w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w lemma="ὁ">τον</w> <w lemma="μῖμος">μίμον</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τοῦ</w>
+               <lb n="2"/><orgName ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος">Πραϲίνων</w></orgName>
+               <lb n="3"/><w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w lemma="ὁ">τον</w> <w lemma="μῖμος">μίμον</w> <orgName ref="#green" nymRef="#τὸ Πράσινον"><w lemma="ὁ">τοῦ</w>
                <lb n="4"/><w lemma="Πράσινος"><expan><abbr>Πραϲίν</abbr><ex>ου</ex></expan></w></orgName>
 </ab>   
          
          </div>
          
          <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the Greens, and of the mimes of the Green (faction) triumphs!</p>
+           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of the Greens, and of the mimes of the Green <supplied reason="subaudible">faction</supplied> triumphs!</p>
            </div>
          </div>
          <div type="commentary">

@@ -25,12 +25,12 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>White <material>marble</material> <objectType>door-post</objectType>s</p>
+                           <p>White <material>marble</material> <objectType>door-post</objectType></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
                         <layout><rs type="execution" key="litteris scariphatis">Graffito</rs> at 0.26 from the lower edge on the inner face. 
-                           There seems to have been an attempt to erase the second line
+                           There seems to have been an attempt to erase the second line.
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -44,9 +44,9 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804149">Aphrodisias</placeName>: 
-                              <rs type="monument">Theatre</rs> V; recorded by the NYU expedition in 1967 (excavation inventory no.
-                              <rs type="invNo">67.539</rs>  </p>
+                           <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
+                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>) V; recorded by the NYU expedition in 1967 (excavation inventory no.
+                              <rs type="invNo">67.539</rs>).  </p>
                         </provenance>
                         <provenance type="observed">
                            <p>East of the theatre</p>
@@ -98,10 +98,10 @@
       <body>
          <div type="bibliography">
             <p> <bibl><ptr target="roueche1989"/> <citedRange>183</citedRange></bibl>,  whence 
-               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257718">257718</ref></citedRange></bibl>
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257718">257718</ref></citedRange></bibl>;
                <bibl><ptr target="roueche1993"/> <citedRange unit="entry">10</citedRange></bibl>,  whence 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/264918">264918</ref></citedRange></bibl>; 
-               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla183.html">183</ref></citedRange></bibl>
+               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla183.html">183</ref></citedRange></bibl>;
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080106.html">8.106</ref></citedRange></bibl>
                </p>
          </div>
@@ -109,7 +109,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
                 <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <w lemma="ὁ">τῆϲ</w> <w lemma="πόλις">πόλεοϲ</w>
-               <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τoν</w> <w lemma="Πράσινος">Πρ<unclear>α</unclear>ϲίνων</w></orgName>
+               <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="ὁ">τoν</w> <w lemma="Πράσινος">Πρ<unclear>α</unclear>ϲίνων</w></orgName>
                
 </ab>   
          

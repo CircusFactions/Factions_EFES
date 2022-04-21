@@ -50,6 +50,10 @@
                     <placeName xml:lang="en">Aphrodisias, Stadium</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/840672014</idno>
                 </place>
+                <place xml:id="aphrodisiastetrapylon">
+                    <placeName xml:lang="en">Aphrodisias, Tetrapylon</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/792804150</idno>
+                </place>
                 <place xml:id="aphrodisiastheatre">
                     <placeName xml:lang="en">Aphrodisias, Theatre</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/792804149</idno>

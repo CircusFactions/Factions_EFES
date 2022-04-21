@@ -95,7 +95,7 @@
     <text>
         <body>
             <div type="bibliography">
-                <p>Cited <bibl><ptr target="cameron1976"/><citedRange>315</citedRange></bibl>, whence <bibl><ptr target="robertBE"/> <citedRange>1977.82</citedRange></bibl>; 
+                <p>Cited <bibl><ptr target="cameronCF"/><citedRange>315</citedRange></bibl>, whence <bibl><ptr target="robertBE"/> <citedRange>1977.82</citedRange></bibl>; 
                     published <bibl><ptr target="jmrrft1987"/>Appendix, 1a</bibl>, whence  
                     <bibl> <ptr target="seg"/> <citedRange>1987, 846</citedRange></bibl>, <bibl><ptr target="BE"/> <citedRange>1988.888</citedRange></bibl>;
                     <bibl><ptr target="roueche1989"/> <citedRange>180.iii</citedRange></bibl>, whence 

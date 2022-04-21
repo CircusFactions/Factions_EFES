@@ -43,8 +43,8 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804149">Aphrodisias</placeName>: 
-                              <rs type="monument">Theatre</rs>: Block C, 18: on one seat, which is broken at both sides.</p>
+                           <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
+                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>) seats: Block C, 18, on one seat, which is broken at both sides.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -95,8 +95,8 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Described <bibl><ptr target="cameron1976"/><citedRange>315</citedRange></bibl>; <bibl><ptr target="roueche1989"/> <citedRange>181.ii</citedRange></bibl>,  whence 
-               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257714">257714</ref></citedRange></bibl>
+            <p>Described <bibl><ptr target="cameronCF"/>, <citedRange>315</citedRange></bibl>; <bibl><ptr target="roueche1989"/> <citedRange>181.ii</citedRange></bibl>,  whence 
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257714">257714</ref></citedRange></bibl>;
                <bibl><ptr target="roueche1993"/> <citedRange unit="entry">46.C</citedRange></bibl>,  whence 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265039">265039</ref></citedRange></bibl>; 
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080055.html">8.55.18</ref></citedRange></bibl>
@@ -107,7 +107,7 @@
             <ab>
                              
                <lb n="1"/><w lemma="κακός">Κακὰ</w> <w lemma="ὁ"><unclear>τὰ</unclear></w> <w lemma="ἔτος"><unclear>ἔτ</unclear>η</w> 
-               <lb n="2"/> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος">Πραϲίνων</w></orgName>
+               <lb n="2"/> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος">Πραϲίνων</w></orgName>
                
 </ab>   
          

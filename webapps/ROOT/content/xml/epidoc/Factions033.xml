@@ -44,7 +44,8 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804150">Aphrodisias, Tetrapylon</placeName>: 
+                           <p><placeName type="ancientFindspot" ref="aphrodisiastetrapylon">Aphrodisias, Tetrapylon</placeName> 
+                              (<ref target="https://pleiades.stoa.org/places/792804150">Pleiades</ref>): 
                      <rs type="monument">street</rs>: in the eastern colonnade.</p>
                         </provenance>
                         <provenance type="observed">
@@ -95,10 +96,10 @@
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl><ptr target="roueche1989"/> <citedRange>184</citedRange></bibl>,
-               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla184.html">184</ref></citedRange></bibl>, whence 
-               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257719">257719</ref></citedRange></bibl>;
-               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph010403.html">1.403</ref></citedRange></bibl>
+            <p><bibl><ptr target="roueche1989"/> <citedRange>184</citedRange></bibl>, whence 
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257719">257719</ref></citedRange></bibl>, 
+               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla184.html">184</ref></citedRange></bibl>;
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph010403.html">1.403</ref></citedRange></bibl>.
                </p>
          </div>
          

@@ -26,7 +26,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Three <material>marble</material> <objectType>column-base</objectType>s</p>
+                           <p>Three adjacent <material>marble</material> <objectType>column-base</objectType>s</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -36,19 +36,19 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>Lightly but carefully <rs type="execution" key="scalpro">cut</rs>, with some decorative flourishes; thus in iii the central upright of the
-                        omega is used as the upright of a cross. They are tall: i,<height>0.12</height>;
-                        ii,<height>0.125</height>; iii, <height>0.13</height></handNote>
+                        omega is used as the upright of a cross. They are tall: i, <height>0.12</height>;
+                        ii, <height>0.125</height>; iii, <height>0.13</height></handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>Findspot</origPlace>
-                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth-seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804148">Aphrodisias</placeName>: 
-                              South <rs type="monument">Agora</rs>: north portico, on the south face of three adjacent column bases. There is a gap in the columns of the north portico, 
-                              but the westernmost of these texts (i) appears to be on the twentieth column base from the west.</p>
+                           <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): 
+                              north portico, on the south face of three adjacent column bases. There is a gap in the columns of the north portico, 
+                              but the westernmost of these texts (i) appears to be on the twentieth column base from the west.</p><!-- check -->
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -104,24 +104,24 @@
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl><ptr target="roueche1989"/> <citedRange>186</citedRange></bibl>,
-               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla186.html">186</ref></citedRange></bibl>, whence 
+            <p><bibl><ptr target="roueche1989"/> <citedRange>186</citedRange></bibl>, whence 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257723">257723</ref></citedRange>, 
                   <citedRange><ref target="https://epigraphy.packhum.org/text/257724">257724</ref></citedRange>, 
-                  <citedRange><ref target="https://epigraphy.packhum.org/text/257725">257725</ref></citedRange></bibl>;
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/257725">257725</ref></citedRange></bibl>; 
+               <bibl><ptr target="ala2004"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/ala2004/inscription/eAla186.html">186</ref></citedRange></bibl>;
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph040013.html">4.13</ref></citedRange></bibl>
                </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <div type="textpart" n="i"><ab>
-                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τῶν</w> <w lemma="Πράσινος"><abbr>Πραϲίνων</abbr></w></orgName>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="οἱ Πράσινοι"><w lemma="ὁ">τῶν</w> <expan><w lemma="Πράσινος"><ex>Πραϲίνων</ex></w></expan></orgName>
 </ab>   </div>
          <div type="textpart" n="ii"><ab>
-                <lb n="1"/><w lemma="αὐξάνω">Αὔξι</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆς</w> <w lemma="πόλις"><expan><abbr>πό</abbr><ex>λεωϲ</ex></expan></w>
+                <lb n="1"/><w lemma="αὐξάνω">Αὔξι</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆς</w> <expan><w lemma="πόλις"><abbr>πό</abbr><ex>λεωϲ</ex></w></expan>
 </ab>   </div>
             <div type="textpart" n="iii"><ab>
-                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <w lemma="Βένετος"><abbr>Βενέτων</abbr></w></orgName>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <expan><w lemma="Βένετος"><ex>Βενέτων</ex></w></expan></orgName>
 </ab>   </div>
          </div>
          

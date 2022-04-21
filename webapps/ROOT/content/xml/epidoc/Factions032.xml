@@ -107,14 +107,14 @@
          
          <div type="apparatus">
             <listApp>
-               <app loc="1"><rdg source="#kadıoğlu2006">τ[ύχη πρασίνων]</rdg></app>
+               <app loc="1"><rdg resp="#kadıoğlu2006">τ[ύχη πρασίνων]</rdg></app>
             </listApp>
          </div> 
          
          
          
          <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note>: The fortune of [Greens or Blues?] triumphs!</p>
+           <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of [Greens or Blues?] triumphs!</p>
            </div>
          </div>
          <div type="commentary">

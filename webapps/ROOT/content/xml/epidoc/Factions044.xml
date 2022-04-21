@@ -42,11 +42,11 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804149">Aphrodisias</placeName>: 
-                              <rs type="monument">Theatre</rs>: found loose.</p>
+                           <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
+                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>): found loose.</p>
                         </provenance>
                         <provenance type="observed">
-                           <p>East of Theatre</p>
+                           <p>East of Theatre (1976)</p>
                         </provenance>
                </history>
             </msDesc>
@@ -92,7 +92,7 @@
       <body>
          <div type="bibliography">
           <p>  <bibl><ptr target="roueche1989"/> <citedRange>181.ix</citedRange></bibl>, whence 
-             <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257716">257716</ref></citedRange></bibl>
+             <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257716">257716</ref></citedRange></bibl>,
              <bibl><ptr target="roueche1993"/> <citedRange unit="entry">46.X.4</citedRange></bibl>, whence 
              <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265117">265117</ref></citedRange></bibl>;
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080057.html">8.107</ref></citedRange></bibl>
@@ -102,7 +102,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>          
                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="ὁ">τ<supplied reason="lost">ῶ</supplied><unclear>ν</unclear></w>
-               <lb n="2" break="no"/><w lemma="Πράσινος">Πραϲί<unclear>ν</unclear><supplied reason="omitted">ων</supplied></w></orgName>
+               <lb n="2"/><w lemma="#οἱ Πράσινοι">Πραϲί<unclear>ν</unclear><supplied reason="omitted">ων</supplied></w></orgName>
             </ab> </div> 
          
          <div type="translation" xml:space="preserve">
