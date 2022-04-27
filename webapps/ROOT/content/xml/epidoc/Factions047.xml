@@ -39,11 +39,11 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/840672014">Aphrodisias</placeName>: 
-                                <rs type="monument">Stadium</rs>: Block 19, Row K, in the middle of the row.</p>
+                            <p><placeName type="ancientFindspot" ref="aphrodisiasstadium">Aphrodisias</placeName>: 
+                                Stadium (<ref target="https://pleiades.stoa.org/places/840672014">Pleiades</ref>): Block 19, Row K, in the middle of the row.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -102,14 +102,14 @@
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/><milestone unit="block"/><gap reason="lost" extent="3" unit="character"/><orig><unclear>ιιιι</unclear></orig> <orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος" part="I">Βενέ<milestone unit="block"/><space extent="5"/><milestone unit="block"/>
-<lb n="2"/><milestone unit="block"/><space extent="15" unit="character"/><milestone unit="block"/>των</w></orgName><space extent="5"/><milestone unit="block"/>
+               <ab><lb n="1"/><milestone unit="block"/><gap reason="lost" extent="3" unit="character"/><orig><unclear>ιιιι</unclear></orig> <orgName ref="#blue" nymRef="#Βένετοι"><w lemma="Βένετος" part="I">Βενέ<milestone unit="block"/><space extent="5"/><milestone unit="block"/>
+<lb n="2"/><milestone unit="block"/><space extent="15" unit="character"/><milestone unit="block"/>των</w></orgName> <space extent="5"/><milestone unit="block"/>
 <lb n="3"/><milestone unit="block"/><persName type="attested"><name nymRef="Αὐρήλιος">Αὐρ<gap reason="lost" extent="2" unit="character"/></name></persName><orig><unclear>λλ</unclear>ο<milestone unit="block"/><unclear>ι</unclear>ενιων<milestone unit="block"/></orig></ab>
                
              </div> 
             
             <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p><supplied reason="subaudible">Place</supplied> of Blues. <supplied reason="subaudible">Place of</supplied> Aurelius <note>or</note> of the Aurelii [... -]nii.</p>
+           <div type="translation" xml:lang="en" resp="#cmr"><p><supplied reason="subaudible">Place</supplied> of Blues. <supplied reason="subaudible">Place of</supplied> Aurelius <note>or</note> of the Aurelii [ . . . -]nii.</p>
            </div>
          </div>
             <div type="commentary">

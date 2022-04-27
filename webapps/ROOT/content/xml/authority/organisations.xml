@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of corporate entities</title>
+                <title>Corporate entities</title>
             </titleStmt>
             <publicationStmt><p></p></publicationStmt>
             <sourceDesc><p></p></sourceDesc>
@@ -13,19 +13,20 @@
     <text>
         <body>
             <listOrg>
+                <head>Organisations</head>
                 <org xml:id="blue">
                     <orgName xml:lang="grc">Βένετος</orgName>
-                    <orgName xml:lang="grc">Venetus</orgName>
+                    <orgName xml:lang="la">Venetus</orgName>
                     <orgName xml:lang="en">Blue faction</orgName>
                 </org>
                 <org xml:id="green">
                     <orgName xml:lang="grc">Πράσινος</orgName>
-                    <orgName xml:lang="grc">Prasinus</orgName>
+                    <orgName xml:lang="la">Prasinus</orgName>
                     <orgName xml:lang="en">Green faction</orgName>
                 </org>
-                <org xml:id="ref">
-                    <orgName xml:lang="grc">Κόκκινος</orgName>
-                    <orgName xml:lang="grc">Russus</orgName>
+                <org xml:id="red">
+                    <orgName xml:lang="grc">Ῥούσεος, Κόκκινος</orgName>
+                    <orgName xml:lang="la">Russus</orgName>
                     <orgName xml:lang="en">Red faction</orgName>
                 </org>
                 

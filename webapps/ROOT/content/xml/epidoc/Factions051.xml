@@ -39,10 +39,10 @@
                     <history>
                         <origin>
                             <origPlace>unknown</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="http://www.geonames.org/320100">Büyükyaka</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="buyukyaka">Büyükyaka</placeName> (<ref target="http://www.geonames.org/320100">Geonames</ref>): 
                                 in front of the mosque.</p>
                         </provenance>
                         <provenance type="observed">
@@ -106,7 +106,7 @@
                <ab><lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="ὁ">ὁ</w> <w lemma="θεός">θεὸϲ</w> <w lemma="ὁ">το͂ν</w> <w lemma="ἀρχάγγελος">ἀρχαγέλον</w> 
                     <lb n="2"/><w lemma="συμπράσσω">ϲύνπ<unclear>ρ</unclear>αξον</w> <w lemma="ὁ">τοὺϲ</w> <w lemma="ὁ">τῆ<supplied reason="lost">ϲ</supplied></w>
                     <lb n="3"/><w lemma="κώμη">κούμηϲ</w> <w lemma="ἐγώ">μου</w> <w lemma="πᾶς">πᾶϲην</w> 
-                    <lb n="4"/> <w lemma="καί">καὶ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πραϲίνον</w> <w lemma="ὁ">το͂ν</w> <addName nymRef="ὀρθόδοξος"><supplied reason="lost">ὀρ</supplied> 
+                    <lb n="4"/> <w lemma="καί">καὶ</w> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="Πράσινος">Πραϲίνον</w> <w lemma="ὁ">το͂ν</w> <addName nymRef="ὀρθόδοξος"><supplied reason="lost">ὀρ</supplied> 
                     <lb n="5" break="no"/>θωδόξον</addName></orgName> <g ref="symbol.xml#crux"/>
 
                </ab>
@@ -121,7 +121,7 @@
            </div>
          </div>
             <div type="commentary">
-                <p>Ramsay pointed out that the right side was broken, and that further letters might be missing. 
+                <p>Ramsay pointed out that the right side was broken, and suggested that further letters might be missing. 
                 </p>
                 <p>It was Robert who identified the location.</p>
             </div>

@@ -39,11 +39,11 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/792804148">Aphrodisias</placeName>: 
-                                South <rs type="monument">Agora</rs>: on the floor of the western portico.</p>
+                            <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): on the floor of the western portico.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -99,14 +99,14 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab><lb n="1"/> <supplied reason="lost"><w lemma="νικάω">Νικᾷ</w></supplied> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
-  <lb n="2"/> <w lemma="ὁ">τῶ<supplied reason="lost">ν</supplied></w> <w lemma="">Ῥουϲέων</w>
+  <lb n="2"/> <orgName ref="#red" nymRef="#οἱ Ῥούσεοι"><w lemma="ὁ">τῶ<supplied reason="lost">ν</supplied></w> <w lemma="Ῥούσεος">Ῥουϲέων</w></orgName>
                </ab>
                
              </div> 
             <div type="apparatus">
                 <listApp>
-                    <app loc="2"><rdg source="#chaniotis2011">Ῥούσων</rdg>
-                        <rdg source="#SEG">Ῥουσέων</rdg></app>
+                    <app loc="2"><rdg resp="#chaniotis2011">Ῥούσων</rdg>
+                        <rdg resp="#SEG">Ῥουσέων</rdg></app>
                 </listApp>
             </div>
             

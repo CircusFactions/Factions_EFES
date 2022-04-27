@@ -42,11 +42,11 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/463141627">Aphrodisias</placeName>: 
-                                <rs type="monument">Odeon</rs>: Block D, Row 6.</p>
+                            <p><placeName type="ancientFindspot" ref="aphrodisiasodeon">Aphrodisias</placeName>: 
+                                <rs type="monument">Odeon</rs> (<ref target="https://pleiades.stoa.org/places/463141627">Pleiades</ref>): Block D, Row 6.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -96,18 +96,18 @@
         <body>
             <div type="bibliography">
                 <p>Cited <bibl><ptr target="cameronCF"/><citedRange>315</citedRange></bibl>, whence <bibl><ptr target="robertBE"/> <citedRange>1977.82</citedRange></bibl>; 
-                    published <bibl><ptr target="jmrrft1987"/>Appendix, 1a</bibl>, whence  
-                    <bibl> <ptr target="seg"/> <citedRange>1987, 846</citedRange></bibl>, <bibl><ptr target="BE"/> <citedRange>1988.888</citedRange></bibl>;
+                    published <bibl><ptr target="jmrrft1987"/> <citedRange>Appendix, 1a</citedRange></bibl>, whence  
+                    <bibl> <ptr target="seg"/> <citedRange>1987.846</citedRange></bibl>, <bibl><ptr target="BE"/> <citedRange>1988.888</citedRange></bibl>;
                     <bibl><ptr target="roueche1989"/> <citedRange>180.iii</citedRange></bibl>, whence 
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257653">257653</ref></citedRange></bibl>;
                     <bibl><ptr target="roueche1993"/> <citedRange unit="entry">47.2.D</citedRange></bibl>, whence 
-                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265136">265136</ref></citedRange></bibl>;
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265136">265136</ref></citedRange></bibl>; 
                     <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020018.html">2.18</ref></citedRange></bibl>
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/><w lemma="τόπος">τόπος</w> <orgName  ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτων</w>
+               <ab><lb n="1"/><w lemma="τόπος">τόπος</w> <orgName  ref="#blue" nymRef="#Βένετοι"><w lemma="Βένετος">Βενέτων</w>
 <lb n="2"/><placeName type="ethnic" nymRef="#Ἑβραῖος">Ἑβρ<unclear>έ</unclear>ων</placeName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear>πα</unclear>λεῶν</w></orgName></ab>
                
              </div> 

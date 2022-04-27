@@ -39,11 +39,11 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/840672014">Aphrodisias</placeName>: 
-                                <rs type="monument">Stadium</rs>: Block 18, Row A, on a loose block lying between blocks 3 and 4.</p>
+                            <p><placeName type="ancientFindspot" ref="aphrodisiasstadium">Aphrodisias</placeName>: 
+                                Stadium (<ref target="https://pleiades.stoa.org/places/840672014">Pleiades</ref>): Block 18, Row A, on a loose block lying between blocks 3 and 4.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -109,7 +109,7 @@
              </div> 
             
             <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p> . . . ] Green[ . .</p>
+           <div type="translation" xml:lang="en" resp="#cmr"><p> . . . ] Green[s  . .</p>
            </div>
          </div>
             <div type="commentary">

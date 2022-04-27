@@ -39,7 +39,7 @@
                <history>
                   <origin>
                      <origPlace>Findspot</origPlace> <!-- check NdeC --> 
-                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
@@ -115,7 +115,7 @@
          </div>
          
          <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note> The fortune of the Greens triumphs! <note>ii</note> The fortune of the Greens 
+           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note> The fortune of the Greens triumphs! <note>ii</note> The fortune of the Greens! 
            <note>iii</note> The fortune of the Greens triumphs!</p>
            </div>
          </div>

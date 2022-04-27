@@ -118,10 +118,10 @@
                         <title level="s">Forschungen in Ephesos</title>, <biblScope unit="issue">2</biblScope>, <pubPlace>Wien</pubPlace></bibl>
                     
                     <bibl xml:id="herrmann2006">  <bibl type="abbrev">I.Milet III, 2006</bibl> <author ref="http://viaf.org/viaf/54162199">Peter <name>Herrmann</name></author>, <date>1906</date>, 
-                        <title level="m">Inschriften von Priene</title>, <pubPlace>Berlin</pubPlace></bibl>
+                        <title level="m">Inschriften von Milet</title>, <pubPlace>Berlin</pubPlace></bibl>
                     
                     <bibl xml:id="hiller1906">  <bibl type="abbrev">I.Priene, 1906</bibl> <author ref="http://viaf.org/viaf/59132563">Friedrich <name>Hiller von Gaertringen</name></author>, <date>1997-2006</date>, 
-                        <title level="m">Inschriften von Milet</title>, <pubPlace>Berlin</pubPlace>, available at <ref target="https://archive.org/details/inschriftenvonpr00hill">Archive.org</ref></bibl>
+                        <title level="m">Inschriften von Priene</title>, <pubPlace>Berlin</pubPlace>, available at <ref target="https://archive.org/details/inschriftenvonpr00hill">Archive.org</ref></bibl>
                     
                     
                    <bibl xml:id="hula1898">  <bibl type="abbrev">Hula, 1898</bibl> <author>E. <name>Hula</name></author>, <date>1898</date>, <title level="a">Nikeinschriften</title>
@@ -153,18 +153,23 @@
                     <title level="m">Inscriptiones Christianae Graecae</title>, <date>2019</date>, <publisher>Edition Topoi</publisher>; available at 
                         <ref target="http://repository.edition-topoi.org/collection/ICG">Topoi</ref></bibl> 
                     
+                    <bibl xml:id="igls1967">  <bibl type="abbrev">Rey-Coquais, 1967</bibl>, <author ref="http://viaf.org/viaf/24607213">J-P.<name>Rey-Coquais</name></author> 
+                        <title level="m">Baalbek et Beqaʿ</title>
+                        <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
+                        <biblScope unit="volume">VI</biblScope> <date>1967</date>, available at<ref target="www.persee.fr/doc/bah_0768-2506_1967_cat_78_61"> Persée</ref></bibl>
+                    
                     <bibl xml:id="igls2009">  <bibl type="abbrev">Bader, 2009</bibl>, <author ref="http://viaf.org/viaf/107050985">Nabil <name>Bader</name></author> 
                         <title level="m">Inscriptions de la Jordanie</title>
                         <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
-                        <biblScope unit="volume">XXI, 5, 1</biblScope> <date>2009</date></bibl>
+                        <biblScope unit="volume">XXI, 5, 1</biblScope> <date>2009</date>, available at <ref target="https://www.persee.fr/issue/bah_0768-2506_2009_cat_187_2151">Persé</ref>e</bibl>
                     
                     <bibl xml:id="igls2014">  <bibl type="abbrev">Fauriat-Sartre, 2014</bibl>, <author ref="http://viaf.org/viaf/49400831">A. <name>Fauriat</name></author> and 
                         <author ref=" http://viaf.org/viaf/36924349">M. <name>Sartre</name></author> <title level="m">Le plateau du Trachôn et ses bordures</title>
                         <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
-                         <biblScope unit="volume">XV</biblScope> <date>2014</date></bibl>
+                        <biblScope unit="volume">XV</biblScope> <date>2014</date>, available at <ref target="https://www.persee.fr/issue/bah_0768-2506_2014_cat_204_151">Persée</ref></bibl>
                     
                     <bibl xml:id="inspriene">  <bibl type="abbrev">I.Priene B-M, 2014</bibl> <author ref="http://viaf.org/viaf/91752189">Wolfgang <name>Blümel</name></author> and <author ref="http://viaf.org/viaf/59096691">Reinhold <name>Merkelbach</name></author> 
-                        <date>1914</date>, <title level="m">Die Inschriften von Priene</title>, <pubPlace>Bonn</pubPlace></bibl>
+                        <date>2014</date>, <title level="m">Die Inschriften von Priene</title>, <pubPlace>Bonn</pubPlace></bibl>
                     
                     <bibl xml:id="lajtar2017">  <bibl type="abbrev">Łajtar, 2017</bibl> <author ref="http://viaf.org/viaf/10031210">Adam <name>Łajtar</name></author> and 
                         <author ref="http://viaf.org/viaf/14903708">Jolanta <name>Mlynarczyk</name></author> 
@@ -378,7 +383,8 @@
                         <title level="j">Chiron</title>, <biblScope unit="issue">43</biblScope>, <date>2013</date>, <biblScope unit="page">527-619</biblScope>; 
                         available at <ref target="https://publications.dainst.org/journals/index.php/chiron/article/view/490">Chiron</ref> </bibl>
                     
-                    <bibl xml:id="wiegand1904">  <bibl type="abbrev">Wiegand, 1904</bibl> ><author ref="http://viaf.org/viaf/12347811">Theodor <name>Wiegand</name></author>, <date>1904</date> 
+                    <bibl xml:id="wiegand1904">  <bibl type="abbrev">Wiegand, 1904</bibl> ><author ref="http://viaf.org/viaf/12347811">Theodor <name>Wiegand</name></author>, 
+                        <date>1904</date> 
                         <title level="m">Priene: Ergebnisse der Ausgrabungen und Untersuchungen in den Jahren 1895-1898</title>  <pubPlace>Berlin</pubPlace>, 
                         available at <ref target="https://archive.org/details/prieneergebnisse00wieg">Archive.org</ref></bibl>
                     

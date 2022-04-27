@@ -39,11 +39,11 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678179">Heliopolis (Baalbek)</placeName>: 
-                                In the peristyle of the '<rs type="monument"> temple</rs> of <ref target="https://pleiades.stoa.org/places/524305133">Bacchus</ref>', west side, 
+                            <p><placeName type="ancientFindspot" ref="heliopolisbacchus">Heliopolis (Baalbek): 
+                                'Temple of Bacchus'</placeName> (<ref  target="https://pleiades.stoa.org/places/524305133">Pleiades</ref>);  In the peristyle, west side, 
                                 on the upper torus on the base of the 4th column from the south; revealed during cleaning.</p>
                         </provenance>
                         <provenance type="observed">

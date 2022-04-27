@@ -40,11 +40,11 @@
                <history>
                   <origin>
                      <origPlace>Findspot</origPlace> 
-                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/463141627">Aphrodisias</placeName>: 
-                              <rs type="monument">Odeon</rs>: Block E, i in Row 5, ii in Row 7.</p>
+                           <p><placeName type="ancientFindspot" ref="aphrodisiasodeon">Aphrodisias</placeName>: 
+                              <rs type="monument">Odeon</rs> (<ref target="https://pleiades.stoa.org/places/463141627">Pleiades</ref>): Block E, i in Row 5, ii in Row 7.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -106,10 +106,10 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
                     
-               <div type="textpart" n="i"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτ<hi rend="ligature"><unclear>ου</unclear></hi></w></orgName>
+               <div type="textpart" n="i"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="#Βένετον">Βενέτ<hi rend="ligature"><unclear>ου</unclear></hi></w></orgName>
                </ab></div>
             <div type="textpart" n="ii"><ab>
-               <lb n="1"/><w lemma="τόπος">τό <milestone unit="block"/><del rend="erasure">πός</del></w> <del rend="erasure"><orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος"><expan><abbr>Βενέ</abbr><ex>των</ex></expan></w></orgName></del>
+               <lb n="1"/><w lemma="τόπος">τό <milestone unit="block"/><del rend="erasure">πός</del></w> <del rend="erasure"><orgName ref="#blue" nymRef="#Βένετοι"><w lemma="Βένετος"><expan><abbr>Βενέ</abbr><ex>των</ex></expan></w></orgName></del>
             </ab></div>
              </div> 
          

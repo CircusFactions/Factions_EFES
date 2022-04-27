@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Irregularly <rs type="execution" key="scalpro">inscribed</rs> on the upper fascia.</layout>
+                                <layout>Irregularly <rs type="execution" key="litteris scariphatis">incised</rs> on the upper fascia.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -40,10 +40,11 @@
                     <history>
                         <origin>
                             <origPlace>Unknown</origPlace> 
-                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -seventh century C.E.</origDate>
+                            <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599947">Stratonikeia</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="stratonikeia">Stratonikeia</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/599947">Pleiades</ref>): 
                                 re-used in a house wall.</p>
                         </provenance>
                         <provenance type="observed">
@@ -93,7 +94,7 @@
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="hula1898"/> <citedRange unit="page"><ref target="https://archive.org/details/bub_gb_1dPlAAAAMAAJ/page/n273">24</ref>1</citedRange></bibl>; from notes by Hula,  
+                <p><bibl><ptr target="hula1898"/> <citedRange unit="page"><ref target="https://archive.org/details/bub_gb_1dPlAAAAMAAJ/page/n273">241</ref></citedRange></bibl>; from notes by Hula,  
                     <bibl><ptr target="igc"/> <citedRange unit="entry">243bis</citedRange></bibl>, 
                     on which <bibl><ptr target="robert1955"/> <citedRange unit="page">232</citedRange> note 1</bibl>;
                     cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>,

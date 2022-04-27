@@ -46,7 +46,8 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth-seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): 
+                           <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> 
+                              (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): 
                               north portico, on the south face of three adjacent column bases. There is a gap in the columns of the north portico, 
                               but the westernmost of these texts (i) appears to be on the twentieth column base from the west.</p><!-- check -->
                         </provenance>
@@ -121,7 +122,7 @@
                 <lb n="1"/><w lemma="αὐξάνω">Αὔξι</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆς</w> <expan><w lemma="πόλις"><abbr>πό</abbr><ex>λεωϲ</ex></w></expan>
 </ab>   </div>
             <div type="textpart" n="iii"><ab>
-                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <expan><w lemma="Βένετος"><ex>Βενέτων</ex></w></expan></orgName>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τῶν</w> <expan><w lemma="Βένετος"><ex>Βενέτων</ex></w></expan></orgName>
 </ab>   </div>
          </div>
          
