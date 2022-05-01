@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Ceramic</material> <objectType>pithos</objectType>, A.</p>
+                                    <p><material>Ceramic</material> <objectType>pithos</objectType>.</p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
@@ -42,7 +42,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678185">Hippos</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="hippos">Hippos</placeName> (<ref target="https://pleiades.stoa.org/places/678185">Pleiades</ref>): 
                                North-West church compound, in a room.</p>
                         </provenance>
                         <provenance type="observed">

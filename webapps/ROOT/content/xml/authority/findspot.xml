@@ -79,6 +79,12 @@
                     <idno type="geonames">http://www.geonames.org/695513</idno>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q47611</idno>
                 </place>
+                <place xml:id="gerasa">
+                    <placeName xml:lang="la">Gerasa</placeName>
+                    <placeName xml:lang="grc">Γέρασα </placeName>
+                    <placeName xml:lang="en">Jerash</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/678158</idno>
+                </place>
                 <place xml:id="germia">
                     <placeName xml:lang="en">Germia</placeName>
                     <placeName xml:lang="grc">τὰ Γέρμια</placeName>
@@ -93,6 +99,11 @@
                     <placeName xml:lang="en">Heliopolis/Baalbek: Temple of Bacchus</placeName>
                     <placeName xml:lang="grc">Ἡλιόπολις</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/524305136</idno>
+                </place>
+                <place xml:id="hippos">
+                    <placeName xml:lang="en">Hippos/Sousitha</placeName>
+                    <placeName xml:lang="grc">Ἵππος</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/678185</idno>
                 </place>
                 <place xml:id="miletustheatre">
                     <placeName xml:lang="en">Miletus, Theatre</placeName>
@@ -141,6 +152,11 @@
                     <placeName xml:lang="en">Phthiotic Thebes</placeName>
                     <placeName xml:lang="grc">Θῆβαι Φθιώτιδες</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/541137</idno>
+                </place>
+                <place xml:id="tyrehippodrome">
+                    <placeName xml:lang="en">Tyre, Hippodrome</placeName>
+                    <placeName xml:lang="grc">Τύρος</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/610184253</idno>
                 </place>
                 
                 </listPlace>

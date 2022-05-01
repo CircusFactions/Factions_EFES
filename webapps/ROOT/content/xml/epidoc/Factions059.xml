@@ -42,7 +42,8 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/610184253">Tyre: Hippodrome</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="tyrehippodrome">Tyre: Hippodrome</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/610184253">Pleiades</ref>): 
                                 presumably found on the east side of the <rs type="monument">hippodrome</rs>.</p>
                         </provenance>
                         <provenance type="observed">
@@ -116,9 +117,19 @@
                 
          </div>
             <div type="commentary">
-                <p>Feissel points to the use of paganus for 'ordinary members"; Paganus is also used to describe some members of a gladiatorial familia, 
-                    although their category is unclear. 
-                    (Robert, Gladiateurs 20</p>
+                <p>Feissel sees a reference to <foreign xml:lang="la">Pag(ani)</foreign> here and in <ref type="inscription" n="Factions060">text 60</ref>; he points to 
+                    the use of <foreign xml:lang="la">paganus</foreign> for 'ordinary members", citing  <ref target="https://papyri.info/ddbdp/p.oxy;54;3758">P.Oxy 54.3758</ref>, where one group of those liable for payment are called 
+                    παγανοί; less clear is what it means in a list by professions <ref target="https://papyri.info/ddbdp/bgu;1;344">BGU 1,344</ref>. A couple of funerary inscriptions 
+                    for pagani with no further explanation, are probably for local ?non-urban people
+                    <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012630">https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012630</ref>, 
+                    <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043121">https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043121</ref>. But <foreign xml:lang="la">paganus</foreign> 
+                    is also used to describe gladiators in at least two funerary texts: 
+                    Robert, <ref target="https://zenon.dainst.org/Record/000209739">Gladiateurs</ref> 20, at Edessa (available at <ref target="https://epigraphy.packhum.org/text/150969">PHI</ref><!-- check new edition 2015, now no.261, with a bibliography -->) and at Salona, 
+                    the funerary urn of a gladiator, <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD027274">https://edh.ub.uni-heidelberg.de/edh/inschrift/HD027274</ref>.
+                    The term is found at Rome in the catalogue of a familia of gladiators (CIL VI, 631, Dessau 5084, whence EDCS 17300774), 
+                    under Commodus, where the third decurio lists 2 members as pagani.   
+                    
+                </p>
                 
             </div>
             

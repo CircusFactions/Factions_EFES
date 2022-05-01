@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="tessellis">mosaic</rs> within a medallion</layout>
+                                <layout> <rs key="tessellis">Μosaic</rs> within a medallion</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -42,7 +42,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678158">Gerasa</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="gerasa">Gerasa</placeName> (<ref target="https://pleiades.stoa.org/places/678158">Pleiades</ref>): 
                                 in one room of a large civil building complex on a street which runs parallel to the Cardo.</p>
                             <!-- check: is this the Hippodrome, https://pleiades.stoa.org/places/312305084 -->
                         </provenance>

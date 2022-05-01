@@ -42,7 +42,8 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/610184253">Tyre: Hippodrome</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="tyrehippodrome">Tyre: Hippodrome</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/610184253">Pleiades</ref>): 
                                 found on the east side of the <rs type="monument">hippodrome</rs>.</p>
                         </provenance>
                         <provenance type="observed">

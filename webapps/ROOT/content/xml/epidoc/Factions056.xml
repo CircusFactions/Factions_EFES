@@ -44,7 +44,8 @@
                             <origDate when="0504" evidence="internal-date">i: March 18-April 17 504 C.E.; ii: Uncertain.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/610184253">Tyre: hippodrome</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="tyrehippodrome">Tyre: Hippodrome</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/610184253">Pleiades</ref>):  
                                 In the mosaic floor of a building on the west side of the <rs type="monument">hippodrome</rs>.</p>
                         </provenance>
                         <provenance type="observed">
@@ -138,8 +139,8 @@
                 
          </div>
             <div type="commentary">
-                <p>It is the location of this building, balancing that containing Text 55, which leads to the assumption that it was allocated to the Green faction. The first text 
-                indicated that the decoration of the building was an official undertaking by the city. In the second appears to be an acclamation - perhaps of the city - line 1 - 
+                <p>It is the location of this building, balancing that containing <ref type="inscription" n="Factions055">Text 55</ref>, which leads to the assumption that it was allocated to the Green faction. The first text 
+                indicated that the decoration of the building was an official undertaking by the city. The second text appears to be an acclamation - perhaps of the city - line 1 - 
                 and the Greens? But line 2 is difficult to integrate. <!-- check for reds? --></p>
                 
             </div>
