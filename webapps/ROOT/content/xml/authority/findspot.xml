@@ -124,6 +124,10 @@
                     <placeName xml:lang="grc">Πριήνη</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/550893</idno>
                 </place>
+                <place xml:id="reimea">
+                    <placeName xml:lang="en">Reimea</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/678361</idno>
+                </place>
                 <place xml:id="rhodiapolis">
                     <placeName xml:lang="en">Rhodiapolis</placeName>
                     <placeName xml:lang="grc">Ῥοδιάπολις</placeName>

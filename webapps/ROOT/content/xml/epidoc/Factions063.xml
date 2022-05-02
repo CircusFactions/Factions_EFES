@@ -43,7 +43,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678361">Reimea</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="reimea">Reimea</placeName> (<ref target="https://pleiades.stoa.org/places/678361">Pleiades</ref>): 
                                 above the door of an outhouse in the courtyard of a house.</p>
                         </provenance>
                         <provenance type="observed">
@@ -110,7 +110,8 @@
 </div>
                 </div>
          <div type="apparatus"><listApp>
-             <app loc="b.2"><rdg resp="#waddington1870">ΚΟΧ: κό[σμον</rdg></app></listApp></div>
+             <app loc="b.2"><rdg resp="#waddington1870">ΚΟΧ: κό[σμον</rdg> 
+                 <rdg resp="#igls2014"> <note>la dernière lettre de la ligne a la forme d'un noeud papillon</note></rdg></app></listApp></div>
            
             <!-- reference to  Dussaud et Maccler, voyage 1901 -p.155-->  
            
@@ -120,11 +121,10 @@
                 
          </div>
             <div type="commentary">
-                <p>Discussed Dussaud et Maccler, voyage 1901 -p.165: https://archive.org/details/voyagearchologi00maclgoog/page/n181/mode/2up
-                Trombley. </p>
-                <p>IGLS: la dernière lettre de la ligne a la forme d'un noeud papillon</p>
-                <p>Waddington: De ces deux exemples résulte très nettement un essai de christianiser l'agathe tyche païenne dont la valeur religieuse 
-                    en Syrie n'a pas encore été bien définieSee also the dicussion of fortuna, 165-6</p>
+               <!-- <p>Waddington's reading: De ces deux exemples résulte très nettement un essai de christianiser l'agathe tyche païenne dont la valeur religieuse 
+                    en Syrie n'a pas encore été bien définie; also discussed <ref target="https://zenon.dainst.org/Record/000754337">Dussaud et Macler, 1901</ref>, 165-6, discussing Fortuna
+                    available at <ref target="https://archive.org/details/voyagearchologi00maclgoog/page/n181/mode/2up">Archive.org</ref>
+                Trombley. Waddington: . See also the discussion of fortuna, 165-6</p>  -->
             </div>
             
         </body>
