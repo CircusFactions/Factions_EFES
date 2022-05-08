@@ -44,7 +44,7 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="alexandria">Alexandria</placeName> (<ref target="https://pleiades.stoa.org/places/727070">Pleiades</ref>): 
                                 <placeName ref="http://www.geonames.org/352465">Mīnā al Başal</placeName>.</p>
                         </provenance>
                         <provenance type="observed">
@@ -105,7 +105,7 @@
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
             <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <persName type="attested"><name nymRef="Εὐτόκιος">Εὐ
-                 <lb n="2" break="no"/>τοκίου</name></persName> <g ref="symbol.xml#crux"/> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"> <w lemma="Βένετος">Βε
+                 <lb n="2" break="no"/>τοκίου</name></persName> <g ref="symbol.xml#crux"/> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="#Βένετοι"> <w lemma="Βένετος">Βε
                       <lb n="3" break="no"/>νέτων</w></orgName> <g ref="symbol.xml#crux"/> <w lemma="καί">καὶ</w>
                 
                  <lb n="4"/><w lemma="ὁ">τοῦ</w> <w lemma="γράφω">γραψάντο<supplied reason="lost">ϲ</supplied></w>

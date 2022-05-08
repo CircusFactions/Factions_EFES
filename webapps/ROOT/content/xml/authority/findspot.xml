@@ -30,7 +30,16 @@
                     <idno type="geonames"></idno>
                     <idno type="pleiades"></idno>
                 </place>
-                
+                <place xml:id="alexandria">
+                    <placeName xml:lang="en">Alexandria</placeName>
+                    <placeName xml:lang="grc">Ἀλεξανδρία </placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/727070</idno>
+                </place>
+                <place xml:id="komeldikka">
+                    <placeName xml:lang="en">Alexandria, Kom el-Dikka</placeName>
+                    <placeName xml:lang="grc">Ἀλεξανδρία</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/845040004</idno>
+                </place>
                 <place xml:id="aphrodisias">
                     <placeName xml:lang="en">Aphrodisias</placeName>
                     <placeName xml:lang="grc">Ἀφροδισιάς </placeName>

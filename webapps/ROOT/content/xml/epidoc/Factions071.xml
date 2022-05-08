@@ -44,8 +44,7 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
-                                <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the Baths.</p>
+                            <p><placeName type="ancientFindspot" ref="komeldikka">Alexandria, Kom el-Dikka</placeName> (<ref target="https://pleiades.stoa.org/places/845040004">Pleiades</ref>), in the Baths.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -101,7 +100,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/> <supplied reason="lost" cert="low"><w lemma="τόπος">τόποϲ</w></supplied> <orgName  ref="#green" nymRef="Πράσινος">Πρ
+            <ab><lb n="1"/> <supplied reason="lost" cert="low"><w lemma="τόπος">τόποϲ</w></supplied> <orgName  ref="#green" nymRef="#Πράσινοι">Πρ
                  <lb n="2" break="no"/>αϲήνον</orgName> 
                 
                
