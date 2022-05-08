@@ -269,7 +269,8 @@
                     <bibl xml:id="piccirillo1997">  <bibl type="abbrev">Piccirillo,1997</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
                         <date>1997</date>, 
                         <title level="a">La chiesa di san Paolo a Umm al-Rasas</title>, <title level="j">Liber Annuus</title>, 
-                        <biblScope unit="issue">47</biblScope>, <biblScope unit="page">375-394</biblScope></bibl>
+                        <biblScope unit="issue">47</biblScope>, <biblScope unit="page">375-394</biblScope>, available at 
+                        <ref target="https://it.readkong.com/page/la-chiesa-di-san-paolo-a-umm-al-rasas-kastron-mefaa-m-5737321">Readkong</ref></bibl>
                     
                     <bibl xml:id="paes">  <bibl type="abbrev">I.Syria, PAES</bibl> <editor ref="http://viaf.org/viaf/49101390">H. C. <name>Butler</name></editor>, 
                         <date>1904-1922</date>, 

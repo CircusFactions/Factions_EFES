@@ -44,7 +44,7 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/687928">Jerusalem</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="jerusalem">Jerusalem</placeName> (<ref target="https://pleiades.stoa.org/places/687928">Pleiades</ref>): 
                                 re-used in a wall in the Via Dolorosa, near the Lions' Gate.</p>
                         </provenance>
                         <provenance type="observed">

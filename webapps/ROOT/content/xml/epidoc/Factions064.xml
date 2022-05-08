@@ -44,7 +44,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/12809">Taff</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="taff">Taff</placeName> (<ref target="https://www.geonames.org/12809">Geonames</ref>): 
                                 over a door on the west side of a courtyard at the eastern end of the ruins.</p>
                         </provenance>
                         <provenance type="observed">
@@ -81,7 +81,7 @@
                         <geogName type="modernCountry" key="LB">Lebanon</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/12809">Aţ Ţaff</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -103,7 +103,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w>
+            <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue"  nymRef="#οἱ Βένετοι"><w lemma="ὁ">τῶν</w>
               <lb n="2"/> <w lemma="Βένετος">Βενήτων</w></orgName> 
      </ab>
      </div>

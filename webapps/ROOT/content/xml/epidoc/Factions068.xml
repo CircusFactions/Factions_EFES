@@ -44,7 +44,8 @@
                             <origDate notBefore="0301" notAfter="0499" evidence="material-context" cert="low">Fourth-fifth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/697646">Umm ar-Rasas</placeName>: church of Saints Paul and Germanus, 
+                            <p><placeName type="ancientFindspot" ref="castramefaa">Umm er-Rasas</placeName> (<ref target="https://pleiades.stoa.org/places/697646">Pleiades</ref>): 
+                                church of Saints Paul and Germanus, 
                             found during excavation.</p>
                         </provenance>
                         <provenance type="observed">
@@ -89,7 +90,7 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><surface/></facsimile>
+    </teiHeader><facsimile><graphic url="PaulandGermanus.jpg"><desc>Drawing (Piccirillo, p.389)</desc></graphic></facsimile>
     <text>
         <body>
             <div type="bibliography">
@@ -105,7 +106,7 @@
                
             <ab><lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="ἅγιος">Ἅγιε</w> <persName type="divine"><name  nymRef="Παῦλος">Παῦλε</name></persName> 
                 <lb n="2"/><w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="divine"><name nymRef="Γερμανός"><hi rend="ligature">Γε</hi>ρμανέ</name></persName>, <w lemma="σόω">ϲõ
-                <lb n="3" break="no"/>ον</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τοὺϲ</w> <w lemma="Βένετος">Βενέτο
+                <lb n="3" break="no"/>ον</w> <orgName ref="#blue"  nymRef="#οἱ Βένετοι"><w lemma="ὁ">τοὺϲ</w> <w lemma="Βένετος">Βενέτο
                 <lb n="4" break="no"/>υϲ</w></orgName> <w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="attested"><name nymRef="Παπίων">Παπίωνα</name>
                 <lb n="5"/> <persName type="attested"><name nymRef="Γεώργιος"><hi rend="ligature">Γε</hi>ωργ̣ίου</name></persName> <w lemma="ἀναγνώστης"><expan><abbr>ἀνα
                 <lb n="6" break="no"/>γν</abbr><ex>ώϲτην</ex></expan></w></persName>· <w lemma="ἀμήν">ἀμήν</w></ab>
@@ -116,14 +117,17 @@
                 <app loc="5/6"><rdg resp="#piccirillo1997">ἀναγν(ώστου)</rdg></app>
             </listApp></div>
             
-             
+            <div type="translation" source="#piccirillo1997" xml:lang="it">
+                <p>San Paolo e Germano salva gli Azzurri e Papiona (figlio di) Giorgio il lettore. Amen.</p>
+            </div>  
            <div type="translation" resp="#cmr" xml:lang="en">
-           <p>Saint Paul and Germanus, save the Blues and Papion, son of Georgios, reader. Amen!</p>
+           <p>Saint Paul and Germanus, save the Blues and Papion, <supplied reason="subaudible">son</supplied> of Georgios, reader. Amen!</p>
                 
          </div>
             <div type="commentary">
                 
-                
+                <p>It is not clear why Saint Paul should be accompanied by a Saint Germanus, and which saint of that name is meant; an alternative, mentioned by Piccirillo, 
+                is that this is an epithet, expressing closeness: "Santo e caro Paolo . . . "</p>
             </div>
             
         </body>

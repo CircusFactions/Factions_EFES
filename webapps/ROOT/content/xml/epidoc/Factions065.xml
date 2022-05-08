@@ -44,7 +44,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678439">Umm al-Jimal</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="ummeljimal">Umm al-Jimal</placeName> (<ref target="https://pleiades.stoa.org/places/678439">Pleiades</ref>): 
                                 Southwest church: over a door at the far east end of the church, south of the apse.</p>
                         </provenance>
                         <provenance type="observed">
@@ -78,10 +78,10 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                        <geogName type="modernCountry" key="JOR">Lebanon</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/246371">Umm al Jimāl</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -109,7 +109,7 @@
                
             <ab><lb n="1"/> <g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἑ</w> <w lemma="τύχη">τίχη</w> 
                 
-              <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενέτον</w></orgName> 
+              <lb n="2"/> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενέτον</w></orgName> 
      </ab>
      </div>
             <div type="apparatus"><listApp>

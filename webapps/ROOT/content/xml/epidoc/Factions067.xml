@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Mosaic</material> <objectType>floor</objectType> panel, 
+                                    <p><material>Mosaic</material> <objectType>floor</objectType> panel 
                                         (no measurements). 
                                         </p>
                                 </support>
@@ -44,8 +44,10 @@
                             <origDate notBefore="0301" notAfter="0499" evidence="material-context" cert="low">Fourth-fifth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678378">Scythopolis</placeName>: in a  mosaic-paved sidewalk beside a paved road, 
-                                in front of the entrance to a house or shop. This panel,appears to have been preserved when the mosaic was relaid. The road was repaired in the 6th century.</p>
+                            <p><placeName type="ancientFindspot" ref="scythopolis">Scythopolis</placeName> (<ref target="https://pleiades.stoa.org/places/678378">Pleiades</ref>): 
+                                in a  mosaic-paved sidewalk beside a paved road, 
+                                in front of the entrance to a house or shop. This panel appears to have been preserved when the mosaic was relaid. 
+                                The road was repaired in the 6th century.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>
@@ -89,7 +91,7 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><graphic url="paes266.jpg"><desc>Drawing by Littman</desc></graphic></facsimile>
+    </teiHeader><facsimile><surface/></facsimile>
     <text>
         <body>
             <div type="bibliography">
@@ -104,14 +106,14 @@
             <ab><lb n="1"/> <g ref="symbol.xml#palm"/> <w lemma="νικάω">Νικᾷ</w>
                 <lb n="2"/><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
                 
-              <lb n="3"/> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶ͂ν</w> <w lemma="Βένετος">Βεν
+              <lb n="3"/> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τῶν</w> <w lemma="Βένετος">Βεν
                   <lb n="4" break="no"/>έτων</w></orgName> 
      </ab>
      </div>
             
             
             <div type="translation" source="#syon2004" xml:lang="en">
-                <p>to the victory of Tyche of the Blues!</p>
+                <p>To the victory of Tyche of the Blues!</p>
             </div>
              
            <div type="translation" resp="#cmr" xml:lang="en">

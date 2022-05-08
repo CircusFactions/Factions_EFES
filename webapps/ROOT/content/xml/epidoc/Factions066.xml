@@ -44,7 +44,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678439">Umm al-Jimal</placeName>: 
+                            <p><placeName type="ancientFindspot" ref="ummeljimal">Umm al-Jimal</placeName> (<ref target="https://pleiades.stoa.org/places/678439">Pleiades</ref>):  
                                 over the entrance door of a house east of the church.</p>
                         </provenance>
                         <provenance type="observed">
@@ -78,10 +78,10 @@
                         <geogName type="ancientRegion" key="Asia">Asia</geogName>
                     </term>
                     <term>
-                        <geogName type="modernCountry" key="LB">Lebanon</geogName>
+                        <geogName type="modernCountry" key="JOR">Lebanon</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/165305">Rīmat al Luḩuf</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/246371">Umm al Jimāl</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -108,16 +108,16 @@
                
             <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <g ref="symbol.xml#crux"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχε</w> 
                 
-              <lb n="2"/> <orgName ref="#blue" nymRef="Βένετος"> <milestone unit="block"/><w lemma="ὁ">το͂ν</w> <w lemma="Βένετος">Βενήτον</w></orgName> 
+              <lb n="2"/> <orgName ref="#blue" nymRef="#οἱ Βένετοι"> <w lemma="ὁ">το͂ν</w> <milestone unit="block"/> <w lemma="Βένετος">Βενήτον</w></orgName> 
      </ab>
      </div>
             <div type="apparatus"><listApp>
-                <app loc="1"><rdg resp="#paes, igls2009">Νίκα</rdg></app></listApp></div>
+                <app loc="1"><rdg resp="#paes">Νίκα</rdg></app></listApp></div>
             
-            <div type="translation" resp="#paes" xml:lang="en">
+            <div type="translation" source="#paes" xml:lang="en">
                 <p>Conquer, Fortune of the Blues!</p>
             </div>
-            <div type="translation" resp="#igls2009" xml:lang="fr">
+            <div type="translation" source="#igls2009" xml:lang="fr">
                 <p>Vaincs, la fortune des Bleus</p>
             </div> 
            <div type="translation" resp="#cmr" xml:lang="en">

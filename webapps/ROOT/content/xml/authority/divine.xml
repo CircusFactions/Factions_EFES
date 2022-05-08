@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of divine names and epithets in IOSPE</title>
+                <title>Authority list of divine names and epithets in Factions</title>
             </titleStmt>
             <publicationStmt><ab/></publicationStmt>
             <sourceDesc><ab/></sourceDesc>
@@ -33,6 +33,16 @@
                     <person sameAs="#theos">
                         <persName xml:lang="en">Kyrios</persName>
                         <persName xml:lang="grc">Κύριος</persName>
+                    </person>
+                    <person xml:id="germanus">
+                        <persName xml:lang="grc">Ἅγιος Γερμανός</persName>
+                        <persName xml:lang="en">St Germanus</persName>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q302</idno>
+                    </person>
+                    <person xml:id="paulos">
+                        <persName xml:lang="grc">Ἅγιος Παῦλος</persName>
+                        <persName xml:lang="en">Jesus Christ</persName>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q302</idno>
                     </person>
                     
                     
