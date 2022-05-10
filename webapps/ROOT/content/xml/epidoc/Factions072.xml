@@ -44,9 +44,8 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
-                                <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the 
-                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName>, Row 1, block 4.</p>
+                            <p><placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
+                                Odeon</placeName> (<ref target="https://pleiades.stoa.org/places/612452943">Pleiades</ref>), Row 1, block 4.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -109,7 +108,7 @@
     <lb n="3" break="no"/>υ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="νέος">νέ
     <lb n="4" break="no"/>ου</w> <persName type="attested"><name nymRef="Δόρος">Δόρου</name></persName>  </ab></div>
     <div  type="textpart" n="b"><ab><lb n="5"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
-    <lb n="6"/><orgName ref="#green" nymRef="#Πράσινος"><w lemma="πράσινος">Πραϲίνω<supplied reason="lost">ν</supplied></w> 
+    <lb n="6"/><orgName ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="πράσινος">Πραϲίνω<supplied reason="lost">ν</supplied></w> 
     <lb n="7"/><addName nymRef="γενναῖος">γενεωτά
     <lb n="8" break="no"/><space/>των</addName></orgName>·<space/></ab></div>
                 <div type="textpart" n="c"><ab>
@@ -117,7 +116,7 @@
     <lb n="10" break="no"/>φῆϲ</w> <w lemma="ὡς">ὡϲ</w> <w lemma="ὄνυχος">ὀ
     <lb n="11" break="no"/>νύχων</w> 
     <lb n="12"/><w lemma="πίπτω">ἔπεϲεν</w> 
-    <lb n="13"/><orgName  ref="#green" nymRef="#Βένετο"><w lemma="ὁ">τὸ</w> <w lemma="βένετος">Βένετο</w></orgName> 
+    <lb n="13"/><orgName  ref="#blue" nymRef="#τὸ Βένετο"><w lemma="ὁ">τὸ</w> <w lemma="βένετος">Βένετο</w></orgName> 
     <lb n="14"/><w lemma="καί">καὶ</w> <orig><unclear>γ</unclear>ηχαϲ<unclear>ι</unclear></orig> 
     <lb n="15"/><w lemma="μετά">μετ’</w> <w lemma="αὐτῶν"><unclear>α</unclear>των</w>
 

@@ -42,7 +42,7 @@
                             <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: Thebes, <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/384697574">Valley of the Kings</placeName>, 
+                            <p><placeName type="ancientFindspot" ref="valleyofthekings">Egyptian Thebes, Valley of the Kings</placeName> (<ref target="https://pleiades.stoa.org/places/384697574">Pleiades</ref>), 
                               Tomb of Ramses VI</p>
                         </provenance>
                         <provenance type="observed">
@@ -79,7 +79,7 @@
                         <geogName type="modernCountry" key="EG">Egypt</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="https://www.geonames.org/353494">/Maqabir al Muluk</placeName>
+                        <placeName type="modernFindspot" ref="https://www.geonames.org/353494">Maqabir al Muluk</placeName>
                     </term>
                 </keywords>
             </textClass>
@@ -104,7 +104,7 @@
                <ab>
                 <lb n="1"/> <persName type="attested"><name nymRef="Τα . λεινος">Τα<gap reason="lost" quantity="1" unit="character"/>λεινοϲ</name></persName>
               <lb n="2"/> <placeName type="ethnic" ref="#alexandria"><supplied reason="lost">Ἀ</supplied>λ<supplied reason="lost">εξ</supplied>ανδρε<supplied reason="lost">ὺϲ</supplied></placeName> 
-                <lb n="3"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="βένετος">Βενέτον</w></orgName> 
+                <lb n="3"/><orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος">Βενέτον</w></orgName> 
                 <lb n="4"/><gap reason="lost" quantity="3" unit="character"/><w part="F">αριϲ</w>  
                     </ab></div>
             

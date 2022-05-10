@@ -43,9 +43,8 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/727070">Alexandria</placeName>: 
-                                <placeName ref="https://pleiades.stoa.org/places/845040004">Kom el-Dikka</placeName>, in the 
-                                <placeName ref="https://pleiades.stoa.org/places/612452943">Odeon</placeName>, row 2, block 5.</p> <!-- check -->
+                            <p><placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
+                                Odeon</placeName> (<ref target="https://pleiades.stoa.org/places/612452943">Pleiades</ref>), row 2, block 5.</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -104,7 +103,7 @@
                
             <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
                <lb n="2"/> <name nymRef="Εὐτόκιος">Εὐτοκίου</name> 
-                <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετος"><w lemma="βένετος">Βενέτων</w></orgName>· 
+                <lb n="2"/><w lemma="καί">κὲ</w> <orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος">Βενέτων</w></orgName>· 
                 <lb n="2"/> <w lemma="κακός">κακὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> 
                 <lb n="2"/> <w lemma="ὁ">τοῦ</w> <name nymRef="Λαχανᾶς">Λαχανᾶ</name>
     

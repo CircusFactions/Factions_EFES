@@ -366,6 +366,10 @@
                         <title level="j">Excavations and Surveys in Israel</title>, <biblScope unit="issue">116</biblScope>; 
                         available at <ref target="http://www.hadashot-esi.org.il/">Hadashot Arkheologiyot</ref></bibl>
                     
+                    <bibl xml:id="telota">  <bibl type="abbrev">Telota</bibl>, 
+                        <title level="j">Inscriptiones Graecae, Digitale Editionene</title>, 
+                        available at <ref target="http://telota.bbaw.de/ig/">http://telota.bbaw.de/ig/</ref></bibl>
+                    
                     <bibl xml:id="thomsen1921">  <bibl type="abbrev">Thomsen, 1921</bibl> <author ref="http://viaf.org/viaf/49349889">P. <name>Thomsen</name></author>, <date>1921</date>, 
                         <title level="a">Die lateinischen und griechischen Inschriften der Stadt Jerusalem und ihrer nächsten Umgebung (Fortsetzung)</title>,
                         <title level="j">Zeitschrift des Deutschen Palästina-Vereins</title>, <biblScope unit="issue">44.1</biblScope>; 

@@ -103,8 +103,8 @@
          <div type="bibliography">
             <p>First published by <bibl> <ptr target="edson1972"/> <citedRange>20</citedRange></bibl>, 
                whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/137201">137201</ref></citedRange></bibl>, and listed, 
-               <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>. 
-               Now available at <bibl><ptr target="hallof"/> <ref target="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20X%202,%201,%2020">Telota</ref></bibl></p>
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>; 
+               edited by Hallof <bibl><ptr target="telota"/> <ref target="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20X%202,%201,%2020">IG X 2, 1, 20</ref></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
@@ -132,7 +132,7 @@
  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>μεινμι</orig><gap reason="lost" extent="unknown" unit="character"/> 
  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig> <w lemma="καί">καὶ</w> <orig><unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="κατά">κατὰ</w> <w part="I">τη</w><gap reason="lost" extent="unknown" unit="character"/> 
- <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orgName ref="#green" nymRef="Πράσινος"><supplied reason="lost">Πρ</supplied>ασίνοις</orgName> <gap reason="lost" extent="unknown" unit="character"/>
+ <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orgName ref="#green" nymRef="#Πράσινοι"><supplied reason="lost">Πρ</supplied>ασίνοις</orgName> <gap reason="lost" extent="unknown" unit="character"/>
  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>ροσθε<unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>ησα<unclear>λλ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7a"/> <gap reason="lost" extent="unknown" unit="line"/> 
@@ -143,9 +143,9 @@
             
          </div>
          <div type="translation" xml:space="preserve">
-            <div type="translation" resp="cmr" xml:lang="en"><p>References to <note>a</note> Thessalonika, and <note>b</note> Greens
+            <div type="translation" resp="#cmr" xml:lang="en"><p>References to <note>a</note> Thessalonika, and <note>b</note> Greens
             </p></div>
-         <div type="translation" source="halloff" xml:lang="en"><p><note>zu fragmentarisch</note></p></div></div>
+         <div type="translation" source="#telota" xml:lang="en"><p><note>zu fragmentarisch</note> (Hallof)</p></div></div>
          <div type="commentary">
             
          </div>

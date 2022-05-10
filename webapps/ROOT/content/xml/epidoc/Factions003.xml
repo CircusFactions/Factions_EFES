@@ -120,7 +120,7 @@
             <lb n="3"/><w lemma="ὁ">τὴν</w> <w lemma="σορός">ϲορὸν</w> <w lemma="ἐκ">ἐκκ</w> <w lemma="ὁ">τῶν</w> <w lemma="κοινός">κοινῶν</w> <space unit="character" quantity="5"/> <w lemma="κάματος">καμάτων</w>· <w lemma="εἰ">ἤ</w> <w lemma="τις">τιϲ</w> <w lemma="ἕτερος">ἕτεροϲ</w> 
              <lb n="4"/><w lemma="τολμάω">τολμήϲῃ</w> <w lemma="ἀνοίγνυμι">ἀνοῖξαι</w> <w lemma="χωρίς">χωρὶϲ</w> <w lemma="ὁ">τῆϲ</w> <space unit="character" quantity="5"/> <w lemma="τελευτή">τελευτῆϲ</w> <w lemma="ἐγώ">μου</w> <w lemma="δίδωμι">δώϲι</w> 
            <lb n="5"/><w lemma="ὁ">τῷ</w> <w lemma="ἱερός">εἱερω<supplied reason="omitted">τά</supplied>τῳ</w> <w lemma="ταμεῖον">ταμίωι</w> <w lemma="χρυσόν">χρυϲοῦ</w> <space unit="character" quantity="5"/> <w lemma="λίτρα">λίτραν</w> <w lemma="εἷς">μίαν</w> <w lemma="οὐδείς">οὐδίϲ</w> <w lemma="ποτε">ποτε</w> 
-           <lb n="6"/><w lemma="εὐνοέω">εὐνόηϲε</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτῳ</w></orgName> <w lemma="ὡς">ὡς</w> <w lemma="τάχα">τάχα</w> <persName type="attested" key="lgpn:V4-32461"><name nymRef="Οὐράνιος">Οὐράνιϲ</name></persName> <space unit="character" quantity="5"/> 
+           <lb n="6"/><w lemma="εὐνοέω">εὐνόηϲε</w> <orgName ref="#blue" nymRef="#Βένετος"><w lemma="Βένετον">Βενέτῳ</w></orgName> <w lemma="ὡς">ὡς</w> <w lemma="τάχα">τάχα</w> <persName type="attested" key="lgpn:V4-32461"><name nymRef="Οὐράνιος">Οὐράνιϲ</name></persName> <space unit="character" quantity="5"/> 
              <w lemma="κεῖμαι">κεῖτε</w> <w lemma="δέ">δὲ</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w>ϲίλικι</w> <w lemma="ὡς">ὡς</w> <w lemma="ἀναίϲθητος">ἀνέϲθητοϲ</w>
           </ab>
          </div>
@@ -133,7 +133,8 @@
          </div>
          <div type="translation" xml:space="preserve">
             <div type="translation" resp="cmr" xml:lang="en"><p>Here lies the outstanding charioteer greatly worthy of remembrance, Aurelios Ouranios. I, Aurelia Porphyris, purchased the sarcophagus from our shared labours. 
-               If anyone else should dare to open it unless at my death, he shall pay to the most sacred treasury one pound of gold. No-one perhaps ever favoured the Blue as did Ouranios; he lies in the tomb as without feeling.
+               If anyone else should dare to open it unless at my death, he shall pay to the most sacred treasury one pound of gold. 
+               No-one perhaps ever favoured the Blue as did Ouranios; he lies in the tomb as without feeling.
             </p></div>
          <div type="translation" source="halloff" xml:lang="en"><p>Der viel Gedenkens würdig ist, Uranius, Pferdelenker, Ausnahmeathlet, liegt hier. Ich, Aurelia Porphyris, habe gekauft den Sarkophag aus dem gemeinsam erarbeiteten (Vermögen). 
             Wenn ein anderer es wagen wird, (ihn) zu öffnen außer bei meinem Begräbnis, wird er geben der heiligsten Kasse an Gold ein Pfund. Keiner hat je die Blaue (Zirkuspartei) so unterstützt wie Uranius. 

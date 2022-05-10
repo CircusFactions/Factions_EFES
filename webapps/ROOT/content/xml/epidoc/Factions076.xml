@@ -36,7 +36,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout><rs key="scalpro">Inscribed</rs> ii on the west face of the octagonal block, i on the west face of the cylinder.  </layout> 
+                                <layout><rs key="scalpro">Inscribed</rs> i on the west face of the cylinder, ii on the west face of the octagonal block.  </layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -49,8 +49,8 @@
                             <origDate notBefore="0602" notAfter="0610" evidence="textual-context">602-610</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/736983">Oxyrhynchus</placeName>: 
-                                to the south of the settlement: found in 1912</p> <!-- check -->
+                            <p><placeName type="ancientFindspot" ref="oxyrhynchus">Oxyrhynchus</placeName> (<ref target="https://pleiades.stoa.org/places/736983">Pleiades</ref>): 
+                                to the south of the settlement: found in 1912.</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot (1922); by 2018 the texts were no longer visible.</p>
@@ -119,7 +119,7 @@
             <div type="textpart"  n="ii"><ab>
                 <lb n="1"/><w lemma="τόπος">Τόποϲ</w> <w lemma="διαφέρω">διαφέρ
                <lb n="2" break="no"/> <space/> ων </w>
-            <lb n="3"/><orgName ref="#blue" nymRef="#Βένετος"><w lemma="ὁ">τοῖϲ</w>  <w lemma="βένετος">Βενέτων</w></orgName></ab> </div>
+            <lb n="3"/><orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τοῖϲ</w>  <w lemma="βένετος">Βενέτων</w></orgName></ab> </div>
                 
     
      
