@@ -97,7 +97,7 @@
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257579">257579</ref></citedRange></bibl>;
                     <bibl><ptr target="roueche1993"/> <citedRange unit="entry">45.3</citedRange></bibl>, whence 
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/264955">264955</ref></citedRange></bibl>;
-                    <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020018.html">10.3</ref></citedRange></bibl>
+                    <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph100003.html">10.3</ref></citedRange></bibl>
                 </p>
             </div>
             
@@ -108,8 +108,11 @@
                
              </div> 
            
-           <div type="translation" xml:lang="en" resp="#cmr"><p><supplied reason="subaudible">Place</supplied> of Blues. <supplied reason="subaudible">Place of</supplied> Aurelius <note>or</note> of the Aurelii [ . . . -]nii.</p>
+            <div type="translation" xml:lang="en"  source="#roueche1989"><p>[ . . ? . . ] of <supplied reason="subaudible">the</supplied> Blues. <supplied reason="subaudible">Reserved for</supplied> Aur(elius)</p>
            </div>
+            <div type="translation" xml:lang="en"  source="#roueche1993"><p><supplied reason="subaudible">Place</supplied> of Blues. 
+                <supplied reason="subaudible">Place of</supplied> Aurelius <note>or</note> of the Aurelii [ . . . -]nii.</p>
+            </div>
          
             <div type="commentary">
                 <p>

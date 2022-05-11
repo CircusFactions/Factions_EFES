@@ -95,8 +95,7 @@
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl><ptr target="roueche1989"/> <citedRange>181.ii</citedRange></bibl>;
-               <bibl><ptr target="roueche1993"/> <citedRange unit="entry">46.C</citedRange></bibl>,  whence 
+            <p><bibl><ptr target="roueche1993"/> <citedRange unit="entry">46.E</citedRange></bibl>,  whence 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265039">265039</ref></citedRange></bibl>; 
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080057.html">8.57.9, 11</ref></citedRange></bibl>
                </p>
@@ -115,7 +114,7 @@
          </div>
          
          
-           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note> The fortune of the Greens triumphs! <note>ii</note> The fortune of the Greens! 
+         <div type="translation" xml:lang="en" source="#roueche1993"><p><note>i</note> The fortune of the Greens triumphs! <note>ii</note> The fortune of the Greens! 
            <note>iii</note> The fortune of the Greens triumphs!</p>
            </div>
          

@@ -108,12 +108,12 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab><lb n="1"/><w lemma="τόπος">τόπος</w> <orgName  ref="#blue" nymRef="#Βένετοι"><w lemma="Βένετος">Βενέτων</w>
-<lb n="2"/><placeName type="ethnic" nymRef="#Ἑβραῖος">Ἑβρ<unclear>έ</unclear>ων</placeName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear>πα</unclear>λεῶν</w></orgName></ab>
+<lb n="2"/><placeName type="ethnic" ref="#jew" nymRef="#Ἑβραῖος">Ἑβρ<unclear>έ</unclear>ων</placeName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear>πα</unclear>λεῶν</w></orgName></ab>
                
              </div> 
             
             
-           <div type="translation" xml:lang="en" resp="#cmr"><p>Place of Blues, of the elder Jews</p>
+            <div type="translation" xml:lang="en" source="#roueche1989"><p>Place of Blues, of the elder Jews</p>
            </div>
          
             <div type="commentary">
