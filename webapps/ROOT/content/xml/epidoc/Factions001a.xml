@@ -113,7 +113,7 @@
          
          
          
-            <div type="translation" xml:lang="en" resp="IChrGr"><p>The fortune triumphs of Greens!</p></div>
+            <div type="translation" xml:lang="en" source="#IChrGr"><p>The fortune triumphs of Greens!</p></div>
          
          <div type="commentary">
             <p></p>

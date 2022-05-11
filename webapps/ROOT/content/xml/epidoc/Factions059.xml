@@ -109,13 +109,13 @@
             <div type="apparatus"><listApp><app loc="2"><rdg resp="#reycoquais2002">παγ(άρχου)</rdg> 
                 <rdg resp="#feisselBE">παγ(ανῶν)</rdg></app></listApp></div>
            
-            <div type="translation" xml:space="preserve">
+            
                 <div type="translation" xml:lang="fr" source="#ityr2006"><p>Emplacement du 'pagarque' des Bleus</p>
            </div>
            <div type="translation" xml:lang="en" resp="#cmr"><p>Place of Blue pagani?</p>
            </div>
                 
-         </div>
+         
             <div type="commentary">
                 <p>Feissel sees a reference to <foreign xml:lang="la">Pag(ani)</foreign> here and in <ref type="inscription" n="Factions060">text 60</ref>; he points to 
                     the use of <foreign xml:lang="la">paganus</foreign> for 'ordinary members", citing  <ref target="https://papyri.info/ddbdp/p.oxy;54;3758">P.Oxy 54.3758</ref>, where one group of those liable for payment are called 

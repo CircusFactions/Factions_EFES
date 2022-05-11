@@ -142,10 +142,11 @@
          <div type="apparatus">
             
          </div>
-         <div type="translation" xml:space="preserve">
-            <div type="translation" resp="#cmr" xml:lang="en"><p>References to <note>a</note> Thessalonika, and <note>b</note> Greens
-            </p></div>
-         <div type="translation" source="#telota" xml:lang="en"><p><note>zu fragmentarisch</note> (Hallof)</p></div></div>
+         
+         <div type="translation" source="#telota" xml:lang="de"><p><note>zu fragmentarisch</note> (Hallof)</p></div>
+         
+         <div type="translation" resp="#cmr" xml:lang="en"><p>References to <note>a</note> Thessalonika, and <note>b</note> Greens
+         </p></div>
          <div type="commentary">
             
          </div>

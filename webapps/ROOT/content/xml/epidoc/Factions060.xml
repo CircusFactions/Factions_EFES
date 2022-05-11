@@ -110,13 +110,13 @@
             <div type="apparatus"><listApp><app loc="2"><rdg resp="#reycoquais2002">παγά(ρχου)</rdg> 
                 <rdg resp="#feisselBE">παγα(νῶν)</rdg></app></listApp></div>
            
-            <div type="translation" xml:space="preserve">
+            
                 <div type="translation" xml:lang="fr" source="#ityr2006"><p>Emplacement du 'pagarque' [des Verts]</p>
            </div>
            <div type="translation" xml:lang="en" resp="#cmr"><p>Place of [?Green] pagani?</p>
            </div>
                 
-         </div>
+         
             <div type="commentary">
                 <p>Feissel sees a reference to <foreign xml:lang="la">Pag(ani)</foreign> here and in <ref type="inscription" n="Factions059">text 59</ref>, 
                 where see commentary.</p>

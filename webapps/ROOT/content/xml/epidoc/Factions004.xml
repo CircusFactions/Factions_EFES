@@ -111,7 +111,7 @@
           <ab>
              <lb n="1"/><g ref="symbol.xml#crux"/> 
  <lb n="2"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w> 
- <lb n="3"/><orgName ref="#green" nymRef="Πράσινος">Πραϲίνων</orgName>  
+ <lb n="3"/><orgName ref="#green" nymRef="#Πράσινοι"><w lemma="Πράσινος">Πραϲίνων</w></orgName>  
   <lb n="3a"/><gap reason="lost" quantity="1" unit="line"/>
  <lb n="5"/><w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="Ἰωάννης">Ἰωάννη<supplied reason="lost">ϲ</supplied></name></persName>.
 </ab>
@@ -119,11 +119,14 @@
          <div type="apparatus">
             
          </div>
-         <div type="translation" xml:space="preserve">
-           <p> The fortune of the Greens [(Name)?] and Ioannes, conquers (Bandy)</p> <!-- check -->
+         <div type="translation"  source="#bandy1970" xml:lang="en">
+           <p> The fortune of the Greens [(Name)?] and Ioannes, conquers!</p> <!-- check -->
+            <p></p></div>
+         <div type="translation"  resp="#cmr" xml:lang="en">
+            <p> The fortune triumphs of Greens [ . .? . . ] and of Ioannes, !</p> <!-- check -->
             <p></p></div>
          <div type="commentary">
-            <p>Perhaps the fortune of the Greens, and of x and Ioannes?</p> 
+            <p>The space may have been filled by an epithet, or by the name of another person.</p> 
          </div>
          
       </body>
