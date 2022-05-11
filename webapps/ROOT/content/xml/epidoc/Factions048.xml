@@ -97,17 +97,19 @@
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257587">257587</ref></citedRange></bibl>;
                     <bibl><ptr target="roueche1993"/> <citedRange unit="entry">45.4</citedRange></bibl>, whence 
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/264960">264960</ref></citedRange></bibl>;
-                    <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020018.html">10.4</ref></citedRange></bibl>
+                    <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph100004.html">10.4</ref></citedRange></bibl>
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab><lb n="1"/>
-<gap reason="lost" extent="2" unit="character"/><orig>οι<unclear>ε</unclear>ρ<unclear>κο</unclear>ν</orig> <orgName ref="#green" nymRef="Πράσινος"><w lemma="Πράσινος">Πρασίν<supplied reason="lost">ων</supplied></w></orgName>
+<gap reason="lost" extent="2" unit="character"/><orig>οι<unclear>ε</unclear>ρ<unclear>κο</unclear>ν</orig> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="Πράσινος">Πρασίν<supplied reason="lost">ων</supplied></w></orgName>
                </ab>
                
-             </div> 
-        
+               </div> 
+            <div type="translation" xml:lang="en" source="#roueche1989"><p> . . . ] of <supplied reason="subaudible">the</supplied> Greens.</p>
+           </div>
+              
            <div type="translation" xml:lang="en" resp="#cmr"><p> . . . ] Green[s  . .</p>
            </div>
          
