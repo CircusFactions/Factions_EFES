@@ -103,7 +103,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
                 <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<milestone unit="block"/>η</w>
-                <lb n="2"/> <orgName ref="#green" nymRef="Πράσινος">Πρασινoν</orgName> 
+                <lb n="2"/> <orgName ref="#green" nymRef="Πράσινοι"><w lemma="Πράσινος">Πρασινoν</w></orgName> 
 </ab>     </div>
          
          
