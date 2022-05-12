@@ -104,13 +104,13 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
-             <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχι</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶ
+             <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχι</w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τῶ
              <lb n="2" break="no"/>ν</w> <surplus><unclear>β</unclear> </surplus><w lemma="Βένετος">Βενέτων</w></orgName>
 </ab>     </div>
          <div type="apparatus">
             <listApp><app loc="1-2"><rdg resp="#igc">τῶν/<surplus>ΝΒ</surplus> Βενέτων</rdg></app></listApp>
          </div>
-         <div type="translation" xml:space="preserve">
+         <div type="translation" source="#roueche1999" xml:lang="en">
            <p>The fortune of the Blues triumphs!
 </p></div>
          <div type="commentary">

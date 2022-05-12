@@ -93,16 +93,17 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Skizzenbuch 1643, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1194</citedRange></bibl>,; <bibl><ptr target="roueche1999"/> <citedRange unit="entry">16</citedRange></bibl>.</p>
+            <p>Skizzenbuch 1643, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1194</citedRange></bibl>; 
+               <bibl><ptr target="roueche1999"/> <citedRange unit="entry">16</citedRange></bibl>.</p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
-             <lb n="1"/><g ref="symbol.xml#crux"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τον</w> <w lemma="Βένετος">Βενέτον</w></orgName>
+             <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τον</w> <w lemma="Βένετος">Βενέτον</w></orgName>
             
 </ab>     </div>
          
-         <div type="translation" xml:space="preserve">
+         <div type="translation" source="#roueche1999" xml:lang="en">
            <p>The fortune of the Blues triumphs!!
 </p></div>
          <div type="commentary">

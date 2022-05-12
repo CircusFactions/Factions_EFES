@@ -106,12 +106,12 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
          <ab>
             <lb n="1"/><w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w>
-         <lb n="1"/><supplied reason="lost"><w lemma="ὁ">τῶν</w></supplied> <orgName ref="#green" nymRef="Πράσινος"><w>Πρα<supplied reason="lost">σίνων</supplied></w></orgName>
+         <lb n="1"/><orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="lost"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πρα<supplied reason="lost">ϲίνων</supplied></w></orgName>
        </ab>   </div>
          <div type="apparatus"><!-- check -->
             
          </div>
-         <div type="translation" xml:space="preserve">
+         <div type="translation" source="#roueche1999" xml:lang="en">
            <p>The fortune of the Greens triumphs!
 </p></div>
          <div type="commentary">

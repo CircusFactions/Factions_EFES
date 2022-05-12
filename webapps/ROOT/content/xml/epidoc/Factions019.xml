@@ -43,7 +43,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Finspot</origPlace>
+                     <origPlace>Findspot</origPlace>
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
@@ -102,10 +102,10 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
              <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχι</w>
-             <lb n="2"/><orgName ref="#green" nymRef="#Πράσινος"><w>Πραϲίνων</w></orgName> 
+             <lb n="2"/><orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πραϲίνων</w></orgName> 
 </ab>     </div>
          
-         <div type="translation" xml:space="preserve">
+         <div type="translation" source="#roueche1999" xml:lang="en">
            <p>The fortune of Greens triumphs!
 </p></div>
          <div type="commentary">

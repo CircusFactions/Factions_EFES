@@ -124,8 +124,10 @@
              <app loc="2"><rdg resp="#heberdey1907">θεοστεφῆ</rdg></app>
           </listApp>  
          </div>
-         <div type="translation" xml:space="preserve">
+         <div type="translation"  source="#roueche1999" xml:lang="en">
            <p>[Lord] help Phokas, crowned by God, and the Blues.</p></div>
+         <div type="translation"  resp="#cmr" xml:lang="en">
+            <p>[Lord] help Phokas, crowned by God, and Blues.</p></div>
          <div type="commentary">
             <p></p> 
          </div>
