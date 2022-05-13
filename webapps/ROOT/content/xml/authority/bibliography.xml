@@ -315,7 +315,7 @@
                         <title level="m">Performers and Partisans at Aphrodisias</title>, <pubPlace>London</pubPlace>, 
                         available at <ref target="https://archaeologydataservice.ac.uk/library/browse/issue.xhtml?recordId=1161460">ADS</ref></bibl>
                     
-                    <bibl xml:id="roueche1995"> <bibl type="abbrev">Roueché, 1993</bibl>
+                    <bibl xml:id="roueche1995"> <bibl type="abbrev">Roueché, 1995</bibl>
                         <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>1995</date> 
                         <title level="a">Aurarii in the Auditoria</title>, <title level="j">ZPE</title>, <biblScope unit="issue">105</biblScope>, <biblScope unit="page">37-50</biblScope>,
                         available at <ref target="http://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1995/105pdf/105037.pdf">ZPE</ref></bibl>

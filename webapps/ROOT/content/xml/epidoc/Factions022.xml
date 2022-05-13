@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the reverse face of IEph xxx
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the reverse face of IEph xxx<!-- check -->
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -94,23 +94,25 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, whence <bibl><ptr target="seg"/> <citedRange>36.1605</citedRange></bibl></p>
+            <p>Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, 
+               whence <bibl><ptr target="seg"/> <citedRange>36.1605</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
              <lb n="1"/><w>τοῦτο</w> <w lemma="ὁ">τὸ</w> <w lemma="ἡρῶον">ἡ<unclear>ρ</unclear><supplied reason="lost">ῶον</supplied></w> <w lemma="εἰμί">ἐ
-                <lb n="2" break="no"/>στιν</w> <orgName  ref="#green" nymRef="ὀρχηστοπαλάριος Πράσινος"><w lemma="ὀρχηστοπαλάριος">ὀρχιστοπαλα
-             <lb n="3" break="no"/>ρίων</w> <w lemma="πράσινος">Πρασίνων</w></orgName> 
+                <lb n="2" break="no"/>ϲτιν</w> <orgName  ref="#green" nymRef="#ὀρχηστοπαλάριος Πράσινος"><w lemma="ὀρχηστοπαλάριος">ὀρχιϲτοπαλα
+             <lb n="3" break="no"/>ρίων</w> <w lemma="πράσινος">Πραϲίνων</w></orgName> 
 	<lb n="4"/><w lemma="ζάω">ζώντων</w>
 
 </ab>     </div>
          
-         <div type="translation" xml:space="preserve">
+         <div type="translation" resp="#cmr" xml:lang="en">
            <p>This is the funerary monument of the Green dancers <supplied reason="subaudible">built while they are</supplied> living.
 </p></div>
          <div type="commentary">
-            <p>On the dancers see W. Slater, Orchestopala, ZPE 84 (1990) 215-220 (at <ref target="https://www.jstor.org/stable/20187390">Jstor</ref>, discussing this text and two presented by W. Eck, 
+            <p>On the dancers see W. Slater, Orchestopala, ZPE 84 (1990) <ref target="https://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1990/084pdf/084215.pdf">215-220</ref>, 
+               discussing this text and two presented by W. Eck, 
                ZPE 65 (1986), 248-51 (at <ref target="https://www.jstor.org/stable/20186499">Jstor</ref>)</p> 
          </div>
          

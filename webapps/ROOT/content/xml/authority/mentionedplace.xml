@@ -19,7 +19,7 @@
             <listPlace>
                 <place xml:id="jew">
                     <placeName xml:lang="en">Jew/Jewish</placeName>
-                    <placeName xml:lang="grc">Ἑβραῖος</placeName>
+                    <placeName xml:lang="grc">Ἑβραῖος/Εἰουδαῖος</placeName>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q7325</idno>
                 </place>
                 

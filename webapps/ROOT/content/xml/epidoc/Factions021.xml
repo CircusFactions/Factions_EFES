@@ -45,7 +45,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>):: 
+                           <p><placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
                               ?south of Arcadiane; excavated in 1895</p>
                         </provenance>
                         <provenance type="observed">

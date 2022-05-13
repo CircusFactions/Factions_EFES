@@ -91,33 +91,37 @@
       <revisionDesc>
           <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader><facsimile><graphic url="FactionMiletos24.jpg"><desc>Face (1994)</desc></graphic></facsimile>
+   </teiHeader><facsimile><graphic url="FactionMiletos24.jpg"><desc>Face (Roueché, 1994)</desc></graphic></facsimile>
    <text>
       <body>
          <div type="bibliography">
             <p>Recorded by Peter Herrman, whence
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">248</citedRange>, <citedRange unit="page">315</citedRange></bibl>; 
                published <bibl><ptr target="roueche1995"/>
-                  <citedRange>3</citedRange></bibl> whence <bibl><ptr target="seg"/> <citedRange>45.1608</citedRange></bibl>; <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.I.a</citedRange>
-                  </bibl>, whence <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/1708">1708</ref></citedRange></bibl>, 
+                  <citedRange>3</citedRange></bibl> whence <bibl><ptr target="seg"/> <citedRange>45.1608</citedRange></bibl>; 
+               <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.I.a</citedRange>
+                  </bibl>, whence 
+               <bibl><ptr target="IChrGr"/> <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/1708">1708</ref></citedRange></bibl>, 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/351669">351669</ref></citedRange></bibl>
                </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
-                <lb n="1"/><w lemma="τόπος">τόποϲ</w> <orgName ref="#blue" nymRef="Βένετος"><addName nymRef="αὐράριος"><w lemma="αὐράριος">αὐραρίω<milestone unit="block"/>ν</w></addName> <w lemma="βένετος"><expan><abbr>Βενέτω</abbr><ex>ν</ex></expan></w></orgName>.
+                <lb n="1"/><w lemma="τόπος">τόποϲ</w> <orgName ref="#blue" nymRef="#αὐράριοι Βένετοι"><addName nymRef="αὐράριος"><w lemma="αὐράριος">αὐραρίω<milestone unit="block"/>ν</w></addName> <w lemma="βένετος"><expan><abbr>Βενέτω</abbr><ex>ν</ex></expan></w></orgName>.
 </ab>     </div>
          
          
          
-         <div type="translation" xml:space="preserve">
-           <p>Place of Blue aurarii</p></div>
+         <div type="translation" source="#roueche1995" xml:lang="en">
+            <p>Place of aurarii, Blues.</p></div>
+         <div type="translation" source="#IChrGr" xml:lang="de">
+            <p>Platz der Goldarbeiter von der Partei der Blauen.</p></div>
          <div type="commentary">
             <p>Aurarii appear on three other seats in the Miletus theatre: <title>I. Milet</title> 940.I.b-d, available at <title>PHI</title> <ref target="https://epigraphy.packhum.org/text/351670">351670</ref>, 
                <ref target="https://epigraphy.packhum.org/text/351671">351671</ref>, <ref target="https://epigraphy.packhum.org/text/351672">351672</ref>.   
                Alan Cameron (loc cit.) suggested that they were cheerleaders; 
-               Roueché, loc. cit. read the term as meaning goldsmiths.   
+               Roueché (art. cit.) read the term as meaning goldsmiths.   
                C. Zuckerman, <ref target="https://www.persee.fr/doc/rebyz_0766-5598_2000_num_58_1_1986">Le cirque, l'argent et le peuple. 
                   À propos d'une inscription du Bas-Empire (2000)</ref> suggests, very convincingly, that they were the treasurers of the colours, 
                so holding and dispensing their funds.</p> 

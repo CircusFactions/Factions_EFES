@@ -94,7 +94,7 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Described <bibl><ptr target="weigand1904"/> <citedRange unit="page">483</citedRange></bibl>, 
+            <p>Described <bibl><ptr target="wiegand1904"/> <citedRange unit="page">483</citedRange></bibl>, 
                published <bibl><ptr target="hiller1906"/> <citedRange unit="entry">353</citedRange> inventory number 51</bibl>, 
                whence <bibl><ptr target="igc"/> <citedRange unit="entry">120</citedRange></bibl>,  
                <bibl><ptr target="christoph1966"/> <citedRange unit="entry">2</citedRange></bibl>, 
@@ -109,7 +109,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
                 <lb n="1"/><w lemma="νικάω">Νεικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
-             <lb n="2"/> <orgName ref="#green" nymRef="Πράσινος"><w>Πρασίνον</w></orgName> 
+             <lb n="2"/> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πραϲίνον</w></orgName> 
 </ab>     </div>
          
          <div type="apparatus">
@@ -119,13 +119,14 @@
               
            </listApp> 
          </div>
-         
-         <div type="translation" xml:space="preserve">
+         <div type="translation" source="#inspriene" xml:lang="de">
+            <p>Es siegt das Glück der Grünen!</p></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
            <p>The fortune of Greens triumphs!</p></div>
          <div type="commentary">
             <p>Cameron (op.cit) relied on Hiller's reading.</p>
             <p>Blümel and Merkelbach suggest that this is in secondary use; but Wiegand does not indicate this.</p>
-            <p>Es siegt das Glück der Grünen (IK)</p>
+           
          </div>
          
       </body>

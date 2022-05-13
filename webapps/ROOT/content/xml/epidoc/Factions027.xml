@@ -105,7 +105,7 @@
              <ab>
                 <lb n="1"/><persName type="attested" key="lgpn:V5b-17051"><name nymRef="Γεώργιος"><supplied reason="lost">Γ</supplied>εωργίου </name> <w lemma="ὁ">τοῦ</w> 
     <lb n="2"/> <w lemma="πρωτοκαγκελλάριος"><expan><abbr>πρ</abbr><ex>ώτο</ex><abbr>καγκελ</abbr> 
-      <lb n="3" break="no"/><abbr>λαρ</abbr><ex>ίου</ex></expan></w></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w>  <orgName ref="#blue" nymRef="Βένετος"><w lemma="βένετος"><supplied reason="lost">Β</supplied>ενε- 
+      <lb n="3" break="no"/><abbr>λαρ</abbr><ex>ίου</ex></expan></w></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w>  <orgName ref="#blue"  nymRef="#Βένετοι"><w lemma="βένετος"><supplied reason="lost">Β</supplied>ενε 
       <lb n="4" break="no"/>τῶν</w></orgName> <w lemma="πολύς">πολλὰ</w> 
       <lb n="5"/><w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> 
       <lb n="6"/><space/> <g ref="symbol.xml#crux"/>
@@ -123,7 +123,7 @@
          
          
          <div type="translation" xml:space="preserve">
-           <div type="translation" resp="#cmr" xml:lang="en"><p>Many years for Georgios the protokankellarios and the Blues!</p></div></div>
+           <div type="translation" resp="#cmr" xml:lang="en"><p>Many years for Georgios the protokankellarios and Blues!</p></div></div>
          <div type="commentary">
             <p>A pair with <ref type="inscription" n="Factions026">Text 26</ref>.</p> 
          </div>
