@@ -102,7 +102,7 @@
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/><milestone unit="block"/><gap reason="lost" extent="3" unit="character"/><orig><unclear>ιιιι</unclear></orig> <orgName ref="#blue" nymRef="#Βένετοι"><w lemma="Βένετος" part="I">Βενέ<milestone unit="block"/><space extent="5"/><milestone unit="block"/>
+               <ab><lb n="1"/><milestone unit="block"/><gap reason="lost" extent="3" unit="character"/><orig><unclear>ιιιι</unclear></orig> <orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος" part="I">Βενέ<milestone unit="block"/><space extent="5"/><milestone unit="block"/>
 <lb n="2"/><milestone unit="block"/><space extent="15" unit="character"/><milestone unit="block"/>των</w></orgName> <space extent="5"/><milestone unit="block"/>
 <lb n="3"/><milestone unit="block"/><persName type="attested"><name nymRef="Αὐρήλιος">Αὐρ<gap reason="lost" extent="2" unit="character"/></name></persName><orig><unclear>λλ</unclear>ο<milestone unit="block"/><unclear>ι</unclear>ενιων<milestone unit="block"/></orig></ab>
                

@@ -39,7 +39,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote> a: line 1, <height unit="metre">0.008-0.01</height>, Line 2, <height>0.02</height>. 
+                     <handNote> a: line 1, <height unit="metre">0.008-0.01</height>, line 2, <height>0.02</height>. 
                         b: large, sprawling letters, with lunate forms, <height>0.03-04</height>. c: monogram, <height>0.06</height></handNote>
                   </handDesc>
                </physDesc>
@@ -114,10 +114,10 @@
 </ab></div>
 
     <div type="textpart" n="c"><ab>
-      <orgName ref="#green" nymRef="#Πράσινος"><expan><ex>Πραϲίνων</ex></expan></orgName></ab>
+      <orgName ref="#green" nymRef="#Πράσινοι"><expan><ex>Πραϲίνων</ex></expan></orgName></ab>
     </div>      </div>
          
-         <div type="translation" xml:space="preserve">
+         <div type="translation" source="#roueche2007" xml:lang="en">
            <p>b: God of George, raise up the party which you know
               c: (of Greens)
 </p></div>

@@ -108,7 +108,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orgName ref="#blue" nymRef="῀#Βένετοι"><w lemma="Βένετος"><supplied reason="lost">Β</supplied>ενέ <space quantity="2" unit="character"></space> των</w></orgName> <gap reason="lost" extent="unknown" unit="character"/>
+  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orgName ref="#blue" nymRef="῀#Βένετοι"><w lemma="βένετος"><supplied reason="lost">Β</supplied>ενέ <space quantity="2" unit="character"></space> των</w></orgName> <gap reason="lost" extent="unknown" unit="character"/>
 </ab>
          </div>
          <div type="apparatus">

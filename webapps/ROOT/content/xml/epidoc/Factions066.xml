@@ -108,7 +108,7 @@
                
             <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <g ref="symbol.xml#crux"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχε</w> 
                 
-              <lb n="2"/> <orgName ref="#blue" nymRef="#οἱ Βένετοι"> <w lemma="ὁ">το͂ν</w> <milestone unit="block"/> <w lemma="Βένετος">Βενήτον</w></orgName> 
+              <lb n="2"/> <orgName ref="#blue" nymRef="#οἱ Βένετοι"> <w lemma="ὁ">το͂ν</w> <milestone unit="block"/> <w lemma="βένετος">Βενήτον</w></orgName> 
      </ab>
      </div>
             <div type="apparatus"><listApp>

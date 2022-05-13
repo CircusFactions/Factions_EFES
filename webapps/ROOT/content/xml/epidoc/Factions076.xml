@@ -46,7 +46,7 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0602" notAfter="0610" evidence="textual-context">602-610</origDate><!-- check -->
+                            <origDate notBefore="0602" notAfter="0610"  evidence="reign">i: 602-610 C.E.</origDate>
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="oxyrhynchus">Oxyrhynchus</placeName> (<ref target="https://pleiades.stoa.org/places/736983">Pleiades</ref>): 

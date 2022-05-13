@@ -42,7 +42,7 @@
                <history>
                   <origin>
                      <origPlace>unknown</origPlace>
-                     <origDate notBefore="0600" notAfter="0640"  precision="low" evidence="context">Early seventh century C.E. XXX</origDate>
+                     <origDate notBefore="0602" notAfter="0610"  evidence="reign">602-610 C.E.</origDate>
                   </origin>
                   
                      
@@ -111,10 +111,10 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/><g ref="symbol.xml#crux"/> <del><persName type="emperor" ref="#phocas"><name nymRef="Φωκᾶς">Φωκᾷ</name></persName> <w lemma="ὁ">τῷ</w>
+  <lb n="1"/><g ref="symbol.xml#crux"/> <del rend="erasure"><persName type="emperor" ref="#phocas"><name nymRef="Φωκᾶς">Φωκᾷ</name></persName> <w lemma="ὁ">τῷ</w>
 		<lb n="1"/><addName nymRef="θεοστεφής"><w>θεωϲτεφῇ</w></addName><!-- check -->
 		<lb n="1"/><w lemma="ἡμεῖς">ἡμῶν</w> <w lemma="δεσπότης"><expan><abbr>δεϲπό</abbr><ex>τῇ</ex></expan></w> <!-- check -->
-		<lb n="1"/><w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="Βένετος">Βενέτοιϲ</w></orgName> 
+		<lb n="1"/><w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος">Βενέτοιϲ</w></orgName> 
 		<lb n="1"/><supplied reason="lost"><persName type="divine"><w lemma="Κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName></supplied> <w lemma="βοηθέω"><supplied reason="lost">βο</supplied><unclear>ή</unclear>θησον</w></del>
 
 </ab></div>
@@ -127,7 +127,7 @@
          <div type="translation"  source="#roueche1999" xml:lang="en">
            <p>[Lord] help Phokas, crowned by God, and the Blues.</p></div>
          <div type="translation"  resp="#cmr" xml:lang="en">
-            <p>[Lord] help Phokas, crowned by God, and Blues.</p></div>
+            <p>[Lord] help Phokas, our God-crowned master, and Blues.</p></div>
          <div type="commentary">
             <p></p> 
          </div>

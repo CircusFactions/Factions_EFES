@@ -103,7 +103,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab><lb n="1"/>
-<gap reason="lost" extent="2" unit="character"/><orig>οι<unclear>ε</unclear>ρ<unclear>κο</unclear>ν</orig> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="Πράσινος">Πρασίν<supplied reason="lost">ων</supplied></w></orgName>
+<gap reason="lost" extent="2" unit="character"/><orig>οι<unclear>ε</unclear>ρ<unclear>κο</unclear>ν</orig> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πρασίν<supplied reason="lost">ων</supplied></w></orgName>
                </ab>
                
                </div> 

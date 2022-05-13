@@ -104,7 +104,7 @@
                    <lb n="2"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆϲ</w> 
                    <lb n="3"/> <placeName type="ethnic" ref="#tyre" nymRef="Τύριος"><expan><abbr>Τ</abbr><ex>υ</ex><abbr>ρ</abbr><ex>ίων</ex></expan></placeName> <w lemma="μμτρόπολις">μητροπόλε
                    <lb n="4" break="no"/> οϲ</w> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w>
-                   <lb n="5"/><w lemma="Βένετος">Βενέτων</w></orgName>
+                   <lb n="5"/><w lemma="βένετος">Βενέτων</w></orgName>
                </ab>
              </div> 
            

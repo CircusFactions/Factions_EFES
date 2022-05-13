@@ -109,7 +109,7 @@
                <div type="textpart" n="i"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><orgName ref="#blue" nymRef="Βένετος"><w lemma="#Βένετον">Βενέτ<hi rend="ligature"><unclear>ου</unclear></hi></w></orgName>
                </ab></div>
             <div type="textpart" n="ii"><ab>
-               <lb n="1"/><w lemma="τόπος">τό <milestone unit="block"/><del rend="erasure">πός</del></w> <del rend="erasure"><orgName ref="#blue" nymRef="#Βένετοι"><w lemma="Βένετος"><expan><abbr>Βενέ</abbr><ex>των</ex></expan></w></orgName></del>
+               <lb n="1"/><w lemma="τόπος">τό <milestone unit="block"/><del rend="erasure">πός</del></w> <del rend="erasure"><orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος"><expan><abbr>Βενέ</abbr><ex>των</ex></expan></w></orgName></del>
             </ab></div>
              </div> 
          

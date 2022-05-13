@@ -99,12 +99,12 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
-             <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τον</w> <w lemma="Βένετος">Βενέτον</w></orgName>
+             <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τον</w> <w lemma="βένετος">Βενέτον</w></orgName>
             
 </ab>     </div>
          
          <div type="translation" source="#roueche1999" xml:lang="en">
-           <p>The fortune of the Blues triumphs!!
+           <p>The fortune of the Blues triumphs!
 </p></div>
          <div type="commentary">
             <p></p> 

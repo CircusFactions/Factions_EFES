@@ -106,7 +106,7 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
-                <lb n="1"/><w lemma="τόπος">τόποϲ</w> <orgName ref="#blue" nymRef="Βένετος"><addName nymRef="αὐράριος"><w lemma="αὐράριος">αὐραρίω<milestone unit="block"/>ν</w></addName> <w lemma="Βένετος"><expan><abbr>Βενέτω</abbr><ex>ν</ex></expan></w></orgName>.
+                <lb n="1"/><w lemma="τόπος">τόποϲ</w> <orgName ref="#blue" nymRef="Βένετος"><addName nymRef="αὐράριος"><w lemma="αὐράριος">αὐραρίω<milestone unit="block"/>ν</w></addName> <w lemma="βένετος"><expan><abbr>Βενέτω</abbr><ex>ν</ex></expan></w></orgName>.
 </ab>     </div>
          
          

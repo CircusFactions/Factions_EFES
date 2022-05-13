@@ -105,7 +105,7 @@
              <ab>
                 <lb n="1"/><persName type="attested" key="lgpn:V5b-23039"><name nymRef="Μακάριος">Μακαρίου</name></persName> 
     <lb n="2"/><w lemma="ὁ">τοῦ</w> <orig>λιιριαλs</orig> 
-      <lb n="3"/><w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <w lemma="Βένετος"><unclear>Β</unclear>ενε- 
+      <lb n="3"/><w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <w lemma="βένετος"><unclear>Β</unclear>ενε- 
       <lb n="4" break="no"/>τῶ<unclear>ν</unclear></w></orgName> <w lemma="πολύς">πολλὰ</w> 
       <lb n="5"/><w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> 
       <lb n="6"/><space/> <g ref="symbol.xml#crux"/>
