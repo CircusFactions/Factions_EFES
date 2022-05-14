@@ -45,7 +45,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
-                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>) V; recorded by the NYU expedition in 1967 (excavation inventory no.
+                              <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>) V; recorded by the NYU expedition in 1967 (excavation inventory no.
                               <rs type="invNo">67.539</rs>).  </p>
                         </provenance>
                         <provenance type="observed">

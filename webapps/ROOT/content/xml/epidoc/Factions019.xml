@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs> for the <rs type="textType">Green</rs>s</title>
+            <title><rs type="textType">Acclamation</rs> for <rs type="textType">Green</rs>s</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
@@ -95,8 +95,10 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Skizzenbuch 2838, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1198.2</citedRange></bibl>; republished <bibl><ptr target="roueche1999"/> <citedRange unit="entry">14</citedRange></bibl>; 
-               <bibl><ptr target="roueche2007"/> <citedRange unit="page">223</citedRange></bibl>, whence <bibl><ptr target="seg"/> <citedRange>58.1329</citedRange></bibl></p>
+            <p>Skizzenbuch 2838, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">1198.2</citedRange></bibl>; 
+               republished <bibl><ptr target="roueche1999"/> <citedRange unit="entry">14</citedRange></bibl>; 
+               <bibl><ptr target="roueche2007"/> <citedRange unit="page">223</citedRange></bibl>, whence 
+               <bibl><ptr target="seg"/> <citedRange>58.1329</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">

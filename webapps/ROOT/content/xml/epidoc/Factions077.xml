@@ -43,7 +43,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="valleyofthekings">Egyptian Thebes, Valley of the Kings</placeName> (<ref target="https://pleiades.stoa.org/places/384697574">Pleiades</ref>), 
-                              Tomb of Ramses VI</p>
+                                <rs type="monument">Tomb</rs> of Ramses VI</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>

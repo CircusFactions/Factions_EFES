@@ -45,7 +45,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="taff">Taff</placeName> (<ref target="https://www.geonames.org/12809">Geonames</ref>): 
-                                over a door on the west side of a courtyard at the eastern end of the ruins.</p>
+                                over a door on the west side of a <rs type="monument">courtyard</rs> at the eastern end of the ruins.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>

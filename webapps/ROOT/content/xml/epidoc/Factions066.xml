@@ -45,7 +45,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="ummeljimal">Umm al-Jimal</placeName> (<ref target="https://pleiades.stoa.org/places/678439">Pleiades</ref>):  
-                                over the entrance door of a house east of the church.</p>
+                                over the entrance door of a <rs type="monument">house</rs> east of the church.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>

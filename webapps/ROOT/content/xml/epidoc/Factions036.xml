@@ -45,7 +45,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
-                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>): scaenae frons, northernmost chamber: doorway, on the north wall, a little further into the room. </p>
+                              <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>): scaenae frons, northernmost chamber: doorway, on the north wall, a little further into the room. </p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>

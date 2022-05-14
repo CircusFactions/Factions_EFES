@@ -43,8 +43,8 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p>Egypt: <placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
-                                Odeon</placeName> (<ref target="https://pleiades.stoa.org/places/612452943">Pleiades</ref>), Row 5, block 3.</p> 
+                            <p><placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
+                                <rs type="monument">Odeon</rs></placeName> (<ref target="https://pleiades.stoa.org/places/612452943">Pleiades</ref>), Row 5, block 3.</p> 
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>

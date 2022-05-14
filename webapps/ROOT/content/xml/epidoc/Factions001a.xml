@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Acclamation</rs> for the <rs type="textType">Green</rs>s
+               <rs type="textType">Acclamation</rs> for <rs type="textType">Green</rs>s
             </title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
@@ -50,7 +50,7 @@
                         <provenance type="found">
                            <p>
                               <placeName type="ancientFindspot" ref="argos">Argos</placeName> (<ref target="https://pleiades.stoa.org/places/570106">Pleiades</ref>): 
-                              excavated in a house of the 5th-6th century</p>
+                              excavated in a <rs type="monument">house</rs> of the 5th-6th century</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Argos Museum</p>

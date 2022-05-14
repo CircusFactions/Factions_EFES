@@ -43,7 +43,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="aphrodisiasstadium">Aphrodisias</placeName>: 
-                                Stadium (<ref target="https://pleiades.stoa.org/places/840672014">Pleiades</ref>): Block 19, Row K, in the middle of the row.</p>
+                                <rs type="monument">Stadium</rs> (<ref target="https://pleiades.stoa.org/places/840672014">Pleiades</ref>): Block 19, Row K, in the middle of the row.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>

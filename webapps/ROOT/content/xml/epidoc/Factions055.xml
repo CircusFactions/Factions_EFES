@@ -42,7 +42,7 @@
                             <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="tyrehippodrome">Tyre: Hippodrome</placeName> 
+                            <p><placeName type="ancientFindspot" ref="tyrehippodrome">Tyre: <rs type="monument">Hippodrome</rs></placeName> 
                                 (<ref target="https://pleiades.stoa.org/places/610184253">Pleiades</ref>): 
                                 In the mosaic floor of a building on the east side of the hippodrome.</p>
                         </provenance>
@@ -102,15 +102,16 @@
             <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> 
                    <lb n="2"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆϲ</w> 
-                   <lb n="3"/> <placeName type="ethnic" ref="#tyre" nymRef="Τύριος"><expan><abbr>Τ</abbr><ex>υ</ex><abbr>ρ</abbr><ex>ίων</ex></expan></placeName> <w lemma="μμτρόπολις">μητροπόλε
-                   <lb n="4" break="no"/> οϲ</w> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w>
+                   <lb n="3"/> <placeName type="ethnic" ref="#tyre" nymRef="῀#Τύριος"><expan><abbr>Τ</abbr><ex>υ</ex><abbr>ρ</abbr><ex>ίων</ex></expan></placeName> <w lemma="μμτρόπολις">μητροπόλε
+                   <lb n="4" break="no"/> οϲ</w> <w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τῶν</w>
                    <lb n="5"/><w lemma="βένετος">Βενέτων</w></orgName>
                </ab>
              </div> 
            
            <div type="apparatus">
                <listApp>
-                   <app loc="3"><lem>ΤΜ</lem><note>the tesserae have now been disturbed, but the two letters appeared to be in ligature, with a Ρ above. They might form ΤΡΜ or ΠΡΜ</note>
+                   <app loc="3"><lem>ΤΜ</lem><note>: the tesserae have now been disturbed, but the two letters appeared to be in ligature, with a Ρ above. 
+                       They might form ΤΡΜ or ΠΡΜ</note>
                        <rdg source="#ityr2006">Π(ρωτο)μητροπόλεος</rdg> <rdg source="#feisselBE">Τ(υ)ρ(ίων) μητροπόλεος</rdg></app>
                </listApp>
            </div>

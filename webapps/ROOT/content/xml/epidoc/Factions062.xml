@@ -43,7 +43,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="gerasa">Gerasa</placeName> (<ref target="https://pleiades.stoa.org/places/678158">Pleiades</ref>): 
-                                in one room of a large civil building complex on a street which runs parallel to the Cardo.</p>
+                                in one room of a large civil <rs type="monument">building complex</rs> on a street which runs parallel to the Cardo.</p>
                             <!-- check: is this the Hippodrome, https://pleiades.stoa.org/places/312305084 -->
                         </provenance>
                         <provenance type="observed">

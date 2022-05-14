@@ -42,7 +42,7 @@
                             <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> 
+                            <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South <rs type="monument">Agora</rs></placeName> 
                                 (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): on the floor of the western portico.</p>
                         </provenance>
                         <provenance type="observed">

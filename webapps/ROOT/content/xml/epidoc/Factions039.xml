@@ -44,7 +44,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
-                              Τheatre</placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>) seats: Block B, Row 1: on one seat at the east end of row, at right angles to edge.</p>
+                              <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>) seats: Block B, Row 1: on one seat at the east end of row, at right angles to edge.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>

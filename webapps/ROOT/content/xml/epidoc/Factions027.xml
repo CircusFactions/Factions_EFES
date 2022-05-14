@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs> for Georgios and the <rs type="textType">Blue</rs>s</title>
+            <title><rs type="textType">Acclamation</rs> for Georgios and <rs type="textType">Blue</rs>s</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
@@ -45,7 +45,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599593">Didyma</placeName>: 
-                              found in front of the east face of the temple.</p>
+                              found in front of the east face of the <rs type="monument">temple</rs>.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>

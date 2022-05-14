@@ -44,7 +44,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="reimea">Reimea</placeName> (<ref target="https://pleiades.stoa.org/places/678361">Pleiades</ref>): 
-                                above the door of an outhouse in the courtyard of a house.</p>
+                                above the door of an outhouse in the <rs type="monument">courtyard</rs> of a house.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot </p>

@@ -44,7 +44,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
-                                Odeon</placeName> (<ref target="https://pleiades.stoa.org/places/612452943">Pleiades</ref>), row 2, block 5.</p> <!-- check -->
+                                <rs type="monument">Odeon</rs></placeName> (<ref target="https://pleiades.stoa.org/places/612452943">Pleiades</ref>), row 2, block 5.</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>

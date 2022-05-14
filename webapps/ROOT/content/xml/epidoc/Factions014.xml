@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s, and the <rs type="textType">emperor</rs></title>
+            <title><rs type="textType">Acclamation</rs> for the <rs type="textType">emperor</rs> and <rs type="textType">Blue</rs>s</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
@@ -49,7 +49,7 @@
                         <provenance type="found">
                            <p>
                               <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
-                              ‘bei der Biegung der ostlich. der Agora führenden Strasse, bei der ersten der Säule die die Kuretenlisten tragen’.</p>
+                              Embolos <rs type="monument">street</rs>: ‘bei der Biegung der ostlich. der Agora führenden Strasse, bei der ersten der Säule die die Kuretenlisten tragen’.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot (<date type="observed">1907</date>)</p>

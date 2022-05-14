@@ -45,7 +45,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="castramefaa">Umm er-Rasas</placeName> (<ref target="https://pleiades.stoa.org/places/697646">Pleiades</ref>): 
-                                church of Saints Paul and Germanus, 
+                                <rs type="monument">church</rs> of Saints Paul and Germanus, 
                             found during excavation.</p>
                         </provenance>
                         <provenance type="observed">

@@ -7,7 +7,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs> for <rs type="textType">Blue</rs>s, and the <rs type="textType">emperor</rs></title>
+            <title><rs type="textType">Acclamation</rs> for the <rs type="textType">emperor</rs> and  
+               <rs type="textType">Blue</rs>s.</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>

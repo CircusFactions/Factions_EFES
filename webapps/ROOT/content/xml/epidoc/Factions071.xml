@@ -44,7 +44,8 @@
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="komeldikka">Alexandria, Kom el-Dikka</placeName> (<ref target="https://pleiades.stoa.org/places/845040004">Pleiades</ref>), in the Baths.</p>
+                            <p><placeName type="ancientFindspot" ref="komeldikka">Alexandria, Kom el-Dikka</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/845040004">Pleiades</ref>), in the <rs type="monument">Baths</rs>.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>

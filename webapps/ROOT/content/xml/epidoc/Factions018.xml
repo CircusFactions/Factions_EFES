@@ -110,17 +110,19 @@
    <div type="textpart" n="b"><ab>
       <lb n="1"/><w lemma="ὁ">ὁ</w> <w  lemma="θεός">θεὸϲ</w> <persName type="attested"><name>Γιοργίου</name></persName>
       <lb n="1"/><w lemma="ἀναγείρω">ἀνέγιρον</w> <w lemma="ὁ">τὸ</w>
-      <lb n="3"/><w  lemma="μέρος">μέροϲ</w> <w lemma="ὁ">το<unclear>ν</unclear></w> <w lemma="οἶδα">ὖδεϲ</w>
+      <lb n="3"/><w  lemma="μέρος">μέροϲ</w> <w lemma="ὁ">το͂<unclear>ν</unclear></w> <w lemma="οἶδα">ὖδεϲ</w>
 </ab></div>
 
     <div type="textpart" n="c"><ab>
-      <orgName ref="#green" nymRef="#Πράσινοι"><expan><ex>Πραϲίνων</ex></expan></orgName></ab>
+      <orgName ref="#green" nymRef="#οἱ Πράσινοι"><expan><ex>Πραϲίνων</ex></expan></orgName></ab>
     </div>      </div>
          
          <div type="translation" source="#roueche2007" xml:lang="en">
            <p>b: God of George, raise up the party which you know
-              c: (of Greens)
-</p></div>
+              c: (of Greens)</p></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>b: God of George, raise up the party, which you know, of the
+               c: (Greens)</p></div>
          <div type="commentary">
             <p>It was Denis Feissel who first interpreted text b, by identifying the verb at the end of the third line as οἶδας</p> 
          </div>
