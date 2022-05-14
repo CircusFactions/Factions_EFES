@@ -103,16 +103,12 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <ab>
                 <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<milestone unit="block"/>η</w>
-                <lb n="2"/> <orgName ref="#green" nymRef="Πράσινοι"><w lemma="πράσινος">Πρασινoν</w></orgName> 
+                <lb n="2"/> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πρασινoν</w></orgName> 
 </ab>     </div>
          
-         
-         
-         
-         
-         <div type="translation" xml:space="preserve">
+        
            <div type="translation" xml:lang="en" resp="#cmr"><p>The fortune of Greens triumphs!
-            </p></div></div>
+            </p></div>
          <div type="commentary">
             <p>
             </p> 

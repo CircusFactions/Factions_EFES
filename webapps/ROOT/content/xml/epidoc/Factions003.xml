@@ -109,18 +109,19 @@
                 <bibl><ptr target="nigdelis2011"/> <citedRange>171-172</citedRange></bibl>; 
                sarcophagus republished, 
                <bibl> <ptr target="stephanidou2014"/> <citedRange>15</citedRange>, with commentary by Nigdelis and plates 14-15.</bibl>. 
-               From these <bibl><ptr target="seg"/> <citedRange>61.536</citedRange></bibl>. Edited and translated by Hallof, <bibl><ptr target="telota"/> <ref target="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20X%202,%201,%20842">IG X, 2, 1, 842</ref> 
+               From these <bibl><ptr target="seg"/> <citedRange>61.536</citedRange></bibl>. 
+               Edited and translated by Hallof, <bibl><ptr target="telota"/> <ref target="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20X%202,%201,%20842">IG X, 2, 1, 842</ref> 
               </bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-             <lb n="1"/><w lemma="ὁ">ὁ<surplus>ν</surplus></w> <w lemma="πολύς">πολῆϲ</w> <w lemma="μνήμη">μνήμηϲ</w> <w lemma="ἄξιος">ἄξιοϲ</w> <space unit="character" quantity="5"/> <w lemma="εἰμί">ὢν</w> <persName type="attested" key="lgpn:V4-32461"><name nymRef="Οὐράνιος">Οὐράνιοϲ</name></persName> <w lemma="ἡνίοχος">εἱνίοχοϲ</w> 
-           <lb n="2"/><w lemma="παράδοξος">παράδοξοϲ</w> <w lemma="ἐνθάδε">ἐνθάδε</w> <w lemma="κεῖμαι">κεῖτε</w> <space unit="character" quantity="5"/> <persName type="attested" key="lgpn:V4-33131"><name nymRef="Αὐρηλία">Αὐρηλία</name> <name nymRef="Πορφυρίς">Πορφυρὶϲ</name></persName> <w lemma="ἀγοράζω">ἠγόραϲ<space unit="character" quantity="1"/>α</w>
-            <lb n="3"/><w lemma="ὁ">τὴν</w> <w lemma="σορός">ϲορὸν</w> <w lemma="ἐκ">ἐκκ</w> <w lemma="ὁ">τῶν</w> <w lemma="κοινός">κοινῶν</w> <space unit="character" quantity="5"/> <w lemma="κάματος">καμάτων</w>· <w lemma="εἰ">ἤ</w> <w lemma="τις">τιϲ</w> <w lemma="ἕτερος">ἕτεροϲ</w> 
-             <lb n="4"/><w lemma="τολμάω">τολμήϲῃ</w> <w lemma="ἀνοίγνυμι">ἀνοῖξαι</w> <w lemma="χωρίς">χωρὶϲ</w> <w lemma="ὁ">τῆϲ</w> <space unit="character" quantity="5"/> <w lemma="τελευτή">τελευτῆϲ</w> <w lemma="ἐγώ">μου</w> <w lemma="δίδωμι">δώϲι</w> 
-           <lb n="5"/><w lemma="ὁ">τῷ</w> <w lemma="ἱερός">εἱερω<supplied reason="omitted">τά</supplied>τῳ</w> <w lemma="ταμεῖον">ταμίωι</w> <w lemma="χρυσόν">χρυϲοῦ</w> <space unit="character" quantity="5"/> <w lemma="λίτρα">λίτραν</w> <w lemma="εἷς">μίαν</w> <w lemma="οὐδείς">οὐδίϲ</w> <w lemma="ποτε">ποτε</w> 
-           <lb n="6"/><w lemma="εὐνοέω">εὐνόηϲε</w> <orgName ref="#blue" nymRef="#Βένετον"><w lemma="βένετος">Βενέτῳ</w></orgName> <w lemma="ὡς">ὡς</w> <w lemma="τάχα">τάχα</w> <persName type="attested" key="lgpn:V4-32461"><name nymRef="Οὐράνιος">Οὐράνιϲ</name></persName> <space unit="character" quantity="5"/> 
+             <lb n="1"/><w lemma="ὁ">ὁ<surplus>ν</surplus></w> <w lemma="πολύς">πολῆϲ</w> <w lemma="μνήμη">μνήμηϲ</w> <w lemma="ἄξιος">ἄξιοϲ</w> <milestone unit="block"/> <w lemma="εἰμί">ὢν</w> <persName type="attested" key="lgpn:V4-32461"><name nymRef="Οὐράνιος">Οὐράνιοϲ</name></persName> <w lemma="ἡνίοχος">εἱνίοχοϲ</w> 
+           <lb n="2"/><w lemma="παράδοξος">παράδοξοϲ</w> <w lemma="ἐνθάδε">ἐνθάδε</w> <w lemma="κεῖμαι">κεῖτε</w> <milestone unit="block"/> <persName type="attested" key="lgpn:V4-33131"><name nymRef="Αὐρηλία">Αὐρηλία</name> <name nymRef="Πορφυρίς">Πορφυρὶϲ</name></persName> <w lemma="ἀγοράζω">ἠγόραϲ<space unit="character" quantity="1"/>α</w>
+            <lb n="3"/><w lemma="ὁ">τὴν</w> <w lemma="σορός">ϲορὸν</w> <w lemma="ἐκ">ἐκκ</w> <w lemma="ὁ">τῶν</w> <w lemma="κοινός">κοινῶν</w> <milestone unit="block"/> <w lemma="κάματος">καμάτων</w>· <w lemma="εἰ">ἤ</w> <w lemma="τις">τιϲ</w> <w lemma="ἕτερος">ἕτεροϲ</w> 
+             <lb n="4"/><w lemma="τολμάω">τολμήϲῃ</w> <w lemma="ἀνοίγνυμι">ἀνοῖξαι</w> <w lemma="χωρίς">χωρὶϲ</w> <w lemma="ὁ">τῆϲ</w> <milestone unit="block"/> <w lemma="τελευτή">τελευτῆϲ</w> <w lemma="ἐγώ">μου</w> <w lemma="δίδωμι">δώϲι</w> 
+           <lb n="5"/><w lemma="ὁ">τῷ</w> <w lemma="ἱερός">εἱερω<supplied reason="omitted">τά</supplied>τῳ</w> <w lemma="ταμεῖον">ταμίωι</w> <w lemma="χρυσόν">χρυϲοῦ</w> <milestone unit="block"/> <w lemma="λίτρα">λίτραν</w> <w lemma="εἷς">μίαν</w>· <w lemma="οὐδείς">οὐδίϲ</w> <w lemma="ποτε">ποτε</w> 
+           <lb n="6"/><w lemma="εὐνοέω">εὐνόηϲε</w> <orgName ref="#blue" nymRef="#Βένετον"><w lemma="βένετος">Βενέτῳ</w></orgName> <w lemma="ὡς">ὡς</w> <w lemma="τάχα">τάχα</w> <persName type="attested" key="lgpn:V4-32461"><name nymRef="Οὐράνιος">Οὐράνιϲ</name></persName> <milestone unit="block"/> 
              <w lemma="κεῖμαι">κεῖτε</w> <w lemma="δέ">δὲ</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w>ϲίλικι</w> <w lemma="ὡς">ὡς</w> <w lemma="ἀναίϲθητος">ἀνέϲθητοϲ</w>
           </ab>
          </div>
@@ -143,7 +144,8 @@
          </p></div>
          <div type="commentary">
             <p>Edson suggested a third century date; but Nigdelis pointed out that the fine, in gold, would be more compatible with a fourth or fifth century date, 
-               as would the letter forms.</p> 
+               as would the letter forms.</p>
+            <p>The last line apparently contrasts the passion of factional enthusiasm with the lack of feeling in death.</p>
          </div>
          
       </body>

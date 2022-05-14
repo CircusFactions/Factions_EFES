@@ -105,7 +105,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>          
                <lb n="1"/><w lemma="τόπος">τ<unclear>όπ</unclear>ο</w> <w lemma="ὁ">τῶν</w> <w lemma="μακελλίτης">μακελλίτων</w>
-               <lb n="2"/><w lemma="ὁ">Ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="ὁ">τῶν</w> <w lemma="βένετος">Βενέτων</w></orgName>
+               <lb n="2"/><w lemma="ὁ">Ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τῶν</w> <w lemma="βένετος">Βενέτων</w></orgName>
               </ab> </div> 
          
          

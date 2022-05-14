@@ -100,21 +100,17 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
              <div type="textpart" n="i"><ab>
-                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="πράσινος">Πραϲίνον</w></orgName> <g ref="symbol.xml#crux"/>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πραϲίνον</w></orgName> <g ref="symbol.xml#crux"/>
 </ab>  </div> 
          <div type="textpart" n="ii"><ab>
-                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τοῦ</w> <orgName ref="#green" nymRef="Πράσινος"><w lemma="πράσινος">Πραϲ<supplied reason="lost">ίνου</supplied></w></orgName>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τοῦ</w> <orgName ref="#green" nymRef="#τὸ Πράσινον"><w lemma="πράσινος">Πραϲ<supplied reason="lost">ίνου</supplied></w></orgName>
 </ab>  </div>
          </div>
          
-         
-         
-         
-         
-         <div type="translation" xml:space="preserve">
+        
            <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note>: The fortune of Greens triumphs!</p>
            <p><note>ii</note>: The fortune of the Green triumphs!</p></div>
-         </div>
+         
          <div type="commentary">
             <p>
             </p> 

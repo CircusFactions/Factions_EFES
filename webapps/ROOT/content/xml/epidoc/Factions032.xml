@@ -100,7 +100,8 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
-                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τ<supplied reason="lost">ύχη</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τ<supplied reason="lost">ύχη</supplied></w> 
+               <supplied reason="lost" cert="low"><orgName ref="#blue" nymRef="#οἱ Βένετοι" cert="low"><w lemma="ὁ">τῶν</w> <w lemma="βένετος">Βενέτων</w></orgName></supplied>
 </ab>   
          
          </div>

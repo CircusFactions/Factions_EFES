@@ -103,18 +103,20 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <div type="textpart" n="i"><ab>          
-               <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName  ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πραϲίνων</w></orgName>
+               <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName  ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName>
                </ab> </div>  
          <div type="textpart" n="ii"><ab>          
-               <lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πραϲίνων</w></orgName>
+               <lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName>
                </ab> </div> 
             <div type="textpart" n="iii"><ab>          
-               <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πραϲίνων</w></orgName>
+               <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName>
                </ab> </div> 
          </div>
          
          
-         <div type="translation" xml:lang="en" source="#roueche1993"><p><note>i</note> The fortune of the Greens triumphs! <note>ii</note> The fortune of the Greens! 
+         <div type="translation" xml:lang="en" source="#roueche1993"><p>
+            <note>i</note> The fortune of the Greens triumphs! 
+            <note>ii</note> The fortune of the Greens! 
            <note>iii</note> The fortune of the Greens triumphs!</p>
            </div>
          

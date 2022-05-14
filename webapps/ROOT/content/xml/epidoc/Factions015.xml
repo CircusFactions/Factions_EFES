@@ -108,8 +108,8 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/> <persName type="emperor" ref="#anonymi"><expan><ex><addName nymRef="ὀρθόδοξος">ὀρθοδόξων</addName></ex></expan> <g ref="symbol.xml#crux"/> 
-     <addName nymRef="Χριστιανός">Χριστιανῶν</addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>ϲιλέων</w></persName> <orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος"><expan><ex>Πρασίνων</ex></expan></w></orgName>
+  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="ὀρθόδοξος"><expan><ex>ὀρθοδόξων</ex></expan></addName> <g ref="symbol.xml#crux"/> 
+     <addName nymRef="Χριστιανός">Χριστιανῶν</addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>ϲιλέων</w></persName> <orgName ref="#green" nymRef="#Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος"><expan><ex>Πρασίνων</ex></expan></w></orgName>
 
 </ab></div>
          
