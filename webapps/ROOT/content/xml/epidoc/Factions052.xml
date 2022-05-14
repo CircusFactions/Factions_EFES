@@ -104,21 +104,21 @@
                <ab><lb n="1"/><g ref="symbol.xml#crux"/>  <w lemma="ἐνθάδε">Ἐνθάδε</w> 
                     <lb n="2"/><w lemma="κατάκειμαι">κατάκει
                     <lb n="3" break="no"/>ται</w> <name nymRef="Φιλουμενός">Φιλου 
-                    <lb n="4" break="no"/>μενὸϲ</name> <orgName ref="#blue" nymRef="#καλλάινος"><w lemma="καλλάινος">κ<unclear>α</unclear> 
+                    <lb n="4" break="no"/>μενὸϲ</name> <orgName ref="#blue" nymRef="#Καλλάινος"><w lemma="καλλάινος">Κ<unclear>α</unclear> 
                     <lb n="5" break="no"/>λλάι<supplied reason="lost">ν</supplied>οϲ</w></orgName>
                </ab>
              </div> 
             
             <div type="apparatus">
                 <listApp><app loc="4/5"><rdg resp="#walser2013">κ<unclear>ε</unclear>/ΜΑ . . ΟϹ</rdg>
-                    <rdg resp="#feisselBE">κ<unclear>α</unclear>/λλαι[ν]οϲ</rdg></app></listApp>
+                    <rdg resp="#feisselBE">κ<unclear>α</unclear>/λλάι[ν]οϲ</rdg></app></listApp>
             
             </div>
             
            <div type="translation" xml:lang="en" resp="#cmr"><p>Here lies Philoumenos, a Blue.</p>
            </div>
-                <div type="translation" xml:lang="de" source="#walser2013"><p>Hier liegt Philoumenos und . . .!</p> </div>
-                    <div type="translation" xml:lang="de" source="#IChrGr"><p>Hier liegt begraben Philoumenos und . . . !</p>
+                <div type="translation" xml:lang="de" source="#walser2013"><p>Hier liegt Philoumenos und . . .</p> </div>
+                    <div type="translation" xml:lang="de" source="#IChrGr"><p>Hier liegt begraben Philoumenos und . . . </p>
            </div>
          
             <div type="commentary">

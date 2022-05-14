@@ -43,7 +43,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="heliopolisbacchus">Heliopolis (Baalbek): 
-                                'Temple of Bacchus'</placeName> (<ref  target="https://pleiades.stoa.org/places/524305133">Pleiades</ref>);  In the peristyle, west side, 
+                                '<rs type="monument">Temple</rs> of Bacchus'</placeName> (<ref  target="https://pleiades.stoa.org/places/524305133">Pleiades</ref>);  ιn the peristyle, west side, 
                                 on the upper torus on the base of the 4th column from the south; revealed during cleaning.</p>
                         </provenance>
                         <provenance type="observed">
@@ -93,7 +93,7 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="seyrig1950"/> <citedRange unit="page">248</citedRange>, no.8</bibl>;
-                    <bibl><ptr target="IGLS"/> <citedRange>VI.2836</citedRange></bibl>, whence 
+                    <bibl><ptr target="igls1967"/> <citedRange>2836</citedRange> (from a copy by Mouterde)</bibl>, whence 
                     <bibl> <ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/245122">245122</ref></citedRange></bibl>
                     <bibl><ptr target="christoph1966"/> <citedRange unit="entry">14</citedRange></bibl>, 
                     cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>, and listed, 
@@ -102,7 +102,7 @@
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τoν</w> <orgName ref="#blue" nymRef="Βένετος"><w lemma="βένετος">Βηνήτων</w></orgName>
+               <ab><lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#blue" nymRef="#0ἱ Βένετοι"><w lemma="ὁ">το͂ν</w> <w lemma="βένετος">Βηνήτων</w></orgName>
                </ab>
              </div> 
            
@@ -116,7 +116,7 @@
                 
          
             <div type="commentary">
-                <p>igls VI is Rey-Coquais, 1967, Baslbek et Beqa', form a copuy by Mouterde.</p>
+                
                 
             </div>
             
