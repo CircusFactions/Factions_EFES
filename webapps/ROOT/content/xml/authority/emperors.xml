@@ -31,19 +31,16 @@
                     
                     <person xml:id="heraclius2">
                         <persName xml:lang="en">Heraclius Constantine III</persName>
-                        <floruit>CE 613-641</floruit>
+                        <floruit>Reign: CE 613-641</floruit>
                         <idno type="wikidata">https://www.wikidata.org/wiki/Q41615</idno>
                     </person> 
                     
                     <person xml:id="heraclii">
                         <persName xml:lang="en">Heraclius and Heraclius Constantine III</persName>
-                        <floruit>CE 641</floruit>
-                        
+                        <floruit>CE 613-641</floruit>
                     </person>  
                     
-                    <person xml:id="anonymus">
-                        <persName xml:lang="la">Unknown emperor</persName>
-                    </person>
+                   
                     <person xml:id="anonymi">
                         <persName xml:lang="la">Unknown emperors</persName>
                     </person>
