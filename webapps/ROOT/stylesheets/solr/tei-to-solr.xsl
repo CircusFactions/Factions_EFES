@@ -22,9 +22,10 @@
     </add>
   </xsl:template>
   
-    <xsl:template match="tei:summary/@corresp" mode="facet_inscription_type">
+  <xsl:template match="tei:rs[@type='textType']" mode="facet_inscription_type">
     <field name="inscription_type">
-      <xsl:value-of select="."/>
+      <xsl:value-of select="upper-case(substring(normalize-space(translate(translate(translate(., '?', ''), '_', ' '), '/', '／')), 1, 1))" />
+      <xsl:value-of select="substring(normalize-space(translate(translate(translate(., '?', ''), '_', ' '), '/', '／')), 2)" />
     </field>
   </xsl:template>
   
@@ -46,6 +47,13 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:rs[@type='monument']" mode="facet_found_monument_type">
+    <field name="found_monument_type">
+      <xsl:value-of select="upper-case(substring(normalize-space(translate(translate(translate(., '?', ''), '_', ' '), '/', '／')), 1, 1))" />
+      <xsl:value-of select="substring(normalize-space(translate(translate(translate(., '?', ''), '_', ' '), '/', '／')), 2)" />
+    </field>
+  </xsl:template>
+  
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
@@ -55,10 +63,11 @@
     <xsl:call-template name="field_mentioned_institutions"/>
     <xsl:call-template name="field_mentioned_divinities"/>
     <xsl:call-template name="field_person_name"/>
+    <xsl:call-template name="field_found_monument_type"/>
   </xsl:template>
   
   <xsl:template name="field_inscription_type">
-    <xsl:apply-templates mode="facet_inscription_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/@corresp"/>
+    <xsl:apply-templates mode="facet_inscription_type" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title//tei:rs[@type='textType']"/>
   </xsl:template>
   
   <xsl:template name="field_mentioned_institutions">
@@ -68,9 +77,13 @@
    <xsl:template name="field_mentioned_divinities">
     <xsl:apply-templates mode="facet_mentioned_divinities" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
-  
   <xsl:template name="field_person_name">
     <xsl:apply-templates mode="facet_person_name" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
+  
+  <xsl:template name="field_found_monument_type">
+    <xsl:apply-templates mode="facet_found_monument_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type='found']" />
+  </xsl:template>
+ 
 
 </xsl:stylesheet>

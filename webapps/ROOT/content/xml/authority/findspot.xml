@@ -83,6 +83,7 @@
                     <idno type="pleiades">https://pleiades.stoa.org/places/570106</idno>
                 </place>
                 <place xml:id="buyukyaka">
+                    <placeName xml:lang="en">Büyükyaka</placeName>
                     <placeName xml:lang="tr">Büyükyaka</placeName>
                     <idno type="geonames">http://www.geonames.org/320100</idno>
                 </place>

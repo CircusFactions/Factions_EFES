@@ -10,11 +10,12 @@
   
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <xsl:variable name="inslib-corpus">
+  <xsl:variable name="inslib-corpus"> <!-- used for InsLib projects + Factions -->
     <xsl:choose>
       <xsl:when test="starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IRT')">IRT</xsl:when>
       <xsl:when test="starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'IGCyr') or starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'GVCyr')">IGCyr</xsl:when>
       <xsl:when test="number(substring(//t:publicationStmt/t:idno[@type='filename']/text(),2,5))">IRCyr</xsl:when>
+      <xsl:when test="starts-with(//t:publicationStmt/t:idno[@type='filename']/text(), 'Factions')">Factions</xsl:when>
     </xsl:choose>
   </xsl:variable>
   
@@ -497,6 +498,11 @@
       </xsl:when>
       <xsl:when test="//t:titleStmt/t:title and $inslib-corpus='IRCyr'">
         <xsl:value-of select="//t:publicationStmt/t:idno[@type='filename']/text()"/>
+        <xsl:text>. </xsl:text>
+        <xsl:apply-templates select="//t:titleStmt/t:title"/>
+      </xsl:when>
+      <xsl:when test="//t:titleStmt/t:title and $inslib-corpus='Factions'">
+        <xsl:value-of select="substring-after(//t:publicationStmt/t:idno[@type='filename']/text(),'Factions')"/>
         <xsl:text>. </xsl:text>
         <xsl:apply-templates select="//t:titleStmt/t:title"/>
       </xsl:when>
