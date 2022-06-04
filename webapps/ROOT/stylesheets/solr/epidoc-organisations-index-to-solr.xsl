@@ -15,10 +15,10 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:rs[@type='military'][@ref]|//tei:orgName[@type='military'][@ref]|//tei:orgName[@type='civil'][@ref]" group-by="concat(translate(@ref, '#', ''), '-', string-join(descendant::tei:addName/@nymRef, ' '))">
+      <xsl:for-each-group select="//tei:rs[@type='military'][@ref]|//tei:orgName[ancestor::tei:div[@type='edition']][@ref]" group-by="translate(@ref, '#', '')">
         <xsl:variable name="self" select="."/>
         <xsl:variable name="id" select="translate(@ref, '#', '')"/>
-        <xsl:variable name="idno" select="document('../../content/xml/authority/military.xml')//tei:item[@xml:id=$id]"/>
+        <xsl:variable name="idno" select="document('../../content/xml/authority/organisations.xml')//tei:org[@xml:id=$id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -30,11 +30,7 @@
           <field name="index_item_name">
             <xsl:choose>
               <xsl:when test="$idno">
-                <xsl:value-of select="$idno/tei:term[1]" />
-                <xsl:if test="$idno/tei:term[2]">
-              <xsl:text> / </xsl:text>
-              <xsl:value-of select="$idno/tei:term[2]" />
-            </xsl:if>
+                <xsl:value-of select="$idno/tei:orgName[@xml:lang='en']" />
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="$id" />
@@ -58,7 +54,7 @@
       <xsl:for-each-group select="//tei:rs[@type='military'][not(@ref)][@key]|//tei:orgName[@type='military'][not(@ref)][@key]" group-by="translate(@key, '#', '')">
         <xsl:variable name="self" select="."/>
         <xsl:variable name="id" select="translate(@key, '#', '')"/>
-        <xsl:variable name="idno" select="document('../../content/xml/authority/military.xml')//tei:item[@xml:id=$id]"/>
+        <xsl:variable name="idno" select="document('../../content/xml/authority/organisations.xml')//tei:org[@xml:id=$id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -70,11 +66,7 @@
           <field name="index_item_name">
             <xsl:choose>
               <xsl:when test="$idno">
-                <xsl:value-of select="$idno/tei:term[1]" />
-                <xsl:if test="$idno/tei:term[2]">
-                  <xsl:text> / </xsl:text>
-                  <xsl:value-of select="$idno/tei:term[2]" />
-                </xsl:if>
+                <xsl:value-of select="$idno/tei:orgName[@xml:lang='en']" />
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="$id" />
@@ -96,7 +88,7 @@
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:rs[@type='military']|tei:orgName[@type='military']|tei:orgName[@type='civil']">
+  <xsl:template match="tei:rs[@type='military']|tei:orgName">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

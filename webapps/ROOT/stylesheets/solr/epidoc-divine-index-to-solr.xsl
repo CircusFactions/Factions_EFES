@@ -16,7 +16,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type='divine'][@ref or @key]" group-by="normalize-unicode(translate(concat(@ref, '-', @key, '-', string-join(descendant::tei:addName/@nymRef, ' '), '-', string-join(descendant::tei:rs[@type='epithet']/@key, ' '), '-', string-join(descendant::tei:name/@nymRef, ' ')), '#', ''))">
+      <xsl:for-each-group select="//tei:persName[@type='divine'][@ref or @key]" group-by="normalize-unicode(translate(concat(@ref, '-', @key, '-', string-join(descendant::tei:addName/@nymRef, ' '), '-', string-join(descendant::tei:rs[@type='epithet']/@key, ' '), '-', string-join(descendant::tei:name/@nymRef, ' '), '-', string-join(descendant::tei:w/@lemma, ' ')), '#', ''))">
         <xsl:variable name="self" select="."/>
         <xsl:variable name="id">
           <xsl:choose>
@@ -67,9 +67,16 @@
             </field>
           <field name="index_attested_form">
             <xsl:choose>
-              <xsl:when test="descendant::tei:name[@nymRef]">
-                <xsl:for-each select="descendant::tei:name[@nymRef]">
-                  <xsl:value-of select="translate(translate(normalize-space(normalize-unicode(@nymRef)), '_', '-'), '#', '')" />
+              <xsl:when test="descendant::tei:name[@nymRef] or descendant::tei:w[@lemma]">
+                <xsl:for-each select="descendant::tei:name[@nymRef]|descendant::tei:w[@lemma]">
+                  <xsl:choose>
+                    <xsl:when test="@nymRef">
+                      <xsl:value-of select="translate(translate(normalize-space(normalize-unicode(@nymRef)), '_', '-'), '#', '')" />
+                    </xsl:when>
+                    <xsl:when test="@lemma">
+                      <xsl:value-of select="translate(translate(normalize-space(normalize-unicode(@lemma)), '_', '-'), '#', '')" />
+                    </xsl:when>
+                  </xsl:choose>
                   <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
                 </xsl:for-each>
               </xsl:when>

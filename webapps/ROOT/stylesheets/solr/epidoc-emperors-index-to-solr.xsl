@@ -113,7 +113,10 @@
           </field>
             <field name="index_external_resource">
               <xsl:if test="doc-available($emperorsAL) = fn:true() and $idno">
-                <xsl:value-of select="$idno/tei:idno" />
+                <xsl:for-each select="$idno/tei:idno">
+                  <xsl:value-of select="."/>
+                  <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+                </xsl:for-each>
               </xsl:if>
             </field>
           <xsl:apply-templates select="current-group()" />

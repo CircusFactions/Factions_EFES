@@ -104,8 +104,8 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="ἅγιος">Ἅγιε</w> <persName type="divine"><name  nymRef="Παῦλος">Παῦλε</name></persName> 
-                <lb n="2"/><w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="divine"><name nymRef="Γερμανός"><hi rend="ligature">Γε</hi>ρμανέ</name></persName>, <w lemma="σόω">ϲõ
+            <ab><lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="ἅγιος">Ἅγιε</w> <persName type="divine" key="paulos"><name  nymRef="Παῦλος">Παῦλε</name></persName> 
+                <lb n="2"/><w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="divine" key="germanus"><name nymRef="Γερμανός"><hi rend="ligature">Γε</hi>ρμανέ</name></persName>, <w lemma="σόω">ϲõ
                 <lb n="3" break="no"/>ον</w> <orgName ref="#blue"  nymRef="#οἱ Βένετοι"><w lemma="ὁ">τοὺϲ</w> <w lemma="βένετος">Βενέτο
                 <lb n="4" break="no"/>υϲ</w></orgName> <w lemma="καί"><expan><ex>καὶ</ex></expan></w> <persName type="attested"><name nymRef="Παπίων">Παπίωνα</name>
                 <lb n="5"/> <persName type="attested"><name nymRef="Γεώργιος"><hi rend="ligature">Γε</hi>ωργ̣ίου</name></persName> <w lemma="ἀναγνώστης"><expan><abbr>ἀνα

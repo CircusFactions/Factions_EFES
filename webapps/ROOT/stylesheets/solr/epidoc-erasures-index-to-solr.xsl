@@ -18,7 +18,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:del[@rend='erasure'][matches(normalize-space(string-join(descendant::text(), '')), '.*[a-zA-Z].*')][ancestor::tei:div/@type='edition']" group-by=".">
+      <xsl:for-each-group select="//tei:del[@rend='erasure'][replace(normalize-space(string-join(descendant::text(), '')), ' ', '')!=''][ancestor::tei:div/@type='edition']" group-by=".">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />

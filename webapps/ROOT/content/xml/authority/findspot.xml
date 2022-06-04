@@ -22,9 +22,6 @@
     <text>
         <body>
             <listPlace>
-                
-                
-                
                 <place xml:id="unknown">
                     <placeName xml:lang="en">Unknown</placeName>
                     <idno type="geonames"></idno>

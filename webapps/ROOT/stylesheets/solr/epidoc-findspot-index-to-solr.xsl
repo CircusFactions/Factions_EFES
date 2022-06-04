@@ -16,8 +16,9 @@
   <xsl:template match="/">
     <add>
       <xsl:for-each-group select="//tei:provenance[@type='found']//tei:placeName[@type='ancientFindspot'][1]" group-by="concat(@ref,'-',following-sibling::tei:placeName[not(@type)][1]/@ref,'-',following-sibling::tei:placeName[@type='monuList'][1]/@ref,'-',following-sibling::tei:placeName[@type='monuList'][2]/@ref,'-',following-sibling::tei:placeName[@type='monuList'][3]/@ref,'-',following-sibling::tei:placeName[@type='monuList'][4]/@ref,'-',following-sibling::tei:placeName[@type='monuList'][5]/@ref)">
-        <xsl:variable name="place" select="normalize-unicode(string-join(., ''))"/>
-        <xsl:variable name="placesAL" select="'../../content/xml/authority/places.xml'"/>
+        <xsl:variable name="place" select="translate(@ref, '#', '')"/>
+        <xsl:variable name="placesAL" select="'../../content/xml/authority/findspot.xml'"/>
+        <xsl:variable name="placeID" select="document($placesAL)//tei:listPlace/tei:place[@xml:id=$place]"/>
         <xsl:variable name="place-n" select="document($placesAL)//tei:listPlace[descendant::tei:head=$place]/@n"/>
         <doc>
           <field name="document_type">
@@ -29,23 +30,30 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <!-- upper level -->
-            <xsl:value-of select="normalize-unicode(string-join(., ''))" />
+            <xsl:choose>
+              <xsl:when test="doc-available($placesAL) = fn:true() and $placeID">
+                <xsl:value-of select="$placeID/tei:placeName[@xml:lang='en']" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="normalize-unicode(string-join(., ''))" />
+              </xsl:otherwise>
+            </xsl:choose>
             
             <!-- intermediate level -->
-              <xsl:if test="following-sibling::tei:placeName[not(@type)]">
+              <!--<xsl:if test="following-sibling::tei:placeName[not(@type)]">
                 <xsl:text>. </xsl:text>
                 <xsl:value-of select="following-sibling::tei:placeName[not(@type)][1]" />
-              </xsl:if>
+              </xsl:if>-->
             
             <!-- lower level -->
-              <xsl:if test="following-sibling::tei:placeName[@type='monuList']">
-                <!-- up to 5 in IRT/IRCyr -->
+              <!--<xsl:if test="following-sibling::tei:placeName[@type='monuList']">
+                <!-\- up to 5 in IRT/IRCyr -\->
                 <xsl:text>. </xsl:text>
                 <xsl:for-each select="following-sibling::tei:placeName[@type='monuList']">
                   <xsl:value-of select="." />
           <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
                 </xsl:for-each>
-              </xsl:if>
+              </xsl:if>-->
           </field>
           <xsl:if test="doc-available($placesAL) = fn:true() and $place-n">
             <field name="index_item_sort_name">
@@ -55,6 +63,12 @@
           
           <field name="index_external_resource">
             <xsl:choose>
+              <xsl:when test="doc-available($placesAL) = fn:true() and $placeID">
+                <xsl:for-each select="$placeID/tei:idno">
+                  <xsl:value-of select="."/>
+                  <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+                </xsl:for-each>
+              </xsl:when>
               <xsl:when test="following-sibling::tei:placeName[@type='monuList']">
                 <xsl:value-of select="following-sibling::tei:placeName[@type='monuList']/@ref" />
               </xsl:when>
