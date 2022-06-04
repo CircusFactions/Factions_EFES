@@ -4,20 +4,24 @@
       xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
   <menu label="Inscriptions" match="local-epidoc-index-display"
         i18n:key="menu-inscriptions" />
-  <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
-    <item label="Abbreviations" match="local-index-display-html" params="epidoc abbreviation" i18n:key="menu-index-abbreviation"/>
-    <item label="Fragments" match="local-index-display-html" params="epidoc fragment" i18n:key="menu-index-fragment"/>
-    <item label="Lemmata" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-lemma"/>
-    <item label="Numerals" match="local-index-display-html" params="epidoc numeral" i18n:key="menu-index-numeral"/>
-    <item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>
-    <item label="Persons" match="local-index-display-html" params="epidoc persons" i18n:key="menu-index-persons"/> 
-    <item label="Divinities" match="local-index-display-html" params="epidoc divine" i18n:key="menu-index-divinities"/>
-    <item label="Places" match="local-index-display-html" params="epidoc mentioned_places" i18n:key="menu-index-mentioned_places"/>
-    <item label="Institutions" match="local-index-display-html" params="epidoc institutions" i18n:key="menu-index-institutions"/> 
-    <item label="Symbols" match="local-index-display-html" params="epidoc symbol" i18n:key="menu-index-symbol"/>
-    <item label="Words" match="local-index-display-html" params="epidoc word" i18n:key="menu-index-word"/>
+  <menu label="Indices" match="local-indices-type-display" params="epidoc">
+    <item label="Abbreviations" match="local-index-display-html" params="epidoc abbreviation"/>
+    <item label="Erasures" match="local-index-display-html" params="epidoc erasures"/>
+    <item label="Divinities" match="local-index-display-html" params="epidoc divine"/>
+    <item label="Emperors and Imperial family" match="local-index-display-html" params="epidoc emperors"/>
+    <item label="Findspots" match="local-index-display-html" params="epidoc findspot"/>
+    <item label="Fragments" match="local-index-display-html" params="epidoc fragment"/>
+    <!--<item label="Institutions" match="local-index-display-html" params="epidoc institutions"/>-->
+    <item label="Lemmata" match="local-index-display-html" params="epidoc lemma"/>
+    <!--<item label="Numerals" match="local-index-display-html" params="epidoc numeral"/>-->
+    <item label="Organisations" match="local-index-display-html" params="epidoc organisations"/>
+    <item label="Personal names" match="local-index-display-html" params="epidoc person_name"/>
+    <!--<item label="Persons" match="local-index-display-html" params="epidoc persons"/>--> 
+    <item label="Places" match="local-index-display-html" params="epidoc mentioned_places"/>
+    <item label="Symbols" match="local-index-display-html" params="epidoc symbol"/> 
+    <item label="Words" match="local-index-display-html" params="epidoc word" />
   </menu>
-  <menu label="Bibliographic concordances" i18n:key="menu-concordance-bibliography" match="local-concordance-bibliography"/>
-  <menu label="Search" match="local-search" i18n:key="menu-search" />
-  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
+  <menu label="Bibliographic concordances" match="local-concordance-bibliography"/>
+  <menu label="Search" match="local-search" />
+  <menu label="Admin" language="" match="local-admin-home-page" />
 </root>
