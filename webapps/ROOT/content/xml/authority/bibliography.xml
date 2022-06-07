@@ -82,8 +82,8 @@
                         <title level="a">Compléments et corrections aux Inscriptiones Thessalonicae</title>, <title level="j"> Bulletin de Correspondance Hellenique</title>,
                         <biblScope unit="page">585-599</biblScope>, available at <ref target="https://www.persee.fr/doc/bch_0007-4217_1973_num_97_2_4844">Persée</ref> </bibl>
                     
-                    <bibl xml:id="EDH"><bibl type="abbrev">EDH</bibl>: <title>Epigraphische Datenbank Heidelberg</title>, <date>1986-</date>,
-                        available at <ref target="http://www.epigraphische-datenbank-heidelberg.de/"/>EDH</bibl>
+                <!--    <bibl xml:id="EDH"><bibl type="abbrev">EDH</bibl> <title>Epigraphische Datenbank Heidelberg</title>, <date>1986-</date>
+                        available at <ref target="http://www.epigraphische-datenbank-heidelberg.de/">EDH</ref></bibl> --> 
                     
                     <bibl xml:id="edson1972">  <bibl type="abbrev">IG X,2,1, 1972</bibl> <author ref="http://viaf.org/viaf/72543898">C. <name>Edson</name></author>, <date>1972</date> 
                         <title level="m" ref="https://zenon.dainst.org/Record/000272610">Inscriptiones Macedoniae</title>, 
@@ -367,7 +367,7 @@
                         <title level="j">Excavations and Surveys in Israel</title>, <biblScope unit="issue">116</biblScope>; 
                         available at <ref target="http://www.hadashot-esi.org.il/">Hadashot Arkheologiyot</ref></bibl>
                     
-                    <bibl xml:id="telota">  <bibl type="abbrev">Telota</bibl>, 
+                    <bibl xml:id="telota">  <bibl type="abbrev">Telota</bibl>, <date></date>
                         <title level="j">Inscriptiones Graecae, Digitale Editionene</title>, 
                         available at <ref target="http://telota.bbaw.de/ig/">http://telota.bbaw.de/ig/</ref></bibl>
                     

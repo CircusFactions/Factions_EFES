@@ -104,7 +104,7 @@
                <bibl> <ptr target="asdracha1998"/> <citedRange unit="page">330</citedRange> <citedRange>n.155</citedRange></bibl>, 
                whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/166200">166200</ref></citedRange></bibl>, 
                <bibl><ptr target="seg"/> <citedRange>48.887</citedRange></bibl>;
-               reprinted, <bibl> <ptr target="asdracha2003"/></bibl></p>
+               reprinted, <bibl> <ptr target="asdracha2003"/><citedRange>155</citedRange></bibl><!-- check --></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
