@@ -186,7 +186,8 @@
         <div type="headings">
           <list>
             <item>Name</item>
-            <!--<item>Epithets</item>-->
+            <item>Attested form</item>
+            <item>Epithets</item>
             <!--<item>External resource</item>-->
             <item>References</item>
           </list>
