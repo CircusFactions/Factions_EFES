@@ -73,7 +73,8 @@
               </xsl:otherwise>
             </xsl:choose>
           </field>
-          <!--<field name="index_epithet">
+          
+          <field name="index_epithet">
             <xsl:for-each select="descendant::tei:addName[@nymRef][not(ancestor::tei:rs[ancestor::tei:rs=$self])]">
               <xsl:value-of select="@nymRef" />
               <xsl:if test="position()!=last()">, </xsl:if>

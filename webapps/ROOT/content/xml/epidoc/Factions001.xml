@@ -116,7 +116,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
                     <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νηκᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
-                    <lb n="2"/><orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πραϲίνων</w> <w lemma="ὁ">τῶν</w> <addName nymRef="ὀρθόδοξος">ὀρ 
+                    <lb n="2"/><orgName ref="#green"><name nymRef="#Πράσινοι">Πραϲίνων</name> <w lemma="ὁ">τῶν</w> <addName nymRef="ὀρθόδοξος">ὀρ 
                     <lb n="3" break="no"/>θοδόξων</addName></orgName> <g ref="symbol.xml#crux"/> <space extent="unknown"/>
                 </ab>
          </div>
