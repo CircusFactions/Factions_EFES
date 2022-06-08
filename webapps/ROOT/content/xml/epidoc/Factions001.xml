@@ -51,7 +51,8 @@
                      
                         <provenance type="found">
                            <p>
-                              <placeName type="ancientFindspot" ref="thebespth">Thebes, Pthiotis</placeName> (<ref target="https://pleiades.stoa.org/places/541137">Pleiades</ref>): Basilica C, in the arcade</p>
+                              <placeName type="ancientFindspot" ref="thebespth">Thebes, Pthiotis</placeName> 
+                              (<ref target="https://pleiades.stoa.org/places/541137">Pleiades</ref>): Basilica C, in the arcade</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Nea Anchialos Museum</p>

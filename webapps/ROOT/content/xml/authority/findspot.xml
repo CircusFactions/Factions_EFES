@@ -98,8 +98,7 @@
                     <placeName xml:lang="en">Ephesus</placeName>
                     <placeName xml:lang="grc">Ἔφεσος</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/599612</idno>
-                    <idno type="geonames">http://www.geonames.org/695513</idno>
-                    <idno type="wikidata">https://www.wikidata.org/wiki/Q47611</idno>
+                  <!--   <idno type="wikidata">https://www.wikidata.org/wiki/Q47611</idno> -->
                 </place>
                 <place xml:id="gerasa">
                     <placeName xml:lang="la">Gerasa</placeName>
@@ -180,8 +179,8 @@
                     <placeName xml:lang="en">Stratonikeia</placeName>
                     <placeName xml:lang="grc">Στρατονίκεια</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/599947</idno>
-                    <idno type="geonames">http://www.geonames.org/315250</idno>
-                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1361187</idno>
+                  <!--   <idno type="geonames">http://www.geonames.org/315250</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1361187</idno> -->
                 </place>
                 <place xml:id="taff">
                     <placeName xml:lang="en">Taff</placeName>
@@ -192,8 +191,8 @@
                     <placeName xml:lang="en">Thessalonika</placeName>
                     <placeName xml:lang="grc">Θεσσαλονίκη</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/491741</idno>
-                    <idno type="geonames">http://www.geonames.org/734077</idno>
-                    <idno type="wikidata">https://www.wikidata.org/wiki/Q171517</idno>
+                 <!--    <idno type="geonames">http://www.geonames.org/734077</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q171517</idno> -->
                 </place>
                 <place xml:id="valleyofthekings">
                     <placeName xml:lang="en">Egyptian Thebes, Valley of the Kings</placeName>

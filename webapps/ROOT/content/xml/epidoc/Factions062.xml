@@ -43,7 +43,7 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="gerasa">Gerasa</placeName> (<ref target="https://pleiades.stoa.org/places/678158">Pleiades</ref>): 
-                                in one room of a large civil <rs type="monument">building complex</rs> on a street which runs parallel to the Cardo.</p>
+                                in one room of a large <rs type="monument">civil building complex</rs> on a street which runs parallel to the Cardo.</p>
                             <!-- check: is this the Hippodrome, https://pleiades.stoa.org/places/312305084 -->
                         </provenance>
                         <provenance type="observed">
@@ -103,7 +103,7 @@
                <ab>
                    <lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="κοσμέω">Ἐκοϲμέθη</w>
     <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ψηφόω">ἐψηφώθε</w>
-    <lb n="3"/> <w lemma="ὁ">ὁ</w> <w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>οϲ</ex></expan></w> <w lemma="οὗτος">οὗτοϲ</w> <orgName ref="#blue" nymRef="#οἱ καλλάινο"><w lemma="ὁ">τῶν</w> <w lemma="ἐπίτιμος"><expan><abbr>ἐπι
+    <lb n="3"/> <w lemma="ὁ">ὁ</w> <w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>οϲ</ex></expan></w> <w lemma="οὗτος">οὗτοϲ</w> <orgName ref="#blue" nymRef="#οἱ Καλλάινοι"><w lemma="ὁ">τῶν</w> <w lemma="ἐπίτιμος"><expan><abbr>ἐπι
    <lb n="4" break="no"/>τίμ</abbr><ex>ων</ex></expan></w> <w lemma="καλλάινος"><expan><abbr>Καλλαίν</abbr><ex>ων</ex></expan></w></orgName> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῆϲ</w>
   <lb n="5"/><num value="1">α</num> <w lemma="ἐξαρχία"><expan><abbr>ἐξαρχ</abbr><ex>ίας</ex></expan></w> <persName type="attested"><name>Κωνϲταντί-
    <lb n="6" break="no"/>νου</name></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <persName type="attested"><name>Ϲτεφάνου</name></persName> <w lemma="λογευτής">λο-

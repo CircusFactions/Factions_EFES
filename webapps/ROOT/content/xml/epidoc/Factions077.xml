@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>?An official of the <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Name</rs> of an official of the <rs type="textType">Blue</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -122,7 +122,7 @@
                 
          </div>
             <div type="commentary">
-                <p>Perhaps Τα<unclear>υ̣</unclear>λεῖνος for Ταυρῖνος (sο Łukaszewicz).</p> 
+                <p>Perhaps Τα<unclear>υ̣</unclear>λεῖνος for Ταυρῖνος (sο Łukaszewicz). The text is presumably just a note of his presence.</p> 
                 
             </div>
             

@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>i: <rs type="textType">Acclamation</rs> for Phocas; ii: <rs type="textType">Place</rs> inscription for <rs type="textType">Blue</rs></title>
+                <title>i: <rs type="textType">Acclamation</rs> for Phocas; ii: <rs type="textType">Place</rs> inscription for <rs type="textType">Blue</rs>s</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -54,7 +54,7 @@
                                 to the south of the settlement: found in 1912.</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
-                            <p>Findspot (1922); by 2018 the texts were no longer visible.</p>
+                            <p>Findspot (1922); by 2019 no traces of the texts were visible.</p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -120,7 +120,7 @@
             <div type="textpart"  n="ii"><ab>
                 <lb n="1"/><w lemma="τόπος">Τόποϲ</w> <w lemma="διαφέρω">διαφέρ
                <lb n="2" break="no"/> <space/> ων </w>
-            <lb n="3"/><orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τοῖϲ</w>  <w lemma="βένετος">Βενέτων</w></orgName></ab> </div>
+            <lb n="3"/><orgName ref="#blue" nymRef="#οἱ Βένετοι"><w lemma="ὁ">τοῖϲ</w>  <w lemma="βένετος">Βενέτοιϲ</w></orgName></ab> </div>
                 
     
      
@@ -147,9 +147,10 @@
          </div>
             <div type="commentary">
                 <p>For the history of the column see <ref target="http://www.papyrology.ox.ac.uk/POxy/VExhibition/the_site/phocas-pillar.html">Oxyrhynchus: A City and its Texts, Virtual Exhibition: The Site</ref>. 
-                    By 1981 some traces of text i could still be seen. In spring 2019 the <ref target="https://www.oxirrinc.com/en/el-yacimiento/columna-honorifica/">excavation team from the University of Barcelona</ref>, led by Professor Josep Padró i Parcerisa, examined the column closely, 
+                    By 1981 some traces of text i could still be seen, but almost nothing of text ii. In spring 2019 the <ref target="https://www.oxirrinc.com/en/el-yacimiento/columna-honorifica/">excavation team from the University of Barcelona</ref>, led by Professor Josep Padró i Parcerisa, examined the column closely, 
                     and could find no trace of either text; I am most grateful to Professor Padró for his help.</p>
-                <p>For this kind of composite structure compare the σύνθετος κίων. erected in 609 in Constantinople for Phocas, <ref target="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-2775">LSA 2275</ref> </p>
+                <p>For this kind of composite structure compare the σύνθετος κίων. erected in 609 in Constantinople for Phocas, 
+                    <ref target="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-2775">LSA 2275</ref>. We cannot determine with certainty the relationship of the two texts to one another. </p>
                 
             </div>
             
