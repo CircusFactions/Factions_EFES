@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Name</rs> of an official of the <rs type="textType">Blue</rs>s</title>
+                <title><rs type="textType">Name</rs> of an official of the Blues</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -104,7 +104,7 @@
                <ab>
                 <lb n="1"/> <persName type="attested"><name nymRef="Τα . λεινος">Τα<gap reason="lost" quantity="1" unit="character"/>λεινοϲ</name></persName>
               <lb n="2"/> <placeName type="ethnic" ref="#alexandria"><supplied reason="lost">Ἀ</supplied>λ<supplied reason="lost">εξ</supplied>ανδρε<supplied reason="lost">ὺϲ</supplied></placeName> 
-                <lb n="3"/><orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος">Βενέτον</w></orgName> 
+                <lb n="3"/><orgName ref="#blue"><name nymRef="#Βένετοι">Βενέτον</name></orgName> 
                 <lb n="4"/><gap reason="lost" quantity="3" unit="character"/><w part="F">αριϲ</w>  
                     </ab></div>
             

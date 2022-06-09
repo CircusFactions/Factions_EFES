@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs>s for the <rs type="textType">Green</rs>s, the City and the <rs type="textType">Blue</rs>s, 
+            <title><rs type="textType">Acclamation</rs>s for the Greens, the City and the Blues, 
                with <rs type="textType">monogram</rs>s</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
@@ -46,9 +46,9 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth-seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South <rs type="monument">Agora</rs></placeName> 
+                           <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> 
                               (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): 
-                              north portico, on the south face of three adjacent column bases. There is a gap in the columns of the north portico, 
+                              north portico, on the south face of three adjacent <rs type="monument">column base</rs>s. There is a gap in the columns of the north portico, 
                               but the westernmost of these texts (i) appears to be on the twentieth column base from the west.</p><!-- check -->
                         </provenance>
                         <provenance type="observed">

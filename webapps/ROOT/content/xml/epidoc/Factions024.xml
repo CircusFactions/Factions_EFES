@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Place</rs> for <rs type="textType">Blue</rs> aurarii</title>
+            <title><rs type="textType">Place</rs> for Blue aurarii</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
@@ -42,11 +42,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Unknown</origPlace>
+                     <origPlace>Findspot</origPlace>
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="miletustheatre">Miletus, <rs type="monument">Theatre</rs></placeName> 
+                           <p><placeName type="ancientFindspot" ref="miletustheatre">Miletus,<rs type="monument">Τheatre</rs></placeName> 
                               (<ref target="https://pleiades.stoa.org/places/265498964">Pleiades</ref>): 
                               across two seats in Sector 1.</p>
                         </provenance>

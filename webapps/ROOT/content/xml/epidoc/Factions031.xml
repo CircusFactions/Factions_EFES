@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs>s for <rs type="textType">Green</rs>s</title>
+            <title><rs type="textType">Acclamation</rs>s for Greens</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
@@ -45,7 +45,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="nysa">Nysa</placeName> (<ref target="https://pleiades.stoa.org/places/599832">Pleiades</ref>): 
-                              <rs type="monument">Theatre</rs>: cornice block (Catalogue p.192, no. 72) of the first podium on the eastern side of the façade.</p>
+                              <rs type="monument">Τheatre</rs>: cornice block (Catalogue p.192, no. 72) of the first podium on the eastern side of the façade.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
