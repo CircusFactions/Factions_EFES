@@ -42,8 +42,8 @@
                             <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South <rs type="monument">Agora</rs></placeName> 
-                                (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): one of the row of seats around the pool, on the north side.</p>
+                            <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> 
+                                (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): one of the row of seats around the <rs type="monument">pool</rs>, on the north side.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
