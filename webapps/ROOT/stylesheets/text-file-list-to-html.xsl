@@ -9,7 +9,7 @@
         <tr>
           <!-- Let us assume that all texts have a filename, ID, and
                title. -->
-          <th>Filename</th>
+          <!--<th>Filename</th>-->
           <th>ID</th>
           <th>Title</th>
           <xsl:if test="result/doc/arr[@name='author']/str">
@@ -39,7 +39,7 @@
   <xsl:template match="result/doc" mode="text-index">
     <tr>
       <xsl:apply-templates mode="text-index" select="str[@name='file_path']" />
-      <xsl:apply-templates mode="text-index" select="str[@name='document_id']" />
+      <!--<xsl:apply-templates mode="text-index" select="str[@name='document_id']" />-->
       <xsl:apply-templates mode="text-index" select="arr[@name='document_title']" />
       <xsl:apply-templates mode="text-index" select="arr[@name='author']" />
       <xsl:apply-templates mode="text-index" select="arr[@name='editor']" />
@@ -51,13 +51,13 @@
     <xsl:variable name="filename" select="substring-after(., '/')" />
     <td>
       <a href="{kiln:url-for-match($match_id, ($language, $filename), 0)}">
-        <xsl:value-of select="$filename" />
+        <xsl:value-of select="substring-after($filename, 'Factions')" />
       </a>
     </td>
   </xsl:template>
 
   <xsl:template match="str[@name='document_id']" mode="text-index">
-    <td><xsl:value-of select="." /></td>
+    <td><xsl:value-of select="substring-after(., 'Factions')" /></td>
   </xsl:template>
 
   <xsl:template match="arr[@name='document_title']" mode="text-index">
