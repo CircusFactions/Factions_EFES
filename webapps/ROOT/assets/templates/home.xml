@@ -10,15 +10,13 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <i18n:text>home-title</i18n:text>
+      <i18n:text>Factions</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-header">
       <div class="row">
         <div class="large-12 columns text-center">
-          <h1>
-            <i18n:text i18n:key="home-title">Circus Factions in the Eastern Empire</i18n:text>
-            </h1>
+          <h1 id="site-name"><a href="inscriptions/">Circus Factions in the Eastern Empire</a></h1>
         </div>
       </div>
     </kiln:block>
@@ -27,12 +25,12 @@
       <main>
         <div class="row">
           <div class="small-8 large-centered columns">
-            <p>A corpus of the epigraphic evidence</p>
-          <p>Charlotte Roueché</p>
+            <p class="text-center">A corpus of the epigraphic evidence</p>
+            <p class="text-center">Charlotte Roueché</p>
 
               <p>The aim of this publication is to present all currently known inscribed references to the Circus Factions in the eastern empire, beyond Constantinople, in the fullest possible form. 
               A collection of this kind was first made in 1966 by Α. Christophilopoulou; Alan Cameron then developed this in an Appendix to his 1976 study, 
-              <hi rend="italic">Circus Factions</hi>. An expanded list was preesnted in 2021 by Roueché for a publication, in memory of Alan Cameron
+              <i>Circus Factions</i>. An expanded list was preesnted in 2021 by Roueché for a publication, in memory of Alan Cameron
                 (see further Bibliography/Concordance).
             </p>
             <p>The collections named above were simple assemblies of texts, without the opportunity to present them in context. Cameron presented the items 
@@ -42,49 +40,12 @@
               Out of 77 texts the majority (57) have been recorded in situ, from sites which were not overlaid by further development after the seventh century. 
               The locations can therfoere be examined: seeSearch, http://127.0.0.1:9999/en/search/, under Monument Type. Many of the locations (27) are in auditoria, 
               as might be expected, or in streets and colonnades (14), where they reflect the involvement of the factions in public ceremonial activities. 
-              But some are found in a domestic context - and two are associated wi      th churches.<!-- refer to monument type --></p>
+              But some are found in a domestic context - and two are associated with churches.<!-- refer to monument type --></p>
             
-            
-            <p class="homepage"><a href="inscriptions/"><img id="home_image" alt="FactionEphesos16.jpg" title="FactionEphesos16.jpg" src="{$kiln:assets-path}/images/FactionEphesos16_.jpg"/></a></p>
-
+            <p class="text-center"><a href="inscriptions/"><img alt="FactionEphesos16" title="FactionEphesos16" src="{$kiln:assets-path}/images/FactionEphesos16.jpg"/></a></p>
               </div>
             </div>
-          <!-- <div class="row">
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Add your files</strong></p>
-
-              <p>Put your EpiDoc XML files in webapps/ROOT/content/xml/epidoc and go to the <a
-              href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
-              they are displayed
-              
-              (<a
-              href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">Inscriptions</a>).</p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Customise the templates</strong></p>
-
-              <p>Change the look of this site by modifying the templates
-              in webapps/ROOT/assets/templates. The template for this
-              page is home.xml, and it builds on the base template
-              base.xml.</p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Read the documentation</strong></p>
-
-              <p>The documentation and User Guide for  
-                EFES can be found on the project's <a href="https://github.com/EpiDoc/EFES/wiki/">GitHub Wiki pages</a>. 
-                Documentation for Kiln, the platform that EFES is based on, can be found both <a
-                  href="http://kiln.readthedocs.org/en/latest/">online</a>, and in source form, in the docs directory of your
-              installation. It explains how you can modify everything
-              about your project.</p>
-            </div>
-          </div>
-        </div> -->
+        
       </main>
     </kiln:block>
   </kiln:child>
