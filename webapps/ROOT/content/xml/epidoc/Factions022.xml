@@ -42,7 +42,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Unknown</origPlace>
+                     <origPlace>Unknown</origPlace><!-- check -->
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
@@ -95,7 +95,9 @@
       <body>
          <div type="bibliography">
             <p>Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, 
-               whence <bibl><ptr target="seg"/> <citedRange>36.1605</citedRange></bibl></p>
+               whence <bibl><ptr target="robertBE"/> <citedRange>1981.479</citedRange></bibl>, 
+               <!-- check Jahreshefte des Österreichischen Archäologischen Institutes 53, 120, no.107 -->
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/250529">250529</ref></citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
@@ -111,7 +113,7 @@
            <p>This is the funerary monument of the Green dancers <supplied reason="subaudible">built while they are</supplied> living.
 </p></div>
          <div type="commentary">
-            <p>On the dancers see W. Slater, Orchestopala, ZPE 84 (1990) <ref target="https://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1990/084pdf/084215.pdf">215-220</ref>, 
+            <p>On the dancers see Robrt, loc.cit; W. Slater, Orchestopala, ZPE 84 (1990) <ref target="https://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1990/084pdf/084215.pdf">215-220</ref>, 
                discussing this text and two presented by W. Eck, 
                ZPE 65 (1986), 248-51 (at <ref target="https://www.jstor.org/stable/20186499">Jstor</ref>)</p> 
          </div>

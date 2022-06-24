@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Blueish <material>marble</material> <objectType>stele</objectType>, 
+                                    <p>Blueish <material>marble</material> <objectType>stele</objectType> 
                                         (<dimensions><height>0.50</height> <width>0.35</width></dimensions>). 
                                         </p>
                                 </support>
@@ -40,7 +40,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Findspot</origPlace> 
+                            <origPlace>Unknown</origPlace> 
                             <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">

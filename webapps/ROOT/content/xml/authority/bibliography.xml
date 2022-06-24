@@ -341,6 +341,13 @@
                     <title level="m">From Rome to Constantinople: Studies in Honour of Averil Cameron</title>  <pubPlace>Leuven</pubPlace>, 
                     <biblScope unit="pp">221-234</biblScope></bibl>
                     
+                    <bibl xml:id="roueche2021"> <bibl type="abbrev">Roueché, 2021</bibl>
+                        <author ref="http://viaf.org/viaf/44335536">Charlotte <name type="surname">Roueché</name></author>, <date>2021</date> 
+                        <title level="a">Celebrity and Power: Circus Factions forty years on</title>, in <title level="m">Late Antique Studies in Memory of Alan Cameron</title>, 
+                        edited by <editor ref="http://viaf.org/viaf/17244949">W. Harris</editor>, and 
+                        <editor ref=" http://viaf.org/viaf/178161272109747441613">A. Hunnel Chen</editor> <publisher>Brill</publisher>
+                        <biblScope unit="page">247-259</biblScope></bibl>
+                    
                     <bibl xml:id="Sammelbuch"><bibl type="abbrev">Sammelbuch</bibl> <author ref="http://viaf.org/viaf/71469675">F. <name type="surname">Preisigke</name></author>
                         et al, <date>1913-</date>, <title level="m">Sammelbuch griechischer Urkunden
                             aus Ägypten</title>,
