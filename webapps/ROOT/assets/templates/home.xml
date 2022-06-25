@@ -15,7 +15,7 @@
 
     <kiln:block name="page-header">
       <div class="row">
-        <div class="large-12 columns text-center">
+        <div class="small-8 small-centered columns text-center">
           <h1 id="site-name"><a href="inscriptions/">Circus Factions in the Eastern Empire</a></h1>
         </div>
       </div>
@@ -24,7 +24,7 @@
     <kiln:block name="content-section">
       <main>
         <div class="row">
-          <div class="small-8 large-centered columns">
+          <div class="small-8 small-centered columns">
             <p class="text-center">A corpus of the epigraphic evidence</p>
             <p class="text-center">Charlotte Roueché</p>
 
