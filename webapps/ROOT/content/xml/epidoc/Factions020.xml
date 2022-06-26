@@ -45,8 +45,8 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>):: 
-                              on the upper <rs type="monument">step</rs> of steps from the Agora into East colonnade, towards north end.</p>
+                           <p><placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
+                              on the uppermost of <rs type="monument">step</rs>s from the Agora into East colonnade, towards the north end.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>

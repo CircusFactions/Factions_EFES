@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Limestone</material> <objectType>torus</objectType> of a column</p>
+                                    <p>Torus of a <material>Limestone</material> <objectType>column base</objectType></p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
@@ -43,8 +43,8 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="heliopolisbacchus">Heliopolis (Baalbek): 
-                                '<rs type="monument">Temple</rs> of Bacchus'</placeName> (<ref  target="https://pleiades.stoa.org/places/524305133">Pleiades</ref>);  ιn the peristyle, west side, 
-                                on the upper torus on the base of the 4th column from the south; revealed during cleaning.</p>
+                                '<rs type="monument">Temple</rs> of Bacchus'</placeName> (<ref  target="https://pleiades.stoa.org/places/524305133">Pleiades</ref>);  in the peristyle, west side, 
+                                on the upper torus of the base of the 4th column from the south; revealed during cleaning.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot (2001)</p>

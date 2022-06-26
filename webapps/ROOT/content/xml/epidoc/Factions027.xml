@@ -26,7 +26,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Fragment of a <objectType>column</objectType>, <dimensions><height>0.51</height> <dim>0.37</dim> </dimensions></p>
+                           <p>Fragment of a <objectType>column shaft</objectType>, <dimensions><height>0.51</height> <dim>0.37</dim> </dimensions></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -44,7 +44,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="didyma">Didyma</placeName>: 
+                           <p><placeName type="ancientFindspot" ref="didyma">Didyma</placeName> (<ref target="https://pleiades.stoa.org/places/599593">Pleiades</ref>): 
                               found in front of the east face of the <rs type="monument">temple</rs>.</p>
                         </provenance>
                         <provenance type="observed">

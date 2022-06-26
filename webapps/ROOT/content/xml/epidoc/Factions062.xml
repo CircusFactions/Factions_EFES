@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Mosaic</material> <objectType>floor</objectType> (<dimensions><width>3.30</width> <height>4.80</height></dimensions></p>
+                                    <p><material>Mosaic</material> <objectType>floor</objectType> (<dimensions><width>3.30</width> <height>4.80</height></dimensions>)</p>
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
@@ -130,7 +130,7 @@
          </div>
             <div type="commentary">
                 <p>Gerasa did have a <ref target="https://pleiades.stoa.org/places/312305084">hippodrome</ref>, which seems to have been largely abandoned in the early 
-                    fourth century, although a smaller area may have remained in use (see <ref target="https://zenon.dainst.org/Record/001610413">Ostrasz, 2020</ref>; 
+                    fourth century, although a smaller area may have remained in use (see <ref target="https://zenon.dainst.org/Record/001610413">Ostrasz, 2020</ref>); 
                     the city also had at least three theatres/auditoria.</p>
                 
             </div>

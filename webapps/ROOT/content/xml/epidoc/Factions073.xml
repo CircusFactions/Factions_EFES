@@ -40,7 +40,7 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
+                            <origDate notBefore="0301" notAfter="0599" evidence="archaeological-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
@@ -111,7 +111,7 @@
             <div type="apparatus"><listApp><app loc="2-3"><note>Borkowski's description of the distribution of the lines, followed here, 
                 diverges from his printed text, Πρ/ασίνων, followed by SEG</note></app></listApp></div>
             
-            <div type="translation" resp="#borkowski1981" xml:lang="fr">
+            <div type="translation" source="#borkowski1981" xml:lang="fr">
                 <p> Vive les jeunes Verts!</p>
                 
             </div>    

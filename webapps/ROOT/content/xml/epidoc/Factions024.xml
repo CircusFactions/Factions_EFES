@@ -28,7 +28,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p><objectType>Theatre seat</objectType></p>
+                           <p>Theatre <objectType>seat</objectType></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>

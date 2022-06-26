@@ -25,11 +25,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Composite <material>stone</material> statue <objectType>base</objectType>: 
+                                    <p>Composite <material>stone</material> <objectType>column shaft</objectType>: 
                                          a base
                                         (<dimensions><height>2.00</height> <width>1.58</width></dimensions>), supporting a rectangular block 
-                                        (<dimensions><height>0.50</height> <width>1.90</width></dimensions>), above which an octagonal block, 
-                                        (<dimensions><height>0.50</height> <width>0.80</width></dimensions>); on the octagonal are three circular cornices, 
+                                        (<dimensions><height>0.50</height> <width>1.90</width></dimensions>), above which is an octagonal block 
+                                        (<dimensions><height>0.50</height> <width>0.80</width></dimensions>); above the octagonal are three circular cornices 
                                         (<dimensions><height>0.50</height></dimensions>). These support a cylinder, <dimensions><height>1.20</height></dimensions>; examination of the 
                                         upper surface suggests that this was intended to support a statue.
                                         </p>
@@ -40,7 +40,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> No measurements</handNote>
+                            <handNote> No measurements.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -51,7 +51,7 @@
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="oxyrhynchus">Oxyrhynchus</placeName> 
                                 (<ref target="https://pleiades.stoa.org/places/736983">Pleiades</ref>): <rs type="monument">colonnade</rs> 
-                                to the south of the settlement: found in 1912.</p> <!-- check -->
+                                to the south of the settlement: recorded in 1912.</p> <!-- check -->
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot (1922); by 2019 no traces of the texts were visible.</p>
@@ -95,7 +95,8 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><surface/>
+    </teiHeader><facsimile><graphic url="pistelli_01.jpg"><desc>Text i (drawing)</desc></graphic>
+        <graphic url="pistelli_02.jpg"><desc>Text ii (drawing)</desc></graphic>
        </facsimile>
     <text>
         <body>
@@ -150,7 +151,8 @@
                     By 1981 some traces of text i could still be seen, but almost nothing of text ii. In spring 2019 the <ref target="https://www.oxirrinc.com/en/el-yacimiento/columna-honorifica/">excavation team from the University of Barcelona</ref>, led by Professor Josep Padró i Parcerisa, examined the column closely, 
                     and could find no trace of either text; I am most grateful to Professor Padró for his help.</p>
                 <p>For this kind of composite structure compare the σύνθετος κίων. erected in 609 in Constantinople for Phocas, 
-                    <ref target="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-2775">LSA 2275</ref>. We cannot determine with certainty the relationship of the two texts to one another. </p>
+                    <ref target="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-2775">LSA 2275</ref>. We cannot determine with certainty the 
+                    relationship of the two texts to one another, although Pistelli observed that the scripts were similar: Del  tutto  simile  è  la  scrittura  delle  due  iscrizioni.. </p>
                 
             </div>
             

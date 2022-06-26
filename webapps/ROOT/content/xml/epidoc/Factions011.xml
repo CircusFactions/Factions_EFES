@@ -29,7 +29,7 @@
                      <supportDesc>
                         <support>
                            <p><material>Marble</material> corner <objectType>block</objectType> (<dimensions><width>1.04</width> <height>1.26</height></dimensions>)
-                              from a <objectType>gate</objectType></p>
+                              </p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -42,13 +42,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Gate of Hadrian</origPlace>
+                     <origPlace><rs type="monument">Gateway</rs>: Gate of Hadrian</origPlace>
                      <origDate notBefore="0602" notAfter="0610"  precision="low" evidence="reign">602-610 C.E.</origDate>
                   </origin>
                         <provenance type="found">
                            <p>
                               <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
-                              lying loose beside the Marble <rs type="monument">street</rs>.</p>
+                              lying loose beside the Marble Street.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>

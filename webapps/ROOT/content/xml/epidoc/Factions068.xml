@@ -25,7 +25,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><material>Ceramic</material> <objectType>tile</objectType>, 
+                                    <p><material>Ceramic</material> <objectType>tile</objectType> 
                                         (no measurements). 
                                         </p>
                                 </support>
@@ -40,7 +40,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Findspot</origPlace> 
+                            <origPlace>Unknown</origPlace> 
                             <origDate notBefore="0301" notAfter="0499" evidence="material-context" cert="low">Fourth-fifth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">

@@ -40,7 +40,7 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0301" notAfter="0599" evidence="textual-context" cert="low">Fourth-sixth century</origDate><!-- check -->
+                            <origDate notBefore="0301" notAfter="0599" evidence="archaeological-context" cert="low">Fourth-sixth century</origDate><!-- check -->
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="komeldikkaodeon">Alexandria, Kom el-Dikka, in the 
