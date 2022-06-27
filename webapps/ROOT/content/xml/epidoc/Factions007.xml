@@ -119,14 +119,14 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <div type="textpart" n="i" ><ab>
-  <lb n="1"/><persName type="emperor" ref="#anonymi"><addName nymRef="#χριστιανός"><w lemma="χριστιανός">Χριϲτια
+  <lb n="1"/><persName type="emperor" ref="#anonymi"><addName nymRef="Χριστιανός"><w lemma="χριστιανός">Χριϲτια
 <lb n="2" break="no"/>νῶν</w></addName> <w lemma="βασιλεύς">βαϲιλέ
 <lb n="3" break="no"/>ων</w></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <orgName ref="#green" nymRef="#Πράσινος"><w lemma="πράσινος">Πραϲίνων</w></orgName>
 	<lb n="4"/>	<w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w>
 
 </ab></div>
             <div type="textpart" n="ii.a" ><ab>
-  <lb n="1"/> <persName type="emperor" ref="anonymi"><w lemma="εὐσεβής">εὐϲεβῶν</w></persName>
+  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="εὐσεβής">εὐϲεβῶν</addName></persName>
 		<lb n="2"/><w lemma="βασιλεύς">βαϲιλέων</w>
 		<lb n="3"/><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> <g ref="symbol.xml#crux"/>
 </ab></div>

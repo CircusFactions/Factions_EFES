@@ -109,16 +109,20 @@
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
-  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="ὀρθόδοξος"><expan><ex>ὀρθοδόξων</ex></expan></addName> <g ref="symbol.xml#crux"/> 
-     <addName nymRef="Χριστιανός">Χριστιανῶν</addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>ϲιλέων</w></persName> <orgName ref="#green" nymRef="#Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος"><expan><ex>Πρασίνων</ex></expan></w></orgName>
+  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="ὀρθόδοξος"><w lemma="ὀρθόδοξος"><expan><ex>ὀρθοδόξων</ex></expan></w></addName> <g ref="symbol.xml#crux"/> 
+     <addName nymRef="Χριστιανός"><w lemma="χριστιανός">Χριστιανῶν</w></addName> <w lemma="βασιλεύς">β<supplied reason="lost">α</supplied>ϲιλέων</w></persName> <orgName ref="#green" nymRef="#Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος"><expan><ex>Πρασίνων</ex></expan></w></orgName>
 
 </ab></div>
          
          
          <div type="translation"  source="#roueche1999" xml:lang="en">
            <p>(For) orthodox Christian emperors (and) Greens <note>or</note> (For) Christian emperors ?(and) orthodox Greens</p></div>
+         <div type="translation"  resp="#cmr" xml:lang="en">
+            <p>(For) Christian emperors, orthodox, Green</p></div>
+         
          <div type="commentary">
-            <p>For the epithet Orthodox apparently used of the Greens see also <ref type="inscription" n="Factions011">Text 11</ref>; Grégoire also restored a reference to the Greens as orthodox in another text at Ephesos, 
+            <p>For the epithet Orthodox apparently used of the Greens see also <ref type="inscription" n="Factions011">Text 11</ref>; 
+               Grégoire also restored a reference to the Greens as orthodox in another text at Ephesos, 
                <title>I.Eph.</title> 1192.2, 
                followed by Roueché, 1999, item 9, but in fact the monumental style makes it more likely that the epithet there refers to the emperors.</p>
          </div>

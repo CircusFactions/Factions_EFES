@@ -111,7 +111,7 @@
           <ab>
              <lb n="1"/><g ref="symbol.xml#crux"/> 
  <lb n="2"/><g ref="symbol.xml#crux"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w> 
- <lb n="3"/><orgName ref="#green"><name nymRef="#Πράσινοι">Πραϲίνων</name></orgName>  
+ <lb n="3"/><orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πραϲίνων</w></orgName>  
   <lb n="3a"/><gap reason="lost" quantity="1" unit="line"/>
  <lb n="5"/><w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="Ἰωάννης">Ἰωάννη<supplied reason="lost">ϲ</supplied></name></persName>.
 </ab>

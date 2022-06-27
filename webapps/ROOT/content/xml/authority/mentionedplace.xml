@@ -17,6 +17,11 @@
     <text>
         <body>
             <listPlace>
+                <place xml:id="alexandria">
+                    <placeName xml:lang="en">Alexandria</placeName>
+                    <placeName xml:lang="grc">Ἀλεξανδρία </placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/727070</idno>
+                </place>
                 <place xml:id="jew">
                     <placeName xml:lang="en">Jew/Jewish</placeName>
                     <placeName xml:lang="grc">Ἑβραῖος/Εἰουδαῖος</placeName>
