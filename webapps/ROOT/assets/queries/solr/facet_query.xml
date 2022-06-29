@@ -6,8 +6,9 @@
   <facet>true</facet>
   <facet.field>found_provenance</facet.field>
   <facet.field>found_monument_type</facet.field>
-  <facet.field>origin_place</facet.field>
-   <!-- <facet.field>source_repository</facet.field> -->
+  
+   <!-- <facet.field>origin_place</facet.field>
+     <facet.field>source_repository</facet.field> -->
  <facet.field>support_material</facet.field>
   <facet.field>support_object_type</facet.field>
   <facet.field>inscription_type</facet.field> 
