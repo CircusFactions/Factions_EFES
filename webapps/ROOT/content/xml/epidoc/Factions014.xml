@@ -112,7 +112,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab>
   <lb n="1"/><g ref="symbol.xml#crux"/> <del rend="erasure"><persName type="emperor" ref="#phocas"><name nymRef="Φωκᾶς">Φωκᾷ</name></persName> <w lemma="ὁ">τῷ</w>
-		<lb n="1"/><addName nymRef="θεοστεφής"><w>θεωϲτεφῇ</w></addName><!-- check -->
+		<lb n="1"/><addName nymRef="θεοστεφής"><w lemma="θεοστεφής">θεωϲτεφῇ</w></addName><!-- check -->
 		<lb n="1"/><w lemma="ἡμεῖς">ἡμῶν</w> <w lemma="δεσπότης"><expan><abbr>δεϲπό</abbr><ex>τῇ</ex></expan></w> <!-- check -->
 		<lb n="1"/><w lemma="καί">καὶ</w> <orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος">Βενέτοιϲ</w></orgName> 
 		<lb n="1"/><supplied reason="lost"><persName type="divine"><w lemma="Κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName></supplied> <w lemma="βοηθέω"><supplied reason="lost">βο</supplied><unclear>ή</unclear>θησον</w></del>
