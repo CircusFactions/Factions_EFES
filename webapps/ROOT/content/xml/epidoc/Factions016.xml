@@ -106,7 +106,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
           <ab><!-- check, ask -->
   <lb n="1"/><expan><w lemma="νικάω"><ex>Νηκᾷ</ex></w> <w lemma="ὁ"><ex>ἡ</ex></w> <w lemma="τύχη"><ex>τύχη</ex></w></expan> 
-             <expan><ex><orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName></ex></expan> 
+             <orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ"><expan><ex>τῶν</ex></expan></w></supplied> <w lemma="πράσινος"><expan><ex>Πραϲίνων</ex></expan></w> </orgName>
 
 </ab></div>
          
