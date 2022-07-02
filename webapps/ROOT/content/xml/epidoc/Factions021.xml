@@ -89,7 +89,9 @@
       <revisionDesc>
           <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader><facsimile><graphic url="FactionEphesos21.jpg"><desc>Drawing by Hula</desc></graphic></facsimile><!-- find photo 94.F.18-->
+   </teiHeader><facsimile><graphic url="FactionEphesos21_1994.jpg"><desc>1994 (Roueché, 94.F.16)</desc></graphic>
+      <graphic url="FactionEphesos21.jpg"><desc>Drawing by Hula</desc></graphic>
+      </facsimile>
    <text>
       <body>
          <div type="bibliography">

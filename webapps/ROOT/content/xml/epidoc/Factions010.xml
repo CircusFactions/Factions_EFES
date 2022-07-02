@@ -28,7 +28,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p><objectType>column shaft</objectType> of a portico</p>
+                           <p><objectType>Column shaft</objectType></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -47,7 +47,7 @@
                         <provenance type="found">
                            <p>
                               <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
-                              the colonnade (Neronian Halle) on the west side of the Marble <rs type="monument">street</rs></p>
+                              the <rs type="monument">colonnade</rs> (Neronian Halle) on the west side of the Marble street</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>

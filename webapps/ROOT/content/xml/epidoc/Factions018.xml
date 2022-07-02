@@ -93,7 +93,8 @@
       <revisionDesc>
           <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader><facsimile><graphic url="FactionEphesos18.jpg"><desc>Face (2008)</desc></graphic></facsimile>
+   </teiHeader><facsimile><graphic url="FactionEphesos18.jpg"><desc>Face (2008)</desc></graphic>
+      <graphic url="FactionEphesos18_view.jpg"><desc>View (2008)</desc></graphic></facsimile>
    <text>
       <body>
          <div type="bibliography">
