@@ -27,7 +27,7 @@
                
                 <listBibl type="editions">
                     
-                    <bibl xml:id="ae"><bibl type="abbrev">AE</bibl>: <title>Année Epigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date></bibl>
+                    <bibl xml:id="ae"><bibl type="abbrev">AE</bibl> <title>Année Epigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date></bibl>
                     
                     <bibl xml:id="asdracha1998"> <bibl type="abbrev">Asdracha, 1998</bibl> <author ref="http://viaf.org/viaf/21472093">C. <name>Asdracha</name></author>, <date>1998</date>,
                         <title level="a" source="https://zenon.dainst.org/Record/000633159">Inscriptions chrétiennes et protobyzantines de la Thrace orientale et de l'île d'Imbros, 
@@ -118,7 +118,7 @@
                         <title level="m" ref="https://zenon.dainst.org/Record/000173855">Das Theater in Ephesos</title> 
                         <title level="s">Forschungen in Ephesos</title>, <biblScope unit="issue">2</biblScope>, <pubPlace>Wien</pubPlace></bibl>
                     
-                    <bibl xml:id="herrmann2006">  <bibl type="abbrev">I.Milet III, 2006</bibl> <author ref="http://viaf.org/viaf/54162199">Peter <name>Herrmann</name></author>, <date>1906</date>, 
+                    <bibl xml:id="herrmann2006">  <bibl type="abbrev">I.Milet III, 2006</bibl> <author ref="http://viaf.org/viaf/54162199">Peter <name>Herrmann</name></author>, <date>2006</date>, 
                         <title level="m">Inschriften von Milet</title>, <pubPlace>Berlin</pubPlace></bibl>
                     
                     <bibl xml:id="hiller1906">  <bibl type="abbrev">I.Priene, 1906</bibl> <author ref="http://viaf.org/viaf/59132563">Friedrich <name>Hiller von Gaertringen</name></author>, <date>1997-2006</date>, 
@@ -154,20 +154,20 @@
                     <title level="m">Inscriptiones Christianae Graecae</title>, <date>2019</date>, <publisher>Edition Topoi</publisher>; available at 
                         <ref target="http://repository.edition-topoi.org/collection/ICG">Topoi</ref></bibl> 
                     
-                    <bibl xml:id="igls1967">  <bibl type="abbrev">Rey-Coquais, 1967</bibl>, <author ref="http://viaf.org/viaf/24607213">J-P.<name>Rey-Coquais</name></author> 
-                        <title level="m">Baalbek et Beqaʿ</title>
+                    <bibl xml:id="igls1967">  <bibl type="abbrev">Rey-Coquais, 1967</bibl> <author ref="http://viaf.org/viaf/24607213">J-P.<name>Rey-Coquais</name></author>, 
+                        <title level="m">Baalbek et Beqaʿ</title>,
                         <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
                         <biblScope unit="volume">VI</biblScope> <date>1967</date>, available at<ref target="www.persee.fr/doc/bah_0768-2506_1967_cat_78_61"> Persée</ref></bibl>
                     
                     <bibl xml:id="igls2009">  <bibl type="abbrev">Bader, 2009</bibl>, <author ref="http://viaf.org/viaf/107050985">Nabil <name>Bader</name></author> 
                         <title level="m">Inscriptions de la Jordanie</title>
-                        <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
+                        <title level="s">Inscriptions grecques et latines de la Syrie</title>, <pubPlace>Paris</pubPlace>, 
                         <biblScope unit="volume">XXI, 5, 1</biblScope> <date>2009</date>, available at <ref target="https://www.persee.fr/issue/bah_0768-2506_2009_cat_187_2151">Persé</ref>e</bibl>
                     
                     <bibl xml:id="igls2014">  <bibl type="abbrev">Fauriat-Sartre, 2014</bibl>, <author ref="http://viaf.org/viaf/49400831">A. <name>Fauriat</name></author> and 
-                        <author ref=" http://viaf.org/viaf/36924349">M. <name>Sartre</name></author> <title level="m">Le plateau du Trachôn et ses bordures</title>
-                        <title level="s">Inscriptions grecques et latines de la Syrie</title> <pubPlace>Paris</pubPlace>, 
-                        <biblScope unit="volume">XV</biblScope> <date>2014</date>, available at <ref target="https://www.persee.fr/issue/bah_0768-2506_2014_cat_204_151">Persée</ref></bibl>
+                        <author ref=" http://viaf.org/viaf/36924349">M. <name>Sartre</name></author>, <title level="m">Le plateau du Trachôn et ses bordures</title>,
+                        <title level="s">Inscriptions grecques et latines de la Syrie</title>, <pubPlace>Paris</pubPlace>, 
+                        <biblScope unit="volume">XV</biblScope>, <date>2014</date>, available at <ref target="https://www.persee.fr/issue/bah_0768-2506_2014_cat_204_151">Persée</ref></bibl>
                     
                     <bibl xml:id="inspriene">  <bibl type="abbrev">I.Priene B-M, 2014</bibl> <author ref="http://viaf.org/viaf/91752189">Wolfgang <name>Blümel</name></author> and <author ref="http://viaf.org/viaf/59096691">Reinhold <name>Merkelbach</name></author> 
                         <date>2014</date>, <title level="m">Die Inschriften von Priene</title>, <pubPlace>Bonn</pubPlace></bibl>
@@ -244,8 +244,8 @@
                         <title level="j">To έργoν της Aρχαιoλoγικής Eταιρείας</title>, 
                         <biblScope unit="page">16</biblScope>  <!-- check --></bibl>
                     
-                    <bibl xml:id="pallas1977">  <bibl type="abbrev">Pallas, 1977</bibl> <author ref="http://viaf.org/viaf/73878223">D. <name>Pallas</name></author>, <date>1977</date> 
-                        <title level="m" ref="https://zenon.dainst.org/Record/000167250">Les monuments paléochrétiens de Grèce decouverts de 1959 à 1973</title> 
+                    <bibl xml:id="pallas1977">  <bibl type="abbrev">Pallas, 1977</bibl> <author ref="http://viaf.org/viaf/73878223">D. <name>Pallas</name></author>, <date>1977</date>, 
+                        <title level="m" ref="https://zenon.dainst.org/Record/000167250">Les monuments paléochrétiens de Grèce decouverts de 1959 à 1973</title>, 
                         <pubPlace>Vatican City</pubPlace></bibl>
                     
                     
@@ -254,18 +254,18 @@
                         <biblScope unit="issue">19</biblScope>, <biblScope unit="page">305-315</biblScope> available at 
                         <ref target="https://archive.org/details/studiitalianidif19fireuoft/page/304">Internet Archive</ref></bibl>
                     
-                    <bibl xml:id="phi"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, , <date>1987-</date>, <publisher>Packard
+                    <bibl xml:id="phi"><bibl type="abbrev">PHI</bibl> <title>Searchable Greek Inscriptions</title>, , <date>1987-</date>, <publisher>Packard
                         Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/">PHI</ref></bibl>
                     
                     <bibl xml:id="piccirillo1981">  <bibl type="abbrev">Piccirillo, 1981</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
                         <date>1981</date>, 
-                        <title level="a">Chiese e mosaici della Giordania settentrionale</title>, <title level="m">Liber Annuus</title>, <!-- details -->
-                        <pubPlace>Jerusalem</pubPlace>, </bibl>
+                        <title level="m">Chiese e mosaici della Giordania settentrionale</title>, 
+                        <pubPlace>Jerusalem</pubPlace></bibl>
                     
                     <bibl xml:id="piccirillo1982">  <bibl type="abbrev">Piccirillo,1982</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
                         <date>1982</date>, 
                         <title level="a">Ricerca in Giordania</title>, <title level="j">Liber Annuus</title>, 
-                        <biblScope unit="issue">32</biblScope>, <biblScope unit="page">xxx</biblScope></bibl>
+                        <biblScope unit="issue">32</biblScope>, <biblScope unit="page">461-527</biblScope></bibl>
                     
                     <bibl xml:id="piccirillo1997">  <bibl type="abbrev">Piccirillo,1997</bibl> <author ref="http://viaf.org/viaf/90387292">Michele <name>Piccirillo</name></author>, 
                         <date>1997</date>, 
@@ -290,19 +290,19 @@
                         and <author ref="http://viaf.org/viaf/8915317">R. F. <name>Tannenbaum</name></author>, <date>1987</date> 
                         <title level="m">Jews and God-fearers at Aphrodisias</title>,  <pubPlace>Cambridge</pubPlace>, </bibl>
                     
-                    <bibl xml:id="robert1955">  <bibl type="abbrev">Robert, Hellenica X</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author> 
+                    <bibl xml:id="robert1955">  <bibl type="abbrev">Robert, Hellenica X</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author>, 
                         <date>1955</date>, <title level="m">Hellenica</title>, 
                         <biblScope unit="issue">X</biblScope>, <pubPlace>Paris</pubPlace>, </bibl>
                     
-                    <bibl xml:id="robert1960">  <bibl type="abbrev">Robert, Hellenica XI-XII</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author> 
+                    <bibl xml:id="robert1960">  <bibl type="abbrev">Robert, Hellenica XI-XII</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author>, 
                         <date>1960</date>, <title level="m">Hellenica</title>, 
                         <biblScope unit="issue">XI-XII</biblScope>, <pubPlace>Paris</pubPlace>, </bibl>
                   
                     <bibl xml:id="robert1974">  <bibl type="abbrev">Robert, 1974</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author>, <date>1974</date> 
-                        <title level="a">Les inscriptions de Thessalonique</title>, <title level="j">Revue de Philologie</title>
+                        <title level="a">Les inscriptions de Thessalonique</title>, <title level="j">Revue de Philologie</title>,
                         <biblScope unit="page">180-240</biblScope> (<bibl><title>OMS</title>, <biblScope unit="volume">V</biblScope>, <biblScope unit="page">267-334</biblScope></bibl>) </bibl>
                     
-                    <bibl xml:id="robertBE">  <bibl type="abbrev">J and L Robert, Bulletin Épigraphique</bibl><author ref="http://viaf.org/viaf/41845785">J and L <name type="surname">Robert</name></author>
+                    <bibl xml:id="robertBE">  <bibl type="abbrev">J and L Robert, Bulletin Épigraphique</bibl><author ref="http://viaf.org/viaf/41845785">J. and L. <name type="surname">Robert</name></author>
                         <title level="a">Bulletin Épigraphique</title> in <title level="j">Revue des Études Grecques</title>
                         <date>1938-84</date>, available at <ref target="http://www.persee.fr/collection/reg">Persée</ref></bibl>
                     
@@ -358,11 +358,11 @@
                         <title level="a">Antiquités syriennes</title>, <title level="j">Syria</title>, <biblScope unit="issue">27, 3-4</biblScope>, 
                         <biblScope unit="pp">229-52</biblScope>, available at <ref target="https://www.persee.fr/doc/syria_0039-7946_1950_num_27_3_4591">Persée</ref></bibl>
                     
-                    <bibl xml:id="seg"><bibl type="abbrev">SEG</bibl>: <title>Supplementum Epigraphicum Graecum</title>,
+                    <bibl xml:id="seg"><bibl type="abbrev">SEG</bibl> <title type="s">Supplementum Epigraphicum Graecum</title>,
                         <pubPlace>Leiden</pubPlace>, <publisher>Brill Publishing</publisher>,
                         <date>1923-</date></bibl>
                     
-                    <bibl xml:id="smith2014"><bibl type="abbrev">Smith, 2014</bibl>: <!-- add authors --><title level="a">Aphrodisias</title>,
+                    <bibl xml:id="smith2014"><bibl type="abbrev">Smith, 2014</bibl> <author ref="http://viaf.org/viaf/54186955">R.R.R. <name>Smith</name></author>, <title level="a">Aphrodisias</title>,
                         <title level="a">Aphrodisias</title>, <title level="s">Kazı Sonuçları Toplantısı</title> <biblScope unit="issue">36.2</biblScope>
                         <biblScope unit="page">73-100</biblScope> <date>2014</date></bibl>
                     
@@ -388,7 +388,7 @@
                     
                     <bibl xml:id="waddington1870">  <bibl type="abbrev">Waddington, 1870</bibl> <author ref=" http://viaf.org/viaf/64130319">W.H. <name>Waddington</name></author>,
                         <date>1870</date>, 
-                        <title level="m">Inscriptions grecques et latines de la Syrie</title>  <pubPlace>Paris</pubPlace>: 
+                        <title level="m">Inscriptions grecques et latines de la Syrie</title>  <pubPlace>Paris</pubPlace>,  
                         avialable at <ref target="https://mdz-nbn-resolving.de/details:bsb10934351">MDZ</ref></bibl>
                     
                     <bibl xml:id="walser2013">  <bibl type="abbrev">Walser, 2013</bibl> <author ref="http://viaf.org/viaf/309562730"> A.V. <name>Walser</name></author>, 
@@ -396,7 +396,7 @@
                         <title level="j">Chiron</title>, <biblScope unit="issue">43</biblScope>, <date>2013</date>, <biblScope unit="page">527-619</biblScope>; 
                         available at <ref target="https://publications.dainst.org/journals/index.php/chiron/article/view/490">Chiron</ref> </bibl>
                     
-                    <bibl xml:id="wiegand1904">  <bibl type="abbrev">Wiegand, 1904</bibl> ><author ref="http://viaf.org/viaf/12347811">Theodor <name>Wiegand</name></author>, 
+                    <bibl xml:id="wiegand1904">  <bibl type="abbrev">Wiegand, 1904</bibl> <author ref="http://viaf.org/viaf/12347811">Theodor <name>Wiegand</name></author>, 
                         <date>1904</date> 
                         <title level="m">Priene: Ergebnisse der Ausgrabungen und Untersuchungen in den Jahren 1895-1898</title>  <pubPlace>Berlin</pubPlace>, 
                         available at <ref target="https://archive.org/details/prieneergebnisse00wieg">Archive.org</ref></bibl>
