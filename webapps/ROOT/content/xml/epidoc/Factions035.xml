@@ -30,12 +30,12 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the southern faces of the three bases.
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the southern faces of the three bases.
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Lightly but carefully <rs type="execution" key="scalpro">cut</rs>, with some decorative flourishes; thus in iii the central upright of the
+                     <handNote>Lightly but carefully <rs type="execution" ref="scalpro">cut</rs>, with some decorative flourishes; thus in iii the central upright of the
                         omega is used as the upright of a cross. They are tall: i, <height>0.12</height>;
                         ii, <height>0.125</height>; iii, <height>0.13</height></handNote>
                   </handDesc>

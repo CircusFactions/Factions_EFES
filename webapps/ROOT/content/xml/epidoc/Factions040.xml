@@ -29,7 +29,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="litteris scariphatis">Graffito</rs> on the upper face; 
+                        <layout><rs type="execution" ref="litteris scariphatis">Graffito</rs> on the upper face; 
                            line 1 has been partially erased.</layout>
                      </layoutDesc>
                   </objectDesc>

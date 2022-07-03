@@ -33,7 +33,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Flat broad-trenched <rs type="execution" key="litteris scariphatis">graffito</rs> on the face, which has been cut away to the left</layout>
+                        <layout>Flat broad-trenched <rs type="execution" ref="litteris scariphatis">graffito</rs> on the face, which has been cut away to the left</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

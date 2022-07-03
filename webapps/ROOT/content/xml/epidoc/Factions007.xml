@@ -30,7 +30,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> i on the western post, on the 
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> i on the western post, on the 
                            inner face, at <height unit="metre">0.59</height> from the top; ii.a on the eastern post, 
                            on the inner face, at <height unit="metre">0.63</height> from the top; 
                            ii.b on the eastern post, on the outer, south side, at top, with the final letter cut on moulding.</layout>

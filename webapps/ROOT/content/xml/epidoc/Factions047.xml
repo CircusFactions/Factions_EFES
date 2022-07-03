@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><rs type="execution" key="litteris scariphatis">Graffito</rs>; different hands: lines 1-2 are squeezed in above line 3</layout>
+                                <layout><rs type="execution" ref="litteris scariphatis">Graffito</rs>; different hands: lines 1-2 are squeezed in above line 3</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

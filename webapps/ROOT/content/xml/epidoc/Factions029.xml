@@ -30,7 +30,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="litteris scariphatis">Graffito</rs> on the upper face of two steps. There is a square divided in 4 below the text.
+                        <layout><rs type="execution" ref="litteris scariphatis">Graffito</rs> on the upper face of two steps. There is a square divided in 4 below the text.
                         </layout>
                      </layoutDesc>
                   </objectDesc>

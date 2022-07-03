@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face; all the text has been erased.</layout>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the face; all the text has been erased.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

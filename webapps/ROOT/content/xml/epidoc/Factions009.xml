@@ -34,7 +34,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> immediately below the upper moulding.</layout>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> immediately below the upper moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

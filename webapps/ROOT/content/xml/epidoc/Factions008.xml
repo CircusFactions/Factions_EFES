@@ -33,7 +33,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the western post.</layout>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the western post.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

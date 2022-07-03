@@ -29,7 +29,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>A box monogram <dimensions><height>0.18</height> <width>0.15</width></dimensions>, <rs type="execution" key="scalpro">inscribed</rs> in the centre of the face.
+                        <layout>A box monogram <dimensions><height>0.18</height> <width>0.15</width></dimensions>, <rs type="execution" ref="scalpro">inscribed</rs> in the centre of the face.
                         </layout>
                      </layoutDesc>
                   </objectDesc>

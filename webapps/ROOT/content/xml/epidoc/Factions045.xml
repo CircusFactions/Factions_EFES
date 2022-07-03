@@ -29,8 +29,8 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i irregular <rs type="execution" key="litteris scariphatis">graffito</rs>, very worn; 
-                           ii, carefully <rs type="execution" key="litteris scalpro">cut</rs>, on two blocks; the letters on the second have been erased</layout>
+                        <layout>i irregular <rs type="execution" ref="litteris scariphatis">graffito</rs>, very worn; 
+                           ii, carefully <rs type="execution" ref="litteris scalpro">cut</rs>, on two blocks; the letters on the second have been erased</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

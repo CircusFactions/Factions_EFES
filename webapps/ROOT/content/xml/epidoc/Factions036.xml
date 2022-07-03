@@ -29,7 +29,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="litteris scariphatis">Scratched</rs> with a very fine point on a patch of remaining plaster.
+                        <layout><rs type="execution" ref="litteris scariphatis">Scratched</rs> with a very fine point on a patch of remaining plaster.
                         </layout>
                      </layoutDesc>
                   </objectDesc>

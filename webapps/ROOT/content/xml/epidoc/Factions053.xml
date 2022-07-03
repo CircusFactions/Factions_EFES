@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Roughly <rs type="execution" key="scalpro">inscribed</rs>, but carefully laid out to fill the space.</layout>
+                                <layout>Roughly <rs type="execution" ref="scalpro">inscribed</rs>, but carefully laid out to fill the space.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

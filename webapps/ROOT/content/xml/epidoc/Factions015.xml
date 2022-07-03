@@ -34,7 +34,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> monogram in each volute, and a simple line of writing on the face between the two.</layout>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> monogram in each volute, and a simple line of writing on the face between the two.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

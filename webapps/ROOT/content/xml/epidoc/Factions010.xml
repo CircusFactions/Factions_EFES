@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face towards the street, within an inscribed circle</layout>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the face towards the street, a monogram within an inscribed circle</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

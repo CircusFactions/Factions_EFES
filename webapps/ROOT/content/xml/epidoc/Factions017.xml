@@ -31,7 +31,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Roughly <rs type="execution" key="scalpro">inscribed</rs> on the upper face.</layout>
+                        <layout>Roughly <rs type="execution" ref="scalpro">inscribed</rs> on the upper face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

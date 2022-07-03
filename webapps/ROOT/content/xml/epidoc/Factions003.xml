@@ -34,7 +34,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout> <rs type="execution" key="scalpro">Inscribed</rs> on the front face, with the text either side of the central relief 
+                        <layout> <rs type="execution" ref="scalpro">Inscribed</rs> on the front face, with the text either side of the central relief 
                            figure of a charioteer holding his whip and a palm</layout>
                      </layoutDesc>
                   </objectDesc>

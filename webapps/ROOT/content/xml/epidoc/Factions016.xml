@@ -33,7 +33,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> monogram in each volute.</layout>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> monogram in each volute.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

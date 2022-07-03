@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><rs type="execution" key="litteris scariphatis">Graffito</rs> on the surface.</layout>
+                                <layout><rs type="execution" ref="litteris scariphatis">Graffito</rs> on the surface.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

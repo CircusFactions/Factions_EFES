@@ -29,7 +29,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Deeply cut <rs type="execution" key="litteris scariphatis">graffito</rs>.
+                        <layout>Deeply cut <rs type="execution" ref="litteris scariphatis">graffito</rs>.
                         </layout>
                      </layoutDesc>
                   </objectDesc>

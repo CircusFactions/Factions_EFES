@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> across two seats.
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> across two seats.
                         </layout>
                      </layoutDesc>
                   </objectDesc>

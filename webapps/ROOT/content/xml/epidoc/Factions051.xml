@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Perhaps <rs type="execution" key="scalpro">inscribed</rs>.</layout>
+                                <layout>Perhaps <rs type="execution" ref="scalpro">inscribed</rs>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

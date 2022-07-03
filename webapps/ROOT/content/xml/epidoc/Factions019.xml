@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="litter scariphatis">Graffito</rs> on the upper face, at right-angles to the street, and to be read from the east. 
+                        <layout><rs type="execution" ref="litter scariphatis">Graffito</rs> on the upper face, at right-angles to the street, and to be read from the east. 
                            To the left, a circle with 8 spokes, diam. <dim>0.13</dim>
                         </layout>
                      </layoutDesc>

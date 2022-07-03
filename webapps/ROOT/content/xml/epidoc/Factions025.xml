@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the upper face of two seats; the letters on the first seat have been deliberately chipped.
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the upper face of two seats; the letters on the first seat have been deliberately chipped.
                         </layout>
                      </layoutDesc>
                   </objectDesc>

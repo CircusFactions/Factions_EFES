@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the reverse face of IEph xxx<!-- check -->
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the reverse face of IEph xxx<!-- check -->
                         </layout>
                      </layoutDesc>
                   </objectDesc>
