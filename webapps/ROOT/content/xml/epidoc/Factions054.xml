@@ -42,7 +42,7 @@
                             <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                         </origin>
                         <provenance type="found">
-                            <p><placeName type="ancientFindspot" ref="heliopolisbacchus">Heliopolis (Baalbek): 'Temple of Bacchus'</placeName> 
+                            <p><placeName type="ancientFindspot" ref="heliopolisbacchus">Heliopolis (Baalbek): Temple of Bacchus</placeName> 
                                 (<ref  target="https://pleiades.stoa.org/places/524305133">Pleiades</ref>);  in the peristyle <rs type="monument">colonnade</rs>, west side, 
                                 on the upper torus of the base of the 4th column from the south; revealed during cleaning.</p>
                         </provenance>
