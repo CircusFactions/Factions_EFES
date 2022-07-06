@@ -167,6 +167,8 @@
      required="false" stored="true" type="string" />
    <field name="origin_date_evidence" required="false" indexed="true"
      multiValued="true" stored="true" type="string" />
+   <field name="execution_technique" required="false" indexed="true"
+     multiValued="true" stored="true" type="string" />
    <field name="found_monument_type" type="string" indexed="true"
      multiValued="true" stored="true" required="false" />
 
