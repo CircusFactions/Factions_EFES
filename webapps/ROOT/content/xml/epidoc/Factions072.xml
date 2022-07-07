@@ -109,8 +109,8 @@
     <lb n="4" break="no"/>ου</w> <persName type="attested"><name nymRef="Δόρος">Δόρου</name></persName>  </ab></div>
     <div  type="textpart" n="b"><ab><lb n="5"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
     <lb n="6"/><orgName ref="#green" nymRef="#Πράσινοι"><w lemma="πράσινος">Πραϲίνω<supplied reason="lost">ν</supplied></w> 
-    <lb n="7"/><addName nymRef="γενναῖος">γενεωτά
-    <lb n="8" break="no"/><space/>των</addName></orgName><space/></ab></div>
+    <lb n="7"/><addName nymRef="γενναῖος"><w lemma="γενναῖος">γενεωτά
+    <lb n="8" break="no"/><space/>των</w></addName></orgName><space/></ab></div>
                 <div type="textpart" n="c"><ab>
     <lb n="9"/><w lemma="ἀπό">ἀπὸ</w> <w lemma="κορυφή">κορυ
     <lb n="10" break="no"/>φῆϲ</w> <w lemma="ὡς">ὡϲ</w> <w lemma="ὄνυχος">ὀ
