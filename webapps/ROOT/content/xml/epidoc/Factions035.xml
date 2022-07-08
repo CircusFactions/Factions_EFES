@@ -46,7 +46,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth-seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="aphrodisiassouthagora">Aphrodisias: South Agora</placeName> 
+                           <p><placeName type="ancientFindspot" ref="aphsouthagora">Aphrodisias: South Agora</placeName> 
                               (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): 
                               north <rs type="monument">colonnade</rs>, on the south face of three adjacent column bases. There is a gap in the columns of the north portico, 
                               but the westernmost of these texts (i) appears to be on the twentieth column base from the west.</p><!-- check -->

@@ -43,7 +43,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="aphrodisiasodeon">Aphrodisias</placeName>: 
+                           <p><placeName type="ancientFindspot" ref="aphodeon">Aphrodisias</placeName>: 
                               <rs type="monument">Odeon</rs> (<ref target="https://pleiades.stoa.org/places/463141627">Pleiades</ref>): Block E, i in Row 5, ii in Row 7.</p>
                         </provenance>
                         <provenance type="observed">

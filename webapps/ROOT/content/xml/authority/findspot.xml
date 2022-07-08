@@ -54,23 +54,23 @@
                     <idno type="pleiades">https://pleiades.stoa.org/places/638753</idno>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q3761560</idno>
                 </place>
-                <place xml:id="aphrodisiasodeon">
+                <place xml:id="aphodeon">
                     <placeName xml:lang="en">Aphrodisias, Odeon</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/463141627</idno>
                 </place>
-                <place xml:id="aphrodisiassouthagora">
+                <place xml:id="aphsouthagora">
                     <placeName xml:lang="en">Aphrodisias, South Agora</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/792804148</idno>
                 </place>
-                <place xml:id="aphrodisiasstadium">
+                <place xml:id="aphstadium">
                     <placeName xml:lang="en">Aphrodisias, Stadium</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/840672014</idno>
                 </place>
-                <place xml:id="aphrodisiastetrapylon">
+                <place xml:id="aphtetrapylon">
                     <placeName xml:lang="en">Aphrodisias, Tetrapylon</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/792804150</idno>
                 </place>
-                <place xml:id="aphrodisiastheatre">
+                <place xml:id="aphtheatre">
                     <placeName xml:lang="en">Aphrodisias, Theatre</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/792804149</idno>
                 </place>

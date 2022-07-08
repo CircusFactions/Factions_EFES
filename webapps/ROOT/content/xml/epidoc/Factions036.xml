@@ -44,7 +44,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="aphrodisiastheatre">Aphrodisias: 
+                           <p><placeName type="ancientFindspot" ref="aphtheatre">Aphrodisias: 
                               <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>): scaenae frons, northernmost chamber: doorway, on the north wall, a little further into the room. </p>
                         </provenance>
                         <provenance type="observed">

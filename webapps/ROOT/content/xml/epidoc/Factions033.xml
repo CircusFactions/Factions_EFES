@@ -44,7 +44,7 @@
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p><placeName type="ancientFindspot" ref="aphrodisiastetrapylon">Aphrodisias, Tetrapylon</placeName> 
+                           <p><placeName type="ancientFindspot" ref="aphtetrapylon">Aphrodisias, Tetrapylon</placeName> 
                               (<ref target="https://pleiades.stoa.org/places/792804150">Pleiades</ref>): 
                      <rs type="monument">street</rs>, in the eastern colonnade.</p>
                         </provenance>
