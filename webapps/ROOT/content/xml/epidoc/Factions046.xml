@@ -107,7 +107,7 @@
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/><w lemma="τόπος">τόποϲ</w> <orgName  ref="#blue" nymRef="#Βένετοι Ἑβρέοι"><w lemma="βένετος">Βενέτων</w>
+               <ab><lb n="1"/><w lemma="τόπος">τόποϲ</w> <orgName  ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος">Βενέτων</w>
 <lb n="2"/><addName nymRef="#Ἑβρεος"><placeName type="ethnic" ref="#jew" nymRef="#Ἑβραῖος">Ἑβρ<unclear>έ</unclear>ων</placeName></addName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear>πα</unclear>λεῶν</w></orgName></ab>
                
              </div> 
