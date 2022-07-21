@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of execution techniques</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <list>
+                    <item xml:id="litteris_alveolatis">
+                        <term xml:lang="la">Litteris alveolatis</term>
+                        <term xml:lang="en">Channelled</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/36.html</idno>
+                    </item>
+                    <item xml:id="litteris_eminentibus">
+                        <term xml:lang="la">Litteris eminentibus</term>
+                        <term xml:lang="en">Relief</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/7.html</idno>
+                    </item>
+                    <item xml:id="litteris_scariphatis">
+                        <term xml:lang="la">Litteris scariphatis</term>
+                        <term xml:lang="en">Scratched/graffito</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/9.html</idno>
+                    </item>
+                    <item xml:id="pictura">
+                        <term xml:lang="la">Pictura</term>
+                        <term xml:lang="en">Painted</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/10.html</idno>-->
+                    </item>
+                    <item xml:id="scalpro">
+                        <term xml:lang="la">Scalpro</term>
+                        <term xml:lang="en">Inscribed/chiselled</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/1.html</idno>
+                    </item>
+                    <item xml:id="signaculo">
+                        <term xml:lang="la">Signaculo</term>
+                        <term xml:lang="en">Stamped, sunken</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/13.html</idno>
+                    </item>
+                    <item xml:id="litteris_ex_forma">
+                        <term xml:lang="la">Litteris ex forma</term>
+                        <term xml:lang="en">Stamped, raised</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/8.html</idno>
+                    </item>
+                    <item xml:id="stilo">
+                        <term xml:lang="la">Stilo</term>
+                        <term xml:lang="en">Inscribed on a soft surface</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/14.html</idno>
+                    </item>
+                    <item xml:id="tessellis">
+                        <term xml:lang="la">Tessellis</term>
+                        <term xml:lang="en">Mosaic tesserae</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/16.html</idno>
+                    </item>
+            </list>
+        </body>
+    </text>
+</TEI>
