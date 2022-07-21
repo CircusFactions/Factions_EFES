@@ -126,7 +126,7 @@
 
 </ab></div>
             <div type="textpart" n="ii.a" ><ab>
-  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="εὐσεβής">εὐϲεβῶν</addName></persName>
+  <lb n="1"/> <persName type="emperor" ref="#anonymi"><addName nymRef="εὐσεβής"><w lemma="εὐσεβής">εὐϲεβῶν</w></addName></persName>
 		<lb n="2"/><w lemma="βασιλεύς">βαϲιλέων</w>
 		<lb n="3"/><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> <g ref="symbol.xml#crux"/>
 </ab></div>

@@ -92,7 +92,7 @@
         <body>
             <div type="bibliography">
                 <p>Mentioned <bibl><ptr target="smith2014"/> <citedRange unit="page">77, 86</citedRange></bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>2014.952</citedRange></bibl>. <!-- check Philia -->
+                    <bibl><ptr target="seg"/> <citedRange>2014.952</citedRange></bibl>. 
                 </p>
             </div>
             

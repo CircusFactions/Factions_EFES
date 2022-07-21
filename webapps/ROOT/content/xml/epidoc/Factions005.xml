@@ -43,14 +43,14 @@
                <history>
                   <origin>
                      <origPlace>Unknown.</origPlace>
-                     <origDate notBefore="0301" notAfter="0600"  precision="low" evidence="lettering">Fourth-sixth century C.E.</origDate>
+                     <origDate notBefore="0301" notAfter="0600"  precision="low" evidence="textual-context">Fourth-sixth century C.E.</origDate>
                   </origin>
                   
                      
                         <provenance type="found">
                            <p>
                               <placeName type="ancientFindspot" ref="myriophyton">Myriophyton, Thrace</placeName> 
-                              (<ref target="http://www.geonames.org/741433">Geonames</ref>): reused in a wall.</p>
+                              (<ref target="http://www.geonames.org/741433">Geonames</ref>): reused in the wall of a church wall.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot.</p>
@@ -99,12 +99,12 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>First published by <bibl><ptr target="gedeon1913"/> <citedRange>12-13</citedRange></bibl> <!-- check -->
+            <p>First published by <bibl><ptr target="gedeon1913"/> <citedRange>12-13</citedRange></bibl> 
               whence 
                <bibl> <ptr target="asdracha1998"/> <citedRange unit="page">330</citedRange> <citedRange>n.155</citedRange></bibl>, 
                whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/166200">166200</ref></citedRange></bibl>, 
                <bibl><ptr target="seg"/> <citedRange>48.887</citedRange></bibl>;
-               reprinted, <bibl> <ptr target="asdracha2003"/><citedRange>155</citedRange></bibl><!-- check --></p>
+               reprinted, <bibl> <ptr target="asdracha2003"/><citedRange>155</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
@@ -118,6 +118,9 @@
          <div type="apparatus">
             
          </div>
+         <div type="translation"  source="#asdracha2003" xml:lang="fr">
+            <p>La fortune des Verts chrétiens vainc <supplied reason="explanation">Vivent les Verts chrétiens!</supplied>!
+            </p></div>
          <div type="translation"  resp="#cmr" xml:lang="en">
             <p>The fortune of the Christian Greens triumphs!
             </p></div>

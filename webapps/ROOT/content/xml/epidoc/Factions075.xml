@@ -41,12 +41,12 @@
                     <history>
                         <origin>
                             <origPlace>Unknown</origPlace> 
-                            <origDate notBefore="0301" notAfter="0599" evidence="style">Fourth-sixth century</origDate><!-- check -->
+                            <origDate notBefore="0301" notAfter="0599" evidence="style">Fourth-sixth century</origDate>
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="antinoe">Antinoe</placeName> 
                                 (<ref target="https://pleiades.stoa.org/places/756518">Pleiades</ref>): 
-                                no further details; found before 1826</p> <!-- check -->
+                                no further details; found before 1826</p> 
                         </provenance>
                         <provenance type="observed">
                             <p>Louvre, Paris, Département des Antiquités égyptiennes 
@@ -107,7 +107,7 @@
                     <bibl> <ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>, 
                     <bibl> <ptr target="cameronCF"/> <citedRange unit="page">317</citedRange></bibl>.
                     Catalogue description and illustration, <bibl><ref target="https://collections.louvre.fr/en/ark:/53355/cl010044601">Louvre</ref></bibl>
-                    <!-- Marie-Hélène Rutschowscaya, Le peigne d’Helladia, Études Coptes, 7 (2000), 235–244  -->
+                    <!-- Marie-Hélène Rutschowscaya, Le peigne d’Helladia, Études Coptes, 7 (2000), 235–244  UCL, BL-->
                 </p>
             </div>
             

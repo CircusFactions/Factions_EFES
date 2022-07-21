@@ -42,7 +42,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Findspot</origPlace>
+                     <origPlace>South end of the Marble Street</origPlace>
                      <origDate notBefore="0612" notAfter="0612"  evidence="reign">May 3rd - August 3rd 612 C.E.</origDate>
                   </origin>
                         <provenance type="found">
@@ -110,14 +110,14 @@
 		 <lb n="6"/> <w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔτη</w> <g ref="symbol.xml#crux"/>
 </ab>
          </div>
-         <div type="apparatus"><!-- check -->
+         <div type="apparatus">
             
          </div>
          <div type="translation"  source="#roueche1999" xml:lang="en">
            <p>Many years for Heraklios and Heraklios our god-protected lords, and for the Greens!
 </p></div>
          <div type="commentary">
-            <p>Heberdey suggested that the lines 4-6 had been added in an 'ungelenker' script; but the syntax suggests a single text. <!-- check --></p> 
+            <p>Heberdey suggested that the lines 4-6 had been added in an 'ungelenker' script; but the syntax suggests a single text. </p> 
          </div>
          
       </body>

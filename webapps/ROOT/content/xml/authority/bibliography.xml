@@ -63,6 +63,13 @@
                         <title level="m"><ref target="https://zenon.dainst.org/Record/001377877">Ancient Graffiti in Context</ref></title>, 
                     <pubPlace>London</pubPlace>  <biblScope unit="page">191-205</biblScope></bibl>
                     
+                    
+                    <bibl xml:id="chaniotis2018">  <bibl type="abbrev">Chaniotis and De Staebler, 2018</bibl> 
+                        <author ref="http://viaf.org/viaf/69054999">Α. <name>Chaniotis</name></author> 
+                        <author ref="http://viaf.org/viaf/292657628">P. <name>De Staebler</name></author> <date>2018</date>, 
+                        <title level="a">Gladiators and animals: New Pictorial Graffiti from Aphrodisias and their Contexts</title>, 
+                        <title level="j">Philia</title>, <biblScope unit="vol">4</biblScope>  <biblScope unit="page">31-54</biblScope></bibl>
+                    
                     <bibl xml:id="christoph1966">  <bibl type="abbrev">Christophilopoulou, 1966</bibl> <author ref="http://viaf.org/viaf/4961231">Α. <name>Christophilopoulou</name></author>, <date>1966</date>, 
                         <title level="a">οἱ ἐκτὸς τῆς Κωνσταντινοπόλεως Βυζαντινοὶ Δῆμοι</title>, 
                         <title level="m"><ref target="https://zenon.dainst.org/Record/000935560">Charisterion Orlandou</ref></title>, 
@@ -105,7 +112,7 @@
                         <pubPlace>Roma</pubPlace></bibl>
                     
                     <bibl xml:id="gedeon1913">  <bibl type="abbrev">Gedeon, 1913</bibl> <author ref="http://viaf.org/viaf/64758841">M. <name>Gédéon</name></author>, <date>1913</date>, 
-                        <title level="m">Mnêmê Ganochôrôn</title>, 
+                        <title level="m">Μνήμη Γανοχώρων</title>, 
                         <pubPlace>Constantinople</pubPlace></bibl>
                     
                     <bibl xml:id="heberdey1907">  <bibl type="abbrev">Heberdey, 1907</bibl> <author ref="http://viaf.org/viaf/767087">R. <name>Heberdey</name></author>, <date>1907</date>, 
@@ -142,7 +149,8 @@
                         <title level="m">Recueil des inscriptions grecques-chrétiennes d’Asie Mineure</title>,
                         <pubPlace>Paris</pubPlace>, available at <ref target="https://archive.org/details/recueildesinscri0000grgo">Internet Archive</ref></bibl>
                     
-                    <bibl xml:id="bandy1970">  <bibl type="abbrev">I.Chr. Crete, 1970</bibl> <author ref="http://viaf.org/viaf/2479081">A. C. <name>Bandy</name></author>, <date>1970</date>, <title level="m" source="https://zenon.dainst.org/Record/000311490">The Greek Christian inscriptions of Crete</title>, <pubPlace>Athens</pubPlace></bibl>
+                    <bibl xml:id="bandy1970">  <bibl type="abbrev">I.Chr. Crete, 1970</bibl> <author ref="http://viaf.org/viaf/2479081">A. C. <name>Bandy</name></author>, 
+                        <date>1970</date>, <title level="m" source="https://zenon.dainst.org/Record/000311490">The Greek Christian inscriptions of Crete</title>, <pubPlace>Athens</pubPlace></bibl>
                     
                     <bibl xml:id="rehm1958">  <bibl type="abbrev">I.Didyma, 1958</bibl> <author ref="http://viaf.org/viaf/222236969">Albert <name>Rehm</name></author>, <date>1958</date>,
                         <title level="m">Didyma 2: Die Inschriften</title>, <pubPlace>Berlin</pubPlace></bibl>
@@ -207,6 +215,14 @@
                     <bibl xml:id="kiourtzian2005">  <bibl type="abbrev">Kiourtzian, 2005</bibl><author ref="http://viaf.org/viaf/42014020">G. <name>Kiourtzian</name></author>, 
                         <date>2005</date>, <title level="a">Enépigraphos plinthos</title> 
                         <title level="m">Mélanges Jean-Pierre Sodini</title>, <pubPlace>Paris</pubPlace> <biblScope>381-391</biblScope></bibl><!-- check 398 no.5 -->
+                    
+                    <bibl xml:id="knibbe1982">  <bibl type="abbrev">Knibbe and Iplikçioğlu, 1982</bibl> 
+                        <author ref="http://viaf.org/viaf/267948860">D. <name type="surname">Knibbe</name></author> and 
+                        <author ref="http://viaf.org/viaf/29528426">B. <name>Iplikçioğlu</name></author>, <date>1982</date>, 
+                        <title level="a" >Neue Inscriften aus Ephesos VIII</title>,
+                        <title level="j">Jahreshefte des Österreichischen Archäologischen Institutes</title>, <biblScope unit="issue">53</biblScope>,
+                        <biblScope unit="page">87-150</biblScope></bibl>
+                    
                    
                     <bibl xml:id="lazarides1969">  <bibl type="abbrev">Lazarides, 1907</bibl> <author>P.E. <name>Lazarides</name></author>, <date>1969</date>, 
                         <title level="a">Aνασκαφαί Nέας Aγχιάλoυ</title>, <title level="j">Πρακτικά της εν Aθήναις Aρχαιoλoγικής Eταιρείας</title>, 
@@ -232,7 +248,8 @@
                         <title level="a">Inscriptions </title>, <title level="j">Revue archéologique</title>, 
                         <biblScope unit="page">198-209</biblScope>, available at <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k203622h/f201.item">Gallica</ref></bibl>
                     
-                    <bibl xml:id="nigdelis2011">  <bibl type="abbrev">Nigdelis, 2011</bibl> <author ref="http://viaf.org/viaf/298566809">Π. Μ. <name>Νίγδελης</name></author>, <date>2011</date>, <title level="a">Μακεδονικά Επιγραφικά ΙΙΙ (Θεσσαλονίκη)</title>, <title level="j">Τεκμήρια</title>, 
+                    <bibl xml:id="nigdelis2011">  <bibl type="abbrev">Nigdelis, 2011</bibl> <author ref="http://viaf.org/viaf/298566809">Π. Μ. <name>Νίγδελης</name></author>, 
+                        <date>2011</date>, <title level="a">Μακεδονικά Επιγραφικά ΙΙΙ (Θεσσαλονίκη)</title>, <title level="j">Τεκμήρια</title>, 
                         <biblScope unit="issue">10</biblScope>, <biblScope unit="page">121-184</biblScope> available at <ref target="http://epublishing.ekt.gr/el/5131/Τεκμήρια/7082">Tekmeria</ref></bibl>
                     
                     <bibl xml:id="oikonomou2003">  <bibl type="abbrev">Oikonomou-Laniado, 2003</bibl> <author ref="http://viaf.org/viaf/54431896">A. <name>Oikonomou-Laniado</name></author>, 
@@ -366,7 +383,8 @@
                         <title level="a">Aphrodisias</title>, <title level="s">Kazı Sonuçları Toplantısı</title> <biblScope unit="issue">36.2</biblScope>
                         <biblScope unit="page">73-100</biblScope> <date>2014</date></bibl>
                     
-                    <bibl xml:id="stephanidou2014">  <bibl type="abbrev">Stephanidou, 2014</bibl> <author ref="http://viaf.org/viaf/1390042">T. <name>Stephanidou-Tiveriou</name></author>, <date>2014</date>, <title level="m" ref="https://zenon.dainst.org/Record/001406807">Die lokalen Sarkophage aus Thessaloniki</title>,
+                    <bibl xml:id="stephanidou2014">  <bibl type="abbrev">Stephanidou, 2014</bibl> <author ref="http://viaf.org/viaf/1390042">T. <name>Stephanidou-Tiveriou</name></author>, 
+                        <date>2014</date>, <title level="m" ref="https://zenon.dainst.org/Record/001406807">Die lokalen Sarkophage aus Thessaloniki</title>,
                        <title level="s"> Sarkophag-Studien</title>, <biblScope unit="issue">8</biblScope>  <pubPlace>Wiesbaden</pubPlace></bibl>
                     
                     <bibl xml:id="syon2004">  <bibl type="abbrev">Syon, 2004</bibl> <author ref="http://viaf.org/viaf/98247089">D. <name>Syon</name></author>, <date>2004</date>, 

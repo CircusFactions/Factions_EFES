@@ -100,7 +100,8 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Transcribed by Heberdey, Skizzenbuch 1029, whence <bibl><ptr target="roueche1999"/> <citedRange>13</citedRange></bibl>, whence <bibl><ptr target="seg"/> <citedRange>49.1448</citedRange></bibl></p>
+            <p>Transcribed by Heberdey, Skizzenbuch 1029, whence <bibl><ptr target="roueche1999"/> <citedRange>13</citedRange></bibl>, whence 
+               <bibl><ptr target="seg"/> <citedRange>49.1448</citedRange></bibl></p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,11 +29,11 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><rs type="execution" ref="litteris_scariphatis">Graffito</rs> on the surface.</layout>
+                                <layout><rs type="execution" ref="litteris_scariphatis">Graffito</rs> , 0.28 long, on the surface.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height>0.05</height> </handNote>
+                            <handNote><height>0.025-0.05</height> </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -43,7 +43,8 @@
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="aphsouthagora">Aphrodisias: South Agora</placeName> 
-                                (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): on the floor of the western <rs type="monument">colonnade</rs>.</p>
+                                (<ref target="https://pleiades.stoa.org/places/792804148">Pleiades</ref>): on the floor of the western <rs type="monument">colonnade</rs>.
+                             Found during cleaning in 2001.</p>
                         </provenance>
                         <provenance type="observed">
                             <p>Findspot</p>
@@ -93,12 +94,12 @@
         <body>
             <div type="bibliography">
                 <p>Mentioned <bibl><ptr target="chaniotis2011"/> <citedRange unit="page">202</citedRange></bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>2011.847</citedRange></bibl>
+                    <bibl><ptr target="seg"/> <citedRange>2011.847</citedRange></bibl>; listed <bibl><ptr target="chaniotis2018"/>13</bibl>
                 </p>
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-               <ab><lb n="1"/> <supplied reason="lost"><w lemma="νικάω">Νικᾷ</w></supplied> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w>
+               <ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <supplied reason="lost"><w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></supplied>
   <lb n="2"/> <orgName ref="#red" nymRef="#οἱ Ῥούσεοι"><w lemma="ὁ">τῶ<supplied reason="lost">ν</supplied></w> <w lemma="Ῥούσεος">Ῥουϲέων</w></orgName>
                </ab>
                

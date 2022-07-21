@@ -30,7 +30,7 @@
                         <support>
                            <p>A <objectType>block</objectType> 
                               (<dimensions><width>0.60</width><height>0.46</height> <depth>0.24</depth></dimensions>) with upper 
-                              left corner broken.</p>
+                              right corner broken.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -123,7 +123,7 @@
            <p> The fortune of the Greens [(Name)?] and Ioannes, conquers!</p> <!-- check -->
             <p></p></div>
          <div type="translation"  resp="#cmr" xml:lang="en">
-            <p> The fortune triumphs of Greens [ . .? . . ] and of Ioannes, !</p> <!-- check -->
+            <p> The fortune triumphs of Greens [ . .? . . ] and Ioannes <supplied reason="subaudible">triumphs</supplied>!</p> <!-- check -->
             <p></p></div>
          <div type="commentary">
             <p>The space may have been filled by an epithet, or by the name of another person.</p> 

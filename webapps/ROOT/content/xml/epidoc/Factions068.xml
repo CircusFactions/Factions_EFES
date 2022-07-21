@@ -104,7 +104,7 @@
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
                
-            <ab><lb n="1"/><g ref="symbol.xml#crux"/> <w lemma="ἅγιος">Ἅγιε</w> <persName type="divine" key="paulos"><name  nymRef="Παῦλος">Παῦλε</name></persName> 
+            <ab><lb n="1"/><g ref="symbol.xml#crux"/> <addName nymRef="Ἅγιος"><w lemma="ἅγιος">Ἅγιε</w></addName> <persName type="divine" ref="paulos"><name  nymRef="Παῦλος">Παῦλε</name></persName> 
                 <lb n="2"/><w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <persName type="divine" key="germanus"><name nymRef="Γερμανός"><hi rend="ligature">Γε</hi>ρμανέ</name></persName>, <w lemma="σώζω">ϲõ
                 <lb n="3" break="no"/>ον</w> <orgName ref="#blue"  nymRef="#οἱ Βένετοι"><w lemma="ὁ">τοὺϲ</w> <w lemma="βένετος">Βενέτο
                 <lb n="4" break="no"/>υϲ</w></orgName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <persName type="attested"><name nymRef="Παπίων">Παπίωνα</name>

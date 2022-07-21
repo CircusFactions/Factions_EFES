@@ -32,7 +32,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the reverse face of IEph xxx<!-- check -->
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the reverse face of a fragmentary name list, IEph 2949.1.
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -42,15 +42,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Unknown</origPlace><!-- check -->
+                     <origPlace>Unknown</origPlace>j
                      <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
-                              unknown location.</p>
+                              re-used in the Johannes-Kirche (found in 1979).</p>
                         </provenance>
                         <provenance type="observed">
-                           <p>Depot</p>
+                           <p>Depot, inv no 1965</p>
                         </provenance>
                </history>
             </msDesc>
@@ -94,9 +94,9 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, 
-               whence <bibl><ptr target="robertBE"/> <citedRange>1981.479</citedRange></bibl>, 
-               <!-- check Jahreshefte des Österreichischen Archäologischen Institutes 53, 120, no.107 -->
+            <p>Uplikçioglu, Skizzenbuch 3973, whence <bibl><ptr target="inseph"/> <citedRange unit="entry">2949.2</citedRange></bibl>, 
+               whence <bibl><ptr target="robertBE"/> <citedRange>1981.479</citedRange></bibl>; 
+               <bibl><ptr target="knibbe1982"/> <citedRange>107</citedRange></bibl>, 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/250529">250529</ref></citedRange></bibl></p>
          </div>
          
