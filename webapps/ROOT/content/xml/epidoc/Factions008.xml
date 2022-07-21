@@ -95,8 +95,11 @@
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl> <ptr target="heberdey1907"/> <citedRange unit="page">70</citedRange></bibl>, whence <bibl><ptr target="igc"/> <citedRange unit="entry">114</citedRange></bibl>, listed <bibl><ptr target="christoph1966"/> <citedRange>10</citedRange></bibl>, 
-               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; <bibl><ptr target="inseph"/> <citedRange unit="entry">1196</citedRange></bibl> from Skizzenbuch 1391; 
+            <p>Heberdey, Skizzenbuch 1391, whence <bibl> <ptr target="heberdey1907"/> <citedRange unit="page">70</citedRange></bibl>, 
+               whence <bibl><ptr target="igc"/> <citedRange unit="entry">114</citedRange></bibl>, 
+               listed <bibl><ptr target="christoph1966"/> <citedRange>10</citedRange></bibl>, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>, 
+               <bibl><ptr target="inseph"/> <citedRange unit="entry">1196</citedRange></bibl>,  
                from these <bibl><ptr target="roueche1999"/> <citedRange unit="entry">2</citedRange></bibl></p>
          </div>
          

@@ -96,12 +96,12 @@
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl> <ptr target="heberdey1907"/> <citedRange unit="page">73</citedRange></bibl>, 
+            <p>Heberdey, Skizzenbuch 1447 <bibl> <ptr target="heberdey1907"/> <citedRange unit="page">73</citedRange></bibl>, 
                whence 
                <bibl><ptr target="igc"/>, <citedRange unit="entry">113bis</citedRange></bibl>, whence listed 
                <bibl><ptr target="christoph1966"/> <citedRange unit="entry">9</citedRange></bibl>
-               <bibl><ptr target="cameronCF"/> <citedRange unit="page"> p.315</citedRange></bibl>; 
-               <bibl><ptr target="inseph"/> <citedRange unit="entry">1191.a</citedRange></bibl> from Skizzenbuch 1447; 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page"> p.315</citedRange></bibl> 
+               <bibl><ptr target="inseph"/> <citedRange unit="entry">1191.a</citedRange></bibl>; 
                republished <bibl><ptr target="roueche1999"/> <citedRange unit="entry">3</citedRange></bibl></p>
          </div>
          
