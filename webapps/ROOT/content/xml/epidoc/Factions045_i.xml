@@ -2,7 +2,7 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions045" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions045_i" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Centre for Computing in the Humanities, King's College London</authority>
-            <idno type="filename">Factions045</idno>
+            <idno type="filename">Factions045_i</idno>
             <availability>
                <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -25,16 +25,15 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p><material>Marble</material> theatre <objectType>seat</objectType>s.</p>
+                           <p><material>Marble</material> theatre <objectType>seat</objectType></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i irregular <rs type="execution" ref="litteris_scariphatis">graffito</rs>, very worn; 
-                           ii, carefully <rs type="execution" ref="scalpro">cut</rs>, on two blocks; the letters on the second have been erased</layout>
+                        <layout>Irregular <rs type="execution" ref="litteris_scariphatis">graffito</rs>, very worn</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>i, square letters <height>0.035-0.045</height>, ΟΥ in ligature; ii, lunate letters <height>0.04-0.07</height> </handNote>
+                     <handNote> square letters <height>0.035-0.045</height>, ΟΥ in ligature</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -44,7 +43,8 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="aphodeon">Aphrodisias</placeName>: 
-                              <rs type="monument">Odeon</rs> (<ref target="https://pleiades.stoa.org/places/463141627">Pleiades</ref>): Block E, i in Row 5, ii in Row 7.</p>
+                              <rs type="monument">Odeon</rs> (<ref target="https://pleiades.stoa.org/places/463141627">Pleiades</ref>): 
+                              Block E, Row 5.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -89,36 +89,32 @@
           <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
    </teiHeader><facsimile><graphic url="FactionAphrod45a.jpg"><desc>Face (Roueché, 1972: 72.A.27A)</desc></graphic>
-      <graphic url="FactionAphrod45b.jpg"><desc>Face (Roueché, 1972: 72.A.26A)</desc></graphic></facsimile>
+      </facsimile>
    <text>
       <body>
          <div type="bibliography">
-            <p>i and ii: Cited <bibl><ptr target="cameronCF"/><citedRange>315</citedRange></bibl>;
-             published <bibl><ptr target="roueche1989"/> <citedRange>180.iv and v</citedRange></bibl>, whence 
-               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257577">257577</ref></citedRange>, 
-                  <citedRange><ref target="https://epigraphy.packhum.org/text/257578">257578</ref></citedRange></bibl>;
+            <p>Cited <bibl><ptr target="cameronCF"/><citedRange>315</citedRange></bibl>;
+             published <bibl><ptr target="roueche1989"/> <citedRange>180.v</citedRange></bibl>, whence 
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257577">257577</ref></citedRange></bibl>;
              <bibl><ptr target="roueche1993"/> <citedRange unit="entry">47.2.E</citedRange></bibl>, whence 
-               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265137">265137</ref></citedRange>, 
-                  <citedRange><ref target="https://epigraphy.packhum.org/text/265138">265138</ref></citedRange></bibl>;
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265138">265138</ref></citedRange></bibl>;
                <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020008.html">2.8</ref></citedRange></bibl>
                </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
                     
-               <div type="textpart" n="i"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><orgName ref="#blue" nymRef="#Βένετον"><w lemma="βένετος">Βενέτ<hi rend="ligature"><unclear>ου</unclear></hi></w></orgName>
-               </ab></div>
-            <div type="textpart" n="ii"><ab>
-               <lb n="1"/><w lemma="τόπος">τό <milestone unit="block"/><del rend="erasure">πόϲ</del></w> <del rend="erasure"><orgName ref="#blue" nymRef="#Βένετοι"><w lemma="βένετος"><expan><abbr>Βενέ</abbr><ex>των</ex></expan></w></orgName></del>
-            </ab></div>
+               <ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><orgName ref="#blue" nymRef="#Βένετον"><w lemma="βένετος">Βενέτ<hi rend="ligature"><unclear>ου</unclear></hi></w></orgName>
+               </ab>
+            
              </div> 
          
-         <div type="translation" xml:lang="en" source="#roueche1989"><p><note>i</note>: [ . . ? . . ] of  Blue</p>
-              <p><note>ii</note>: Place of Blues</p>
+         <div type="translation" xml:lang="en" source="#roueche1989"><p>[ . . ? . . ] of  Blue</p>
+              
            </div>
          <div type="translation" xml:lang="en" source="#roueche1993">
-            <p><note>i</note>: [ . . ? . . ] of <supplied reason="subaudible">the</supplied> Blue <supplied reason="subaudible">faction</supplied></p>
-         <p><note>ii</note>: Place of Blues</p>
+            <p> [ . . ? . . ] of <supplied reason="subaudible">the</supplied> Blue <supplied reason="subaudible">faction</supplied></p>
+         
          </div>
          
          <div type="commentary">
