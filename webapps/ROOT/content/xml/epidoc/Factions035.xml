@@ -30,7 +30,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the southern faces of the three bases.
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the southern faces of the three bases. The final word of i and iii is a <rs type="execution" ref="monogram">monogram</rs>.
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -127,7 +127,8 @@
          </div>
          
         
-         <div type="translation" xml:lang="en" source="#roueche1989"><p><note>i</note> The fortune of the ?Greens triumphs!</p> 
+         <div type="translation" xml:lang="en" source="#roueche1989">
+            <p><note>i</note> The fortune of the ?Greens triumphs!</p> 
    <p><note>ii</note> Up with the fortune of the city!</p> 
    <p><note>iii</note> The fortune of the ?Blues triumphs!</p>
            </div>

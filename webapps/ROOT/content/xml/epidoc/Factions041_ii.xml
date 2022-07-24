@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions010" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions041" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,13 +11,11 @@
          </titleStmt>
          <publicationStmt>
             <authority>Centre for Computing in the Humanities, King's College London</authority>
-            <idno type="filename">Factions010</idno>
+            <idno type="filename">Factions041</idno>
             <availability>
                <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
-               <p>All reuse or distribution of this work must contain somewhere a link back to the
-                    URL <ref>http://inslib.kcl.ac.uk/</ref>
-               </p>
+               
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,26 +25,25 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p><objectType>Column shaft</objectType></p>
+                           <p><material>Marble</material> <objectType>seat</objectType></p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the face towards the street, a <rs type="execution" ref="monogram">monogram</rs> within an inscribed circle</layout>
+                        <layout>Shallow <rs type="execution" ref="litteris_scariphatis">graffito</rs> box <rs type="execution" ref="monogram">monogram</rs>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>A monogram <dimensions><height unit="metre">0.25</height> <width>0.17</width></dimensions>.</handNote>
+                     <handNote> <height>0.08</height>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Findspot</origPlace>
-                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth -sixth century C.E.</origDate>
+                     <origPlace>Findspot</origPlace> <!-- check NdeC --> 
+                     <origDate notBefore="0401" notAfter="0600"  precision="low" evidence="content, lettering">Fifth - seventh century C.E.</origDate>
                   </origin>
                         <provenance type="found">
-                           <p>
-                              <placeName type="ancientFindspot" ref="ephesus">Ephesus</placeName> (<ref target="https://pleiades.stoa.org/places/599612">Pleiades</ref>): 
-                              the <rs type="monument">colonnade</rs> (Neronian Halle) on the west side of the Marble street</p>
+                           <p><placeName type="ancientFindspot" ref="aphtheatre">Aphrodisias: 
+                              <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>), seat: Block E, Row 9.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -58,7 +54,8 @@
       </fileDesc>
       <encodingDesc>
          <p>Marked-up according to the EpiDoc Guidelines version 8</p>
-      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category>
+         <category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="ar">Arabic</language>
@@ -82,37 +79,43 @@
                         <geogName type="modernCountry" key="TR">Turkey</geogName>
                     </term>
                <term>
-                  <placeName type="modernFindspot" ref="https://www.geonames.org/7522155">Ephesus</placeName>
+                  <placeName type="modernFindspot" ref="https://www.geonames.org/7733053">Aphrodisias</placeName>
                     </term>
             </keywords>
          </textClass>
       <creation>From transcription (Roueché)</creation></profileDesc>
       <revisionDesc>
-          <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
+          <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader>
-   <facsimile><surface><graphic url="FactionEphesos10.jpg"><desc>Face (2004)</desc></graphic>
-      <graphic url="FactionEphesos10a.jpg"><desc>Face (1996)</desc></graphic></surface></facsimile>
+   </teiHeader><facsimile>
+      <graphic url="FactionAphrod41a.jpg"><desc>Face (Roueché, 1975: 75.J.12A)</desc></graphic>
+      
+      </facsimile>
    <text>
       <body>
          <div type="bibliography">
-            <p><bibl><ptr target="roueche2007"/> <citedRange unit="page">231</citedRange></bibl>, whence <bibl> <ptr target="ae"/> <citedRange>2007.1393</citedRange></bibl>, 
-               <bibl><ptr target="seg"/> <citedRange>57.1119.c</citedRange>, <citedRange>58.1331</citedRange></bibl></p>
+            <p><bibl><ptr target="roueche1993"/> <citedRange unit="entry">46.E</citedRange></bibl>,  whence 
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265054">265054</ref></citedRange></bibl>; 
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080057.html">8.57.9.ii</ref></citedRange></bibl>
+               </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
-          <ab><!-- mark up as monogram -->
-  <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> 
-     <w lemma="πράσινος">Πραϲίνων</w></orgName>
-
-</ab>
+              
+         <ab>          
+               <lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName>
+               </ab>  
+             
          </div>
          
-         <div type="translation"  source="#roueche2007" xml:lang="en">
-           <p>The fortune of the Greens triumphs!
-</p></div>
+         
+         <div type="translation" xml:lang="en" source="#roueche1993"><p>
+            The fortune of the Greens! </p>
+           </div>
+         
          <div type="commentary">
-            <p></p> 
+            <p>
+            </p> 
          </div>
          
       </body>
