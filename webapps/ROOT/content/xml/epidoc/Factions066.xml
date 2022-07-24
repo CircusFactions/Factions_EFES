@@ -31,7 +31,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed </rs> on the face, on either side of a central cross, in a circle, in relief.</layout>
+                                <layout> <rs type="execution" ref="scalpro">Inscribed </rs> on the face, on either side of a central cross, in a circle, in relief.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

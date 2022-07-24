@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="litteris scariphatis">Graffito</rs> on the torus of the base; no further description. 
+                                <layout><rs type="execution" ref="litteris_scariphatis">Graffito</rs> on the torus of the base; no further description. 
                                     Below the text is a graffito winged figure</layout>
                             </layoutDesc>
                         </objectDesc>

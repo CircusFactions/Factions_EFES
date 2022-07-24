@@ -31,7 +31,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="litteris tessellis">Mosaic</rs> letters within a circular medallion.</layout>
+                                <layout><rs type="execution" ref="tessellis">Mosaic</rs> letters within a circular medallion.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType">Invocation</rs> for the Blues</title>
+                <title><rs type="textType">Prayer</rs> for the Blues</title>
                 <editor xml:id="cmr">Charlotte Roueché</editor>
             </titleStmt>
             <publicationStmt>
@@ -31,11 +31,11 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed</rs> before firing.</layout>
+                                <layout> <rs type="execution" ref="scalpro">Inscribed</rs> before firing.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Elegant,  <height>0.04-0.05</height></handNote>
+                            <handNote>Elegant, <height>0.04-0.05</height></handNote>
                         </handDesc>
                     </physDesc>
                     <history>

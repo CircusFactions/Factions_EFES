@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Red <rs key="tessellis">mosaic</rs> lettering in a medallion <dim>1.23</dim></layout>
+                                <layout>Red <rs type="execution"  key="tessellis">mosaic</rs> lettering in a medallion <dim>1.23</dim></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

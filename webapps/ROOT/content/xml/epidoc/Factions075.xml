@@ -31,7 +31,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout><rs key="scalpro">Inscribed</rs> on both sides, above and below relief images of pantomime performance</layout> 
+                                <layout><rs type="execution" ref="scalpro">Inscribed</rs> on both sides, above and below relief images of pantomime performance</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

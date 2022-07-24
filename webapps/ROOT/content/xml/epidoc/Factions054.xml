@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Irregular <rs key="litteris scariphatis">graffito</rs> letters, 0.47 long</layout>
+                                <layout>Irregular <rs type="execution" ref="litteris_scariphatis">graffito</rs> letters, 0.47 long</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

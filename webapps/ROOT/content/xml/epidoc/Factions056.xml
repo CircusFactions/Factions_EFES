@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Red <rs key="tessellis">mosaic</rs> lettering in two medallions: i is complete, <dim>1.15</dim>; 
+                                <layout>Red <rs type="execution" ref="tessellis">mosaic</rs> lettering in two medallions: i is complete, <dim>1.15</dim>; 
                                     ii is from the lower left corner of a separate medallion <dim>0.96</dim>, with a decoration below of trailing ribbons. 
                                     </layout>
                             </layoutDesc>

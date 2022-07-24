@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed </rs> around an inscribed cross: a above, left; b below the cross bar, across the centre bar</layout>
+                                <layout> <rs type="execution" ref="scalpro">Inscribed </rs> around an inscribed cross: a above, left; b below the cross bar, across the centre bar</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

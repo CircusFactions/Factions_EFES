@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="scalpro">Inscribed</rs> on the shaft</layout>
+                                <layout> <rs type="execution" ref="scalpro">Inscribed</rs> on the shaft</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

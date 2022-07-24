@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Shallow <rs key="litteris scariphatis">graffito</rs> across the face.</layout> 
+                                <layout>Shallow <rs type="execution" ref="litteris_scariphatis">graffito</rs> across the face.</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

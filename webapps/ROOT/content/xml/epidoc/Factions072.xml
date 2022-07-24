@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="litteris scariphatis">Incised</rs> lengthways along the upper face. There are horizonal lines above and below the text, and
+                                <layout> <rs type="execution" ref="litteris_scariphatis">Incised</rs> lengthways along the upper face. There are horizonal lines above and below the text, and
                                     between a, b, and c but the hand is the same.</layout> <!-- check -->
                             </layoutDesc>
                         </objectDesc>

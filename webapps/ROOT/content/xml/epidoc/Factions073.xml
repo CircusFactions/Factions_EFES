@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="litteris scariphatis">Lightly incised</rs> on the face.</layout> <!-- check -->
+                                <layout> <rs type="execution" ref="litteris_scariphatis">Lightly incised</rs> on the face.</layout> <!-- check -->
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

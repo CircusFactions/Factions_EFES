@@ -30,7 +30,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>Deeply <rs key="litteris scariphatis">incised</rs> lengthways along the face.</layout> 
+                                <layout>Deeply <rs type="execution" ref="litteris_scariphatis">incised</rs> lengthways along the face.</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>

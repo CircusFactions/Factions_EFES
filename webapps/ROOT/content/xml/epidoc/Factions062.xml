@@ -29,7 +29,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout> <rs key="tessellis">Μosaic</rs> within a medallion</layout>
+                                <layout> <rs type="execution" ref="tessellis">Μosaic</rs> within a medallion</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
