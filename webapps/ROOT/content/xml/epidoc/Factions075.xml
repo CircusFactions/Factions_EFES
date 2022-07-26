@@ -104,8 +104,8 @@
             <div type="bibliography">
                 <p><bibl><ptr target="dain1933"/> <citedRange>217</citedRange></bibl>, whence 
                     <bibl><ptr target="christoph1966"/> <citedRange>24</citedRange></bibl>, 
-                    <bibl> <ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>, 
-                    <bibl> <ptr target="cameronCF"/> <citedRange unit="page">317</citedRange></bibl>.
+                    discussed <bibl> <ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>, 
+                    listed <bibl> <ptr target="cameronCF"/> <citedRange unit="page">317</citedRange></bibl>.
                     Catalogue description and illustration, <bibl><ref target="https://collections.louvre.fr/en/ark:/53355/cl010044601">Louvre</ref></bibl>
                     <!-- Marie-Hélène Rutschowscaya, Le peigne d’Helladia, Études Coptes, 7 (2000), 235–244  UCL, BL-->
                 </p>

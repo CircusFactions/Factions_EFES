@@ -92,7 +92,8 @@
     <text>
         <body>
             <div type="bibliography">
-                <p><bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">1</citedRange></bibl>, whence 
+                <p> Mentioned <bibl> <ptr target="cameronCF"/> <citedRange unit="page">317</citedRange></bibl>; 
+                    published<bibl><ptr target="reycoquais2002"/> <citedRange unit="entry">1</citedRange></bibl>, whence 
                     <bibl><ptr target="seg"/> <citedRange>52.1601</citedRange></bibl>, <bibl><ptr target="feisselBE"/>2003.579</bibl>, 
                     also <bibl><ptr target="feissel2006"/> <citedRange>682</citedRange></bibl>;
                     <bibl><ptr target="ityr2006"/> <citedRange>127</citedRange></bibl> 

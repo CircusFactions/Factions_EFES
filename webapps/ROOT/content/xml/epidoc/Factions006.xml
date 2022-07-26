@@ -103,7 +103,7 @@
                available at <ref target="https://digi.ub.uni-heidelberg.de/diglit/blouet1838/0130/image">Heidelberg Digital Library</ref></bibl>, 
                whence <bibl><ptr target="boeckh1843"/>, <citedRange>3171b</citedRange></bibl>, 
                <bibl><ptr target="petzl1987"/>, <citedRange>886</citedRange></bibl>; corrected 
-               <bibl><ptr target="feisselBE"/> <citedRange>1989.916</citedRange></bibl>, <bibl><ptr target="feissel2006"/>, <citedRange>257</citedRange></bibl>.</p>
+               <bibl><ptr target="feisselBE"/> <citedRange><ref target="https://www.persee.fr/doc/reg_0035-2039_1989_num_102_487_2457#reg_0035-2039_1989_num_102_487_T2_0481_0000">1989.916</ref></citedRange></bibl>, <bibl><ptr target="feissel2006"/>, <citedRange>257</citedRange></bibl>.</p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
@@ -121,7 +121,7 @@
            <p> . . . of the Blues . . .</p></div>
          <div type="commentary">
             <p>Le Bas interpreted the surviving letters as a reference to the Heneti/Veneti, translating as "Offrande des Hénètes"; 
-               this was corrected by Feissel.</p> 
+               this was corrected by Feissel. <!-- check --></p> 
          </div>
          
       </body>

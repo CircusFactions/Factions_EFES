@@ -98,8 +98,8 @@
             <p>Benndorf, Skizzenbuch 15, whence <bibl><ptr target="hula1898"/> <citedRange unit="page">241</citedRange></bibl>, 
                <bibl><ptr target="igc"/><citedRange unit="entry">112</citedRange></bibl>, 
                 <bibl><ptr target="christoph1966"/> <citedRange unit="entry">13</citedRange></bibl>, 
-               cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>, and listed, 
-               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>,
+               cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">74</citedRange></bibl>, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange> (listed)</bibl>,
                <bibl><ptr target="inseph"/> <citedRange unit="entry">1193</citedRange></bibl>;   
                <bibl><ptr target="roueche1999"/> <citedRange unit="entry">17</citedRange></bibl>.</p>
          </div>

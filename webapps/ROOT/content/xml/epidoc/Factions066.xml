@@ -94,13 +94,11 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="paes"/> <citedRange>266</citedRange> (copied by Littman)</bibl>, whence 
-                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">16</citedRange></bibl>, and listed, 
-                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange></bibl>;
+                    <bibl><ptr target="christoph1966"/> <citedRange unit="entry">16</citedRange></bibl>, 
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange> (listed)</bibl>;
                     <bibl><ptr target="igls2009"/> <citedRange>148</citedRange></bibl>, whence 
                     <bibl><ptr target="seg"/> <citedRange>59.1721</citedRange></bibl>, 
-                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341674">341674</ref></citedRange></bibl>, 
-                    <bibl><ptr target="feisselBE"/> <citedRange>612</citedRange></bibl>
-          .
+                    <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/341674">341674</ref></citedRange></bibl>.
                     </p>
             </div>
             

@@ -106,7 +106,7 @@
                     <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/222092">222092</ref></citedRange>, 
                         <citedRange><ref target="https://epigraphy.packhum.org/text/222093">222093</ref></citedRange></bibl>,
                     <bibl><ptr target="christoph1966"/> <citedRange>22, 23</citedRange></bibl>,  
-                    <bibl> <ptr target="cameronCF"/> <citedRange unit="page">148</citedRange>, <citedRange unit="page">317</citedRange></bibl>; 
+                    <bibl> <ptr target="cameronCF"/> discussed <citedRange unit="page">148</citedRange>, listed <citedRange unit="page">317</citedRange></bibl>; 
                     copied by Walker and published  <bibl><ptr target="flinders1925"/> <citedRange unit="page">13</citedRange></bibl>.
                 </p>
             </div>

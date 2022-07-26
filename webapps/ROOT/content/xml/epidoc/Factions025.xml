@@ -97,7 +97,7 @@
          <div type="bibliography">
             <p>Recorded by Peter Herrman, whence
                <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange></bibl>; 
-               published <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.III.h</citedRange>
+               fully published <bibl><ptr target="herrmann2006"/> <citedRange unit="entry">940.III.h</citedRange>
                </bibl>, whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/351669">351676</ref></citedRange></bibl>
                </p>
          </div>

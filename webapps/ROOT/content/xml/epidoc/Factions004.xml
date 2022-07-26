@@ -102,9 +102,9 @@
          <div type="bibliography">
             <p>Copied by Halbherr, and published from his drawing  <bibl> <ptr target="inscret"/> <citedRange>IV, 513</citedRange></bibl>, 
                whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/200963">200963</ref></citedRange></bibl>, 
-               cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">75</citedRange></bibl>, and listed, 
-               <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange>, cf p.126</bibl>; 
-               republished <bibl> <ptr target="bandy1970"/> <citedRange>20</citedRange></bibl></p>
+               cited <bibl><ptr target="cameron1973"/> <citedRange unit="page">75</citedRange></bibl>, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange> (listed), cf p.126</bibl>; 
+               republished <bibl> <ptr target="bandy1970"/> <citedRange>20</citedRange></bibl>.</p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -52,7 +52,7 @@
                         <provenance type="found">
                            <p>
                               <placeName type="ancientFindspot" ref="thessalonica">Thessalonica</placeName>
-                              (<ref target="https://pleiades.stoa.org/places/491741">Pleiades</ref>):</p>
+                              (<ref target="https://pleiades.stoa.org/places/491741">Pleiades</ref>) <!-- check --></p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot.</p>
@@ -102,14 +102,14 @@
       <body>
          <div type="bibliography">
             <p>First published by <bibl><ptr target="edson1972"/> <citedRange>842</citedRange></bibl>
-               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/138030">138030</ref></citedRange></bibl>, and listed, 
-               <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange></bibl>; 
+               whence <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/138030">138030</ref></citedRange></bibl>,  
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">314</citedRange> (listed)</bibl>; 
                discussed <bibl><ptr target="daux1973"/> <citedRange unit="page">599</citedRange></bibl>, 
-               <!-- Peek in Maia 25 1973) -->
+               <!-- check Peek in Maia 25 1973) -->
                <bibl><ptr target="robert1974"/> <citedRange unit="page">185</citedRange></bibl>, 
                 <bibl><ptr target="nigdelis2011"/> <citedRange>171-172</citedRange></bibl>; 
                sarcophagus republished, 
-               <bibl> <ptr target="stephanidou2014"/> <citedRange>15</citedRange>, with commentary by Nigdelis and plates 14-15.</bibl>. 
+               <bibl> <ptr target="stephanidou2014"/> <citedRange>15</citedRange>, with commentary by Nigdelis and plates 14-15.</bibl> 
                From these <bibl><ptr target="seg"/> <citedRange>61.536</citedRange></bibl>. 
                Edited and translated by Hallof, <bibl><ptr target="telota"/> <ref target="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20X%202,%201,%20842">IG X, 2, 1, 842</ref> 
               </bibl></p>
@@ -154,8 +154,7 @@
             <p>Edson suggested a third century date; but Nigdelis pointed out that the fine, in gold, would be more compatible with a fourth or fifth century date, 
                as would the letter forms.</p>
             <p>The last line apparently contrasts the passion of factional enthusiasm with the lack of feeling in death.</p>
-            <p> 
-               ϲίλικι: From Latin silex</p>
+            <p>σίλικι: From Latin <foreign xml:lang="la">silex</foreign>.</p>
          </div>
          
       </body>

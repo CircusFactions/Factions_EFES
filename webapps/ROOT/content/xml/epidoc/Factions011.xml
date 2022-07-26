@@ -98,8 +98,8 @@
    <text>
       <body>
          <div type="bibliography">
-            <p>Heberdey, Skizzenbuch 1028, whence <bibl><ptr target="igc"/> <citedRange unit="entry">114(5)</citedRange></bibl>, whence 
-               <bibl><ptr target="cameronCF"/> listed <citedRange unit="page">315</citedRange></bibl>,  
+            <p>Heberdey, Skizzenbuch 1028, whence <bibl><ptr target="igc"/> <citedRange unit="entry">114(5)</citedRange></bibl>, 
+               <bibl><ptr target="cameronCF"/> <citedRange unit="page">315</citedRange>  (listed)</bibl>,  
                <bibl><ptr target="inseph"/> <citedRange unit="entry">1192.3</citedRange></bibl>;  
                Republished by <bibl> <ptr target="thuer1989"/> <citedRange unit="page">74-5</citedRange> <citedRange unit="entry">4</citedRange></bibl>, whence 
                <bibl><ptr target="seg"/> <citedRange>39.1187</citedRange></bibl>;   
