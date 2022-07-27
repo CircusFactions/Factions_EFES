@@ -92,11 +92,11 @@
               <kiln:block name="content" />
             </main>
           </kiln:block>
-          <kiln:block name="footer">
+          <!--<kiln:block name="footer">
             <footer>
               <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>/<a href="https://github.com/EpiDoc/EFES">EFES</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</p>
             </footer>
-          </kiln:block>
+          </kiln:block>-->
           <kiln:block name="end-js">
             <!-- Since we make use of jQuery for other purposes, there
                  is no reason to use Foundation's check whether to use

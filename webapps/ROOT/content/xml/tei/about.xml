@@ -21,7 +21,7 @@
                <p>
                 A collection of currently known inscribed references to the Circus Factions in the eastern empire, beyond Constantinople was first made by 
                 Αnastasia Christophilopoulou (<bibl><ptr target="christoph1966"/>Christophilopoulou, 1966</bibl>); Alan Cameron then developed this in an Appendix to his 1976 study, 
-                   <bibl><ptr target="cameronCF"/><hi rend="italic">Circus Factions</hi></bibl>. An expanded list was presented in <bibl><ptr target="roueche2021"/>Roueché: 2021</bibl>. 
+                   <bibl><ptr target="cameronCF"/><title>Circus Factions</title></bibl>. An expanded list was presented in <bibl><ptr target="roueche2021"/>Roueché: 2021</bibl>. 
                    The numbering of this collection follows that in the 2021 article, with some additions.
 These publications were simple assemblies or lists of texts, without the opportunity to present them in context. The aim of this article is to explore 
 the benefits of online publication for a study of this kind. The material can, of course, be presented in full, with detailed descriptions of each of the 83 texts 
@@ -30,22 +30,22 @@ to greater understanding of their function and significance.
             </p>
             <p> Cameron presented the items 
               by geographical area: but this form of presentation - imposed by a list in analogue form - perhaps obscures other differentiating 
-              features. For the <hi rend="b">geographic</hi> distribution see Index of <ref target="indices/epidoc/findspot.html">Findspots</ref>. 
+              features. For the <emph>geographic</emph> distribution see Index of <ref target="../indices/epidoc/findspot.html">Findspots</ref>. 
               To some extent the distribution reflects the intensity of study in certain areas: 
               there is for example a great deal of material from the well-excavated sites of Aphrodisias and Ephesus, and 83 texts come from only 30 locations. 
               Of those, only seven had hippodromes; but this simply demonstrated, as Cameron showed, that interest in the factions spread far beyond the hippodrome. 
               Indexing 
             makes it possible to see the variations in terminology and epithets used of the factions - and shows examples of the Reds as well as the Blues and Greens 
-             see Index of <ref target="indices/epidoc/organisation.html">Organisations</ref></p> 
+             see Index of <ref target="../indices/epidoc/organisations.html">Organisations</ref></p> 
             
             <p>Out of 83 inscriptions the majority (50) have been recorded in situ, from sites which were not overlaid by further development after the seventh century. 
 
-The <hi rend="b">locations</hi> can therefore be examined: see <ref target="search/">Search</ref>, under Monument Type. Many of the locations (30) are in auditoria, 
+The <emph>locations</emph> can therefore be examined: see <ref target="../search/">Search</ref>, under Monument Type. Many of the locations (30) are in auditoria, 
               as might be expected, or in streets, stairways and colonnades (16), where they may reflect the involvement of the factions in public ceremonial activities. 
               But some are found in a domestic context - and three - two acclamations and a prayer - are found in churches (<ref type="inscription" n="Factions023">23</ref>, 
                 <ref type="inscription" n="Factions065">65</ref>, <ref type="inscription" n="Factions068">68</ref>, with also perhaps <ref type="inscription" n="Factions061">61</ref>).</p>
             
-            <p>The texts can be analysed by <hi rend="b">type</hi>: see <ref target="./search/">Search</ref>, under Text Type. Three people are identified by their factional 
+            <p>The texts can be analysed by <emph>type</emph>: see <ref target="../search/">Search</ref>, under Text Type. Three people are identified by their factional 
               loyalties in their epitaphs; there are also 13 place 
               inscriptions. But three-quarters - 61 - are acclamations, 
               52 of which invoke fortune, 49 calling for the victory of fortune, 
@@ -57,8 +57,8 @@ The <hi rend="b">locations</hi> can therefore be examined: see <ref target="sear
               while some acclamations are clearly private/domestic - for example on a comb (<ref type="inscription" n="Factions075">75</ref>), or a pithos (<ref type="inscription" n="Factions061">61</ref>). 
               </p>
             
-            <p>There are further examples of texts whose function is indicated by their <hi rend="b">support</hi> 
-              (see <ref target="search/">Search</ref>, under Support Object Type). 11 acclamations are on seating - 
+            <p>There are further examples of texts whose function is indicated by their <emph>support</emph> 
+              (see <ref target="../search/">Search</ref>, under Support Object Type). 11 acclamations are on seating - 
               which might mark official or unofficial allocation; eight other seats have place inscriptions. We can reasonably see both acclamations and place inscriptions on seats as serving a similar purpose, 
               of marking out seating for a group. Four place inscriptions and eight acclamations are on column shafts; 
               this is not unusual for place inscriptions, although it is sometimes unclear exactly what space they are defining. Their function may of course vary, 
@@ -84,14 +84,14 @@ The <hi rend="b">locations</hi> can therefore be examined: see <ref target="sear
             invocations of good fortune, in the tradition of the 'épigraphie des linteaux' characteristic of the area, perhaps more than expressions of support for a colour.<!--  This has led me to argue 
             that these texts may reflect, in some cases, a general wish to be associated with victory, perhaps even more than partisanship (see further <bibl><ptr target="roueche2021"/>Roueché 2021</bibl>) --></p>
             
-            <p><hi rend="b">Execution</hi>?
+            <p><emph>Execution</emph>?
             Traditional scholarship for many years saw such texts as insignificant, both because of their apparently frivolous content, and also because of their script; they were often classified as miscellaneous, 
             or with the rather unclear designation of graffiti, applied both to content and to form. We have a better understanding now of the role of acclamations, and 
             the study of late antique epigraphy has helped us appreciate styles of inscription that may have seemed inferior or casual. 
             Some texts are clearly the work of a mason with a chisel, even if the alignment is inelegant: 
             a striking example is the acclamations for Albinus at Aphrodisias, <ref target="https://insaph.kcl.ac.uk/insaph/iaph2007/iAph040021.html">IAph2007 4.21</ref>. Some are also in prominent 
                 and public positions, such as those in the streets of Ephesus. The manner of inscribing is 
-            clearly important: see <ref target="search/">Search</ref>, under Execution Technique. 
+            clearly important: see <ref target="../search/">Search</ref>, under Execution Technique. 
             But whether an inscription can be understood as public/official or private/unofficial remains difficult in many cases. I have identified 43 texts as Inscribed/chiselled, and 
             another 32 as scratched/graffito: but in several cases I am far from sure of the appropriate description. It may be that we need 
             further descriptive categories for defining various forms of non-standard execution. There is also probably more material to be discovered. In particular the identification of acclamations 

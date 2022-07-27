@@ -28,14 +28,9 @@
             <p class="text-center">Examining the epigraphic evidence</p>
             <p class="text-center">Charlotte Roueché</p>
             <p class="text-center"><a href="inscriptions/"><img alt="FactionEphesos16" title="FactionEphesos16" src="{$kiln:assets-path}/images/FactionEphesos16.jpg"/></a></p>
-            
-
-             
-
-            
+            <p class="text-center credits">Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>/<a href="https://github.com/EpiDoc/EFES">EFES</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</p>
             </div>
             </div>
-        
       </main>
     </kiln:block>
   </kiln:child>
