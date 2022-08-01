@@ -20,8 +20,11 @@
                 
                <p>
                 A collection of currently known inscribed references to the Circus Factions in the eastern empire, beyond Constantinople was first made by 
-                Αnastasia Christophilopoulou (<bibl><ptr target="christoph1966"/>Christophilopoulou, 1966</bibl>); Alan Cameron then developed this in an Appendix to his 1976 study, 
-                   <bibl><ptr target="cameronCF"/><title>Circus Factions</title></bibl>. An expanded list was presented in <bibl><ptr target="roueche2021"/>Roueché: 2021</bibl>. 
+
+                Αnastasia Christophilopoulou (<ref target="../concordance/bibliography/christoph1966.html">Christophilopoulou, 1966</ref>); Alan Cameron then developed this in an Appendix to his 1976 study, 
+                   <ref target="../concordance/bibliography/cameronCF.html"><hi rend="italic">Circus Factions</hi></ref>. 
+                   An expanded list was presented in <ref target="../concordance/bibliography/roueche2021">Roueché: 2021</ref>. 
+
                    The numbering of this collection follows that in the 2021 article, with some additions.
 These publications were simple assemblies or lists of texts, without the opportunity to present them in context. The aim of this article is to explore 
 the benefits of online publication for a study of this kind. The material can, of course, be presented in full, with detailed descriptions of each of the 83 texts 
