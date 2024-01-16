@@ -113,7 +113,7 @@
                <listApp>
                    <app loc="3"><lem>ΤΜ</lem><note>: the tesserae have now been disturbed, but the two letters appeared to be in ligature, with a Ρ above. 
                        They might form ΤΡΜ or ΠΡΜ</note>
-                       <rdg source="#ityr2006">Π(ρωτο)μητροπόλεος</rdg> <rdg source="#feisselBE">Τ(υ)ρ(ίων) μητροπόλεος</rdg></app>
+                       <rdg resp="#ityr2006">Π(ρωτο)μητροπόλεος</rdg> <rdg resp="#feisselBE">Τ(υ)ρ(ίων) μητροπόλεος</rdg></app>
                </listApp>
            </div>
            

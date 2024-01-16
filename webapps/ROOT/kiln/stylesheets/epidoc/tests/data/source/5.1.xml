@@ -149,34 +149,34 @@
          </div>
          <div type="apparatus">
             <listApp>
-               <app loc="1-2"><rdg source="bib:b0347" xml:lang="cu">В  лт ѕѯ іѡ(анн) ігумень</rdg>
+               <app loc="1-2"><rdg resp="bib:b0347" xml:lang="cu">В  лт ѕѯ іѡ(анн) ігумень</rdg>
                   <rdg><note>om. alii</note></rdg></app>
-               <app loc="1"><rdg source="bib:b0252">ςϠξ´</rdg></app>
-               <app loc="2"><rdg source="bib:b0252" xml:lang="ar">٣١٢</rdg></app>
+               <app loc="1"><rdg resp="bib:b0252">ςϠξ´</rdg></app>
+               <app loc="2"><rdg resp="bib:b0252" xml:lang="ar">٣١٢</rdg></app>
                <app loc="3">
-                  <rdg source="bib:b0176 bib:b0273 bib:b0347 bib:b0252">Θεία</rdg>
-                  <rdg source="bib:b0132">τόδ]ε</rdg>
-                  <rdg source="bib:b0397">(βο)ηθείᾳ</rdg>
-                  <rdg source="bib:b0426">ἡ θεία (?)</rdg>
+                  <rdg resp="bib:b0176 bib:b0273 bib:b0347 bib:b0252">Θεία</rdg>
+                  <rdg resp="bib:b0132">τόδ]ε</rdg>
+                  <rdg resp="bib:b0397">(βο)ηθείᾳ</rdg>
+                  <rdg resp="bib:b0426">ἡ θεία (?)</rdg>
                </app>
                <app loc="4">
-                  <rdg source="bib:b0176">ἔλθη (ἡ χάρις)</rdg>
-                  <rdg source="bib:b0132">[Βοή]θη ? ὀ</rdg>
-                  <rdg source="bib:b0273 bib:b0252">ἔλθῃς</rdg>
-                  <rdg source="bib:b0347">ἔλθ(ον)</rdg>
-                  <rdg source="bib:b0426">ἐλθὲ</rdg>
+                  <rdg resp="bib:b0176">ἔλθη (ἡ χάρις)</rdg>
+                  <rdg resp="bib:b0132">[Βοή]θη ? ὀ</rdg>
+                  <rdg resp="bib:b0273 bib:b0252">ἔλθῃς</rdg>
+                  <rdg resp="bib:b0347">ἔλθ(ον)</rdg>
+                  <rdg resp="bib:b0426">ἐλθὲ</rdg>
                </app>
-               <app loc="4"><lem>βοηθὸς</lem><rdg source="bib:b0252"><note>om.</note></rdg></app>
-               <app loc="4"><rdg source="bib:b0176 bib:b0132 bib:b0311">Ἰ(ησοῦ)ς</rdg>
-                  <rdg source="bib:b0347">(ὁ) ἱερὸς ναὸς</rdg></app>
-               <app loc="4"><rdg source="bib:b0347">Χ(ριστο)ῦ</rdg></app>
-               <app loc="4"><rdg source="bib:b0176">πεποιηκότι</rdg> <note> et alii</note>
+               <app loc="4"><lem>βοηθὸς</lem><rdg resp="bib:b0252"><note>om.</note></rdg></app>
+               <app loc="4"><rdg resp="bib:b0176 bib:b0132 bib:b0311">Ἰ(ησοῦ)ς</rdg>
+                  <rdg resp="bib:b0347">(ὁ) ἱερὸς ναὸς</rdg></app>
+               <app loc="4"><rdg resp="bib:b0347">Χ(ριστο)ῦ</rdg></app>
+               <app loc="4"><rdg resp="bib:b0176">πεποιηκότι</rdg> <note> et alii</note>
                   <rdg>? Κόστι <note>Skrzynska<!--needs link--></note></rdg>
-                  <rdg source="bib:b0347">πεντηκόστῃ</rdg>
-                  <rdg source="bib:b0426">ποιηκότι</rdg>
-                  <rdg source="bib:b0252">Σταν <note>add. </note></rdg></app>
+                  <rdg resp="bib:b0347">πεντηκόστῃ</rdg>
+                  <rdg resp="bib:b0426">ποιηκότι</rdg>
+                  <rdg resp="bib:b0252">Σταν <note>add. </note></rdg></app>
                <app loc="4"><rdg>Ἔτει ςϠζ´ <note>Skrzynska<!--needs link--></note></rdg>
-                  <rdg source="bib:b0347 bib:b0252">ἔτει ςϠξ´</rdg></app>
+                  <rdg resp="bib:b0347 bib:b0252">ἔτει ςϠξ´</rdg></app>
             </listApp>
          </div>
          <div type="translation" xml:lang="ru">
