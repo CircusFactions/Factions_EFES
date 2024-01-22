@@ -2,7 +2,7 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions041iii" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Factions041" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Centre for Computing in the Humanities, King's College London</authority>
-            <idno type="filename">Factions041iii</idno>
+            <idno type="filename">Factions041</idno>
             <availability>
                <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -29,11 +29,11 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Shallow <rs type="execution" ref="litteris_scariphatis">graffito</rs> box <rs type="execution" ref="monogram">monogram</rs>.</layout>
+                        <layout><rs type="execution" ref="litteris_scariphatis">Graffito</rs> box <rs type="execution" ref="monogram">monogram</rs>, deeply cut.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote> No measurements.</handNote>
+                     <handNote>i: <height>0.11</height></handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -43,7 +43,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="aphtheatre">Aphrodisias: 
-                              <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>), seat: Block E, Row 11.</p>
+                              <rs type="monument">Τheatre</rs></placeName> (<ref target="https://pleiades.stoa.org/places/792804149">Pleiades</ref>), seat: Block E: Row 9.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -88,28 +88,28 @@
           <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
    </teiHeader><facsimile>
-      <graphic url="FactionAphrod41b.jpg"><desc>Face (Roueché, 1977: 77.Y.16)</desc></graphic>
+      <graphic url="FactionAphrod41.jpg"><desc>Face (Roueché, 1972: 72.L.05A)</desc></graphic>
       </facsimile>
    <text>
       <body>
          <div type="bibliography">
             <p><bibl><ptr target="roueche1993"/> <citedRange unit="entry">46.E</citedRange></bibl>,  whence 
-               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265055">265055</ref></citedRange></bibl>; 
-               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080057.html">8.57.11</ref></citedRange></bibl>
+               <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265053">265053</ref></citedRange></bibl>; 
+               <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph080057.html">8.57.9.i</ref></citedRange></bibl>
                </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
-            
             <ab>          
-               <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName>
-               </ab>  
+               <lb n="1"/><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ<supplied reason="lost">χη</supplied></w> <orgName  ref="#green" nymRef="#οἱ Πράσινοι"><supplied reason="subaudible" cert="low"><w lemma="ὁ">τῶν</w></supplied> <w lemma="πράσινος">Πραϲίνων</w></orgName>
+               </ab>   
+          
          </div>
          
          
          <div type="translation" xml:lang="en" source="#roueche1993"><p>
-             The fortune of the Greens triumphs!</p>
-           </div>
+            The fortune of the Greens triumphs! 
+            </p></div>
          
          <div type="commentary">
             <p>

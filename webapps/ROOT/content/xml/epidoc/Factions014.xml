@@ -96,7 +96,7 @@
       </revisionDesc>
    </teiHeader>
    <facsimile><surface>
-      </surface></facsimile>
+   </surface><!-- Request image --></facsimile>
    <text>
       <body>
          <div type="bibliography">
