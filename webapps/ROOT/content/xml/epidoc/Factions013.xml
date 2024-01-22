@@ -92,7 +92,7 @@
       <revisionDesc>
           <change when="2019-02-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader><facsimile><surface/></facsimile>
+   </teiHeader><facsimile><surface/><!-- Request image --></facsimile>
    <text>
       <body>
          <div type="bibliography"> <!-- check -->

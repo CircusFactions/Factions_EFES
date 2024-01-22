@@ -95,9 +95,9 @@
         <body>
             <div type="bibliography">
                 <p><bibl><ptr target="waddington1870"/> <citedRange>2425</citedRange>, with plate 12.1</bibl>; 
-                    <bibl><ptr target="paes"/> <citedRange>804</citedRange> (copied by David Magie)</bibl>,  
-                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange> (listed)</bibl>;
-                    <bibl><ptr target="igls2014"/> <citedRange>51</citedRange>, with photograph</bibl> 
+                    <bibl><ptr target="paes"/> <citedRange>804</citedRange> (copied by David Magie)</bibl>, whence  
+                    <bibl><ptr target="cameronCF"/> <citedRange unit="page">316</citedRange> (listed)</bibl>,
+                    <bibl><ptr target="igls2014"/> <citedRange>51</citedRange></bibl> 
          .
                     </p>
             </div>

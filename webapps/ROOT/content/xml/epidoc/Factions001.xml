@@ -97,7 +97,7 @@
       <revisionDesc>
           <change when="2018-06-30" who="cmr">hand-copied from publication article</change>
       </revisionDesc>
-   </teiHeader><facsimile><surface/></facsimile>
+   </teiHeader><facsimile><graphic url="http://repository.edition-topoi.org/collection/ICG/single/3826/0"><desc>Photograph at IChrGr</desc></graphic></facsimile>
    <text>
       <body>
          <div type="bibliography">
@@ -110,8 +110,9 @@
                whence <bibl><ptr target="seg"/> <citedRange>55.615</citedRange></bibl>, whence 
                <bibl><ptr target="phi"/> <citedRange><ref target="https://epigraphy.packhum.org/text/333526">333526</ref></citedRange></bibl>, 
                <bibl><ptr target="IChrGr"/>, with photograph, <citedRange><ref target="http://repository.edition-topoi.org/collection/ICG/object/3826">3826</ref></citedRange></bibl>. 
-               Mentioned, <bibl> <ptr target="feisselBE"/> <citedRange>2006.531</citedRange>, available at <ref target="https://www.persee.fr/doc/reg_0035-2039_2006_num_119_2_4678#reg_0035-2039_2006_num_119_2_T2_0748_0000">Persée</ref></bibl>
-            </p>
+               Mentioned, <bibl> <ptr target="feisselBE"/> <citedRange>2006.531</citedRange></bibl><!-- , 
+                  available at <ref target="https://www.persee.fr/doc/reg_0035-2039_2006_num_119_2_4678#reg_0035-2039_2006_num_119_2_T2_0748_0000">Persée</ref>
+            --> </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">

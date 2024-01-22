@@ -37,7 +37,7 @@
                     <bibl xml:id="baillet1926">  <bibl type="abbrev">Baillet, 1926</bibl> <author ref="http://viaf.org/viaf/4922512">Jules <name>Baillet</name></author>, <date>1926</date>,
                         <title level="m">Inscriptions grecques et latines des tombeaux des rois ou Syringes à Thèbes</title>,  <pubPlace>Cairo</pubPlace></bibl>
                     
-                    <bibl xml:id="BE">  <bibl type="abbrev">BE</bibl> <title>Bulletin Épigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date>;; 
+                    <bibl xml:id="BE">  <bibl type="abbrev">BE</bibl> <title>Bulletin Épigraphique</title>, <pubPlace>Paris</pubPlace>, <date>1888-</date>; 
                         available at <ref target="https://www.persee.fr/collection/reg">Persée</ref></bibl>
                   
                     <bibl xml:id="blouet1838">  <bibl type="abbrev">Blouet, 1838</bibl> <author ref="http://viaf.org/viaf/66615396">G.-A. <name>Blouet</name></author>, <date>1838</date>,
@@ -190,7 +190,7 @@
                     <bibl xml:id="petzl1987">  <bibl type="abbrev">I.Smyrna, 1982</bibl><author ref="http://viaf.org/viaf/19697531">G. <name>Petzl</name></author>  <date>1987</date>
                         <title level="m" ref="https://zenon.dainst.org/Record/000948646">Die inschriften von Smyrna </title>, <biblScope unit="volume">2,1</biblScope>, <pubPlace>Bonn</pubPlace></bibl>
                     
-                    <bibl xml:id="sahin1982">  <bibl type="abbrev">I.Stratonikeia, 1982</bibl> <author ref="http://viaf.org/viaf/76331383">M.Ç. <name>Şahin</name></author>, 
+                    <bibl xml:id="sahin1982">  <bibl type="abbrev">I.Stratonikeia, 1982</bibl> <author ref="http://viaf.org/viaf/76331383">M. Ç. <name>Şahin</name></author>, 
                         <title level="m">Die Inschriften von Stratonikeia,</title>, <date>1982</date>, <pubPlace>Bonn</pubPlace></bibl>
                     
                     <bibl xml:id="asdracha2003"><bibl type="abbrev">I.Thrace orientale byz, 2003</bibl> <author ref="http://viaf.org/viaf/21472093">C. <name>Asdracha</name></author>, 
