@@ -89,7 +89,8 @@
         <revisionDesc>
             <change when="2021-02-06" who="cmr">hand-copied from previous publication</change>
         </revisionDesc>
-    </teiHeader><facsimile><surface/></facsimile>
+    </teiHeader>
+    <facsimile><graphic url="paes804.jpg"><desc>Drawing by Magie</desc></graphic></facsimile>
     <text>
         <body>
             <div type="bibliography">
@@ -107,7 +108,10 @@
               <lb n="2"/> <w lemma="βένετος">Βενήτων</w></orgName> 
      </ab>
      </div>
-         
+            <div type="translation" resp="#paes" xml:lang="en">
+                <p>Conquer, Fortune of the Blues !</p>
+                
+            </div>
            
            <div type="translation" resp="#cmr" xml:lang="en">
            <p>The fortune of the Blues triumphs!</p>
