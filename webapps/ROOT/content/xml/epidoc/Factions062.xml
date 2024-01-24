@@ -39,7 +39,7 @@
                     <history>
                         <origin>
                             <origPlace>Findspot</origPlace> 
-                            <origDate notBefore="0401" notAfter="0599"  evidence="context">Fifth-sixth century</origDate>
+                            <origDate notBefore="0578" notAfter="0578"  evidence="context">578 C.E.</origDate>
                         </origin>
                         <provenance type="found">
                             <p><placeName type="ancientFindspot" ref="gerasa">Gerasa</placeName> (<ref target="https://pleiades.stoa.org/places/678158">Pleiades</ref>): 
@@ -92,10 +92,11 @@
     <text>
         <body>
             <div type="bibliography">
-                <p>Mentioned <bibl><ptr target="piccirillo1982"/> <citedRange>509-510</citedRange>, with plate 12.1</bibl>; 
+                <p><bibl><ptr target="piccirillo1982"/> <citedRange>509-510</citedRange>, mention, with plate 12.1</bibl>; 
                     <bibl><ptr target="zayadine1986"/> <citedRange>17-18</citedRange>, with plate VII</bibl> , whence 
-                    <bibl><ptr target="seg"/> <citedRange>37.1548</citedRange></bibl>, <bibl><ptr target="feisselBE"/>1989.993</bibl>, 
-                    also <bibl><ptr target="feissel2006"/> <citedRange>872</citedRange></bibl>.
+                    <bibl><ptr target="feisselBE"/>1989.993</bibl>, 
+                    <bibl><ptr target="seg"/> <citedRange>37.1548</citedRange></bibl>’
+                     <bibl><ptr target="feissel2006"/> <citedRange>872</citedRange></bibl>.
                     </p>
             </div>
             
@@ -115,12 +116,12 @@
                    </ab>
              </div> 
          <div type="apparatus"><listApp>
-             <app loc="6-7"><rdg resp="#zayadine1986">λογευτητῶ(ν)</rdg></app></listApp></div>
+             <app loc="6-7"><rdg resp="#zayadine1986">λογευτητῶ(ν)</rdg> <rdg resp="#feisselBE">λογευτῆ τῷ</rdg></app></listApp></div>
            
            
            
             <div type="translation" xml:lang="en" source="#zayadine1986"><p>Was beautified and paved with mosaics this hall of the venerable 
-                Blues in the time of the first year of the office of Constantine and Stephan the logeutes in the year 640, 
+                Blues in the time of the first year of the office of Constantine and Stephan the logeutetes in the year 640, 
                 in the month of Audnaios, in the 11th indiction. (January 578)</p>
            </div>
            <div type="translation" resp="#cmr" xml:lang="en">
