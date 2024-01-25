@@ -94,7 +94,7 @@
         <body>
             <div type="bibliography">
                 <p>Mentioned <bibl><ptr target="chaniotis2011"/> <citedRange unit="page">202</citedRange></bibl>, whence 
-                    <bibl><ptr target="seg"/> <citedRange>2011.847</citedRange></bibl>; listed <bibl><ptr target="chaniotis2018"/>13</bibl>
+                    <bibl><ptr target="seg"/> <citedRange>2011.847</citedRange></bibl>; listed <bibl><ptr target="chaniotis2018"/> <citedRange>13</citedRange></bibl>
                 </p>
             </div>
             
